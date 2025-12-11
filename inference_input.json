@@ -1,0 +1,34 @@
+{
+    "0": [
+        {
+            "class": "red_bench",
+            "layer": 0,
+            "coordinates": [
+                0.35,
+                0.1,
+                0.65,
+                0.4
+            ],
+            "background_prompt": "the park",
+            "local_prompt": "a red bench",
+            "global_prompt": "a red bench in the park",
+            "background": "the park",
+            "considerable_classes": []
+        },
+        {
+            "class": "yellow_clock",
+            "layer": 1,
+            "coordinates": [
+                0.45,
+                0.6,
+                0.65,
+                0.8
+            ],
+            "background_prompt": "the park",
+            "local_prompt": "a yellow clock",
+            "global_prompt": "a yellow clock in the park",
+            "background": "the park",
+            "considerable_classes": []
+        }
+    ]
+}

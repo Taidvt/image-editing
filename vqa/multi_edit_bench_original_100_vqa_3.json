@@ -1,0 +1,1093 @@
+{
+    "20": {
+        "original_metadata": [
+            {
+                "class": "barbell",
+                "layer": 0,
+                "coordinates": [
+                    0.48341585008474586,
+                    0.43885234530789863,
+                    0.842711745912134,
+                    0.6909444181269023
+                ],
+                "background_prompt": "Create an image of background with sleek, polished gym floor reflecting ambient lights, casting soft highlights. The walls are muted grey, textured with subtle patterns, exuding an industrial aesthetic. Overhead, gentle, warm lighting creates an inviting atmosphere, while faint shadows add depth.",
+                "local_prompt": "Create an image of barbell with rugged and textured surface, featuring a strong metallic sheen. The barbell\u2019s substantial weights are evenly distributed, showcasing precision craftsmanship and balance, exuding a sense of power and durability.",
+                "global_prompt": "Create an image of: A robust dumbbell, metallic texture with a slight sheen, positioned in the foreground. Behind it lies a sturdy barbell, slightly larger in scale, both resting on a sleek gym floor. The dumbbell's handles are aligned at the top quarter of the composition, while the barbell\u2019s weights create a strong horizontal presence in the bottom half, maintaining a clear",
+                "background": "Gymnasium Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "dumbbell",
+                "layer": 1,
+                "coordinates": [
+                    0.4899238598523622,
+                    0.2266233031308732,
+                    0.8481078663326765,
+                    0.4477158400719914
+                ],
+                "background_prompt": "Create an image of background with sleek, polished gym floor reflecting ambient lights, casting soft highlights. The walls are muted grey, textured with subtle patterns, exuding an industrial aesthetic. Overhead, gentle, warm lighting creates an inviting atmosphere, while faint shadows add depth.",
+                "local_prompt": "Create an image of dumbbell with a robust design, featuring a metallic texture that slightly sheens. The handle has a textured grip, emphasizing strength and durability. Light reflections highlight its polished surface, indicating a fresh, well-maintained condition.",
+                "global_prompt": "Create an image of: A robust dumbbell, metallic texture with a slight sheen, positioned in the foreground. Behind it lies a sturdy barbell, slightly larger in scale, both resting on a sleek gym floor. The dumbbell's handles are aligned at the top quarter of the composition, while the barbell\u2019s weights create a strong horizontal presence in the bottom half, maintaining a clear",
+                "considerable_classes": [
+                    "barbell"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a dumbbell in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a barbell in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the dumbbell in front of the barbell?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the dumbbell handles aligned at the top quarter of the composition?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the barbell weights creating a strong horizontal presence in the bottom half of the image?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "21": {
+        "original_metadata": [
+            {
+                "class": "hand-held computer",
+                "layer": 0,
+                "coordinates": [
+                    0.17181451326556035,
+                    0.23036467739663383,
+                    0.43477154453435213,
+                    0.6020269954909662
+                ],
+                "background_prompt": "Create an image of background with a rustic wooden table surface under soft, natural lighting, subtly contrasting with an urban skyline visible through a large window, capturing the essence of modernity meeting tradition.",
+                "local_prompt": "Create an image of hand-held computer with a sleek, modern design, featuring a large high-resolution touch screen. It has a slim metal frame, reflecting ambient light subtly. The device displays an array of vibrant app icons on the home screen, emphasizing its cutting-edge technology.",
+                "global_prompt": "Create an image of: a realistic, worn leather holster behind a shiny silver revolver; both are placed slightly to the left of a sleek, modern hand-held computer. The holster is below and partially visible behind the revolver, which sits prominently in the foreground; the revolver is further positioned in front of the hand-held computer, creating a layered, dynamic scene with a",
+                "background": "Urban Rustic Contrast",
+                "considerable_classes": []
+            },
+            {
+                "class": "holster",
+                "layer": 1,
+                "coordinates": [
+                    0.4358361125547896,
+                    0.17885394839617802,
+                    0.6722702884654194,
+                    0.48617075647475494
+                ],
+                "background_prompt": "Create an image of background with a rustic wooden table surface under soft, natural lighting, subtly contrasting with an urban skyline visible through a large window, capturing the essence of modernity meeting tradition.",
+                "local_prompt": "Create an image of holster with realistic, worn leather texture. It appears rugged, exhibiting signs of use such as scuffs and creases, with stitching visible along its edges. The leather is a rich, deep brown, conveying durability and a sense of history, while the opening is designed to snugly secure a revolver.",
+                "global_prompt": "Create an image of: a realistic, worn leather holster behind a shiny silver revolver; both are placed slightly to the left of a sleek, modern hand-held computer. The holster is below and partially visible behind the revolver, which sits prominently in the foreground; the revolver is further positioned in front of the hand-held computer, creating a layered, dynamic scene with a",
+                "considerable_classes": []
+            },
+            {
+                "class": "revolver",
+                "layer": 2,
+                "coordinates": [
+                    0.30455779704105435,
+                    0.4650572410222128,
+                    0.5361756616609259,
+                    0.8163598933863627
+                ],
+                "background_prompt": "Create an image of background with a rustic wooden table surface under soft, natural lighting, subtly contrasting with an urban skyline visible through a large window, capturing the essence of modernity meeting tradition.",
+                "local_prompt": "Create an image of revolver with a shiny silver body reflecting light, featuring intricate engravings along the barrel and a smooth, polished cylinder. The handle has a dark, rich wood texture with subtle grooves for grip, exuding both elegance and functionality. The revolver is positioned prominently in the foreground, capturing a sense of power and precision.",
+                "global_prompt": "Create an image of: a realistic, worn leather holster behind a shiny silver revolver; both are placed slightly to the left of a sleek, modern hand-held computer. The holster is below and partially visible behind the revolver, which sits prominently in the foreground; the revolver is further positioned in front of the hand-held computer, creating a layered, dynamic scene with a",
+                "considerable_classes": [
+                    "hand-held computer",
+                    "holster"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a hand-held computer in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a revolver in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a holster in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the revolver in front of the hand-held computer?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the holster behind the revolver?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the holster partially visible behind the revolver?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the revolver placed to the left of the hand-held computer?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "22": {
+        "original_metadata": [
+            {
+                "class": "sandbar",
+                "layer": 0,
+                "coordinates": [
+                    0.2527912138084061,
+                    0.3374942957014873,
+                    0.6439847299125574,
+                    0.6209382192341661
+                ],
+                "background_prompt": "Create an image of background with a vibrant seashore where gentle waves meet a sandy sandbar, azure waters sparkling under the warm, golden sunlight, and fluffy clouds dotting a clear, expansive sky.",
+                "local_prompt": "Create an image of sandbar with smooth, golden-hued sand, partially submerged, showcasing a gentle curve as it stretches out into the sea. The sun casts a warm glow, enhancing its texture while tiny shells and bits of seaweed dot the surface, adding natural detail.",
+                "global_prompt": "Create an image of: a vibrant seashore with waves gently crashing, positioned behind a sandy sandbar. A lively crab, in the foreground, scuttles playfully across the sand, its claws raised. A shiny pompano fish, leaping energetically with shimmering scales, is in the extreme foreground, creating a dynamic scene. The seashore is visible behind the crab",
+                "background": "Seashore",
+                "considerable_classes": []
+            },
+            {
+                "class": "seashore",
+                "layer": 1,
+                "coordinates": [
+                    0.2991730640206107,
+                    0.18566395421047555,
+                    0.5289836875391223,
+                    0.5710555729375054
+                ],
+                "background_prompt": "Create an image of background with a vibrant seashore where gentle waves meet a sandy sandbar, azure waters sparkling under the warm, golden sunlight, and fluffy clouds dotting a clear, expansive sky.",
+                "local_prompt": "Create an image of seashore with vibrant colors, capturing gentle, rhythmic waves softly crashing onto the sandbar, evoking a sense of calm and serenity. The water glistens under the sun, creating soft reflections and a dynamic interplay with the shore.",
+                "global_prompt": "Create an image of: a vibrant seashore with waves gently crashing, positioned behind a sandy sandbar. A lively crab, in the foreground, scuttles playfully across the sand, its claws raised. A shiny pompano fish, leaping energetically with shimmering scales, is in the extreme foreground, creating a dynamic scene. The seashore is visible behind the crab",
+                "considerable_classes": [
+                    "sandbar"
+                ]
+            },
+            {
+                "class": "crab",
+                "layer": 2,
+                "coordinates": [
+                    0.22934660362954437,
+                    0.2674196014305746,
+                    0.5537484008251814,
+                    0.47587824136267287
+                ],
+                "background_prompt": "Create an image of background with a vibrant seashore where gentle waves meet a sandy sandbar, azure waters sparkling under the warm, golden sunlight, and fluffy clouds dotting a clear, expansive sky.",
+                "local_prompt": "Create an image of crab with a lively, vibrant demeanor, showcasing multiple shades of red and orange with intricate detailing on its shell. Its claws are raised playfully, ready for action, and its legs appear dynamic, mid-scuttle across fine grains of sand. The crab's eyes are alert and curious, suggesting an engaging presence.",
+                "global_prompt": "Create an image of: a vibrant seashore with waves gently crashing, positioned behind a sandy sandbar. A lively crab, in the foreground, scuttles playfully across the sand, its claws raised. A shiny pompano fish, leaping energetically with shimmering scales, is in the extreme foreground, creating a dynamic scene. The seashore is visible behind the crab",
+                "considerable_classes": [
+                    "sandbar"
+                ]
+            },
+            {
+                "class": "pompano",
+                "layer": 3,
+                "coordinates": [
+                    0.20009282169680787,
+                    0.44429397810951266,
+                    0.47309883723013413,
+                    0.8340703514608762
+                ],
+                "background_prompt": "Create an image of background with a vibrant seashore where gentle waves meet a sandy sandbar, azure waters sparkling under the warm, golden sunlight, and fluffy clouds dotting a clear, expansive sky.",
+                "local_prompt": "Create an image of a pompano with shimmering silvery scales reflecting light, captured mid-leap with graceful arching movement and elegant fins slightly flared, portraying a sense of energy and freedom.",
+                "global_prompt": "Create an image of: a vibrant seashore with waves gently crashing, positioned behind a sandy sandbar. A lively crab, in the foreground, scuttles playfully across the sand, its claws raised. A shiny pompano fish, leaping energetically with shimmering scales, is in the extreme foreground, creating a dynamic scene. The seashore is visible behind the crab",
+                "considerable_classes": [
+                    "sandbar",
+                    "seashore",
+                    "crab"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a sandbar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a crab visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a pompano fish depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the seashore behind the sandbar?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the crab in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pompano fish in front of the crab?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pompano fish in the extreme foreground?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "23": {
+        "original_metadata": [
+            {
+                "class": "notebook",
+                "layer": 0,
+                "coordinates": [
+                    0.39351860346087697,
+                    0.427819217152544,
+                    0.6945646582011732,
+                    0.7447131308557575
+                ],
+                "background_prompt": "Create an image of background with a soft, gentle gradient of pastel blues and creams, evoking a serene, calm ambiance. Subtle light streaks add depth, complemented by a faint, abstract floral pattern, enhancing the elegance.",
+                "local_prompt": "Create an image of notebook with a rich, leather-bound cover that exhibits a distinct textured pattern. Include slightly worn edges, hinting at frequent usage, and an elegant clasp closure. The notebook should convey an air of sophistication and timelessness.",
+                "global_prompt": "Create an image of: a layered stationary arrangement. A sleek ink bottle in the foreground, located left-center, shields a classic fountain pen, partly visible behind. Further back, a leather-bound notebook with a textured cover peeks from the rear. The notebook and pen overlap slightly, completing a sophisticated writing set ensemble.",
+                "background": "Pastel Gradient",
+                "considerable_classes": []
+            },
+            {
+                "class": "fountain pen",
+                "layer": 1,
+                "coordinates": [
+                    0.22739529565439978,
+                    0.3604370971991344,
+                    0.5206453360958955,
+                    0.7146003036436055
+                ],
+                "background_prompt": "Create an image of background with a soft, gentle gradient of pastel blues and creams, evoking a serene, calm ambiance. Subtle light streaks add depth, complemented by a faint, abstract floral pattern, enhancing the elegance.",
+                "local_prompt": "Create an image of fountain pen with an elegant, vintage design featuring a polished gold nib, smooth black lacquered barrel, and subtle silver accents along the clip and cap, radiating a sense of sophistication.",
+                "global_prompt": "Create an image of: a layered stationary arrangement. A sleek ink bottle in the foreground, located left-center, shields a classic fountain pen, partly visible behind. Further back, a leather-bound notebook with a textured cover peeks from the rear. The notebook and pen overlap slightly, completing a sophisticated writing set ensemble.",
+                "considerable_classes": [
+                    "notebook"
+                ]
+            },
+            {
+                "class": "ink bottle",
+                "layer": 2,
+                "coordinates": [
+                    0.20313588261568252,
+                    0.4238505567526315,
+                    0.4423472814742311,
+                    0.7200842045172735
+                ],
+                "background_prompt": "Create an image of background with a soft, gentle gradient of pastel blues and creams, evoking a serene, calm ambiance. Subtle light streaks add depth, complemented by a faint, abstract floral pattern, enhancing the elegance.",
+                "local_prompt": "Create an image of ink bottle with a sleek, modern silhouette, featuring a glossy black base and translucent upper section. The cap is metallic with intricate engravings, catching light to highlight its polished finish. A label adorns the surface, displaying ornate typography.",
+                "global_prompt": "Create an image of: a layered stationary arrangement. A sleek ink bottle in the foreground, located left-center, shields a classic fountain pen, partly visible behind. Further back, a leather-bound notebook with a textured cover peeks from the rear. The notebook and pen overlap slightly, completing a sophisticated writing set ensemble.",
+                "considerable_classes": [
+                    "notebook",
+                    "fountain pen"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an ink bottle in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a fountain pen in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a notebook in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ink bottle in front of the fountain pen?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the fountain pen in front of the notebook?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the ink bottle positioned relative to the center of the image?",
+                "ground_truth_answer": "Left-center"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the fountain pen partially hidden by the ink bottle?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "24": {
+        "original_metadata": [
+            {
+                "class": "tuba",
+                "layer": 0,
+                "coordinates": [
+                    0.21312350293780238,
+                    0.10459629759314898,
+                    0.5037128721841961,
+                    0.31010982442377066
+                ],
+                "background_prompt": "Create an image of background with a dimly lit concert hall featuring soft, warm lighting casting gentle shadows. Velvet drapes frame the scene, and a faint spotlight beam dances across a glossy wooden floor. Subtle hues of amber and mahogany add a sense of depth and warmth to the background atmosphere.",
+                "local_prompt": "Create an image of a tuba with intricately detailed brass tubing, large bell prominently facing forward. Highlight the polished, reflective surface capturing subtle nuances of ambient light and emphasize the complexity of its valve section, ensuring a realistic portrayal.",
+                "global_prompt": "Create an image of: a layered musical ensemble featuring a tuba in the background, centrally placed, partially overlapped by a trumpet in front and left, a brass instrument slightly in front of the tuba. A baritone horn is placed to the far right, appearing to shine with brass reflections. The french horn, elegantly coiled, sits to the right and below the trumpet and",
+                "background": "Concert Hall",
+                "considerable_classes": []
+            },
+            {
+                "class": "french horn",
+                "layer": 1,
+                "coordinates": [
+                    0.41197409306004007,
+                    0.3605528697482163,
+                    0.6623408983311747,
+                    0.7303292803907597
+                ],
+                "background_prompt": "Create an image of background with a dimly lit concert hall featuring soft, warm lighting casting gentle shadows. Velvet drapes frame the scene, and a faint spotlight beam dances across a glossy wooden floor. Subtle hues of amber and mahogany add a sense of depth and warmth to the background atmosphere.",
+                "local_prompt": "Create an image of a french horn with an elegant, coiled structure, showcasing its intricate brass tubing and valves. Its polished surface glimmers under soft lighting, highlighting the detailed craftsmanship and the gentle curves of its bell.",
+                "global_prompt": "Create an image of: a layered musical ensemble featuring a tuba in the background, centrally placed, partially overlapped by a trumpet in front and left, a brass instrument slightly in front of the tuba. A baritone horn is placed to the far right, appearing to shine with brass reflections. The french horn, elegantly coiled, sits to the right and below the trumpet and",
+                "considerable_classes": []
+            },
+            {
+                "class": "brass",
+                "layer": 2,
+                "coordinates": [
+                    0.11106981531958895,
+                    0.11567157615339024,
+                    0.35927619706550273,
+                    0.48096021662316835
+                ],
+                "background_prompt": "Create an image of background with a dimly lit concert hall featuring soft, warm lighting casting gentle shadows. Velvet drapes frame the scene, and a faint spotlight beam dances across a glossy wooden floor. Subtle hues of amber and mahogany add a sense of depth and warmth to the background atmosphere.",
+                "local_prompt": "Create an image of brass with a tuba gleaming under stage lights, its large bell prominent, displaying intricate valve and slide mechanics, partially covered by a sleek, curved trumpet that shows off polished tubing and valves. The entire piece showcases smooth, reflective surfaces, emphasizing the instrument's classic contours.",
+                "global_prompt": "Create an image of: a layered musical ensemble featuring a tuba in the background, centrally placed, partially overlapped by a trumpet in front and left, a brass instrument slightly in front of the tuba. A baritone horn is placed to the far right, appearing to shine with brass reflections. The french horn, elegantly coiled, sits to the right and below the trumpet and",
+                "considerable_classes": [
+                    "tuba"
+                ]
+            },
+            {
+                "class": "trumpet",
+                "layer": 3,
+                "coordinates": [
+                    0.1235879667273673,
+                    0.22233916260023354,
+                    0.34076836923969445,
+                    0.4661025263159517
+                ],
+                "background_prompt": "Create an image of background with a dimly lit concert hall featuring soft, warm lighting casting gentle shadows. Velvet drapes frame the scene, and a faint spotlight beam dances across a glossy wooden floor. Subtle hues of amber and mahogany add a sense of depth and warmth to the background atmosphere.",
+                "local_prompt": "Create an image of trumpet with gleaming brass texture, intricate valve details, and elegantly curved tubing. It should feature realistic lighting to highlight its polished surface and capture the delicate interplay of shadows on its curves, emphasizing its craftsmanship.",
+                "global_prompt": "Create an image of: a layered musical ensemble featuring a tuba in the background, centrally placed, partially overlapped by a trumpet in front and left, a brass instrument slightly in front of the tuba. A baritone horn is placed to the far right, appearing to shine with brass reflections. The french horn, elegantly coiled, sits to the right and below the trumpet and",
+                "considerable_classes": [
+                    "tuba",
+                    "brass"
+                ]
+            },
+            {
+                "class": "baritone horn",
+                "layer": 4,
+                "coordinates": [
+                    0.22837741768149222,
+                    0.4688244070738078,
+                    0.6147530655021174,
+                    0.7701344713939187
+                ],
+                "background_prompt": "Create an image of background with a dimly lit concert hall featuring soft, warm lighting casting gentle shadows. Velvet drapes frame the scene, and a faint spotlight beam dances across a glossy wooden floor. Subtle hues of amber and mahogany add a sense of depth and warmth to the background atmosphere.",
+                "local_prompt": "Create an image of baritone horn with a polished brass finish, gleaming with a rich, warm glow. Its elegantly curved bell captures the light beautifully, highlighting intricate valve details and smooth tubing. The baritone horn stands proudly upright, its surface reflecting subtle ambient light, exuding a sense of classical sophistication and craftsmanship.",
+                "global_prompt": "Create an image of: a layered musical ensemble featuring a tuba in the background, centrally placed, partially overlapped by a trumpet in front and left, a brass instrument slightly in front of the tuba. A baritone horn is placed to the far right, appearing to shine with brass reflections. The french horn, elegantly coiled, sits to the right and below the trumpet and",
+                "considerable_classes": [
+                    "french horn",
+                    "brass"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a tuba in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a trumpet present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a french horn visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a baritone horn in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the trumpet in front of the tuba?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the brass instrument in front of the tuba?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the baritone horn located in relation to the french horn?",
+                "ground_truth_answer": "To the right"
+            }
+        ]
+    },
+    "25": {
+        "original_metadata": [
+            {
+                "class": "colobus",
+                "layer": 0,
+                "coordinates": [
+                    0.11394330365825414,
+                    0.32503538037426855,
+                    0.42886126115374623,
+                    0.5860503499501356
+                ],
+                "background_prompt": "Create an image of background with dense jungle lush with towering trees, thick vines draping down, dappled sunlight filtering through the dense canopy, vibrant green leaves, and a humid, misty atmosphere shaping a tropical ambiance.",
+                "local_prompt": "Create an image of colobus with sleek black and white fur delicately clinging to an overhead branch. Its long, bushy tail gracefully extends downward, contrasting its agile limbs and tranquil gaze. The colobus's gentle expression conveys calm curiosity.",
+                "global_prompt": "Create an image of: a dense jungle scene featuring five primates layered spatially. A chimpanzee sits in the middle left, low in the composition, hinting at playfulness, partially obscured by dense foliage. Behind it, a majestic gorilla exudes calm strength, mostly visible. To the upper right, a baboon with a vibrant mane appears in mid-prance",
+                "background": "Tropical Jungle",
+                "considerable_classes": []
+            },
+            {
+                "class": "chimpanzee",
+                "layer": 1,
+                "coordinates": [
+                    0.4107601774433487,
+                    0.17765560422659943,
+                    0.7969284632049995,
+                    0.4154846269100312
+                ],
+                "background_prompt": "Create an image of background with dense jungle lush with towering trees, thick vines draping down, dappled sunlight filtering through the dense canopy, vibrant green leaves, and a humid, misty atmosphere shaping a tropical ambiance.",
+                "local_prompt": "Create an image of a chimpanzee with a playful demeanor, seated in the lower left, partially veiled by lush foliage, its expressive eyes peeking through the greenery, with visible parts suggesting a relaxed, natural posture amidst the vibrant jungle.",
+                "global_prompt": "Create an image of: a dense jungle scene featuring five primates layered spatially. A chimpanzee sits in the middle left, low in the composition, hinting at playfulness, partially obscured by dense foliage. Behind it, a majestic gorilla exudes calm strength, mostly visible. To the upper right, a baboon with a vibrant mane appears in mid-prance",
+                "considerable_classes": [
+                    "colobus"
+                ]
+            },
+            {
+                "class": "baboon",
+                "layer": 2,
+                "coordinates": [
+                    0.1264509824507868,
+                    0.49834316323965955,
+                    0.5246527188697375,
+                    0.76734150688909
+                ],
+                "background_prompt": "Create an image of background with dense jungle lush with towering trees, thick vines draping down, dappled sunlight filtering through the dense canopy, vibrant green leaves, and a humid, misty atmosphere shaping a tropical ambiance.",
+                "local_prompt": "Create an image of baboon with a vibrant mane, caught in mid-prance. Capture its dynamic movement with limbs outstretched and tail erect. Highlight its expressive face, focusing on the vivid colors and textures of its mane, showcasing energy and agility.",
+                "global_prompt": "Create an image of: a dense jungle scene featuring five primates layered spatially. A chimpanzee sits in the middle left, low in the composition, hinting at playfulness, partially obscured by dense foliage. Behind it, a majestic gorilla exudes calm strength, mostly visible. To the upper right, a baboon with a vibrant mane appears in mid-prance",
+                "considerable_classes": [
+                    "colobus"
+                ]
+            },
+            {
+                "class": "gorilla",
+                "layer": 3,
+                "coordinates": [
+                    0.35634864732166105,
+                    0.41088438821504325,
+                    0.7350184926140163,
+                    0.7351845146063367
+                ],
+                "background_prompt": "Create an image of background with dense jungle lush with towering trees, thick vines draping down, dappled sunlight filtering through the dense canopy, vibrant green leaves, and a humid, misty atmosphere shaping a tropical ambiance.",
+                "local_prompt": "Create an image of gorilla with a powerful and calm presence, its fur thick and dark, seated in a relaxed posture. The gorilla gazes thoughtfully into the distance, exhibiting a sense of wisdom and strength. Its muscular build and expansive chest emphasize its majestic aura, with intricate muscle definition visible amidst the thick fur, adding depth and realism to its expressive face highlighted by intelligent eyes.",
+                "global_prompt": "Create an image of: a dense jungle scene featuring five primates layered spatially. A chimpanzee sits in the middle left, low in the composition, hinting at playfulness, partially obscured by dense foliage. Behind it, a majestic gorilla exudes calm strength, mostly visible. To the upper right, a baboon with a vibrant mane appears in mid-prance",
+                "considerable_classes": [
+                    "colobus",
+                    "chimpanzee",
+                    "baboon"
+                ]
+            },
+            {
+                "class": "proboscis monkey",
+                "layer": 4,
+                "coordinates": [
+                    0.10910684102157311,
+                    0.19977855736293298,
+                    0.31186295701501676,
+                    0.5407637214294276
+                ],
+                "background_prompt": "Create an image of background with dense jungle lush with towering trees, thick vines draping down, dappled sunlight filtering through the dense canopy, vibrant green leaves, and a humid, misty atmosphere shaping a tropical ambiance.",
+                "local_prompt": "Create an image of proboscis monkey with a unique long nose prominently displayed, sitting leisurely, arms relaxed by its sides, soft orange-brown fur catching dappled light, expressive eyes gazing curiously, long tail curling gently, imbuing the scene with a serene yet curious presence.",
+                "global_prompt": "Create an image of: a dense jungle scene featuring five primates layered spatially. A chimpanzee sits in the middle left, low in the composition, hinting at playfulness, partially obscured by dense foliage. Behind it, a majestic gorilla exudes calm strength, mostly visible. To the upper right, a baboon with a vibrant mane appears in mid-prance",
+                "considerable_classes": [
+                    "colobus",
+                    "baboon"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a chimpanzee in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a gorilla in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a baboon in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a colobus monkey in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a proboscis monkey in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chimpanzee partially obscured by foliage?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gorilla mostly visible behind the chimpanzee?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the baboon in the upper right part of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the colobus monkey in the front of the chimpanzee?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the proboscis monkey in front of the baboon?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "26": {
+        "original_metadata": [
+            {
+                "class": "collie",
+                "layer": 0,
+                "coordinates": [
+                    0.26665274676258943,
+                    0.4435525661352263,
+                    0.6320811093284198,
+                    0.7756170228885251
+                ],
+                "background_prompt": "Create an image of background with a lush, sun-dappled meadow, dotted with wildflowers, bordered by tall, gently swaying grasses. In the distance, a dense forest looms under a vibrant blue sky streaked with cottony clouds. Shadows dance playfully, adding texture to the serene landscape.",
+                "local_prompt": "Create an image of a collie with a luxurious, flowing coat of fur that shimmers with subtle hints of gold and white. The collie's expressive, almond-shaped eyes reflect both intelligence and serenity, while its graceful posture showcases a gentle yet poised demeanor. Its tail lies elegantly curled, exuding calmness.",
+                "global_prompt": "Create an image of: a Bouvier des Flandres standing prominently, partially obscured by a lively Golden Retriever in the foreground, the Bouvier positioned slightly behind and center-right. A noble German Shepherd appears mid-layer, peering firmly, while a shaggy Briard rests to the left of both, adding depth. A serene Collie sits in the background, completing",
+                "background": "Meadow",
+                "considerable_classes": []
+            },
+            {
+                "class": "German shepherd",
+                "layer": 1,
+                "coordinates": [
+                    0.4453257332429531,
+                    0.2136764151325095,
+                    0.8230285979868054,
+                    0.6109997693899708
+                ],
+                "background_prompt": "Create an image of background with a lush, sun-dappled meadow, dotted with wildflowers, bordered by tall, gently swaying grasses. In the distance, a dense forest looms under a vibrant blue sky streaked with cottony clouds. Shadows dance playfully, adding texture to the serene landscape.",
+                "local_prompt": "Create an image of a German Shepherd with a firm, commanding stance, exuding strength and intelligence. The dog's coat is a rich blend of black and tan, with a well-defined saddle marking. Its alert eyes focus ahead, ears perked, and tail held naturally straight. The robust frame and muscular build showcase its agility and power, while the facial expression reflects attentiveness and loyalty.",
+                "global_prompt": "Create an image of: a Bouvier des Flandres standing prominently, partially obscured by a lively Golden Retriever in the foreground, the Bouvier positioned slightly behind and center-right. A noble German Shepherd appears mid-layer, peering firmly, while a shaggy Briard rests to the left of both, adding depth. A serene Collie sits in the background, completing",
+                "considerable_classes": [
+                    "collie"
+                ]
+            },
+            {
+                "class": "briard",
+                "layer": 2,
+                "coordinates": [
+                    0.28080151535050824,
+                    0.49379888250179427,
+                    0.49938648944217545,
+                    0.8605308992309908
+                ],
+                "background_prompt": "Create an image of background with a lush, sun-dappled meadow, dotted with wildflowers, bordered by tall, gently swaying grasses. In the distance, a dense forest looms under a vibrant blue sky streaked with cottony clouds. Shadows dance playfully, adding texture to the serene landscape.",
+                "local_prompt": "Create an image of Briard with a thick, wavy coat in various shades of fawn, showing its long, bushy tail and expressive, soulful eyes. The Briard should be in a relaxed, lying position, exuding an aura of calm and gentle strength. Its shaggy ears frame its face, adding character and charm, while its powerful build and muscular shoulders highlight its",
+                "global_prompt": "Create an image of: a Bouvier des Flandres standing prominently, partially obscured by a lively Golden Retriever in the foreground, the Bouvier positioned slightly behind and center-right. A noble German Shepherd appears mid-layer, peering firmly, while a shaggy Briard rests to the left of both, adding depth. A serene Collie sits in the background, completing",
+                "considerable_classes": [
+                    "collie",
+                    "German shepherd"
+                ]
+            },
+            {
+                "class": "Bouvier des Flandres",
+                "layer": 3,
+                "coordinates": [
+                    0.45451700531412875,
+                    0.3925176053689111,
+                    0.7247554330702253,
+                    0.7864728686845253
+                ],
+                "background_prompt": "Create an image of background with a lush, sun-dappled meadow, dotted with wildflowers, bordered by tall, gently swaying grasses. In the distance, a dense forest looms under a vibrant blue sky streaked with cottony clouds. Shadows dance playfully, adding texture to the serene landscape.",
+                "local_prompt": "Create an image of Bouvier des Flandres with a strong, muscular build, dense and weather-resistant fur, its ears alert and tail naturally carried. It stands prominently, depicting confidence and poise with a focused gaze.",
+                "global_prompt": "Create an image of: a Bouvier des Flandres standing prominently, partially obscured by a lively Golden Retriever in the foreground, the Bouvier positioned slightly behind and center-right. A noble German Shepherd appears mid-layer, peering firmly, while a shaggy Briard rests to the left of both, adding depth. A serene Collie sits in the background, completing",
+                "considerable_classes": [
+                    "German shepherd",
+                    "briard"
+                ]
+            },
+            {
+                "class": "golden retriever",
+                "layer": 4,
+                "coordinates": [
+                    0.22520602021239325,
+                    0.3712963226437699,
+                    0.5583917353395673,
+                    0.5824514587283578
+                ],
+                "background_prompt": "Create an image of background with a lush, sun-dappled meadow, dotted with wildflowers, bordered by tall, gently swaying grasses. In the distance, a dense forest looms under a vibrant blue sky streaked with cottony clouds. Shadows dance playfully, adding texture to the serene landscape.",
+                "local_prompt": "Create an image of golden retriever with a lively posture, vibrant golden fur shimmering under soft light. Its tail wags enthusiastically, eyes bright and full of energy, capturing an expression of joy and curiosity, ears perked attentively, standing with a playful stance.",
+                "global_prompt": "Create an image of: a Bouvier des Flandres standing prominently, partially obscured by a lively Golden Retriever in the foreground, the Bouvier positioned slightly behind and center-right. A noble German Shepherd appears mid-layer, peering firmly, while a shaggy Briard rests to the left of both, adding depth. A serene Collie sits in the background, completing",
+                "considerable_classes": [
+                    "collie",
+                    "German shepherd",
+                    "Bouvier des Flandres"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a Bouvier des Flandres in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Golden Retriever in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a German Shepherd in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Briard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Collie in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Golden Retriever in front of the Bouvier des Flandres?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Bouvier des Flandres behind the Golden Retriever?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the German Shepherd positioned between the Briard and the Collie?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Briard to the left of the German Shepherd?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Collie in the background?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "27": {
+        "original_metadata": [
+            {
+                "class": "hare",
+                "layer": 0,
+                "coordinates": [
+                    0.2481164004266533,
+                    0.12762613106442613,
+                    0.6078282373259158,
+                    0.5108440761147651
+                ],
+                "background_prompt": "Create an image of background with a sprawling valley and gently undulating terrain. Verdant greenery covers the landscape, cascading down rolling hills into a wide expanse. The horizon is adorned with rocky ledges, where rugged cliffs rise against a clear, expansive sky.",
+                "local_prompt": "Create an image of a hare with soft, earth-toned fur that blends seamlessly with its surroundings, crouching alertly. Its ears are perked upright, attentive, while its bright eyes take in the scene ahead. The hare's body is compact, its limbs tucked neatly beneath, ready to spring into action.",
+                "global_prompt": "Create an image of: a rock python coiled in the center of a valley landscape, positioned prominently with intricate scales and sharp eyes. In the background, an ibex stands alert on a rocky ledge, its curved horns silhouetted against the sky. A serene valley spreads across the scene with lush greenery, while a small hare crouches in the foreground, its fur blending subtly with",
+                "background": "Verdant Valley",
+                "considerable_classes": []
+            },
+            {
+                "class": "ibex",
+                "layer": 1,
+                "coordinates": [
+                    0.348028225894476,
+                    0.172174003766987,
+                    0.6073809392418603,
+                    0.5659283064844585
+                ],
+                "background_prompt": "Create an image of background with a sprawling valley and gently undulating terrain. Verdant greenery covers the landscape, cascading down rolling hills into a wide expanse. The horizon is adorned with rocky ledges, where rugged cliffs rise against a clear, expansive sky.",
+                "local_prompt": "Create an image of ibex with strong, muscular build standing alertly on a rocky ledge. Its majestic, curved horns stretch high, appearing robust and sharply defined. The ibex's fur is textured and varied in shades of brown, accentuating its natural camouflage. Its gaze is attentive, with eyes that reflect a keen awareness of its surroundings. The posture suggests readiness and grace,",
+                "global_prompt": "Create an image of: a rock python coiled in the center of a valley landscape, positioned prominently with intricate scales and sharp eyes. In the background, an ibex stands alert on a rocky ledge, its curved horns silhouetted against the sky. A serene valley spreads across the scene with lush greenery, while a small hare crouches in the foreground, its fur blending subtly with",
+                "considerable_classes": [
+                    "hare"
+                ]
+            },
+            {
+                "class": "rock python",
+                "layer": 2,
+                "coordinates": [
+                    0.46981549619405827,
+                    0.39749817330135273,
+                    0.7905707839301126,
+                    0.7605228451804801
+                ],
+                "background_prompt": "Create an image of background with a sprawling valley and gently undulating terrain. Verdant greenery covers the landscape, cascading down rolling hills into a wide expanse. The horizon is adorned with rocky ledges, where rugged cliffs rise against a clear, expansive sky.",
+                "local_prompt": "Create an image of rock python with its body majestically coiled, showcasing intricate, textured scales. Capture its keen, sharp eyes in a focused gaze, hinting at its natural predatory instincts. Its muscular form should convey latent power and grace, making it the central focus of attention.",
+                "global_prompt": "Create an image of: a rock python coiled in the center of a valley landscape, positioned prominently with intricate scales and sharp eyes. In the background, an ibex stands alert on a rocky ledge, its curved horns silhouetted against the sky. A serene valley spreads across the scene with lush greenery, while a small hare crouches in the foreground, its fur blending subtly with",
+                "considerable_classes": [
+                    "hare",
+                    "ibex"
+                ]
+            },
+            {
+                "class": "valley",
+                "layer": 3,
+                "coordinates": [
+                    0.2558621380012641,
+                    0.2744634208037522,
+                    0.48823079740662684,
+                    0.48559371045694333
+                ],
+                "background_prompt": "Create an image of background with a sprawling valley and gently undulating terrain. Verdant greenery covers the landscape, cascading down rolling hills into a wide expanse. The horizon is adorned with rocky ledges, where rugged cliffs rise against a clear, expansive sky.",
+                "local_prompt": "Create an image of a valley with lush greenery spreading across the vast landscape. Capture the undulating terrain with varying shades of green, interspersed with diverse flora that accentuates the richness of the environment. The valley should have a tranquil and serene atmosphere, inviting viewers to explore its natural beauty and tranquility. The focus should be on the texture and depth of the valley, highlighting the",
+                "global_prompt": "Create an image of: a rock python coiled in the center of a valley landscape, positioned prominently with intricate scales and sharp eyes. In the background, an ibex stands alert on a rocky ledge, its curved horns silhouetted against the sky. A serene valley spreads across the scene with lush greenery, while a small hare crouches in the foreground, its fur blending subtly with",
+                "considerable_classes": [
+                    "hare",
+                    "ibex",
+                    "rock python"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a rock python in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an ibex in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hare in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the rock python coiled in the center of the valley?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ibex standing on a rocky ledge in the background?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hare in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ibex behind the rock python?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "28": {
+        "original_metadata": [
+            {
+                "class": "wool",
+                "layer": 0,
+                "coordinates": [
+                    0.20725211438181979,
+                    0.3889372373643516,
+                    0.6065669989898725,
+                    0.7530571243718398
+                ],
+                "background_prompt": "Create an image of background with lush green pastures under a bright, clear sky. Distant rolling hills and scattered wildflowers add vibrant color. A soft breeze rustles through nearby trees, with light shadows cast on the ground. Gentle sunlight bathes the scene, creating a peaceful ambience.",
+                "local_prompt": "Create an image of wool with a soft, fluffy texture, appearing as a dense, cloud-like mass. The wool is light, off-white with subtle creamy hues, and delicate fibers catching light, giving an airy and cushioned appearance. It is loosely piled, showcasing a natural, rustic form, inviting warmth and coziness.",
+                "global_prompt": "Create an image of: a serene outdoor setting with a sheep in front of an Angora, positioned behind an alpaca, and next to a pile of wool. The wool lies in the background. The Angora stands behind the alpaca, slightly below and to the right of the llama, which occupies the upper-left corner. The sheep is to the right and below the llama,",
+                "background": "Pastoral Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "Angora",
+                "layer": 1,
+                "coordinates": [
+                    0.36934556649493466,
+                    0.31148288591265083,
+                    0.6933162023892973,
+                    0.6297951861515142
+                ],
+                "background_prompt": "Create an image of background with lush green pastures under a bright, clear sky. Distant rolling hills and scattered wildflowers add vibrant color. A soft breeze rustles through nearby trees, with light shadows cast on the ground. Gentle sunlight bathes the scene, creating a peaceful ambience.",
+                "local_prompt": "Create an image of Angora with soft, lustrous wool cascading in waves around its body, exhibiting elegant, spiraling curls. Its horns are gently curved, adding a majestic air, and its gentle eyes exude a calm, serene demeanor.",
+                "global_prompt": "Create an image of: a serene outdoor setting with a sheep in front of an Angora, positioned behind an alpaca, and next to a pile of wool. The wool lies in the background. The Angora stands behind the alpaca, slightly below and to the right of the llama, which occupies the upper-left corner. The sheep is to the right and below the llama,",
+                "considerable_classes": [
+                    "wool"
+                ]
+            },
+            {
+                "class": "sheep",
+                "layer": 2,
+                "coordinates": [
+                    0.42051855950506833,
+                    0.39701010060850106,
+                    0.7427775279707891,
+                    0.6228023436556313
+                ],
+                "background_prompt": "Create an image of background with lush green pastures under a bright, clear sky. Distant rolling hills and scattered wildflowers add vibrant color. A soft breeze rustles through nearby trees, with light shadows cast on the ground. Gentle sunlight bathes the scene, creating a peaceful ambience.",
+                "local_prompt": "Create an image of sheep with a fluffy, soft wool coat, appearing calm and gentle. Its fur is snow-white, loose curls bouncing softly with the light. The sheep's eyes are warm and inquisitive, giving it a serene, peaceful demeanor.",
+                "global_prompt": "Create an image of: a serene outdoor setting with a sheep in front of an Angora, positioned behind an alpaca, and next to a pile of wool. The wool lies in the background. The Angora stands behind the alpaca, slightly below and to the right of the llama, which occupies the upper-left corner. The sheep is to the right and below the llama,",
+                "considerable_classes": [
+                    "wool",
+                    "Angora"
+                ]
+            },
+            {
+                "class": "alpaca",
+                "layer": 3,
+                "coordinates": [
+                    0.3459550943993757,
+                    0.23480863779571656,
+                    0.6519034578005731,
+                    0.518321257021411
+                ],
+                "background_prompt": "Create an image of background with lush green pastures under a bright, clear sky. Distant rolling hills and scattered wildflowers add vibrant color. A soft breeze rustles through nearby trees, with light shadows cast on the ground. Gentle sunlight bathes the scene, creating a peaceful ambience.",
+                "local_prompt": "Create an image of alpaca with captivating curly fleece, standing gracefully with its thick neck extended slightly forward, large gentle eyes, and soft, elongated ears pointing upward, displaying a calm and gentle demeanor, emphasizing its elegant stature and intricate texture of its wool.",
+                "global_prompt": "Create an image of: a serene outdoor setting with a sheep in front of an Angora, positioned behind an alpaca, and next to a pile of wool. The wool lies in the background. The Angora stands behind the alpaca, slightly below and to the right of the llama, which occupies the upper-left corner. The sheep is to the right and below the llama,",
+                "considerable_classes": [
+                    "wool",
+                    "Angora",
+                    "sheep"
+                ]
+            },
+            {
+                "class": "llama",
+                "layer": 4,
+                "coordinates": [
+                    0.11196880727571062,
+                    0.23532081415658102,
+                    0.31356005800376907,
+                    0.4467120116941585
+                ],
+                "background_prompt": "Create an image of background with lush green pastures under a bright, clear sky. Distant rolling hills and scattered wildflowers add vibrant color. A soft breeze rustles through nearby trees, with light shadows cast on the ground. Gentle sunlight bathes the scene, creating a peaceful ambience.",
+                "local_prompt": "Create an image of a llama with soft, fluffy fur in a rich, caramel color. Its big, gentle eyes reflect a calm and gentle demeanor, and its long neck gracefully arches. The llama stands with a relaxed posture, gazing softly in the distance, ears perked attentively.",
+                "global_prompt": "Create an image of: a serene outdoor setting with a sheep in front of an Angora, positioned behind an alpaca, and next to a pile of wool. The wool lies in the background. The Angora stands behind the alpaca, slightly below and to the right of the llama, which occupies the upper-left corner. The sheep is to the right and below the llama,",
+                "considerable_classes": [
+                    "wool"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a llama in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an alpaca in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a sheep in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an Angora in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a pile of wool in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sheep in front of the Angora?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Angora behind the alpaca?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the alpaca to the right of the llama?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the llama in the upper-left corner?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wool in the background?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "29": {
+        "original_metadata": [
+            {
+                "class": "Arctic fox",
+                "layer": 0,
+                "coordinates": [
+                    0.19273159448812632,
+                    0.1560916822211365,
+                    0.5276034517724475,
+                    0.40456560411441633
+                ],
+                "background_prompt": "Create an image of background with a serene Arctic landscape, featuring vast snowy plains under a clear blue sky, rolling hills in the distance, patches of icy surfaces reflecting sunlight, and gentle mounds of snow interspersed with delicate frost patterns.",
+                "local_prompt": "Create an image of Arctic fox with its sleek, snow-white fur and fluffy tail, curiously peeking out from behind an unseen object, its pointed ears perked with interest and intelligent blue eyes glistening amid the cold surroundings.",
+                "global_prompt": "Create an image of: An Alaskan Malamute sitting gracefully, positioned slightly left and below a majestic Siberian husky. The Arctic fox peeks from behind the wolf, positioned to the Malamute's front. The wolf stands confidently in the background, partially visible behind the Siberian husky. The scene balances their positions, showing a serene Arctic landscape.",
+                "background": "Arctic Serenity",
+                "considerable_classes": []
+            },
+            {
+                "class": "wolf",
+                "layer": 1,
+                "coordinates": [
+                    0.12069236180040788,
+                    0.37207161676982947,
+                    0.5127661017551395,
+                    0.7048636289008952
+                ],
+                "background_prompt": "Create an image of background with a serene Arctic landscape, featuring vast snowy plains under a clear blue sky, rolling hills in the distance, patches of icy surfaces reflecting sunlight, and gentle mounds of snow interspersed with delicate frost patterns.",
+                "local_prompt": "Create an image of a wolf with a confident stance, standing tall and proud. Its fur is a mix of grays and white, bushy and thick, showcasing the natural beauty of the Arctic. The wolf's sharp, alert eyes give a sense of wisdom and intelligence. Its ears are perked, indicating attentiveness, and its majestic posture exudes dominance in the wilderness.",
+                "global_prompt": "Create an image of: An Alaskan Malamute sitting gracefully, positioned slightly left and below a majestic Siberian husky. The Arctic fox peeks from behind the wolf, positioned to the Malamute's front. The wolf stands confidently in the background, partially visible behind the Siberian husky. The scene balances their positions, showing a serene Arctic landscape.",
+                "considerable_classes": [
+                    "Arctic fox"
+                ]
+            },
+            {
+                "class": "Alaskan Malamute",
+                "layer": 2,
+                "coordinates": [
+                    0.21561624085085496,
+                    0.11474438420618127,
+                    0.5378710840256389,
+                    0.39893775576625046
+                ],
+                "background_prompt": "Create an image of background with a serene Arctic landscape, featuring vast snowy plains under a clear blue sky, rolling hills in the distance, patches of icy surfaces reflecting sunlight, and gentle mounds of snow interspersed with delicate frost patterns.",
+                "local_prompt": "Create an image of Alaskan Malamute with a thick, majestic coat of black, gray, and white fur, sitting gracefully with a poised and regal demeanor. The ears are erect, and the eyes are deep and intelligent, exuding a sense of calm authority. The tail is bushy and curled over the back, complementing its strong, muscular build.",
+                "global_prompt": "Create an image of: An Alaskan Malamute sitting gracefully, positioned slightly left and below a majestic Siberian husky. The Arctic fox peeks from behind the wolf, positioned to the Malamute's front. The wolf stands confidently in the background, partially visible behind the Siberian husky. The scene balances their positions, showing a serene Arctic landscape.",
+                "considerable_classes": [
+                    "Arctic fox",
+                    "wolf"
+                ]
+            },
+            {
+                "class": "Siberian husky",
+                "layer": 3,
+                "coordinates": [
+                    0.17461748966445606,
+                    0.4499853772848331,
+                    0.42786353989532616,
+                    0.7830118037525055
+                ],
+                "background_prompt": "Create an image of background with a serene Arctic landscape, featuring vast snowy plains under a clear blue sky, rolling hills in the distance, patches of icy surfaces reflecting sunlight, and gentle mounds of snow interspersed with delicate frost patterns.",
+                "local_prompt": "Create an image of a Siberian husky with piercing blue eyes and a thick, plush coat in shades of white and gray. Its well-defined facial mask and erect ears give an alert and intelligent expression. The husky sits slightly elevated, exuding grace and poise.",
+                "global_prompt": "Create an image of: An Alaskan Malamute sitting gracefully, positioned slightly left and below a majestic Siberian husky. The Arctic fox peeks from behind the wolf, positioned to the Malamute's front. The wolf stands confidently in the background, partially visible behind the Siberian husky. The scene balances their positions, showing a serene Arctic landscape.",
+                "considerable_classes": [
+                    "wolf"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an Alaskan Malamute in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Siberian husky in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an Arctic fox in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a wolf in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Siberian husky positioned above the Alaskan Malamute?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Arctic fox peeking from behind the Alaskan Malamute?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wolf partially visible behind the Siberian husky?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1056 @@
+{
+    "90": {
+        "original_metadata": [
+            {
+                "class": "broccoli",
+                "layer": 0,
+                "coordinates": [
+                    0.40203614429627377,
+                    0.49984666999753224,
+                    0.6454783188563942,
+                    0.8736388789864337
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen setting, featuring wooden shelves and soft, ambient lighting. The muted hues complement a homely, inviting atmosphere, with a touch of vintage charm exuding from the textured tiles and aged wood surfaces.",
+                "local_prompt": "Create an image of broccoli with tight, green florets packed densely together, displaying a vibrant and fresh appearance. Its sturdy, thick stalk supports the clusters of dark green buds, while the surface texture reveals a subtle sheen. The branching stems diverge gracefully, creating a visually appealing silhouette, emphasizing the broccoli's natural, healthy essence.",
+                "global_prompt": "Create an image of: a layered arrangement of vegetables with a central focus, featuring a prominent cardoon in the foreground, positioned at coordinates [0.439, 0.500] to [0.699, 0.814]. Behind, a broccoli is visible from [0.402, 0.500] to [0.645, 0.874]. A",
+                "background": "Rustic Kitchen",
+                "considerable_classes": []
+            },
+            {
+                "class": "cucumber",
+                "layer": 1,
+                "coordinates": [
+                    0.23112951368117327,
+                    0.3518324661221798,
+                    0.6250407137290921,
+                    0.6447979319006396
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen setting, featuring wooden shelves and soft, ambient lighting. The muted hues complement a homely, inviting atmosphere, with a touch of vintage charm exuding from the textured tiles and aged wood surfaces.",
+                "local_prompt": "Create an image of cucumber with vibrant, deep green skin, covered in tiny, textured bumps, and giving off a subtle sheen. It should be slightly bent in shape, showcasing fresh, delicate stem remnants at one end, with a hint of moisture droplets highlighting its freshness.",
+                "global_prompt": "Create an image of: a layered arrangement of vegetables with a central focus, featuring a prominent cardoon in the foreground, positioned at coordinates [0.439, 0.500] to [0.699, 0.814]. Behind, a broccoli is visible from [0.402, 0.500] to [0.645, 0.874]. A",
+                "considerable_classes": [
+                    "broccoli"
+                ]
+            },
+            {
+                "class": "mushroom",
+                "layer": 2,
+                "coordinates": [
+                    0.3710155885434848,
+                    0.2451491002539794,
+                    0.6804067925591448,
+                    0.5166264689227799
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen setting, featuring wooden shelves and soft, ambient lighting. The muted hues complement a homely, inviting atmosphere, with a touch of vintage charm exuding from the textured tiles and aged wood surfaces.",
+                "local_prompt": "Create an image of mushroom with a smooth, rounded cap, a rich earthy hue transitioning from a creamy beige to a deeper brown at the center. It sits atop a stout, slightly textured stem, with gentle shadowing to highlight its plump shape. The cap may have subtle surface patterns, reflecting its organic texture.",
+                "global_prompt": "Create an image of: a layered arrangement of vegetables with a central focus, featuring a prominent cardoon in the foreground, positioned at coordinates [0.439, 0.500] to [0.699, 0.814]. Behind, a broccoli is visible from [0.402, 0.500] to [0.645, 0.874]. A",
+                "considerable_classes": [
+                    "cucumber"
+                ]
+            },
+            {
+                "class": "artichoke",
+                "layer": 3,
+                "coordinates": [
+                    0.19972295420291175,
+                    0.17175263066319874,
+                    0.5071382354764689,
+                    0.47563880699309125
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen setting, featuring wooden shelves and soft, ambient lighting. The muted hues complement a homely, inviting atmosphere, with a touch of vintage charm exuding from the textured tiles and aged wood surfaces.",
+                "local_prompt": "Create an image of artichoke with its lush, layered, and tightly bound green leaves, each one curling slightly at the tips, showcasing a mix of mossy and sage hues with hints of purple.",
+                "global_prompt": "Create an image of: a layered arrangement of vegetables with a central focus, featuring a prominent cardoon in the foreground, positioned at coordinates [0.439, 0.500] to [0.699, 0.814]. Behind, a broccoli is visible from [0.402, 0.500] to [0.645, 0.874]. A",
+                "considerable_classes": [
+                    "cucumber",
+                    "mushroom"
+                ]
+            },
+            {
+                "class": "cardoon",
+                "layer": 4,
+                "coordinates": [
+                    0.4386847694767775,
+                    0.4996968982462767,
+                    0.6991585271984659,
+                    0.8135322916627634
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen setting, featuring wooden shelves and soft, ambient lighting. The muted hues complement a homely, inviting atmosphere, with a touch of vintage charm exuding from the textured tiles and aged wood surfaces.",
+                "local_prompt": "Create an image of cardoon with long, ribbed stalks and silvery-green leaves, showcasing its intricate, thorny patterns and firm texture. The stalks should curve gracefully, highlighting their fibrous quality. Capture the unique mix of earthy green hues and subtle blue tints in the leaves, emphasizing depth and detail.",
+                "global_prompt": "Create an image of: a layered arrangement of vegetables with a central focus, featuring a prominent cardoon in the foreground, positioned at coordinates [0.439, 0.500] to [0.699, 0.814]. Behind, a broccoli is visible from [0.402, 0.500] to [0.645, 0.874]. A",
+                "considerable_classes": [
+                    "broccoli",
+                    "cucumber",
+                    "mushroom"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a cardoon in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a broccoli in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a mushroom in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an artichoke in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cucumber in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cardoon in front of the broccoli?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the mushroom in front of the cucumber?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the artichoke in front of the mushroom?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cardoon in front of the mushroom?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "91": {
+        "original_metadata": [
+            {
+                "class": "ambulance",
+                "layer": 0,
+                "coordinates": [
+                    0.3467731189270209,
+                    0.27339899853827704,
+                    0.584296076778633,
+                    0.6693704666674436
+                ],
+                "background_prompt": "Create an image of background with dimly lit urban street after sunset, strewn with scattered, glistening shards reflecting streetlights; flickering neon signs casting vibrant hues onto wet asphalt; distant city skyline hazed by smoke, with swirling clouds and faint stars peeking through.",
+                "local_prompt": "Create an image of an ambulance with robust design, positioned partially hidden, peeking from behind a large object. Its glossy exterior and vibrant color stand out, reflecting emergency readiness. Labeled prominently and equipped with lights, it exudes a sense of urgency and capability.",
+                "global_prompt": "Create an image of: a lively emergency scene; a stretcher positioned in the foreground, slightly left; a prominently placed fire engine, slightly overlapping behind; a detailed syringe appearing subtly in the background; a partially hidden ambulance peeking below; a gurney subtly overtopping all elements, enhancing depth.",
+                "background": "Urban Nightscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "stretcher",
+                "layer": 1,
+                "coordinates": [
+                    0.48200345493278907,
+                    0.10995927305400954,
+                    0.7456193888068027,
+                    0.33040410176584156
+                ],
+                "background_prompt": "Create an image of background with dimly lit urban street after sunset, strewn with scattered, glistening shards reflecting streetlights; flickering neon signs casting vibrant hues onto wet asphalt; distant city skyline hazed by smoke, with swirling clouds and faint stars peeking through.",
+                "local_prompt": "Create an image of stretcher with metal frame and sturdy wheels, its surface made of blue, waterproof fabric, showing signs of recent use with subtle creases. Equipped with adjustable safety straps, the stretcher is slightly inclined, ready for patient transport. The wheels are detailed, showcasing complex mechanisms for smooth movement across varied terrains.",
+                "global_prompt": "Create an image of: a lively emergency scene; a stretcher positioned in the foreground, slightly left; a prominently placed fire engine, slightly overlapping behind; a detailed syringe appearing subtly in the background; a partially hidden ambulance peeking below; a gurney subtly overtopping all elements, enhancing depth.",
+                "considerable_classes": [
+                    "ambulance"
+                ]
+            },
+            {
+                "class": "syringe",
+                "layer": 2,
+                "coordinates": [
+                    0.404327874950856,
+                    0.4974416245169079,
+                    0.7142851057994932,
+                    0.7948029247028183
+                ],
+                "background_prompt": "Create an image of background with dimly lit urban street after sunset, strewn with scattered, glistening shards reflecting streetlights; flickering neon signs casting vibrant hues onto wet asphalt; distant city skyline hazed by smoke, with swirling clouds and faint stars peeking through.",
+                "local_prompt": "Create an image of syringe with a sleek, stainless steel body reflecting ambient light. Its transparent barrel reveals clear fluid, graduated markings showing precise measurements. The sharp needle, angled slightly upwards, glints subtly, demonstrating readiness. The plunger rod is partially extended, indicating recent use, while the rubber stopper remains slightly visible within.",
+                "global_prompt": "Create an image of: a lively emergency scene; a stretcher positioned in the foreground, slightly left; a prominently placed fire engine, slightly overlapping behind; a detailed syringe appearing subtly in the background; a partially hidden ambulance peeking below; a gurney subtly overtopping all elements, enhancing depth.",
+                "considerable_classes": [
+                    "ambulance"
+                ]
+            },
+            {
+                "class": "gurney",
+                "layer": 3,
+                "coordinates": [
+                    0.2303683588296538,
+                    0.39763754044125865,
+                    0.5015451098466701,
+                    0.7507153546795253
+                ],
+                "background_prompt": "Create an image of background with dimly lit urban street after sunset, strewn with scattered, glistening shards reflecting streetlights; flickering neon signs casting vibrant hues onto wet asphalt; distant city skyline hazed by smoke, with swirling clouds and faint stars peeking through.",
+                "local_prompt": "Create an image of gurney with chrome rails, a crisp white mattress, and medical straps. Display muscled swivel wheels for mobility. Highlight adjustable, heavy-duty steel frame with hydraulic lift mechanisms. Add subtle wear marks for realism, brushed metal texture, and polished surfaces reflecting ambient light.",
+                "global_prompt": "Create an image of: a lively emergency scene; a stretcher positioned in the foreground, slightly left; a prominently placed fire engine, slightly overlapping behind; a detailed syringe appearing subtly in the background; a partially hidden ambulance peeking below; a gurney subtly overtopping all elements, enhancing depth.",
+                "considerable_classes": [
+                    "ambulance",
+                    "syringe"
+                ]
+            },
+            {
+                "class": "fire engine",
+                "layer": 4,
+                "coordinates": [
+                    0.3595929408094699,
+                    0.34530944866667723,
+                    0.6504178370673489,
+                    0.6650182515847425
+                ],
+                "background_prompt": "Create an image of background with dimly lit urban street after sunset, strewn with scattered, glistening shards reflecting streetlights; flickering neon signs casting vibrant hues onto wet asphalt; distant city skyline hazed by smoke, with swirling clouds and faint stars peeking through.",
+                "local_prompt": "Create an image of a fire engine with vibrant red color, shiny chrome accents, intense headlights, and a tall, gleaming ladder extended. Display immense detail on its logo and reflective surfaces, capturing a sense of urgency and power.",
+                "global_prompt": "Create an image of: a lively emergency scene; a stretcher positioned in the foreground, slightly left; a prominently placed fire engine, slightly overlapping behind; a detailed syringe appearing subtly in the background; a partially hidden ambulance peeking below; a gurney subtly overtopping all elements, enhancing depth.",
+                "considerable_classes": [
+                    "ambulance",
+                    "syringe",
+                    "gurney"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a fire engine in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a stretcher visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a syringe present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the stretcher positioned in front of the fire engine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the syringe behind the ambulance?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gurney overlapping the fire engine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ambulance partially hidden below the stretcher?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "92": {
+        "original_metadata": [
+            {
+                "class": "Gila monster",
+                "layer": 0,
+                "coordinates": [
+                    0.31055313543480245,
+                    0.2621404120325302,
+                    0.6084437431092365,
+                    0.6109970983398791
+                ],
+                "background_prompt": "Create an image of background with a vast desert terrain, featuring undulating sand dunes. The horizon reveals distant red-rock mesas under a clear azure sky. Sparse cacti and desert shrubs dot the landscape, casting elongated shadows as the evening sun paints the scene in warm hues.",
+                "local_prompt": "Create an image of Gila monster with intricately textured scales, highlighting its unique skin patterns. It is in a resting posture with a well-defined head and limbs, capturing the reptile's natural, slightly rough, and bold appearance, emphasizing the bright contrasting colors on its robust body.",
+                "global_prompt": "Create an image of: A detailed scene of a layered desert terrain featuring a Gila monster behind a frilled lizard and a common iguana, with a banded gecko in front. The Gila monster, textured with intricate scales, occupies the middle area, while the frilled lizard displays its impressive frill behind the iguana's robust form. The band",
+                "background": "Desert Scenery",
+                "considerable_classes": []
+            },
+            {
+                "class": "banded gecko",
+                "layer": 1,
+                "coordinates": [
+                    0.10288157077785885,
+                    0.375415245166996,
+                    0.46450364336538985,
+                    0.6648462561908105
+                ],
+                "background_prompt": "Create an image of background with a vast desert terrain, featuring undulating sand dunes. The horizon reveals distant red-rock mesas under a clear azure sky. Sparse cacti and desert shrubs dot the landscape, casting elongated shadows as the evening sun paints the scene in warm hues.",
+                "local_prompt": "Create an image of a banded gecko with distinct, alternating light and dark bands across its body. Its skin should be textured and slightly translucent, capturing the gecko\u2019s delicate nature. The eyes are prominent and expressive, showcasing a curious yet gentle demeanor.",
+                "global_prompt": "Create an image of: A detailed scene of a layered desert terrain featuring a Gila monster behind a frilled lizard and a common iguana, with a banded gecko in front. The Gila monster, textured with intricate scales, occupies the middle area, while the frilled lizard displays its impressive frill behind the iguana's robust form. The band",
+                "considerable_classes": [
+                    "Gila monster"
+                ]
+            },
+            {
+                "class": "frilled lizard",
+                "layer": 2,
+                "coordinates": [
+                    0.23927673906136726,
+                    0.2907538522708596,
+                    0.5673289468264018,
+                    0.6088658428935585
+                ],
+                "background_prompt": "Create an image of background with a vast desert terrain, featuring undulating sand dunes. The horizon reveals distant red-rock mesas under a clear azure sky. Sparse cacti and desert shrubs dot the landscape, casting elongated shadows as the evening sun paints the scene in warm hues.",
+                "local_prompt": "Create an image of frilled lizard with an open, vibrant frill extended prominently around its head, showcasing detailed textures and patterns on its rough, scaly skin, capturing its alert and imposing posture, and emphasize the intricate ridges and vivid colors of its impressive frill.",
+                "global_prompt": "Create an image of: A detailed scene of a layered desert terrain featuring a Gila monster behind a frilled lizard and a common iguana, with a banded gecko in front. The Gila monster, textured with intricate scales, occupies the middle area, while the frilled lizard displays its impressive frill behind the iguana's robust form. The band",
+                "considerable_classes": [
+                    "Gila monster",
+                    "banded gecko"
+                ]
+            },
+            {
+                "class": "common iguana",
+                "layer": 3,
+                "coordinates": [
+                    0.1865559023806409,
+                    0.14823118255522352,
+                    0.5770895312717192,
+                    0.4010091567233959
+                ],
+                "background_prompt": "Create an image of background with a vast desert terrain, featuring undulating sand dunes. The horizon reveals distant red-rock mesas under a clear azure sky. Sparse cacti and desert shrubs dot the landscape, casting elongated shadows as the evening sun paints the scene in warm hues.",
+                "local_prompt": "Create an image of a common iguana with vivid green scales, detailed with realistic textures, emphasizing its robust and muscular build. Capture its sharp, alert eyes and prominent spines running along its back, highlighting the iguana's poised and powerful form.",
+                "global_prompt": "Create an image of: A detailed scene of a layered desert terrain featuring a Gila monster behind a frilled lizard and a common iguana, with a banded gecko in front. The Gila monster, textured with intricate scales, occupies the middle area, while the frilled lizard displays its impressive frill behind the iguana's robust form. The band",
+                "considerable_classes": [
+                    "Gila monster",
+                    "banded gecko"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a Gila monster in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a banded gecko in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a frilled lizard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a common iguana in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the banded gecko in front of the Gila monster?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the frilled lizard behind the common iguana?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the common iguana in front of the frilled lizard?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "93": {
+        "original_metadata": [
+            {
+                "class": "goldfinch",
+                "layer": 0,
+                "coordinates": [
+                    0.289629845261818,
+                    0.1404364846365571,
+                    0.5710320939456854,
+                    0.5100194111745455
+                ],
+                "background_prompt": "Create an image of background with lush, green forest foliage softly blurred; dappled sunlight piercing through trees, casting warm, golden beams on the ground; a serene atmosphere enveloped by a gentle breeze, rustling leaves and stirring tranquil serenity.",
+                "local_prompt": "Create an image of goldfinch with brilliantly shining yellow plumage and distinct black cap, perched delicately with a graceful and composed demeanor, exuding elegance. The goldfinch's intricate details, including its sharp beak and small, nimble feet gripping lightly, should be highlighted to reflect its poised and serene presence.",
+                "global_prompt": "Create an image of: a vibrant jay perched with its vivid blue feathers, in the foreground. Behind it, a striking monarch butterfly with open wings, exhibiting bold orange and black patterns, flutters. Slightly lower and poised elegantly is a yellow-goldenfinch, sitting quietly. A buzzing bee, mid-flight, hovers between layers, intricately detailed with fuzzy yellow and black",
+                "background": "Forest Serenity",
+                "considerable_classes": []
+            },
+            {
+                "class": "ringlet",
+                "layer": 1,
+                "coordinates": [
+                    0.4221675147927323,
+                    0.3066301079677923,
+                    0.7837175389843103,
+                    0.6746017429448223
+                ],
+                "background_prompt": "Create an image of background with lush, green forest foliage softly blurred; dappled sunlight piercing through trees, casting warm, golden beams on the ground; a serene atmosphere enveloped by a gentle breeze, rustling leaves and stirring tranquil serenity.",
+                "local_prompt": "Create an image of ringlet with delicate brown wings adorned with subtle eyespots, texture resembling fine velvet. Its wings flaunt a gentle scalloped edge, and a muted, earthy palette combines soft browns and tans, giving a graceful and understated appearance. The ringlet rests in a moment of stillness, capturing tranquility.",
+                "global_prompt": "Create an image of: a vibrant jay perched with its vivid blue feathers, in the foreground. Behind it, a striking monarch butterfly with open wings, exhibiting bold orange and black patterns, flutters. Slightly lower and poised elegantly is a yellow-goldenfinch, sitting quietly. A buzzing bee, mid-flight, hovers between layers, intricately detailed with fuzzy yellow and black",
+                "considerable_classes": [
+                    "goldfinch"
+                ]
+            },
+            {
+                "class": "bee",
+                "layer": 2,
+                "coordinates": [
+                    0.39691714472932427,
+                    0.3079488437373901,
+                    0.6986967584333922,
+                    0.6806008692446537
+                ],
+                "background_prompt": "Create an image of background with lush, green forest foliage softly blurred; dappled sunlight piercing through trees, casting warm, golden beams on the ground; a serene atmosphere enveloped by a gentle breeze, rustling leaves and stirring tranquil serenity.",
+                "local_prompt": "Create an image of bee with intricate detail, showcasing fuzzy yellow and black bands, delicate translucent wings, and vibrant pollen grains sticking to its legs, capturing a moment mid-flight, conveying a sense of busy energy and purpose as it hovers gracefully in the air.",
+                "global_prompt": "Create an image of: a vibrant jay perched with its vivid blue feathers, in the foreground. Behind it, a striking monarch butterfly with open wings, exhibiting bold orange and black patterns, flutters. Slightly lower and poised elegantly is a yellow-goldenfinch, sitting quietly. A buzzing bee, mid-flight, hovers between layers, intricately detailed with fuzzy yellow and black",
+                "considerable_classes": [
+                    "goldfinch",
+                    "ringlet"
+                ]
+            },
+            {
+                "class": "monarch",
+                "layer": 3,
+                "coordinates": [
+                    0.3972479244972581,
+                    0.212816937327589,
+                    0.6615489736266555,
+                    0.5983633473481648
+                ],
+                "background_prompt": "Create an image of background with lush, green forest foliage softly blurred; dappled sunlight piercing through trees, casting warm, golden beams on the ground; a serene atmosphere enveloped by a gentle breeze, rustling leaves and stirring tranquil serenity.",
+                "local_prompt": "Create an image of a monarch with its wings fully open, showcasing vivid orange forewings adorned with bold black veins and borders. The hindwings display delicate white spots along the edges, adding a striking contrast to the vibrant orange. The texture on the wings is crisp and detailed, capturing the butterfly's majestic elegance.",
+                "global_prompt": "Create an image of: a vibrant jay perched with its vivid blue feathers, in the foreground. Behind it, a striking monarch butterfly with open wings, exhibiting bold orange and black patterns, flutters. Slightly lower and poised elegantly is a yellow-goldenfinch, sitting quietly. A buzzing bee, mid-flight, hovers between layers, intricately detailed with fuzzy yellow and black",
+                "considerable_classes": [
+                    "goldfinch",
+                    "ringlet",
+                    "bee"
+                ]
+            },
+            {
+                "class": "jay",
+                "layer": 4,
+                "coordinates": [
+                    0.26948281199658364,
+                    0.14976126135367396,
+                    0.5323140012300394,
+                    0.35931859496774576
+                ],
+                "background_prompt": "Create an image of background with lush, green forest foliage softly blurred; dappled sunlight piercing through trees, casting warm, golden beams on the ground; a serene atmosphere enveloped by a gentle breeze, rustling leaves and stirring tranquil serenity.",
+                "local_prompt": "Create an image of jay with vivid blue feathers, perched gracefully. Its plumage should boast intricate patterns with a striking contrast between the blue and subtle gray and white accents. The jay's crest is slightly raised, giving it an alert and curious appearance, while its eyes glimmer with intelligence. Capture the detail in its sharp beak and strong talons gripping the perch.",
+                "global_prompt": "Create an image of: a vibrant jay perched with its vivid blue feathers, in the foreground. Behind it, a striking monarch butterfly with open wings, exhibiting bold orange and black patterns, flutters. Slightly lower and poised elegantly is a yellow-goldenfinch, sitting quietly. A buzzing bee, mid-flight, hovers between layers, intricately detailed with fuzzy yellow and black",
+                "considerable_classes": [
+                    "goldfinch",
+                    "ringlet",
+                    "bee",
+                    "monarch"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a jay in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a monarch butterfly in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a goldfinch in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a bee in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the jay in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the monarch butterfly behind the jay?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the goldfinch positioned lower than the jay?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bee hovering between the monarch butterfly and the goldfinch?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "94": {
+        "original_metadata": [
+            {
+                "class": "white stork",
+                "layer": 0,
+                "coordinates": [
+                    0.326564712184845,
+                    0.3180052319160378,
+                    0.722269267166893,
+                    0.5513563592456984
+                ],
+                "background_prompt": "Create an image of background with a tranquil lake surrounded by lush greenery, reflecting the soft hues of dawn sky. Tall reeds sway gently in the breeze, while distant trees frame the horizon against the gentle water ripples.",
+                "local_prompt": "Create an image of white stork with pristine plumage standing prominently. Its head is turned slightly to the side, showcasing its graceful profile. The stork's bright, immaculate feathers reflect natural light, enhancing its elegance and poise. Its long legs and sleek neck add an air of majesty.",
+                "global_prompt": "Create an image of: a serene scene with a graceful black swan slightly in front of a poised white stork. The black swan is positioned nearer to the lower-left of the frame, showing its entire elegant form and gleaming feathers. Behind it, the white stork stands prominently, its plumage bright and pristine, head turned slightly to the side, visible over the sw",
+                "background": "Tranquil Lake",
+                "considerable_classes": []
+            },
+            {
+                "class": "black swan",
+                "layer": 1,
+                "coordinates": [
+                    0.2392626306954848,
+                    0.23962310116871655,
+                    0.49652006624873113,
+                    0.5973266147581927
+                ],
+                "background_prompt": "Create an image of background with a tranquil lake surrounded by lush greenery, reflecting the soft hues of dawn sky. Tall reeds sway gently in the breeze, while distant trees frame the horizon against the gentle water ripples.",
+                "local_prompt": "Create an image of black swan with elegant and elongated neck, radiant and well-groomed shimmering feathers, and poised demeanor, capturing its serene presence. The swan's smooth form is accentuated by its glossy black plumage, exuding grace.",
+                "global_prompt": "Create an image of: a serene scene with a graceful black swan slightly in front of a poised white stork. The black swan is positioned nearer to the lower-left of the frame, showing its entire elegant form and gleaming feathers. Behind it, the white stork stands prominently, its plumage bright and pristine, head turned slightly to the side, visible over the sw",
+                "considerable_classes": []
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a black swan in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a white stork in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the black swan in front of the white stork?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the white stork behind the black swan?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the black swan positioned in relation to the frame?",
+                "ground_truth_answer": "Nearer to the lower-left"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the white stork's head turned slightly to the side?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "95": {
+        "original_metadata": [
+            {
+                "class": "stage",
+                "layer": 0,
+                "coordinates": [
+                    0.3601191225617686,
+                    0.21478646016747882,
+                    0.6079265834715903,
+                    0.5933683765168123
+                ],
+                "background_prompt": "Create an image of background with a visible stage at the lowest layer, behind it a cinema screen. Overhead, a television screen dominates in the left area, ensuring proper spatial relationships and layered scenery.",
+                "local_prompt": "Create an image of stage with polished wooden flooring, with subtle grain patterns visible and a naturally warm hue. The stage lights cast gentle, ambient highlights, reflecting softly across the surface. Its perimeter is slightly raised, with clean, defined edges.",
+                "global_prompt": "Create an image of: a layered scene from bottom to top. At the lowest layer, a stage partially visible; behind it stands a cinema screen. In front, a desktop computer occupies the right-center area. A projector sits in front, overlapping the computer slightly. Above, a television screen dominates, positioned left and above both the computer and projector. Ensure accurate spatial relationships and relative sizes",
+                "background": "Multi-layered Stage",
+                "considerable_classes": []
+            },
+            {
+                "class": "cinema",
+                "layer": 1,
+                "coordinates": [
+                    0.18827778499205172,
+                    0.22391804360098871,
+                    0.4628580737135336,
+                    0.5133111109465018
+                ],
+                "background_prompt": "Create an image of background with a visible stage at the lowest layer, behind it a cinema screen. Overhead, a television screen dominates in the left area, ensuring proper spatial relationships and layered scenery.",
+                "local_prompt": "Create an image of cinema with a vast, high-definition screen, its surface pristine and slightly reflective, featuring subtle ambient light that accentuates its smooth finish, ready to cast vivid images.",
+                "global_prompt": "Create an image of: a layered scene from bottom to top. At the lowest layer, a stage partially visible; behind it stands a cinema screen. In front, a desktop computer occupies the right-center area. A projector sits in front, overlapping the computer slightly. Above, a television screen dominates, positioned left and above both the computer and projector. Ensure accurate spatial relationships and relative sizes",
+                "considerable_classes": [
+                    "stage"
+                ]
+            },
+            {
+                "class": "desktop computer",
+                "layer": 2,
+                "coordinates": [
+                    0.4680677251313685,
+                    0.41137576387253716,
+                    0.7333348536566627,
+                    0.617563871532552
+                ],
+                "background_prompt": "Create an image of background with a visible stage at the lowest layer, behind it a cinema screen. Overhead, a television screen dominates in the left area, ensuring proper spatial relationships and layered scenery.",
+                "local_prompt": "Create an image of a desktop computer with a sleek, modern design, featuring a thin-bezel monitor displaying a vibrant digital interface. The keyboard is compact with backlit keys, and a stylish, ergonomic mouse sits beside it. The CPU tower is slim, with LED accents and visible ventilation grills. The setup conveys functionality and cutting-edge technology.",
+                "global_prompt": "Create an image of: a layered scene from bottom to top. At the lowest layer, a stage partially visible; behind it stands a cinema screen. In front, a desktop computer occupies the right-center area. A projector sits in front, overlapping the computer slightly. Above, a television screen dominates, positioned left and above both the computer and projector. Ensure accurate spatial relationships and relative sizes",
+                "considerable_classes": [
+                    "stage"
+                ]
+            },
+            {
+                "class": "projector",
+                "layer": 3,
+                "coordinates": [
+                    0.45820694826878516,
+                    0.48838936709628933,
+                    0.8143246398899684,
+                    0.7172544919216536
+                ],
+                "background_prompt": "Create an image of background with a visible stage at the lowest layer, behind it a cinema screen. Overhead, a television screen dominates in the left area, ensuring proper spatial relationships and layered scenery.",
+                "local_prompt": "Create an image of projector with a sleek, modern design, featuring a matte black finish and lens prominently at the center. It has adjustable feet, subtle ventilation grilles on the sides, and a discreet row of control buttons on the top. Its power cord and connection ports are neatly aligned at the back.",
+                "global_prompt": "Create an image of: a layered scene from bottom to top. At the lowest layer, a stage partially visible; behind it stands a cinema screen. In front, a desktop computer occupies the right-center area. A projector sits in front, overlapping the computer slightly. Above, a television screen dominates, positioned left and above both the computer and projector. Ensure accurate spatial relationships and relative sizes",
+                "considerable_classes": [
+                    "stage",
+                    "cinema"
+                ]
+            },
+            {
+                "class": "television",
+                "layer": 4,
+                "coordinates": [
+                    0.2337271429911439,
+                    0.270120564689203,
+                    0.46490998778945675,
+                    0.5419943903147415
+                ],
+                "background_prompt": "Create an image of background with a visible stage at the lowest layer, behind it a cinema screen. Overhead, a television screen dominates in the left area, ensuring proper spatial relationships and layered scenery.",
+                "local_prompt": "Create an image of television with a large, flat screen slightly tilted forward, featuring ultra-thin bezels and a sleek, minimalist stand. The display showcases vibrant colors with high-definition clarity, providing a dynamic viewing experience, set to dominate the scene with its prominent presence.",
+                "global_prompt": "Create an image of: a layered scene from bottom to top. At the lowest layer, a stage partially visible; behind it stands a cinema screen. In front, a desktop computer occupies the right-center area. A projector sits in front, overlapping the computer slightly. Above, a television screen dominates, positioned left and above both the computer and projector. Ensure accurate spatial relationships and relative sizes",
+                "considerable_classes": [
+                    "stage",
+                    "cinema",
+                    "projector"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a stage in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a desktop computer present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a projector visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a television screen in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cinema screen behind the stage?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the projector in front of the desktop computer?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the television screen positioned above the projector?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "96": {
+        "original_metadata": [
+            {
+                "class": "albatross",
+                "layer": 0,
+                "coordinates": [
+                    0.3353205613703357,
+                    0.3630299733822989,
+                    0.6253767978661213,
+                    0.6151814221314297
+                ],
+                "background_prompt": "Create an image of background with a stunning mountainous backdrop featuring towering peaks covered in snow, under a clear blue sky. Wisps of clouds float leisurely, while a serene lake reflects the sky's hues, bordered by lush green meadows at the foot of the mountains.",
+                "local_prompt": "Create an image of albatross with its expansive wings fully spread, gliding gracefully through the air. Its sleek body angled slightly upward, catching the light, highlighting its distinctive white feathers contrasted with dark wingtips. The bird's focused eyes and streamlined silhouette capture the elegance and majesty inherent in this keen aviator.",
+                "global_prompt": "Create an image of: an albatross soaring gracefully behind a gondola and a mountain tent in the background. The gondola, with intricate details, is positioned prominently in the middle, filling most of the scene. In front, another gondola appears partially visible, adding depth. The mountain tent is nestled between the gondolas, creating a layered effect in a stunning mountainous backdrop.",
+                "background": "Mountain Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "gondola",
+                "layer": 1,
+                "coordinates": [
+                    0.3269412010154128,
+                    0.21279792446182247,
+                    0.67038677501379,
+                    0.541092656408689
+                ],
+                "background_prompt": "Create an image of background with a stunning mountainous backdrop featuring towering peaks covered in snow, under a clear blue sky. Wisps of clouds float leisurely, while a serene lake reflects the sky's hues, bordered by lush green meadows at the foot of the mountains.",
+                "local_prompt": "Create an image of gondola with finely detailed, classic Venetian design featuring elegant curves, ornate carvings, and a polished wooden finish. Highlight the graceful lines of the gondola, emphasizing its traditional charm with a slightly gilded prow, comfortable seating, and plush, rich-colored cushions that suggest luxury.",
+                "global_prompt": "Create an image of: an albatross soaring gracefully behind a gondola and a mountain tent in the background. The gondola, with intricate details, is positioned prominently in the middle, filling most of the scene. In front, another gondola appears partially visible, adding depth. The mountain tent is nestled between the gondolas, creating a layered effect in a stunning mountainous backdrop.",
+                "considerable_classes": []
+            },
+            {
+                "class": "mountain tent",
+                "layer": 2,
+                "coordinates": [
+                    0.31551958368635324,
+                    0.3499763544062293,
+                    0.601144442795573,
+                    0.6198921046968101
+                ],
+                "background_prompt": "Create an image of background with a stunning mountainous backdrop featuring towering peaks covered in snow, under a clear blue sky. Wisps of clouds float leisurely, while a serene lake reflects the sky's hues, bordered by lush green meadows at the foot of the mountains.",
+                "local_prompt": "Create an image of a mountain tent with a durable, weatherproof fabric, showcasing vibrant colors like deep green or blue. The tent is pitched firmly on a rocky surface, exhibiting taut, precisely-angled guylines. Its structure is slightly domed, indicating ample interior space and stability, with contrasting trim and strong zippers.",
+                "global_prompt": "Create an image of: an albatross soaring gracefully behind a gondola and a mountain tent in the background. The gondola, with intricate details, is positioned prominently in the middle, filling most of the scene. In front, another gondola appears partially visible, adding depth. The mountain tent is nestled between the gondolas, creating a layered effect in a stunning mountainous backdrop.",
+                "considerable_classes": [
+                    "gondola"
+                ]
+            },
+            {
+                "class": "gondola",
+                "layer": 3,
+                "coordinates": [
+                    0.134078006216411,
+                    0.366225886114688,
+                    0.33695557021040046,
+                    0.6099184758454018
+                ],
+                "background_prompt": "Create an image of background with a stunning mountainous backdrop featuring towering peaks covered in snow, under a clear blue sky. Wisps of clouds float leisurely, while a serene lake reflects the sky's hues, bordered by lush green meadows at the foot of the mountains.",
+                "local_prompt": "Create an image of gondola with intricate carvings and sleek wooden texture, polished to a shine, featuring a gracefully curved prow. Highlight rich colors and elegant details, adorned with plush velvet seats and golden accents, capturing a classic Venetian style.",
+                "global_prompt": "Create an image of: an albatross soaring gracefully behind a gondola and a mountain tent in the background. The gondola, with intricate details, is positioned prominently in the middle, filling most of the scene. In front, another gondola appears partially visible, adding depth. The mountain tent is nestled between the gondolas, creating a layered effect in a stunning mountainous backdrop.",
+                "considerable_classes": [
+                    "albatross",
+                    "gondola",
+                    "mountain tent"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an albatross in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a mountain tent visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there two gondolas in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the albatross behind the main gondola?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the mountain tent positioned between the two gondolas?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the partially visible gondola in front of the main gondola?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the albatross in front of the mountain tent?",
+                "ground_truth_answer": "No"
+            }
+        ]
+    },
+    "97": {
+        "original_metadata": [
+            {
+                "class": "orangutan",
+                "layer": 0,
+                "coordinates": [
+                    0.4034889403087756,
+                    0.4719334176186386,
+                    0.6667446000477664,
+                    0.7590817483442398
+                ],
+                "background_prompt": "Create an image of background with dense, layered foliage in vibrant shades of green, towering tree trunks with textured bark, sunlight peeking through the lush canopy, and patches of dappled light on the forest floor, casting intricate shadows among the undergrowth and ferns.",
+                "local_prompt": "Create an image of orangutan with a curious expression, standing upright. It has reddish-brown fur shimmering in dappled sunlight. Its long arms hang down, and the face is turned slightly, eyes wide and inquisitive. The fur is thick and flowing, detailed with gentle curls, showcasing the creature\u2019s natural elegance and intelligence.",
+                "global_prompt": "Create an image of: a layered forest scene with a gorilla at the back, sitting majestically, and an orangutan slightly closer standing with a curious expression. A chimpanzee is in front, swinging from a vine, and another chimpanzee on the ground, playfully reaching towards the orangutan. The scene captures lush greenery around them, with each animal dynamically positioned to",
+                "background": "Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "chimpanzee",
+                "layer": 1,
+                "coordinates": [
+                    0.4717650614193799,
+                    0.3394358555990624,
+                    0.8614922690949169,
+                    0.6693916202786573
+                ],
+                "background_prompt": "Create an image of background with dense, layered foliage in vibrant shades of green, towering tree trunks with textured bark, sunlight peeking through the lush canopy, and patches of dappled light on the forest floor, casting intricate shadows among the undergrowth and ferns.",
+                "local_prompt": "Create an image of chimpanzee with a sense of playfulness, hanging from a vine, showcasing its agile form and expressive features. The chimpanzee's fur is textured in shades of dark brown with lighter highlights. Its eyes are large and inquisitive, reflecting intelligence and mischief. The limbs are extended, displaying strength and dexterity, capturing a moment of dynamic motion in its",
+                "global_prompt": "Create an image of: a layered forest scene with a gorilla at the back, sitting majestically, and an orangutan slightly closer standing with a curious expression. A chimpanzee is in front, swinging from a vine, and another chimpanzee on the ground, playfully reaching towards the orangutan. The scene captures lush greenery around them, with each animal dynamically positioned to",
+                "considerable_classes": [
+                    "orangutan"
+                ]
+            },
+            {
+                "class": "chimpanzee",
+                "layer": 2,
+                "coordinates": [
+                    0.345758586712385,
+                    0.4448699785058189,
+                    0.6769053099940441,
+                    0.676026763428038
+                ],
+                "background_prompt": "Create an image of background with dense, layered foliage in vibrant shades of green, towering tree trunks with textured bark, sunlight peeking through the lush canopy, and patches of dappled light on the forest floor, casting intricate shadows among the undergrowth and ferns.",
+                "local_prompt": "Create an image of chimpanzee with muscular build and expressive face, swinging mid-air from a sturdy vine, arms outstretched and legs tucked beneath, showcasing agility and playfulness. Fur is glossy and dark, highlighting the energetic movement in a jungle canopy setting. The eyes gleam with curiosity and liveliness.",
+                "global_prompt": "Create an image of: a layered forest scene with a gorilla at the back, sitting majestically, and an orangutan slightly closer standing with a curious expression. A chimpanzee is in front, swinging from a vine, and another chimpanzee on the ground, playfully reaching towards the orangutan. The scene captures lush greenery around them, with each animal dynamically positioned to",
+                "considerable_classes": [
+                    "chimpanzee"
+                ]
+            },
+            {
+                "class": "gorilla",
+                "layer": 3,
+                "coordinates": [
+                    0.2680193635370135,
+                    0.4639165127996805,
+                    0.5807229068942888,
+                    0.7530153652906598
+                ],
+                "background_prompt": "Create an image of background with dense, layered foliage in vibrant shades of green, towering tree trunks with textured bark, sunlight peeking through the lush canopy, and patches of dappled light on the forest floor, casting intricate shadows among the undergrowth and ferns.",
+                "local_prompt": "Create an image of a gorilla with a majestic posture, sitting regally and exuding a calm, stoic presence. Its powerful body is balanced as it sits upright; the dark fur contrasts against its expressive, intelligent eyes, which convey wisdom and strength. The gorilla appears contemplative, showcasing the animal's imposing features and commanding aura.",
+                "global_prompt": "Create an image of: a layered forest scene with a gorilla at the back, sitting majestically, and an orangutan slightly closer standing with a curious expression. A chimpanzee is in front, swinging from a vine, and another chimpanzee on the ground, playfully reaching towards the orangutan. The scene captures lush greenery around them, with each animal dynamically positioned to",
+                "considerable_classes": [
+                    "orangutan",
+                    "chimpanzee",
+                    "chimpanzee"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a gorilla in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there any orangutans present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "How many chimpanzees are depicted in the scene?",
+                "ground_truth_answer": "Two"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the orangutan in front of the gorilla?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is one of the chimpanzees swinging from a vine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chimpanzee on the ground reaching towards the orangutan?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gorilla sitting majestically at the back of the scene?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "98": {
+        "original_metadata": [
+            {
+                "class": "pasture",
+                "layer": 0,
+                "coordinates": [
+                    0.37661960508521286,
+                    0.16194671503471625,
+                    0.6909136630407404,
+                    0.4053341833913535
+                ],
+                "background_prompt": "Create an image of background with a lush green pasture, vibrant grass swaying gently under a clear blue sky, distant rolling hills fading into the horizon, and sporadic wildflowers adding splashes of color.",
+                "local_prompt": "Create an image of pasture with vibrant green blades swaying gently under a soft breeze, the rich texture of the grass offering a lush and inviting surface. The grasses vary in height, interspersed with the occasional wildflower, highlighting the diversity of the flora. Dappled with sunlight, the pasture exudes a serene atmosphere, conveying a sense of tranquility and natural abundance. The scene",
+                "global_prompt": "Create an image of: a serene pasture scene with a woolly sheep centered, fluffy collie above left, and a golden retriever below. Sheep stands prominently against lush grass, the collie's expressive eyes gaze out. The golden retriever lies relaxed on the vibrant green pasture; under a clear blue sky.",
+                "background": "Pastoral Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "golden retriever",
+                "layer": 1,
+                "coordinates": [
+                    0.40474419030131337,
+                    0.48540402801841365,
+                    0.6804329213897895,
+                    0.795752006380026
+                ],
+                "background_prompt": "Create an image of background with a lush green pasture, vibrant grass swaying gently under a clear blue sky, distant rolling hills fading into the horizon, and sporadic wildflowers adding splashes of color.",
+                "local_prompt": "Create an image of golden retriever with a relaxed posture, lying comfortably on its side, showcasing its glossy, golden fur. Highlight its serene expression and soft, floppy ears. Illustrate the gentle, intelligent gaze in its eyes, capturing the essence of calm and contentment.",
+                "global_prompt": "Create an image of: a serene pasture scene with a woolly sheep centered, fluffy collie above left, and a golden retriever below. Sheep stands prominently against lush grass, the collie's expressive eyes gaze out. The golden retriever lies relaxed on the vibrant green pasture; under a clear blue sky.",
+                "considerable_classes": []
+            },
+            {
+                "class": "collie",
+                "layer": 2,
+                "coordinates": [
+                    0.14660972872980485,
+                    0.28684051070533545,
+                    0.3753974547387911,
+                    0.5698357336270491
+                ],
+                "background_prompt": "Create an image of background with a lush green pasture, vibrant grass swaying gently under a clear blue sky, distant rolling hills fading into the horizon, and sporadic wildflowers adding splashes of color.",
+                "local_prompt": "Create an image of collie with fluffy fur, expressive eyes gazing out curiously. Its striking coat with a blend of black, white, and brown shines under the sunlight. The gentle breeze slightly ruffles its fur, capturing the essence of alertness and intelligence.",
+                "global_prompt": "Create an image of: a serene pasture scene with a woolly sheep centered, fluffy collie above left, and a golden retriever below. Sheep stands prominently against lush grass, the collie's expressive eyes gaze out. The golden retriever lies relaxed on the vibrant green pasture; under a clear blue sky.",
+                "considerable_classes": []
+            },
+            {
+                "class": "sheep",
+                "layer": 3,
+                "coordinates": [
+                    0.4383148269841316,
+                    0.30147546326494223,
+                    0.7705326307222947,
+                    0.6506963562252194
+                ],
+                "background_prompt": "Create an image of background with a lush green pasture, vibrant grass swaying gently under a clear blue sky, distant rolling hills fading into the horizon, and sporadic wildflowers adding splashes of color.",
+                "local_prompt": "Create an image of a sheep with a thick, woolly fleece that appears soft and fluffy. The sheep stands with a calm demeanor, its ears perked attentively and eyes gentle yet curious. Its hooves are slightly sunken into the lush green grass, giving a sense of weight and belonging to the vibrant setting.",
+                "global_prompt": "Create an image of: a serene pasture scene with a woolly sheep centered, fluffy collie above left, and a golden retriever below. Sheep stands prominently against lush grass, the collie's expressive eyes gaze out. The golden retriever lies relaxed on the vibrant green pasture; under a clear blue sky.",
+                "considerable_classes": [
+                    "pasture",
+                    "golden retriever"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a sheep in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a collie in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a golden retriever in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sheep centered in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the collie positioned above and to the left of the sheep?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the golden retriever positioned below the sheep?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sheep in front of the golden retriever?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "99": {
+        "original_metadata": [
+            {
+                "class": "theater curtain",
+                "layer": 0,
+                "coordinates": [
+                    0.17413134366180194,
+                    0.4111000877919214,
+                    0.4462450891761842,
+                    0.6935092805870157
+                ],
+                "background_prompt": "Create an image of background with an elegant theater stage ambience, featuring a luxurious red velvet backdrop adorned with intricate golden tassels draped diagonally. The rich tones complement the polished, gleaming wooden floor, creating a regally opulent atmosphere.",
+                "local_prompt": "Create an image of theater curtain with rich red fabric adorned by luxurious golden tassels, draping gracefully across a scene. The curtain's texture is plush and opulent, with soft folds catching subtle highlights, exuding a sense of classic elegance and grandeur.",
+                "global_prompt": "Create an image of: a theater scene with an elegant stage and a velvet theater curtain. The curtain, rich red with golden tassels, covers the upper-left to lower-right, relative position [0.174, 0.411] to [0.446, 0.694]. The stage, wooden and polished, begins at [0.386, 0.380",
+                "background": "Theater Stage Ambience",
+                "considerable_classes": []
+            },
+            {
+                "class": "stage",
+                "layer": 1,
+                "coordinates": [
+                    0.3861071517781055,
+                    0.37988144181668115,
+                    0.6364458465510081,
+                    0.6855774294570598
+                ],
+                "background_prompt": "Create an image of background with an elegant theater stage ambience, featuring a luxurious red velvet backdrop adorned with intricate golden tassels draped diagonally. The rich tones complement the polished, gleaming wooden floor, creating a regally opulent atmosphere.",
+                "local_prompt": "Create an image of stage with a polished, dark wooden surface reflecting soft light, exuding an exquisite elegance. The stage's grain patterns run horizontally, enhancing its grandeur, while subtle gloss provides a gentle sheen.",
+                "global_prompt": "Create an image of: a theater scene with an elegant stage and a velvet theater curtain. The curtain, rich red with golden tassels, covers the upper-left to lower-right, relative position [0.174, 0.411] to [0.446, 0.694]. The stage, wooden and polished, begins at [0.386, 0.380",
+                "considerable_classes": [
+                    "theater curtain"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a theater curtain in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a stage in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the theater curtain covering part of the stage?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "What is the relative position of the theater curtain to the stage?",
+                "ground_truth_answer": "The curtain is in front of and partially covers the stage."
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the stage visible in the image?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

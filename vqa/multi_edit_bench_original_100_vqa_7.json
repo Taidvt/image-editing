@@ -1,0 +1,978 @@
+{
+    "60": {
+        "original_metadata": [
+            {
+                "class": "cup",
+                "layer": 0,
+                "coordinates": [
+                    0.4195056624415312,
+                    0.34967356887379253,
+                    0.7616381456227267,
+                    0.660086069987893
+                ],
+                "background_prompt": "Create an image of background with warm wooden textures, soft-focus ambiance, gentle shadows, ambient light from a nearby window, and subtle hints of an early morning setting with muted tones.",
+                "local_prompt": "Create an image of cup with a ceramic material, earthy tones, a wide rim, and a gentle curve. It features a subtle marbled pattern, giving it an artisanal touch, complemented by a comfortable handle. Consider a softly shimmering glaze that captures light elegantly.",
+                "global_prompt": "Create an image of: a cozy coffee setup with four items; a cup behind everything at lower center-left, espresso prominently in front-center, teapot back left, and coffee mug above-right. Arrange the espresso from [0.265, 0.398] to [0.479, 0.644], teapot from [0.210, 0.133]",
+                "background": "Morning Wood Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "coffee mug",
+                "layer": 1,
+                "coordinates": [
+                    0.11938521046255364,
+                    0.4499273010204383,
+                    0.4009108076359128,
+                    0.6638040051014733
+                ],
+                "background_prompt": "Create an image of background with warm wooden textures, soft-focus ambiance, gentle shadows, ambient light from a nearby window, and subtle hints of an early morning setting with muted tones.",
+                "local_prompt": "Create an image of coffee mug with a sleek, matte-black surface and an elegant, curvaceous handle. The rim is slightly wide to enhance savoring aroma. Its body is adorned with subtle metallic accents, giving a touch of sophistication. The mug is half-full of steaming, frothy cappuccino.",
+                "global_prompt": "Create an image of: a cozy coffee setup with four items; a cup behind everything at lower center-left, espresso prominently in front-center, teapot back left, and coffee mug above-right. Arrange the espresso from [0.265, 0.398] to [0.479, 0.644], teapot from [0.210, 0.133]",
+                "considerable_classes": []
+            },
+            {
+                "class": "teapot",
+                "layer": 2,
+                "coordinates": [
+                    0.21018857967352284,
+                    0.1334248553516796,
+                    0.5727681666356266,
+                    0.4298784288663534
+                ],
+                "background_prompt": "Create an image of background with warm wooden textures, soft-focus ambiance, gentle shadows, ambient light from a nearby window, and subtle hints of an early morning setting with muted tones.",
+                "local_prompt": "Create an image of teapot with a sleek, modern design, featuring a polished stainless steel body that glistens with reflections. The handle is ergonomically shaped, crafted from smooth black polymer. The lid sits neatly on top, with a subtle geometric pattern etched into it, and a classic curved spout designed for effortless pouring. Ensure a high-gloss finish highlights the teapot's",
+                "global_prompt": "Create an image of: a cozy coffee setup with four items; a cup behind everything at lower center-left, espresso prominently in front-center, teapot back left, and coffee mug above-right. Arrange the espresso from [0.265, 0.398] to [0.479, 0.644], teapot from [0.210, 0.133]",
+                "considerable_classes": [
+                    "cup"
+                ]
+            },
+            {
+                "class": "espresso",
+                "layer": 3,
+                "coordinates": [
+                    0.2654726907164747,
+                    0.3984719798491212,
+                    0.4794117806333966,
+                    0.6436195018613587
+                ],
+                "background_prompt": "Create an image of background with warm wooden textures, soft-focus ambiance, gentle shadows, ambient light from a nearby window, and subtle hints of an early morning setting with muted tones.",
+                "local_prompt": "Create an image of espresso with a rich, dark crema on top, served in a classic small, white ceramic cup with a smooth, glossy finish, perfectly capturing the essence of a freshly brewed shot.",
+                "global_prompt": "Create an image of: a cozy coffee setup with four items; a cup behind everything at lower center-left, espresso prominently in front-center, teapot back left, and coffee mug above-right. Arrange the espresso from [0.265, 0.398] to [0.479, 0.644], teapot from [0.210, 0.133]",
+                "considerable_classes": [
+                    "cup",
+                    "coffee mug",
+                    "teapot"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a cup in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a coffee mug in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a teapot in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an espresso in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the espresso in front of the cup?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the teapot behind the coffee mug?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the espresso in front of the teapot?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "61": {
+        "original_metadata": [
+            {
+                "class": "china cabinet",
+                "layer": 0,
+                "coordinates": [
+                    0.32959924706990523,
+                    0.4912603628191695,
+                    0.5522428128713445,
+                    0.736697823781675
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic room featuring rich wooden textures, layered wood grain patterns, and intricate designs etched into dark mahogany. Utilize soft diffused lighting to enhance the vintage ambiance, casting gentle shadows across aged planks and highlighting subtle nuances in wood finishes.",
+                "local_prompt": "Create an image of a china cabinet with intricately carved wooden details, showcasing ornate designs along the edges. The cabinet features glass-paneled doors highlighting a collection of delicate porcelain. Its elegant, vintage-style legs support a sturdy yet graceful structure. The wood finish exudes an antique charm, complemented by brass handles adding a touch of classic sophistication.",
+                "global_prompt": "Create an image of: a layered arrangement of furniture featuring a centered chiffonier slightly overlapping in front of a cabinet and china cabinet. The wardrobe is at the left, in front and slightly above the cabinet, extending towards the middle, partially covering the china cabinet. The wood-finished chiffonier is between the modern-design wardrobe and the vintage-style cabinet, with the detailed antique china cabinet in",
+                "background": "Rustic Wooden Room",
+                "considerable_classes": []
+            },
+            {
+                "class": "cabinet",
+                "layer": 1,
+                "coordinates": [
+                    0.4736032842567387,
+                    0.24935256306740033,
+                    0.7195952539606023,
+                    0.6086322267537465
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic room featuring rich wooden textures, layered wood grain patterns, and intricate designs etched into dark mahogany. Utilize soft diffused lighting to enhance the vintage ambiance, casting gentle shadows across aged planks and highlighting subtle nuances in wood finishes.",
+                "local_prompt": "Create an image of a cabinet with a vintage style, featuring ornate carvings and a polished dark wood finish. It has elegantly curved legs and antique brass handles. The doors are adorned with intricate glass panes revealing classic shelves inside.",
+                "global_prompt": "Create an image of: a layered arrangement of furniture featuring a centered chiffonier slightly overlapping in front of a cabinet and china cabinet. The wardrobe is at the left, in front and slightly above the cabinet, extending towards the middle, partially covering the china cabinet. The wood-finished chiffonier is between the modern-design wardrobe and the vintage-style cabinet, with the detailed antique china cabinet in",
+                "considerable_classes": [
+                    "china cabinet"
+                ]
+            },
+            {
+                "class": "chiffonier",
+                "layer": 2,
+                "coordinates": [
+                    0.49565026763883424,
+                    0.22978181929878583,
+                    0.7514207097799045,
+                    0.5393060315250104
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic room featuring rich wooden textures, layered wood grain patterns, and intricate designs etched into dark mahogany. Utilize soft diffused lighting to enhance the vintage ambiance, casting gentle shadows across aged planks and highlighting subtle nuances in wood finishes.",
+                "local_prompt": "Create an image of chiffonier with elegantly carved wooden surfaces, featuring a polished cherry wood finish. The chiffonier showcases intricate detailing, including ornate brass handles and a classical design of horizontal drawers. The craftsmanship exudes a vintage charm with gracefully turned legs and a slightly recessed top surface.",
+                "global_prompt": "Create an image of: a layered arrangement of furniture featuring a centered chiffonier slightly overlapping in front of a cabinet and china cabinet. The wardrobe is at the left, in front and slightly above the cabinet, extending towards the middle, partially covering the china cabinet. The wood-finished chiffonier is between the modern-design wardrobe and the vintage-style cabinet, with the detailed antique china cabinet in",
+                "considerable_classes": [
+                    "china cabinet",
+                    "cabinet"
+                ]
+            },
+            {
+                "class": "wardrobe",
+                "layer": 3,
+                "coordinates": [
+                    0.49378343840759753,
+                    0.14662308162444068,
+                    0.8300052445483366,
+                    0.4704408510575334
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic room featuring rich wooden textures, layered wood grain patterns, and intricate designs etched into dark mahogany. Utilize soft diffused lighting to enhance the vintage ambiance, casting gentle shadows across aged planks and highlighting subtle nuances in wood finishes.",
+                "local_prompt": "Create an image of wardrobe with a sleek, modern design, showcasing tall, clean lines and a polished wood finish. It features elegant handles, subtle grain patterns, and soft-close doors. The wardrobe stands confidently, exuding a balance of functionality and contemporary style.",
+                "global_prompt": "Create an image of: a layered arrangement of furniture featuring a centered chiffonier slightly overlapping in front of a cabinet and china cabinet. The wardrobe is at the left, in front and slightly above the cabinet, extending towards the middle, partially covering the china cabinet. The wood-finished chiffonier is between the modern-design wardrobe and the vintage-style cabinet, with the detailed antique china cabinet in",
+                "considerable_classes": [
+                    "cabinet"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a china cabinet in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cabinet present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a chiffonier in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a wardrobe in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chiffonier in front of the cabinet?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chiffonier in front of the china cabinet?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wardrobe in front of the cabinet?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wardrobe partially covering the china cabinet?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "62": {
+        "original_metadata": [
+            {
+                "class": "wallet",
+                "layer": 0,
+                "coordinates": [
+                    0.3607937927486222,
+                    0.34254288703329383,
+                    0.645474301718681,
+                    0.6874599834499899
+                ],
+                "background_prompt": "Create an image of background with a seamless wooden desk surface, displaying a subtle grain texture, softly illuminated by ambient light casting gentle shadows.",
+                "local_prompt": "Create an image of wallet with rich, textured leather in a deep mahogany tone, featuring subtle stitching along the edges. The wallet appears slightly worn, suggesting everyday use, yet retains an elegant, timeless design with a slim profile.",
+                "global_prompt": "Create an image of: A layered scene with a wallet at the bottom, partially hidden by a tablet above it, with a charger slightly to the right of the phone. A cellular telephone sits left and slightly below headphones, which slightly cover the charger. The charger is ever so slightly peeking from behind these items, situated in front of all objects except the wallet.",
+                "background": "Wooden Desk Surface",
+                "considerable_classes": []
+            },
+            {
+                "class": "charger",
+                "layer": 1,
+                "coordinates": [
+                    0.4730639913224305,
+                    0.42200921065999286,
+                    0.8537322142713044,
+                    0.8209815718579109
+                ],
+                "background_prompt": "Create an image of background with a seamless wooden desk surface, displaying a subtle grain texture, softly illuminated by ambient light casting gentle shadows.",
+                "local_prompt": "Create an image of charger with a sleek, matte finish, neatly coiled cable partially concealed, hinting at a compact, organized design. The USB plug is visible, casting a subtle shadow on its side, showcasing its clean lines and modern appearance. The charger's body curves slightly, reflecting minimal light, emphasizing its polished surface.",
+                "global_prompt": "Create an image of: A layered scene with a wallet at the bottom, partially hidden by a tablet above it, with a charger slightly to the right of the phone. A cellular telephone sits left and slightly below headphones, which slightly cover the charger. The charger is ever so slightly peeking from behind these items, situated in front of all objects except the wallet.",
+                "considerable_classes": [
+                    "wallet"
+                ]
+            },
+            {
+                "class": "tablet",
+                "layer": 2,
+                "coordinates": [
+                    0.3629635973484354,
+                    0.11200341123436552,
+                    0.730655779988423,
+                    0.439477860603854
+                ],
+                "background_prompt": "Create an image of background with a seamless wooden desk surface, displaying a subtle grain texture, softly illuminated by ambient light casting gentle shadows.",
+                "local_prompt": "Create an image of tablet with a sleek, thin design, and a glass screen reflecting ambient light. Its surface shows a vibrant home screen filled with colorful app icons, and a metallic body with precise edges that conveys modern elegance.",
+                "global_prompt": "Create an image of: A layered scene with a wallet at the bottom, partially hidden by a tablet above it, with a charger slightly to the right of the phone. A cellular telephone sits left and slightly below headphones, which slightly cover the charger. The charger is ever so slightly peeking from behind these items, situated in front of all objects except the wallet.",
+                "considerable_classes": [
+                    "wallet",
+                    "charger"
+                ]
+            },
+            {
+                "class": "cellular telephone",
+                "layer": 3,
+                "coordinates": [
+                    0.3668544792860887,
+                    0.10346915685876251,
+                    0.722473497820507,
+                    0.38055447713295804
+                ],
+                "background_prompt": "Create an image of background with a seamless wooden desk surface, displaying a subtle grain texture, softly illuminated by ambient light casting gentle shadows.",
+                "local_prompt": "Create an image of cellular telephone with a sleek, modern design featuring a glossy black screen and minimalistic buttons on the side. The phone\u2019s body has a slender profile with a metallic finish, slightly curved edges for ergonomic comfort. Display is off, reflecting light subtly.",
+                "global_prompt": "Create an image of: A layered scene with a wallet at the bottom, partially hidden by a tablet above it, with a charger slightly to the right of the phone. A cellular telephone sits left and slightly below headphones, which slightly cover the charger. The charger is ever so slightly peeking from behind these items, situated in front of all objects except the wallet.",
+                "considerable_classes": [
+                    "wallet",
+                    "tablet"
+                ]
+            },
+            {
+                "class": "headphones",
+                "layer": 4,
+                "coordinates": [
+                    0.36432279148751723,
+                    0.4034497459744989,
+                    0.6774379341536877,
+                    0.677693440853346
+                ],
+                "background_prompt": "Create an image of background with a seamless wooden desk surface, displaying a subtle grain texture, softly illuminated by ambient light casting gentle shadows.",
+                "local_prompt": "Create an image of headphones with sleek, over-ear design, padded cushions for comfort, an adjustable headband, matte black finish with brushed metal accents, and a single braided audio cable extending from the left ear cup.",
+                "global_prompt": "Create an image of: A layered scene with a wallet at the bottom, partially hidden by a tablet above it, with a charger slightly to the right of the phone. A cellular telephone sits left and slightly below headphones, which slightly cover the charger. The charger is ever so slightly peeking from behind these items, situated in front of all objects except the wallet.",
+                "considerable_classes": [
+                    "wallet",
+                    "charger",
+                    "tablet"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a wallet in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a tablet present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are headphones visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tablet placed on top of the wallet?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the charger located to the right of the tablet?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the headphones positioned above the cellular telephone?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cellular telephone partially covered by the headphones?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "63": {
+        "original_metadata": [
+            {
+                "class": "flamingo",
+                "layer": 0,
+                "coordinates": [
+                    0.4188492893770661,
+                    0.4167130446603651,
+                    0.7108763567641683,
+                    0.7549101672312503
+                ],
+                "background_prompt": "Create an image of background with rolling savanna plains under a vast, clear blue sky. Sparse clusters of tall golden grass sway gently, and scattered acacia trees dot the horizon. Warm sunlight casts long shadows, enhancing the landscape's natural beauty and serenity.",
+                "local_prompt": "Create an image of flamingo with a graceful neck elegantly curved, its slender legs showcasing a sense of balance and poise. Highlight the vivid pink feathers that blend into soft pastels, capturing the distinctive curvature and elegance of its form. Wings slightly spread, hinting at motion, adding a dynamic touch to its upright posture.",
+                "global_prompt": "Create an image of: a tall ostrich dominating the foreground at the left center, showing its distinctive long neck and fluffy feathers. A pelican is slightly behind the ostrich, positioned higher at mid-left, with its sizeable bill and stocky body visible. A flamingo stands further back, partially concealed, displaying its slender legs and graceful neck at mid-right, contributing to a dynamic",
+                "background": "Savanna Plains",
+                "considerable_classes": []
+            },
+            {
+                "class": "pelican",
+                "layer": 1,
+                "coordinates": [
+                    0.408699713437786,
+                    0.14116814908848896,
+                    0.7913920607878346,
+                    0.4180820072587829
+                ],
+                "background_prompt": "Create an image of background with rolling savanna plains under a vast, clear blue sky. Sparse clusters of tall golden grass sway gently, and scattered acacia trees dot the horizon. Warm sunlight casts long shadows, enhancing the landscape's natural beauty and serenity.",
+                "local_prompt": "Create an image of pelican with a sizeable, uniquely curved bill, its stocky body featuring soft feathers. This pelican is slightly elevated, wings partially spread, beady eyes scanning the surroundings, perched in a relaxed posture, exuding a serene yet attentive demeanor.",
+                "global_prompt": "Create an image of: a tall ostrich dominating the foreground at the left center, showing its distinctive long neck and fluffy feathers. A pelican is slightly behind the ostrich, positioned higher at mid-left, with its sizeable bill and stocky body visible. A flamingo stands further back, partially concealed, displaying its slender legs and graceful neck at mid-right, contributing to a dynamic",
+                "considerable_classes": []
+            },
+            {
+                "class": "ostrich",
+                "layer": 2,
+                "coordinates": [
+                    0.20717912027308977,
+                    0.36686976295293405,
+                    0.4646938401538051,
+                    0.6720754981821165
+                ],
+                "background_prompt": "Create an image of background with rolling savanna plains under a vast, clear blue sky. Sparse clusters of tall golden grass sway gently, and scattered acacia trees dot the horizon. Warm sunlight casts long shadows, enhancing the landscape's natural beauty and serenity.",
+                "local_prompt": "Create an image of ostrich with its tall stature accentuated by an elegantly elongated neck. Its feathers appear fluffy and voluminous, creating a soft, textured appearance. The ostrich is standing with a slight turn, showcasing its powerful legs and large, sharp eyes that convey curiosity.",
+                "global_prompt": "Create an image of: a tall ostrich dominating the foreground at the left center, showing its distinctive long neck and fluffy feathers. A pelican is slightly behind the ostrich, positioned higher at mid-left, with its sizeable bill and stocky body visible. A flamingo stands further back, partially concealed, displaying its slender legs and graceful neck at mid-right, contributing to a dynamic",
+                "considerable_classes": [
+                    "flamingo",
+                    "pelican"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an ostrich in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a pelican in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a flamingo in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ostrich in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pelican behind the ostrich?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the flamingo behind the pelican?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the flamingo partially concealed by other objects?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "64": {
+        "original_metadata": [
+            {
+                "class": "swab",
+                "layer": 0,
+                "coordinates": [
+                    0.28042019611267516,
+                    0.4453378019369263,
+                    0.5346750547640308,
+                    0.7802162565000095
+                ],
+                "background_prompt": "Create an image of background with a soft-focus, earthy ground texture featuring minute specks and natural highlights. Incorporate subtle hints of blurred greenery, suggesting a garden or natural setting, with gentle shadows cast by an unseen canopy above.",
+                "local_prompt": "Create an image of swab with a sleek, slender stick and pristine white cotton tips on both ends, lying horizontally. The stick is smooth and cream-colored, subtly reflecting light, while the cotton tips are fluffy and even, with fibers naturally arranged, giving a soft, inviting appearance.",
+                "global_prompt": "Create an image of: a detailed scene with an ant prominently in the foreground, positioned in the middle-right area, standing alert with its antennae raised, shiny black body, and delicate legs. In the background, place a swab lying horizontally, slightly to the left, with white cotton tips and a slender stick, ensuring the ant appears in front of it. The scene gives a",
+                "background": "Earthy Garden",
+                "considerable_classes": []
+            },
+            {
+                "class": "ant",
+                "layer": 1,
+                "coordinates": [
+                    0.4170087876479661,
+                    0.37590202534409733,
+                    0.7510058387222095,
+                    0.6349417171410006
+                ],
+                "background_prompt": "Create an image of background with a soft-focus, earthy ground texture featuring minute specks and natural highlights. Incorporate subtle hints of blurred greenery, suggesting a garden or natural setting, with gentle shadows cast by an unseen canopy above.",
+                "local_prompt": "Create an image of an ant with a shiny black body, positioned in the middle-right area, standing alertly, with its delicate legs firmly planted and antennae raised high, conveying attentiveness and curiosity. Focus on the intricate details of its segmented body and fine textures on its legs and antennae, ensuring a sense of realism and liveliness.",
+                "global_prompt": "Create an image of: a detailed scene with an ant prominently in the foreground, positioned in the middle-right area, standing alert with its antennae raised, shiny black body, and delicate legs. In the background, place a swab lying horizontally, slightly to the left, with white cotton tips and a slender stick, ensuring the ant appears in front of it. The scene gives a",
+                "considerable_classes": [
+                    "swab"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an ant in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a swab in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ant positioned in front of the swab?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the ant located in the image?",
+                "ground_truth_answer": "Middle-right area, in the foreground"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the swab located in relation to the ant?",
+                "ground_truth_answer": "Behind the ant"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the swab lying horizontally?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "65": {
+        "original_metadata": [
+            {
+                "class": " African crocodile",
+                "layer": 0,
+                "coordinates": [
+                    0.4410108255339251,
+                    0.14326042071905995,
+                    0.8028491532585994,
+                    0.46247929786412467
+                ],
+                "background_prompt": "Create an image of background with dense African foliage, vibrant greenery, and a riverbank in the foreground. Sunlight filters through tree canopies, casting intricate shadows on the moist earth. The river is wide, reflecting the brilliant blue sky speckled with a few fluffy clouds, enhancing the peacefulness of this natural setting.",
+                "local_prompt": "Create an image of African crocodile with its rugged, textured skin glistening under the sun. Its wide, toothy maw partially open, displaying sharp teeth. The crocodile's body partially submerged, showcasing its stealthy nature, with powerful limbs ready to propel. The eyes are alert, possessing a menacing, primordial gaze.",
+                "global_prompt": "Create an image of: a wild boar positioned in front of an African crocodile and hippopotamus, left and below a warthog and hyena, amidst lush greenery. The crocodile is behind the hippopotamus, left and below the warthog, behind the hyena. The hippopotamus is frontward to the warthog and hyena. Display",
+                "background": "African Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "warthog",
+                "layer": 1,
+                "coordinates": [
+                    0.32827907331228445,
+                    0.47887540715387944,
+                    0.6260173788795411,
+                    0.873403585112206
+                ],
+                "background_prompt": "Create an image of background with dense African foliage, vibrant greenery, and a riverbank in the foreground. Sunlight filters through tree canopies, casting intricate shadows on the moist earth. The river is wide, reflecting the brilliant blue sky speckled with a few fluffy clouds, enhancing the peacefulness of this natural setting.",
+                "local_prompt": "Create an image of warthog with tusks protruding prominently, standing alert with ears perked, showcasing its bristled mane running along its ridged back, and a rugged, sturdy physique exuding raw strength and resilience, typical of its natural habitat in the African wilds.",
+                "global_prompt": "Create an image of: a wild boar positioned in front of an African crocodile and hippopotamus, left and below a warthog and hyena, amidst lush greenery. The crocodile is behind the hippopotamus, left and below the warthog, behind the hyena. The hippopotamus is frontward to the warthog and hyena. Display",
+                "considerable_classes": []
+            },
+            {
+                "class": " hyena",
+                "layer": 2,
+                "coordinates": [
+                    0.12446978702778044,
+                    0.12625380387564544,
+                    0.4671159190284103,
+                    0.5039456126741331
+                ],
+                "background_prompt": "Create an image of background with dense African foliage, vibrant greenery, and a riverbank in the foreground. Sunlight filters through tree canopies, casting intricate shadows on the moist earth. The river is wide, reflecting the brilliant blue sky speckled with a few fluffy clouds, enhancing the peacefulness of this natural setting.",
+                "local_prompt": "Create an image of a hyena with a muscular build, standing alert. Its fur is a mix of tawny and spotted patterns, eyes sharp and focused. The ears are perked up, capturing every sound. Its jaws are slightly open, revealing powerful teeth, and the tail is bushy, curved.",
+                "global_prompt": "Create an image of: a wild boar positioned in front of an African crocodile and hippopotamus, left and below a warthog and hyena, amidst lush greenery. The crocodile is behind the hippopotamus, left and below the warthog, behind the hyena. The hippopotamus is frontward to the warthog and hyena. Display",
+                "considerable_classes": [
+                    "warthog"
+                ]
+            },
+            {
+                "class": " hippopotamus",
+                "layer": 3,
+                "coordinates": [
+                    0.4313424107802408,
+                    0.3356005918956597,
+                    0.6495489905769699,
+                    0.6920834844338438
+                ],
+                "background_prompt": "Create an image of background with dense African foliage, vibrant greenery, and a riverbank in the foreground. Sunlight filters through tree canopies, casting intricate shadows on the moist earth. The river is wide, reflecting the brilliant blue sky speckled with a few fluffy clouds, enhancing the peacefulness of this natural setting.",
+                "local_prompt": "Create an image of a hippopotamus with its massive, barrel-shaped body partially submerged in water. Its skin, a grayish brown with slight pink undertones, appears smooth and glistening. The hippo's wide-open mouth reveals large tusks, showcasing its formidable presence. Its small eyes and ears are positioned high on its head, ideal for staying vigilant while mostly submerged.",
+                "global_prompt": "Create an image of: a wild boar positioned in front of an African crocodile and hippopotamus, left and below a warthog and hyena, amidst lush greenery. The crocodile is behind the hippopotamus, left and below the warthog, behind the hyena. The hippopotamus is frontward to the warthog and hyena. Display",
+                "considerable_classes": [
+                    " African crocodile",
+                    "warthog",
+                    " hyena"
+                ]
+            },
+            {
+                "class": " wild boar",
+                "layer": 4,
+                "coordinates": [
+                    0.4980625530506958,
+                    0.14231230517477123,
+                    0.8720021997657998,
+                    0.4426112813611586
+                ],
+                "background_prompt": "Create an image of background with dense African foliage, vibrant greenery, and a riverbank in the foreground. Sunlight filters through tree canopies, casting intricate shadows on the moist earth. The river is wide, reflecting the brilliant blue sky speckled with a few fluffy clouds, enhancing the peacefulness of this natural setting.",
+                "local_prompt": "Create an image of wild boar with bristly dark brown fur, standing alert with its head slightly turned to the side, highlighting its prominent tusks. Its muscular build and stocky legs reflect its strength, while its small, keen eyes convey a sense of awareness. The snout is elongated and slightly protruding, showing signs of dirt from rooting. The wild boar is",
+                "global_prompt": "Create an image of: a wild boar positioned in front of an African crocodile and hippopotamus, left and below a warthog and hyena, amidst lush greenery. The crocodile is behind the hippopotamus, left and below the warthog, behind the hyena. The hippopotamus is frontward to the warthog and hyena. Display",
+                "considerable_classes": [
+                    " African crocodile",
+                    " hippopotamus"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a wild boar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an African crocodile in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hippopotamus in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a warthog in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hyena in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wild boar positioned in front of the African crocodile?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wild boar positioned below the warthog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the African crocodile behind the hippopotamus?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hippopotamus in front of the warthog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hyena to the left of the warthog?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "66": {
+        "original_metadata": [
+            {
+                "class": " sword",
+                "layer": 0,
+                "coordinates": [
+                    0.18627941445924906,
+                    0.3480177358698333,
+                    0.4699144203178333,
+                    0.5889684089972314
+                ],
+                "background_prompt": "Create an image of background with a misty, medieval setting featuring cobblestone paths, ancient castle towers under a cloudy sky, lush greenery sprinkled with wildflowers, and dim, ambient light casting soft shadows.",
+                "local_prompt": "Create an image of a sword with an intricately detailed, ornate hilt encrusted with gemstones, its polished blade gleaming in the light, showing meticulous engravings along its length, giving a sense of history and grandeur.",
+                "global_prompt": "Create an image of: A medieval scene with a glistening chain at the bottom left, positioned with coordinates [0.494, 0.117] to [0.849, 0.439]. Above it, a shiny armor, slightly to the right, with coordinates [0.454, 0.474] to [0.666, 0.788",
+                "background": "Medieval Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": " armor",
+                "layer": 1,
+                "coordinates": [
+                    0.45364619261057415,
+                    0.47382996619831774,
+                    0.6662564650995842,
+                    0.7883754763104567
+                ],
+                "background_prompt": "Create an image of background with a misty, medieval setting featuring cobblestone paths, ancient castle towers under a cloudy sky, lush greenery sprinkled with wildflowers, and dim, ambient light casting soft shadows.",
+                "local_prompt": "Create an image of armor with gleaming silver plates, intricate engravings, and a polished finish. Reflective surfaces catch light dramatically, with articulated joints allowing for mobility. The design blends medieval elegance and functionality, with pauldrons, breastplate, and gauntlets crafted to perfection. Elegant crest or emblem embossed on the chest adds distinction.",
+                "global_prompt": "Create an image of: A medieval scene with a glistening chain at the bottom left, positioned with coordinates [0.494, 0.117] to [0.849, 0.439]. Above it, a shiny armor, slightly to the right, with coordinates [0.454, 0.474] to [0.666, 0.788",
+                "considerable_classes": [
+                    " sword"
+                ]
+            },
+            {
+                "class": "chain mail",
+                "layer": 2,
+                "coordinates": [
+                    0.16860274704890235,
+                    0.3296228642668485,
+                    0.4643584302442749,
+                    0.5474516285171709
+                ],
+                "background_prompt": "Create an image of background with a misty, medieval setting featuring cobblestone paths, ancient castle towers under a cloudy sky, lush greenery sprinkled with wildflowers, and dim, ambient light casting soft shadows.",
+                "local_prompt": "Create an image of chain mail with intricately woven, interlocking metal rings that glisten in ambient light. Some rings show light rust, signifying age and wear, while others shine brightly. Shadows and highlights reveal the meticulous craftsmanship, with a subtle silvery sheen giving it a protective, medieval allure.",
+                "global_prompt": "Create an image of: A medieval scene with a glistening chain at the bottom left, positioned with coordinates [0.494, 0.117] to [0.849, 0.439]. Above it, a shiny armor, slightly to the right, with coordinates [0.454, 0.474] to [0.666, 0.788",
+                "considerable_classes": [
+                    " sword",
+                    " armor"
+                ]
+            },
+            {
+                "class": " chain",
+                "layer": 3,
+                "coordinates": [
+                    0.4938697821865744,
+                    0.1172721191963082,
+                    0.8492854465118045,
+                    0.4392769322457099
+                ],
+                "background_prompt": "Create an image of background with a misty, medieval setting featuring cobblestone paths, ancient castle towers under a cloudy sky, lush greenery sprinkled with wildflowers, and dim, ambient light casting soft shadows.",
+                "local_prompt": "Create an image of a chain with intricate, interlocking links that glisten as if freshly polished, capturing the medieval craftsmanship with fine engravings and a delicate sheen from the metal surface.",
+                "global_prompt": "Create an image of: A medieval scene with a glistening chain at the bottom left, positioned with coordinates [0.494, 0.117] to [0.849, 0.439]. Above it, a shiny armor, slightly to the right, with coordinates [0.454, 0.474] to [0.666, 0.788",
+                "considerable_classes": []
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a sword in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a piece of armor in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there chain mail in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a chain in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the armor positioned in front of the sword?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chain mail positioned in front of the sword?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chain mail positioned in front of the armor?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chain positioned below the armor?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "67": {
+        "original_metadata": [
+            {
+                "class": "collie",
+                "layer": 0,
+                "coordinates": [
+                    0.47368295429577045,
+                    0.2883505895095335,
+                    0.7571366927581051,
+                    0.6470128708040453
+                ],
+                "background_prompt": "Create an image of background with rolling green fields under a clear blue sky, dappled with patches of sunlight filtering through soft, fluffy clouds. Pastoral tranquility harmonized with gentle slopes, occasional wildflowers, and a distant verdant treeline lining the horizon.",
+                "local_prompt": "Create an image of collie with its back partially showing, emphasizing its distinctive long, flowing fur. Its elegant head and expressive eyes peek attractively forward. Focus on textures, capturing the smooth, richly colored coat and gentle mane that frames its face. Highlight the dog's poised posture and friendly demeanor, reflecting the breed's intelligent and alert nature.",
+                "global_prompt": "Create an image of: a collie at the back, partially visible, overlapping a larger Labrador retriever in the foreground, with a fluffy Old English sheepdog between; to the side, a golden retriever sits slightly in front, creating a layered effect. Each dog is accurately sized and positioned based on the given relative coordinates, capturing their distinct breeds and fur textures in a lush,",
+                "background": "Pastoral Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "golden retriever",
+                "layer": 1,
+                "coordinates": [
+                    0.15205145063005135,
+                    0.2265999355181442,
+                    0.5078589147407176,
+                    0.49424114393670415
+                ],
+                "background_prompt": "Create an image of background with rolling green fields under a clear blue sky, dappled with patches of sunlight filtering through soft, fluffy clouds. Pastoral tranquility harmonized with gentle slopes, occasional wildflowers, and a distant verdant treeline lining the horizon.",
+                "local_prompt": "Create an image of a golden retriever with a lush, flowing coat sitting slightly forward, embodying a calm demeanor. Capture its expressive eyes, signature golden fur glowing in soft waves, and poised upright ears. Highlight the dog's gentle nature and strong, athletic build, accentuating its distinct breed characteristics.",
+                "global_prompt": "Create an image of: a collie at the back, partially visible, overlapping a larger Labrador retriever in the foreground, with a fluffy Old English sheepdog between; to the side, a golden retriever sits slightly in front, creating a layered effect. Each dog is accurately sized and positioned based on the given relative coordinates, capturing their distinct breeds and fur textures in a lush,",
+                "considerable_classes": [
+                    "collie"
+                ]
+            },
+            {
+                "class": "Old English sheepdog",
+                "layer": 2,
+                "coordinates": [
+                    0.24122478481280676,
+                    0.4350053510280263,
+                    0.5763362551411644,
+                    0.7574997881672179
+                ],
+                "background_prompt": "Create an image of background with rolling green fields under a clear blue sky, dappled with patches of sunlight filtering through soft, fluffy clouds. Pastoral tranquility harmonized with gentle slopes, occasional wildflowers, and a distant verdant treeline lining the horizon.",
+                "local_prompt": "Create an image of an Old English sheepdog with a voluminous, fluffy coat characterized by its iconic shaggy fur, covering its eyes partially. The dog displays a relaxed posture, with a gentle demeanor captured in its expressive face, while standing naturally, showcasing its robust build. Highlight the texture and varying shades of its fur to emphasize the breed's distinctive appearance.",
+                "global_prompt": "Create an image of: a collie at the back, partially visible, overlapping a larger Labrador retriever in the foreground, with a fluffy Old English sheepdog between; to the side, a golden retriever sits slightly in front, creating a layered effect. Each dog is accurately sized and positioned based on the given relative coordinates, capturing their distinct breeds and fur textures in a lush,",
+                "considerable_classes": [
+                    "collie",
+                    "golden retriever"
+                ]
+            },
+            {
+                "class": "Labrador retriever",
+                "layer": 3,
+                "coordinates": [
+                    0.4574909721941469,
+                    0.23537706882230458,
+                    0.8198041082170684,
+                    0.6336793890539054
+                ],
+                "background_prompt": "Create an image of background with rolling green fields under a clear blue sky, dappled with patches of sunlight filtering through soft, fluffy clouds. Pastoral tranquility harmonized with gentle slopes, occasional wildflowers, and a distant verdant treeline lining the horizon.",
+                "local_prompt": "Create an image of Labrador retriever with a sleek, muscular build and a glossy coat, standing proudly. Its expressive eyes gleam with warmth and intelligence.",
+                "global_prompt": "Create an image of: a collie at the back, partially visible, overlapping a larger Labrador retriever in the foreground, with a fluffy Old English sheepdog between; to the side, a golden retriever sits slightly in front, creating a layered effect. Each dog is accurately sized and positioned based on the given relative coordinates, capturing their distinct breeds and fur textures in a lush,",
+                "considerable_classes": [
+                    "golden retriever",
+                    "Old English sheepdog"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a collie in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Labrador retriever in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an Old English sheepdog in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a golden retriever in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the collie behind the Labrador retriever?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Old English sheepdog in front of the collie?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the golden retriever in front of the Old English sheepdog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Labrador retriever in front of the Old English sheepdog?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "68": {
+        "original_metadata": [
+            {
+                "class": "cash machine",
+                "layer": 0,
+                "coordinates": [
+                    0.23476805678050244,
+                    0.3848321784242116,
+                    0.6301170835306547,
+                    0.6436062622959058
+                ],
+                "background_prompt": "Create an image of background with a sleek modern urban setting, featuring smooth concrete walls, polished tile flooring, and soft ambient lighting. There are geometric shapes in the architecture, with hints of sleek metallic elements, and subtle reflections visible on the glossy surfaces.",
+                "local_prompt": "Create an image of cash machine with sleek metallic surfaces and a subdued gray finish. The front showcases a clear, intuitive interface with a touchscreen. A well-organized keypad is positioned below the screen. Subtle lighting accents highlight the card slot and cash dispenser, emphasizing functionality and ease of use.",
+                "global_prompt": "Create an image of: a scene with a modern vending machine centrally placed, partially obscuring a cash machine behind it; the vending machine is vividly colored, standing upright with a glass panel showcasing assorted snacks and drinks. The cash machine, subdued in shades of gray and metallic surfaces, is positioned with its screen and keypad clearly visible. The vending machine is centered top-right, while the cash",
+                "background": "Modern Urban Setting",
+                "considerable_classes": []
+            },
+            {
+                "class": "vending machine",
+                "layer": 1,
+                "coordinates": [
+                    0.44580883878404354,
+                    0.21708847800660314,
+                    0.8384812840171076,
+                    0.4280248567249736
+                ],
+                "background_prompt": "Create an image of background with a sleek modern urban setting, featuring smooth concrete walls, polished tile flooring, and soft ambient lighting. There are geometric shapes in the architecture, with hints of sleek metallic elements, and subtle reflections visible on the glossy surfaces.",
+                "local_prompt": "Create an image of vending machine with a bright, vivid design standing upright. It has a glass panel displaying assorted snacks and drinks in neatly organized rows. Its colorful exterior enhances its modern look, drawing attention to its sleek and stylish form.",
+                "global_prompt": "Create an image of: a scene with a modern vending machine centrally placed, partially obscuring a cash machine behind it; the vending machine is vividly colored, standing upright with a glass panel showcasing assorted snacks and drinks. The cash machine, subdued in shades of gray and metallic surfaces, is positioned with its screen and keypad clearly visible. The vending machine is centered top-right, while the cash",
+                "considerable_classes": [
+                    "cash machine"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a vending machine in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cash machine in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the vending machine in front of the cash machine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cash machine partially obscured by the vending machine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the vending machine positioned in relation to the cash machine?",
+                "ground_truth_answer": "The vending machine is in front of and partially obscuring the cash machine."
+            }
+        ]
+    },
+    "69": {
+        "original_metadata": [
+            {
+                "class": "Greater Swiss Mountain dog",
+                "layer": 0,
+                "coordinates": [
+                    0.38576332052448226,
+                    0.12001874250669312,
+                    0.7684185170642082,
+                    0.4753997886001311
+                ],
+                "background_prompt": "Create an image of background with lush greenery from a grassy field, rolling gently under a bright blue sky. The sky is adorned with sparse, fluffy clouds, casting soft shadows on the landscape. The scene conveys a sense of tranquility and natural elegance.",
+                "local_prompt": "Create an image of Greater Swiss Mountain dog with its head and upper body visible, highlighting its distinctive tricolor coat, strong build, and attentive expression. The dog stands gracefully, exuding a sense of alertness and confidence. Showcase its glossy fur, broad nose, and intelligent eyes.",
+                "global_prompt": "Create an image of: A Greater Swiss Mountain dog standing behind a Saint Bernard, both in a grassy field. The Greater Swiss Mountain dog is positioned slightly higher, revealing its head and upper body, while the Saint Bernard sits in front, capturing a gentle gaze. The scene is bright and natural, capturing the elegance and size of both breeds, with a blue sky and sparse clouds in the",
+                "background": "Tranquil Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "Saint Bernard",
+                "layer": 1,
+                "coordinates": [
+                    0.19720314704189415,
+                    0.27597062269398254,
+                    0.4611403643606594,
+                    0.6198161643568412
+                ],
+                "background_prompt": "Create an image of background with lush greenery from a grassy field, rolling gently under a bright blue sky. The sky is adorned with sparse, fluffy clouds, casting soft shadows on the landscape. The scene conveys a sense of tranquility and natural elegance.",
+                "local_prompt": "Create an image of a Saint Bernard with a large, muscular build, featuring a thick fur coat predominantly white with rich brown markings. Highlight its broad head, expressive dark eyes, and a gentle, friendly expression. Capture its distinctive, droopy ears and iconic barrel chest as it sits. Portray its thick, bushy tail curled by its side.",
+                "global_prompt": "Create an image of: A Greater Swiss Mountain dog standing behind a Saint Bernard, both in a grassy field. The Greater Swiss Mountain dog is positioned slightly higher, revealing its head and upper body, while the Saint Bernard sits in front, capturing a gentle gaze. The scene is bright and natural, capturing the elegance and size of both breeds, with a blue sky and sparse clouds in the",
+                "considerable_classes": [
+                    "Greater Swiss Mountain dog"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a Greater Swiss Mountain dog in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Saint Bernard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Saint Bernard in front of the Greater Swiss Mountain dog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Greater Swiss Mountain dog behind the Saint Bernard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Greater Swiss Mountain dog positioned higher than the Saint Bernard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Saint Bernard sitting?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

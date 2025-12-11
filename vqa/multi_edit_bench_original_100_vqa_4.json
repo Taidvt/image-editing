@@ -1,0 +1,970 @@
+{
+    "30": {
+        "original_metadata": [
+            {
+                "class": "crane",
+                "layer": 0,
+                "coordinates": [
+                    0.14672961140963753,
+                    0.37506391496500047,
+                    0.4531654356658095,
+                    0.7618151360648711
+                ],
+                "background_prompt": "Create an image of background with a calm sea under a vibrant sunset sky, gentle waves lapping against rocky shores, and lush coastal cliffs framing a distant horizon filled with wispy clouds dispersing soft golden light.",
+                "local_prompt": "Create an image of crane with a powerful, elegant stance, its long neck curved gracefully, poised in a regal posture. Its slender legs and delicate plumage emphasize its graceful form. The crane's detailed feathers exhibit subtle, intricate patterns and shading, capturing the essence of its majestic presence.",
+                "global_prompt": "Create an image of: a serene coastal scene featuring a rusted shipwreck at the bottom left, a majestic hawk soaring to the right of and in front of a large crane, which is partially hidden behind a sturdy fishing vessel. The shipwreck is positioned in the lower-left quadrant. The hawk flies gracefully to the center left, wings spread wide. The crane stands tall in",
+                "background": "Coastal Sunset",
+                "considerable_classes": []
+            },
+            {
+                "class": "wreck",
+                "layer": 1,
+                "coordinates": [
+                    0.48788343829166647,
+                    0.15878364759982957,
+                    0.7277011642334763,
+                    0.3591915505394666
+                ],
+                "background_prompt": "Create an image of background with a calm sea under a vibrant sunset sky, gentle waves lapping against rocky shores, and lush coastal cliffs framing a distant horizon filled with wispy clouds dispersing soft golden light.",
+                "local_prompt": "Create an image of wreck with its rusted hull and jagged edges jutting out, showing years of deterioration. The structure's twisted metal beams are crusted with sea weathering, starkly portraying a history of maritime misfortune. It lies in still waters, partially submerged and shrouded in mystery.",
+                "global_prompt": "Create an image of: a serene coastal scene featuring a rusted shipwreck at the bottom left, a majestic hawk soaring to the right of and in front of a large crane, which is partially hidden behind a sturdy fishing vessel. The shipwreck is positioned in the lower-left quadrant. The hawk flies gracefully to the center left, wings spread wide. The crane stands tall in",
+                "considerable_classes": []
+            },
+            {
+                "class": "hawk",
+                "layer": 2,
+                "coordinates": [
+                    0.2174111088098928,
+                    0.46872907088602256,
+                    0.49198808718261244,
+                    0.7874403862145496
+                ],
+                "background_prompt": "Create an image of background with a calm sea under a vibrant sunset sky, gentle waves lapping against rocky shores, and lush coastal cliffs framing a distant horizon filled with wispy clouds dispersing soft golden light.",
+                "local_prompt": "Create an image of hawk with its wings spread wide in graceful flight. Capture its majestic form with impressive plumage patterns, sharp eyes, and sharp talons extended as if ready to land. Show the hawk hovering in mid-air, exuding strength and elegance.",
+                "global_prompt": "Create an image of: a serene coastal scene featuring a rusted shipwreck at the bottom left, a majestic hawk soaring to the right of and in front of a large crane, which is partially hidden behind a sturdy fishing vessel. The shipwreck is positioned in the lower-left quadrant. The hawk flies gracefully to the center left, wings spread wide. The crane stands tall in",
+                "considerable_classes": [
+                    "crane"
+                ]
+            },
+            {
+                "class": "fishing vessel",
+                "layer": 3,
+                "coordinates": [
+                    0.12002815904257497,
+                    0.20009809652361712,
+                    0.4468948345555808,
+                    0.45786105491971785
+                ],
+                "background_prompt": "Create an image of background with a calm sea under a vibrant sunset sky, gentle waves lapping against rocky shores, and lush coastal cliffs framing a distant horizon filled with wispy clouds dispersing soft golden light.",
+                "local_prompt": "Create an image of fishing vessel with weathered hull, encrusted with barnacles, featuring a tangle of nets and colorful buoys hanging from the sides and worn, faded paint, revealing layers of history.",
+                "global_prompt": "Create an image of: a serene coastal scene featuring a rusted shipwreck at the bottom left, a majestic hawk soaring to the right of and in front of a large crane, which is partially hidden behind a sturdy fishing vessel. The shipwreck is positioned in the lower-left quadrant. The hawk flies gracefully to the center left, wings spread wide. The crane stands tall in",
+                "considerable_classes": [
+                    "crane"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a shipwreck in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hawk in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a crane in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a fishing vessel in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hawk to the right of the crane?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the crane partially hidden behind the fishing vessel?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shipwreck located in the bottom left quadrant of the image?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "31": {
+        "original_metadata": [
+            {
+                "class": "scorpion",
+                "layer": 0,
+                "coordinates": [
+                    0.36006737336679695,
+                    0.11712217465069688,
+                    0.6339311050140412,
+                    0.36891635414963786
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, eerie forest setting, illuminated by soft moonlight filtering through dense, twisted branches. Enclosed spaces create shadowy patterns across the uneven, leaf-strewn ground, adding to the mysterious ambiance.",
+                "local_prompt": "Create an image of scorpion with a robust exoskeleton, dark and glossy, casting a menacing silhouette. Its pincers are open wide in a display of readiness, while the curved tail with a poised stinger hints at latent power. The multi-segmented body and textured surface reflect a predatory aura.",
+                "global_prompt": "Create an image of: a complex web with a black and gold garden spider prominently in the foreground, nestled between and slightly below a barn spider and a garden spider. A tarantula looms behind them all, with a scorpion secluded further back in the shadows, creating layers of intrigue and depth, the spiders and scorpion arranged harmoniously with their areas respecting the defined relative positions",
+                "background": "Eerie Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "tarantula",
+                "layer": 1,
+                "coordinates": [
+                    0.16754637482444895,
+                    0.20656699791388908,
+                    0.4999502046276854,
+                    0.45883714662471786
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, eerie forest setting, illuminated by soft moonlight filtering through dense, twisted branches. Enclosed spaces create shadowy patterns across the uneven, leaf-strewn ground, adding to the mysterious ambiance.",
+                "local_prompt": "Create an image of tarantula with a robust, hairy body; its legs arched gracefully; its carapace bearing intricate patterns. Rich, earthy colors blend seamlessly along its limbs, exuding strength and elegance.",
+                "global_prompt": "Create an image of: a complex web with a black and gold garden spider prominently in the foreground, nestled between and slightly below a barn spider and a garden spider. A tarantula looms behind them all, with a scorpion secluded further back in the shadows, creating layers of intrigue and depth, the spiders and scorpion arranged harmoniously with their areas respecting the defined relative positions",
+                "considerable_classes": [
+                    "scorpion"
+                ]
+            },
+            {
+                "class": "barn spider",
+                "layer": 2,
+                "coordinates": [
+                    0.24583556516766625,
+                    0.47128458440704113,
+                    0.5955546077391477,
+                    0.7550321895609022
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, eerie forest setting, illuminated by soft moonlight filtering through dense, twisted branches. Enclosed spaces create shadowy patterns across the uneven, leaf-strewn ground, adding to the mysterious ambiance.",
+                "local_prompt": "Create an image of a barn spider with intricate patterns on its abdomen, showcasing alternating bands of brown and tan. Its legs are long, slender, and covered in minute, velvety hairs, poised delicately as if in mid-motion. The spider's eyes are reflective and glistening, adding an enigmatic touch, while its overall pose expresses a sense of watchful stillness,",
+                "global_prompt": "Create an image of: a complex web with a black and gold garden spider prominently in the foreground, nestled between and slightly below a barn spider and a garden spider. A tarantula looms behind them all, with a scorpion secluded further back in the shadows, creating layers of intrigue and depth, the spiders and scorpion arranged harmoniously with their areas respecting the defined relative positions",
+                "considerable_classes": []
+            },
+            {
+                "class": "black and gold garden spider",
+                "layer": 3,
+                "coordinates": [
+                    0.405577836194722,
+                    0.177027797165653,
+                    0.797644582374518,
+                    0.46207772107998324
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, eerie forest setting, illuminated by soft moonlight filtering through dense, twisted branches. Enclosed spaces create shadowy patterns across the uneven, leaf-strewn ground, adding to the mysterious ambiance.",
+                "local_prompt": "Create an image of black and gold garden spider with a distinct abdomen featuring vibrant gold and dark black stripes. Its long, slender legs are meticulously segmented, displaying alternating bands of black and gold. The spider's body glistens, reflecting light subtly. It has precise, natural web-spinning action visible with elegant posture, showcasing its natural predatory grace.",
+                "global_prompt": "Create an image of: a complex web with a black and gold garden spider prominently in the foreground, nestled between and slightly below a barn spider and a garden spider. A tarantula looms behind them all, with a scorpion secluded further back in the shadows, creating layers of intrigue and depth, the spiders and scorpion arranged harmoniously with their areas respecting the defined relative positions",
+                "considerable_classes": [
+                    "scorpion"
+                ]
+            },
+            {
+                "class": "garden spider",
+                "layer": 4,
+                "coordinates": [
+                    0.12460629567737934,
+                    0.23845883368041845,
+                    0.37155967116727345,
+                    0.5285379930821521
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, eerie forest setting, illuminated by soft moonlight filtering through dense, twisted branches. Enclosed spaces create shadowy patterns across the uneven, leaf-strewn ground, adding to the mysterious ambiance.",
+                "local_prompt": "Create an image of garden spider with vibrant yellow and black patterns on its abdomen. Its eight legs arch gracefully, poised delicately. The spider's intricate eyes focus intently forward, each leg bristling with fine hairs, capturing a moment of predatory elegance.",
+                "global_prompt": "Create an image of: a complex web with a black and gold garden spider prominently in the foreground, nestled between and slightly below a barn spider and a garden spider. A tarantula looms behind them all, with a scorpion secluded further back in the shadows, creating layers of intrigue and depth, the spiders and scorpion arranged harmoniously with their areas respecting the defined relative positions",
+                "considerable_classes": [
+                    "scorpion",
+                    "tarantula",
+                    "barn spider"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a black and gold garden spider in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a scorpion visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a tarantula present in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a barn spider in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a garden spider in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the black and gold garden spider in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tarantula behind the barn spider?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the scorpion located behind the tarantula?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the garden spider positioned in front of the barn spider?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the black and gold garden spider nestled between the barn spider and the garden spider?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "32": {
+        "original_metadata": [
+            {
+                "class": "shopping basket",
+                "layer": 0,
+                "coordinates": [
+                    0.23169437979386298,
+                    0.11260363506102454,
+                    0.5118155543487262,
+                    0.33668392344683334
+                ],
+                "background_prompt": "Create an image of background with vibrant urban scenery, featuring diffused sunlight filtering through store windows, casting warm glows on polished floors, soft shadows stretching towards the foreground, and subtle reflections on glass surfaces, enveloped by bustling indoor ambiance.",
+                "local_prompt": "Create an image of shopping basket with a woven texture and sturdy handles, overflowing with a variety of fresh groceries. The basket contains vibrant produce including reds, greens, yellows, with items peeking out like leafy greens and a loaf of bread. The basket's handles are leather, laying casually along its sides, adding a rustic charm.",
+                "global_prompt": "Create an image of: a dynamic scene with a bustling grocery store located at the bottom center-left, featuring a stack of colorful fruits and vegetables. A traffic light stands tall to the right, slightly forward, its lights shining brightly. A shopping basket brimming with groceries sits near the top-left corner. In the mid-ground, a cash machine is partially visible, while a shopping cart,",
+                "background": "Urban Indoor Scene",
+                "considerable_classes": []
+            },
+            {
+                "class": "cash machine",
+                "layer": 1,
+                "coordinates": [
+                    0.17068765196911817,
+                    0.2394537401412091,
+                    0.3975433508821355,
+                    0.6095734409553729
+                ],
+                "background_prompt": "Create an image of background with vibrant urban scenery, featuring diffused sunlight filtering through store windows, casting warm glows on polished floors, soft shadows stretching towards the foreground, and subtle reflections on glass surfaces, enveloped by bustling indoor ambiance.",
+                "local_prompt": "Create an image of a cash machine with a sleek, modern design, featuring a digital touch screen and a card slot below it. The keypad is illuminated, hinting at user interaction. Its metallic finish reflects ambient light, suggesting a well-used device.",
+                "global_prompt": "Create an image of: a dynamic scene with a bustling grocery store located at the bottom center-left, featuring a stack of colorful fruits and vegetables. A traffic light stands tall to the right, slightly forward, its lights shining brightly. A shopping basket brimming with groceries sits near the top-left corner. In the mid-ground, a cash machine is partially visible, while a shopping cart,",
+                "considerable_classes": [
+                    "shopping basket"
+                ]
+            },
+            {
+                "class": "grocery store",
+                "layer": 2,
+                "coordinates": [
+                    0.48908024287239527,
+                    0.12530852067116297,
+                    0.8890466523637792,
+                    0.3606264817937873
+                ],
+                "background_prompt": "Create an image of background with vibrant urban scenery, featuring diffused sunlight filtering through store windows, casting warm glows on polished floors, soft shadows stretching towards the foreground, and subtle reflections on glass surfaces, enveloped by bustling indoor ambiance.",
+                "local_prompt": "Create an image of a grocery store with neatly arranged aisles under bright fluorescent lighting, featuring an inviting stack of vibrant fruits and vegetables. Add signs with prices, a checkout counter bustling with activity, and shoppers energetically moving through the space.",
+                "global_prompt": "Create an image of: a dynamic scene with a bustling grocery store located at the bottom center-left, featuring a stack of colorful fruits and vegetables. A traffic light stands tall to the right, slightly forward, its lights shining brightly. A shopping basket brimming with groceries sits near the top-left corner. In the mid-ground, a cash machine is partially visible, while a shopping cart,",
+                "considerable_classes": [
+                    "shopping basket"
+                ]
+            },
+            {
+                "class": "traffic light",
+                "layer": 3,
+                "coordinates": [
+                    0.30471362334440016,
+                    0.4342771368011292,
+                    0.5816285797926992,
+                    0.6631096125120434
+                ],
+                "background_prompt": "Create an image of background with vibrant urban scenery, featuring diffused sunlight filtering through store windows, casting warm glows on polished floors, soft shadows stretching towards the foreground, and subtle reflections on glass surfaces, enveloped by bustling indoor ambiance.",
+                "local_prompt": "Create an image of traffic light with a sleek, contemporary design featuring a sturdy steel pole. It displays a vertical arrangement of bright LED lights: red, yellow, and green, each encased in a glossy, weather-resistant housing. The lights illuminate clearly, indicating readiness for a bustling urban environment, with reflections glinting off the smooth surface.",
+                "global_prompt": "Create an image of: a dynamic scene with a bustling grocery store located at the bottom center-left, featuring a stack of colorful fruits and vegetables. A traffic light stands tall to the right, slightly forward, its lights shining brightly. A shopping basket brimming with groceries sits near the top-left corner. In the mid-ground, a cash machine is partially visible, while a shopping cart,",
+                "considerable_classes": [
+                    "cash machine"
+                ]
+            },
+            {
+                "class": "shopping cart",
+                "layer": 4,
+                "coordinates": [
+                    0.12830199432352468,
+                    0.3894689612997716,
+                    0.34861298246788197,
+                    0.6536332814951025
+                ],
+                "background_prompt": "Create an image of background with vibrant urban scenery, featuring diffused sunlight filtering through store windows, casting warm glows on polished floors, soft shadows stretching towards the foreground, and subtle reflections on glass surfaces, enveloped by bustling indoor ambiance.",
+                "local_prompt": "Create an image of shopping cart with sleek, polished metal frames glistening under bright lights. Its wire basket is spacious and intricately woven, reflecting utility and design. Four sturdy wheels hint at maneuverability while the ergonomic handlebar invites ease of use.",
+                "global_prompt": "Create an image of: a dynamic scene with a bustling grocery store located at the bottom center-left, featuring a stack of colorful fruits and vegetables. A traffic light stands tall to the right, slightly forward, its lights shining brightly. A shopping basket brimming with groceries sits near the top-left corner. In the mid-ground, a cash machine is partially visible, while a shopping cart,",
+                "considerable_classes": [
+                    "cash machine",
+                    "traffic light"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a shopping basket in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a grocery store depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a traffic light visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a shopping cart in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shopping basket located in the top-left corner of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the grocery store positioned at the bottom center-left?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the traffic light to the right of the grocery store?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shopping cart in front of the cash machine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cash machine partially visible in the mid-ground?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "33": {
+        "original_metadata": [
+            {
+                "class": "mashed potato",
+                "layer": 0,
+                "coordinates": [
+                    0.251161786142458,
+                    0.20455700108737057,
+                    0.604090176545933,
+                    0.5327657102035379
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen ambiance. The dim light from vintage sconces casts a cozy glow over weathered brick walls and wooden shelves filled with mason jars. Subtle shadows play around a stone fireplace, enhancing the homely atmosphere. A vase of fresh daisies sits in the window, radiating simple charm.",
+                "local_prompt": "Create an image of mashed potato with a creamy consistency, topped with a perfectly placed dollop of melting butter. The butter should gleam under soft lighting, enhancing its golden hue as it gently melts into the fluffy potato. Sprinkle some finely chopped chives on top, adding a touch of green contrast. The texture should showcase a smooth yet slightly rustic surface, indicative of a home-style preparation",
+                "global_prompt": "Create an image of: A dinner scene featuring a meat loaf in the foreground, located slightly to the left, with a mashed potato dish peeking out from behind it, both spread across a wooden table. The meat loaf is richly glazed, showcasing a crispy crust and seasoned with herbs. The mashed potatoes are creamy, with a dollop of butter melting on top, situated directly behind the",
+                "background": "Rustic Kitchen",
+                "considerable_classes": []
+            },
+            {
+                "class": "meat loaf",
+                "layer": 1,
+                "coordinates": [
+                    0.1704232333272574,
+                    0.23436737013787667,
+                    0.3766584237952252,
+                    0.568613772713763
+                ],
+                "background_prompt": "Create an image of background with a warm, rustic kitchen ambiance. The dim light from vintage sconces casts a cozy glow over weathered brick walls and wooden shelves filled with mason jars. Subtle shadows play around a stone fireplace, enhancing the homely atmosphere. A vase of fresh daisies sits in the window, radiating simple charm.",
+                "local_prompt": "Create an image of meat loaf with a richly glazed surface showing a crispy, browned crust. It is seasoned with visible herbs scattered across the top, giving it a fragrant and savory appearance. The loaf has a slight sheen from the glaze, highlighting its meticulously baked texture.",
+                "global_prompt": "Create an image of: A dinner scene featuring a meat loaf in the foreground, located slightly to the left, with a mashed potato dish peeking out from behind it, both spread across a wooden table. The meat loaf is richly glazed, showcasing a crispy crust and seasoned with herbs. The mashed potatoes are creamy, with a dollop of butter melting on top, situated directly behind the",
+                "considerable_classes": [
+                    "mashed potato"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a meat loaf in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are mashed potatoes present in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the meat loaf in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the mashed potato dish behind the meat loaf?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the meat loaf located slightly to the left?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the meat loaf in front of the mashed potatoes?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "34": {
+        "original_metadata": [
+            {
+                "class": "tailed frog",
+                "layer": 0,
+                "coordinates": [
+                    0.3576123111399221,
+                    0.3577643264199968,
+                    0.7178342779953153,
+                    0.7113231242300702
+                ],
+                "background_prompt": "Create an image of background with a vivid blur of dense, layered greenery, capturing the essence of a vibrant rainforest. Light filters through thick foliage, casting soft, ethereal shadows and highlights. Lush, overlapping leaves create a sense of depth and immersion in this tropical paradise.",
+                "local_prompt": "Create an image of tailed frog with a muted green and brown speckled skin, blending with the leaf as it subtly emerges. Its slender tail curves elegantly, and the frog's slightly raised, watchful eyes peer cautiously through the sparse cover, conveying a sense of alertness.",
+                "global_prompt": "Create an image of: a vibrant tree frog perched on a lush green leaf, prominently in the foreground. Its large eyes and bright green skin with subtle orange markings catch the light. Behind it, a more subtly colored tailed frog can be partially seen through the leaves, positioned lower in the scene. The background features a blur of dense rainforest foliage, accentuating the frogs' colors.",
+                "background": "Tropical Rainforest",
+                "considerable_classes": []
+            },
+            {
+                "class": "tree frog",
+                "layer": 1,
+                "coordinates": [
+                    0.2962955957389327,
+                    0.21547310980403786,
+                    0.5749114659144355,
+                    0.5297395694029029
+                ],
+                "background_prompt": "Create an image of background with a vivid blur of dense, layered greenery, capturing the essence of a vibrant rainforest. Light filters through thick foliage, casting soft, ethereal shadows and highlights. Lush, overlapping leaves create a sense of depth and immersion in this tropical paradise.",
+                "local_prompt": "Create an image of tree frog with vivid green skin adorned with subtle orange markings. It perches gracefully on a surface, its large, round eyes catching the light. The frog's moist texture enhances its vibrant appearance.",
+                "global_prompt": "Create an image of: a vibrant tree frog perched on a lush green leaf, prominently in the foreground. Its large eyes and bright green skin with subtle orange markings catch the light. Behind it, a more subtly colored tailed frog can be partially seen through the leaves, positioned lower in the scene. The background features a blur of dense rainforest foliage, accentuating the frogs' colors.",
+                "considerable_classes": [
+                    "tailed frog"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a tree frog in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a tailed frog in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tree frog in front of the tailed frog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tailed frog partially visible behind the tree frog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tree frog positioned higher in the scene than the tailed frog?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "35": {
+        "original_metadata": [
+            {
+                "class": "cardigan",
+                "layer": 0,
+                "coordinates": [
+                    0.24369317467922544,
+                    0.38596811899956096,
+                    0.5164603115586354,
+                    0.6069686173428157
+                ],
+                "background_prompt": "Create an image of background with soft, ambient lighting casting warm, inviting shadows. Subtle textures suggest a cozy indoor setting, with gentle hues of autumn leaves and a hint of polished wooden panels, evoking a sense of comfort and warmth.",
+                "local_prompt": "Create an image of a cardigan with a soft, woven texture in a warm, muted hue. The cardigan features an open front design with ribbed cuffs and hem. It drapes naturally, exhibiting a relaxed, comfortable fit. Accentuated with delicate stitch patterns, it exudes an inviting, cozy feel.",
+                "global_prompt": "Create an image of: a stylish front-layered scene showing a cozy sweater positioned prominently with its top-left corner at relative coordinates [0.286, 0.482] and bottom-right corner at [0.593, 0.849]. In the background, a complementary cardigan adds depth, starting at [0.244, 0.386] and extending to [0",
+                "background": "Cozy Autumn Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "sweater",
+                "layer": 1,
+                "coordinates": [
+                    0.28602884740374057,
+                    0.4820594107719751,
+                    0.5930211523757336,
+                    0.8494519230031039
+                ],
+                "background_prompt": "Create an image of background with soft, ambient lighting casting warm, inviting shadows. Subtle textures suggest a cozy indoor setting, with gentle hues of autumn leaves and a hint of polished wooden panels, evoking a sense of comfort and warmth.",
+                "local_prompt": "Create an image of a sweater with a cozy, oversized fit featuring a soft, textured knit pattern. The sweater has a warm, muted color palette with intricate cable-knit designs across the front. Its sleeves are slightly loose, adding to the overall comfort and stylish look. The neckline is a relaxed crew style, completing the snug, inviting appearance.",
+                "global_prompt": "Create an image of: a stylish front-layered scene showing a cozy sweater positioned prominently with its top-left corner at relative coordinates [0.286, 0.482] and bottom-right corner at [0.593, 0.849]. In the background, a complementary cardigan adds depth, starting at [0.244, 0.386] and extending to [0",
+                "considerable_classes": [
+                    "cardigan"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a sweater in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cardigan in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sweater in front of the cardigan?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cardigan behind the sweater?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Does the sweater overlap with the cardigan?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "36": {
+        "original_metadata": [
+            {
+                "class": "brown bear",
+                "layer": 0,
+                "coordinates": [
+                    0.45099210408940826,
+                    0.19111263524774968,
+                    0.7565649180135474,
+                    0.45722403435563913
+                ],
+                "background_prompt": "Create an image of background with dense forest showcasing lush green foliage and layers of towering trees, evoking a deep, mysterious atmosphere, rich in textures and natural shadows.",
+                "local_prompt": "Create an image of a brown bear with its face and ears partly visible, peeking out shyly. The bear features thick, lush fur, exuding a sense of curiosity. Its eyes are bright and inquisitive, partially hidden behind the greenery, offering a glimpse of playful mystery.",
+                "global_prompt": "Create an image of: A dense forest in the foreground, with an American black bear slightly to the left, standing and looking into the forest. Behind the forest, a brown bear is partially visible, peeking over with its face and ears seen. The scene incorporates lush green foliage and a sense of depth, with the brown bear discreetly positioned in the background, adding a hidden sense",
+                "background": "Dense Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "American black bear",
+                "layer": 1,
+                "coordinates": [
+                    0.28598802611216506,
+                    0.15989898804614555,
+                    0.5219863103738103,
+                    0.49656519646622577
+                ],
+                "background_prompt": "Create an image of background with dense forest showcasing lush green foliage and layers of towering trees, evoking a deep, mysterious atmosphere, rich in textures and natural shadows.",
+                "local_prompt": "Create an image of American black bear with a robust, muscular build and a glossy black coat. It stands upright, with curious eyes peering into the distance, ears slightly perked, and its strong limbs firmly planted, exuding a sense of alertness and readiness. The bear's snout is keenly pointed, capturing its majestic yet cautious presence.",
+                "global_prompt": "Create an image of: A dense forest in the foreground, with an American black bear slightly to the left, standing and looking into the forest. Behind the forest, a brown bear is partially visible, peeking over with its face and ears seen. The scene incorporates lush green foliage and a sense of depth, with the brown bear discreetly positioned in the background, adding a hidden sense",
+                "considerable_classes": []
+            },
+            {
+                "class": "forest",
+                "layer": 2,
+                "coordinates": [
+                    0.4189132808260383,
+                    0.3332805312955487,
+                    0.735265115250327,
+                    0.6245772825891863
+                ],
+                "background_prompt": "Create an image of background with dense forest showcasing lush green foliage and layers of towering trees, evoking a deep, mysterious atmosphere, rich in textures and natural shadows.",
+                "local_prompt": "Create an image of forest with thick, towering trees densely packed, their leaves forming a lush canopy overhead. The underbrush is rich with ferns and smaller bushes, creating a vibrant and textured green landscape. The interplay of light and shadows adds depth, enhancing the forest\u2019s mysterious allure.",
+                "global_prompt": "Create an image of: A dense forest in the foreground, with an American black bear slightly to the left, standing and looking into the forest. Behind the forest, a brown bear is partially visible, peeking over with its face and ears seen. The scene incorporates lush green foliage and a sense of depth, with the brown bear discreetly positioned in the background, adding a hidden sense",
+                "considerable_classes": [
+                    "brown bear",
+                    "American black bear"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an American black bear in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a brown bear in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a forest in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the American black bear in front of the forest?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the brown bear behind the forest?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the American black bear to the left of the center of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the brown bear's face and ears visible peeking over the forest?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "37": {
+        "original_metadata": [
+            {
+                "class": "spotted salamander",
+                "layer": 0,
+                "coordinates": [
+                    0.37295601428079306,
+                    0.10443625570978923,
+                    0.7534435088640186,
+                    0.38533762087640355
+                ],
+                "background_prompt": "Create an image of background with a lush forest floor, dotted with colorful fungi and a multitude of autumn leaves. Soft dappled sunlight filters through thick tree canopies above, casting intricate shadows and highlighting the rich, textured earth and mossy patches beneath.",
+                "local_prompt": "Create an image of a spotted salamander with glossy, dark skin adorned with bright, irregular yellow spots. Its slender, smooth body is stretched out, its limbs gripping softly onto the forest floor. The tail is long and slightly curved, while its small, gentle eyes seem attentive and curious.",
+                "global_prompt": "Create an image of: a vibrant forest floor scene. Front and center, a morel mushroom is nestled amongst foliage, ahead of a nestled spotted salamander with its glossy skin and yellow spots visible. The morel sits behind a gyromitra, with its brain-like structure drawing attention. To the right and slightly above, an elegant European fire salamander is poised gracefully, its vivid",
+                "background": "Autumn Forest Floor",
+                "considerable_classes": []
+            },
+            {
+                "class": "morel",
+                "layer": 1,
+                "coordinates": [
+                    0.38612607977793234,
+                    0.10595841658726624,
+                    0.7452659613165521,
+                    0.36726119192302914
+                ],
+                "background_prompt": "Create an image of background with a lush forest floor, dotted with colorful fungi and a multitude of autumn leaves. Soft dappled sunlight filters through thick tree canopies above, casting intricate shadows and highlighting the rich, textured earth and mossy patches beneath.",
+                "local_prompt": "Create an image of morel with intricate honeycomb-textured cap, its surface a harmonious blend of earthy browns and tans, situated on a slightly curved, creamy stalk exhibiting gentle ridges, exuding a sense of intriguing wild allure.",
+                "global_prompt": "Create an image of: a vibrant forest floor scene. Front and center, a morel mushroom is nestled amongst foliage, ahead of a nestled spotted salamander with its glossy skin and yellow spots visible. The morel sits behind a gyromitra, with its brain-like structure drawing attention. To the right and slightly above, an elegant European fire salamander is poised gracefully, its vivid",
+                "considerable_classes": [
+                    "spotted salamander"
+                ]
+            },
+            {
+                "class": "European fire salamander",
+                "layer": 2,
+                "coordinates": [
+                    0.10199467801613116,
+                    0.4530545686993014,
+                    0.3989304013882168,
+                    0.8019824710228383
+                ],
+                "background_prompt": "Create an image of background with a lush forest floor, dotted with colorful fungi and a multitude of autumn leaves. Soft dappled sunlight filters through thick tree canopies above, casting intricate shadows and highlighting the rich, textured earth and mossy patches beneath.",
+                "local_prompt": "Create an image of European fire salamander with vivid black and yellow patterns adorning its sleek, glossy skin. Capture the salamander in a poised, graceful stance, as if ready to spring into motion. Highlight its smooth, shiny texture, emphasizing the stark contrast and intricate designs of its vibrant markings. Focus on the salamander's alert, lively stance, showcasing its distinctive and striking appearance",
+                "global_prompt": "Create an image of: a vibrant forest floor scene. Front and center, a morel mushroom is nestled amongst foliage, ahead of a nestled spotted salamander with its glossy skin and yellow spots visible. The morel sits behind a gyromitra, with its brain-like structure drawing attention. To the right and slightly above, an elegant European fire salamander is poised gracefully, its vivid",
+                "considerable_classes": []
+            },
+            {
+                "class": "gyromitra",
+                "layer": 3,
+                "coordinates": [
+                    0.25556144837511396,
+                    0.23273598286674516,
+                    0.5432827744263042,
+                    0.5940890527120687
+                ],
+                "background_prompt": "Create an image of background with a lush forest floor, dotted with colorful fungi and a multitude of autumn leaves. Soft dappled sunlight filters through thick tree canopies above, casting intricate shadows and highlighting the rich, textured earth and mossy patches beneath.",
+                "local_prompt": "Create an image of gyromitra with its distinct brain-like folds, varying shades of brown and russet. Emphasize its irregular, lobed structure, showcasing the unusual texture and undulating surface, detailed with realistic shadowing and highlights to capture its earthy, organic essence.",
+                "global_prompt": "Create an image of: a vibrant forest floor scene. Front and center, a morel mushroom is nestled amongst foliage, ahead of a nestled spotted salamander with its glossy skin and yellow spots visible. The morel sits behind a gyromitra, with its brain-like structure drawing attention. To the right and slightly above, an elegant European fire salamander is poised gracefully, its vivid",
+                "considerable_classes": [
+                    "spotted salamander",
+                    "morel",
+                    "European fire salamander"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a morel mushroom in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a spotted salamander present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an European fire salamander visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a gyromitra mushroom depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the morel mushroom nestled amongst foliage ahead of the spotted salamander?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gyromitra in front of the morel mushroom?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the European fire salamander positioned relative to the gyromitra?",
+                "ground_truth_answer": "To the right and slightly above"
+            }
+        ]
+    },
+    "38": {
+        "original_metadata": [
+            {
+                "class": "computer keyboard",
+                "layer": 0,
+                "coordinates": [
+                    0.1547619918400024,
+                    0.12521267794567315,
+                    0.5514002846208627,
+                    0.4277917823424949
+                ],
+                "background_prompt": "Create an image of background with soft ambient lighting illuminating a modern office space, featuring neutral-colored walls, sleek glass windows overlooking a cityscape, and stylish decor elements like abstract artwork and indoor plants.",
+                "local_prompt": "Create an image of computer keyboard with sleek, modern design featuring low-profile, chiclet keys. The keys are well-spaced, providing a comfortable typing experience. It has a matte black finish with backlit keys that softly glow, enhancing its aesthetic. The keyboard includes a numeric keypad on the right and multimedia shortcut keys along the top row.",
+                "global_prompt": "Create an image of: an office scene with a layered layout. A computer keyboard lies at the bottom, its edges marked by [0.155, 0.125] to [0.551, 0.428]. Above it, a photocopier is positioned from [0.216, 0.163] to [0.530, 0.500].",
+                "background": "Modern Office",
+                "considerable_classes": []
+            },
+            {
+                "class": "photocopier",
+                "layer": 1,
+                "coordinates": [
+                    0.21587976755067062,
+                    0.16290674116197312,
+                    0.5299050209181168,
+                    0.5000745415368115
+                ],
+                "background_prompt": "Create an image of background with soft ambient lighting illuminating a modern office space, featuring neutral-colored walls, sleek glass windows overlooking a cityscape, and stylish decor elements like abstract artwork and indoor plants.",
+                "local_prompt": "Create an image of a photocopier with sleek, modern lines, featuring a glossy control panel, a top-loading document feeder, and a paper output tray slightly ajar. Emphasize its metallic gray finish and subtle LED indicators, capturing its robust yet compact design.",
+                "global_prompt": "Create an image of: an office scene with a layered layout. A computer keyboard lies at the bottom, its edges marked by [0.155, 0.125] to [0.551, 0.428]. Above it, a photocopier is positioned from [0.216, 0.163] to [0.530, 0.500].",
+                "considerable_classes": [
+                    "computer keyboard"
+                ]
+            },
+            {
+                "class": "office chair",
+                "layer": 2,
+                "coordinates": [
+                    0.496145356390417,
+                    0.349210965994072,
+                    0.7057439097271988,
+                    0.7070289327761379
+                ],
+                "background_prompt": "Create an image of background with soft ambient lighting illuminating a modern office space, featuring neutral-colored walls, sleek glass windows overlooking a cityscape, and stylish decor elements like abstract artwork and indoor plants.",
+                "local_prompt": "Create an image of office chair with ergonomic design, featuring mesh backrest for breathability, adjustable armrests to support forearms, and a cushioned seat for comfort. Add a five-point base with smooth-rolling casters for mobility. Opt for a sleek, modern style in neutral colors for a professional look.",
+                "global_prompt": "Create an image of: an office scene with a layered layout. A computer keyboard lies at the bottom, its edges marked by [0.155, 0.125] to [0.551, 0.428]. Above it, a photocopier is positioned from [0.216, 0.163] to [0.530, 0.500].",
+                "considerable_classes": [
+                    "computer keyboard",
+                    "photocopier"
+                ]
+            },
+            {
+                "class": "desk",
+                "layer": 3,
+                "coordinates": [
+                    0.43655993555505057,
+                    0.17368519834249635,
+                    0.7901991484026223,
+                    0.5403203890431574
+                ],
+                "background_prompt": "Create an image of background with soft ambient lighting illuminating a modern office space, featuring neutral-colored walls, sleek glass windows overlooking a cityscape, and stylish decor elements like abstract artwork and indoor plants.",
+                "local_prompt": "Create an image of a desk with a polished wooden surface and sleek, minimalist design, featuring clean lines and modern aesthetics. The desk exudes elegance with an understated, sophisticated look. Its sturdy frame and legs suggest durability, while the spacious top indicates functionality and ample workspace.",
+                "global_prompt": "Create an image of: an office scene with a layered layout. A computer keyboard lies at the bottom, its edges marked by [0.155, 0.125] to [0.551, 0.428]. Above it, a photocopier is positioned from [0.216, 0.163] to [0.530, 0.500].",
+                "considerable_classes": [
+                    "computer keyboard",
+                    "photocopier"
+                ]
+            },
+            {
+                "class": "printer",
+                "layer": 4,
+                "coordinates": [
+                    0.32781584809261544,
+                    0.28149648389677906,
+                    0.6828096010092602,
+                    0.6295930684962092
+                ],
+                "background_prompt": "Create an image of background with soft ambient lighting illuminating a modern office space, featuring neutral-colored walls, sleek glass windows overlooking a cityscape, and stylish decor elements like abstract artwork and indoor plants.",
+                "local_prompt": "Create an image of printer with a modern design, featuring a sleek, matte-black finish, and smooth, rounded edges. The printer should include a digital touch screen panel on the top surface, paper trays with visible sheet feeds, and subtle brand logo, exuding high-tech sophistication.",
+                "global_prompt": "Create an image of: an office scene with a layered layout. A computer keyboard lies at the bottom, its edges marked by [0.155, 0.125] to [0.551, 0.428]. Above it, a photocopier is positioned from [0.216, 0.163] to [0.530, 0.500].",
+                "considerable_classes": [
+                    "computer keyboard",
+                    "photocopier",
+                    "office chair",
+                    "desk"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a computer keyboard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a photocopier in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an office chair in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a desk in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a printer in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the photocopier in front of the computer keyboard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the office chair behind the photocopier?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the desk positioned behind the photocopier?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the printer on top of the desk?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "39": {
+        "original_metadata": [
+            {
+                "class": "iceberg",
+                "layer": 0,
+                "coordinates": [
+                    0.33971559518055927,
+                    0.19893017871397076,
+                    0.5885547271367193,
+                    0.5559371546249503
+                ],
+                "background_prompt": "Create an image of background with vast icy landscape, engulfed in serene tranquility. Frozen terrain stretches endlessly, glistening under soft, diffused light. Majestic iceberg captivates the distant horizon, casting delicate reflections onto the icy surface below, exuding a mesmerizing, untouched purity.",
+                "local_prompt": "Create an image of iceberg with towering white and blue hues, jagged peaks, and glistening surfaces. The iceberg should exhibit intricate textures of ice, crevasses, and cracks. Capture the play of light on the icy facade, highlighting its majestic and grand presence.",
+                "global_prompt": "Create an image of: a serene icy landscape with an iceberg in the backdrop, occupying the area from [0.340, 0.199] to [0.589, 0.556]. In the foreground, a penguin stands tall, covering [0.414, 0.183] to [0.707, 0.574], facing forward with a",
+                "background": "Icy landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "radiatior",
+                "layer": 1,
+                "coordinates": [
+                    0.4261941400139292,
+                    0.4390794915433147,
+                    0.7913994137865543,
+                    0.6547614619023032
+                ],
+                "background_prompt": "Create an image of background with vast icy landscape, engulfed in serene tranquility. Frozen terrain stretches endlessly, glistening under soft, diffused light. Majestic iceberg captivates the distant horizon, casting delicate reflections onto the icy surface below, exuding a mesmerizing, untouched purity.",
+                "local_prompt": "Create an image of radiatior with sleek white metal panels, standing upright with elegant lines. Its surface is smooth, polished to a gentle shine, and includes evenly spaced vertical grooves for a modern aesthetic.",
+                "global_prompt": "Create an image of: a serene icy landscape with an iceberg in the backdrop, occupying the area from [0.340, 0.199] to [0.589, 0.556]. In the foreground, a penguin stands tall, covering [0.414, 0.183] to [0.707, 0.574], facing forward with a",
+                "considerable_classes": [
+                    "iceberg"
+                ]
+            },
+            {
+                "class": "penguin",
+                "layer": 2,
+                "coordinates": [
+                    0.4143799552517736,
+                    0.1830966721353151,
+                    0.7070435133551566,
+                    0.5735302429500939
+                ],
+                "background_prompt": "Create an image of background with vast icy landscape, engulfed in serene tranquility. Frozen terrain stretches endlessly, glistening under soft, diffused light. Majestic iceberg captivates the distant horizon, casting delicate reflections onto the icy surface below, exuding a mesmerizing, untouched purity.",
+                "local_prompt": "Create an image of penguin with a sleek, glossy black and white body, standing tall with its wings slightly outstretched. Its sharp, inquisitive eyes gaze forward, showcasing its curiosity and intelligence. The penguin's orange beak is slightly open, adding a hint of playfulness to its poised stature. The penguin's sleek feathers glimmer subtly under soft lighting, adding",
+                "global_prompt": "Create an image of: a serene icy landscape with an iceberg in the backdrop, occupying the area from [0.340, 0.199] to [0.589, 0.556]. In the foreground, a penguin stands tall, covering [0.414, 0.183] to [0.707, 0.574], facing forward with a",
+                "considerable_classes": [
+                    "radiatior"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an iceberg in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a penguin in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a radiator in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the penguin in front of the iceberg?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the radiator in front of the iceberg?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the penguin in front of the radiator?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

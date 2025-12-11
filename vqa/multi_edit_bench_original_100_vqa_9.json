@@ -1,0 +1,1007 @@
+{
+    "80": {
+        "original_metadata": [
+            {
+                "class": "redshank",
+                "layer": 0,
+                "coordinates": [
+                    0.4056190372860339,
+                    0.3700786621324129,
+                    0.7751169949201261,
+                    0.729876974120082
+                ],
+                "background_prompt": "Create an image of background with a serene marshland scene, featuring soft hues of green and brown. The marsh reflects the azure sky dotted with fluffy clouds. Tall grasses sway gently in the breeze, partially obscuring the water's edge. Hints of distant trees add depth to the tranquil landscape.",
+                "local_prompt": "Create an image of redshank with sleek, slender legs and a sharp, pointed beak. Its plumage showcases a subtle mix of grays and browns, with distinct reddish-orange legs and a slight speckling across its back. The redshank, captured mid-step, exhibits a graceful, alert posture, contributing to a feeling of poised elegance. Its eyes are watch",
+                "global_prompt": "Create an image of: an American egret standing poised in the mid-ground, partially obscured by a ruddy turnstone closer to the viewer on the lower left; behind to the right, a redshank subtly visible, both above and slightly obscured; higher up in the background, a distinct American coot perches visibly higher, creating a layered avian composition in a",
+                "background": "Marshland Scene",
+                "considerable_classes": []
+            },
+            {
+                "class": "American egret",
+                "layer": 1,
+                "coordinates": [
+                    0.44192507321468655,
+                    0.41005845793044826,
+                    0.6485995995047865,
+                    0.6410117572995759
+                ],
+                "background_prompt": "Create an image of background with a serene marshland scene, featuring soft hues of green and brown. The marsh reflects the azure sky dotted with fluffy clouds. Tall grasses sway gently in the breeze, partially obscuring the water's edge. Hints of distant trees add depth to the tranquil landscape.",
+                "local_prompt": "Create an image of American egret with elegant posture, long slender neck curved gracefully, pointed yellow beak, striking white plumage standing majestically, sharp eyes focused, thin black legs partially visible, creating an impression of tranquility and poise.",
+                "global_prompt": "Create an image of: an American egret standing poised in the mid-ground, partially obscured by a ruddy turnstone closer to the viewer on the lower left; behind to the right, a redshank subtly visible, both above and slightly obscured; higher up in the background, a distinct American coot perches visibly higher, creating a layered avian composition in a",
+                "considerable_classes": [
+                    "redshank"
+                ]
+            },
+            {
+                "class": "American coot",
+                "layer": 2,
+                "coordinates": [
+                    0.13234365448657007,
+                    0.10233034899637197,
+                    0.41500124000006666,
+                    0.3038740649980808
+                ],
+                "background_prompt": "Create an image of background with a serene marshland scene, featuring soft hues of green and brown. The marsh reflects the azure sky dotted with fluffy clouds. Tall grasses sway gently in the breeze, partially obscuring the water's edge. Hints of distant trees add depth to the tranquil landscape.",
+                "local_prompt": "Create an image of American coot with glossy black plumage standing on webbed feet, red eyes focused intently. Its white bill contrasts sharply with its dark body, showing a slight curve. The coot's body appears rounded, balanced atop strong, light blue-gray legs, embodying stability and awareness in its natural poise.",
+                "global_prompt": "Create an image of: an American egret standing poised in the mid-ground, partially obscured by a ruddy turnstone closer to the viewer on the lower left; behind to the right, a redshank subtly visible, both above and slightly obscured; higher up in the background, a distinct American coot perches visibly higher, creating a layered avian composition in a",
+                "considerable_classes": []
+            },
+            {
+                "class": "ruddy turnstone",
+                "layer": 3,
+                "coordinates": [
+                    0.18122936580883964,
+                    0.21273060131233068,
+                    0.45615174639963285,
+                    0.5348841912768887
+                ],
+                "background_prompt": "Create an image of background with a serene marshland scene, featuring soft hues of green and brown. The marsh reflects the azure sky dotted with fluffy clouds. Tall grasses sway gently in the breeze, partially obscuring the water's edge. Hints of distant trees add depth to the tranquil landscape.",
+                "local_prompt": "Create an image of ruddy turnstone with intricate black and white plumage, reddish-brown back and wings, and short, bright orange legs. It stands alertly, partially obscured by nearby elements, its small, slightly upturned bill reflecting subtle light, adding a sense of curiosity in its pose.",
+                "global_prompt": "Create an image of: an American egret standing poised in the mid-ground, partially obscured by a ruddy turnstone closer to the viewer on the lower left; behind to the right, a redshank subtly visible, both above and slightly obscured; higher up in the background, a distinct American coot perches visibly higher, creating a layered avian composition in a",
+                "considerable_classes": [
+                    "redshank",
+                    "American egret",
+                    "American coot"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an American egret in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a ruddy turnstone in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a redshank in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an American coot in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ruddy turnstone in front of the American egret?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the American egret behind the redshank?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the American coot higher up in the background compared to the American egret?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "81": {
+        "original_metadata": [
+            {
+                "class": "passenger car",
+                "layer": 0,
+                "coordinates": [
+                    0.19465860314560268,
+                    0.19765627964273277,
+                    0.5010911444469459,
+                    0.46589199046852803
+                ],
+                "background_prompt": "Create an image of background with a dusty roadside setting, surrounded by arid terrain, scattered tufts of dried grass, a winding highway disappearing into the horizon, and clear azure skies with wisps of clouds.",
+                "local_prompt": "Create an image of passenger car with a sleek, modern design, reflecting light subtly across its polished surface. The car's silhouette is well-defined, showcasing smooth curves and aerodynamic lines. Tail lights and hubcaps add a touch of sophistication, hinting at premium engineering and elegant craftsmanship.",
+                "global_prompt": "Create an image of: a passenger car parked behind a rustic gas pump, perfectly aligned. The gas pump, positioned centrally in front, extends vertically from relative coordinates [0.258, 0.211] to [0.576, 0.457], showcasing its vintage design. The passenger car, slightly concealed behind, stretches from [0.195, 0.198",
+                "background": "Dusty Roadside",
+                "considerable_classes": []
+            },
+            {
+                "class": "gas pump",
+                "layer": 1,
+                "coordinates": [
+                    0.2582076480306306,
+                    0.2112204062690003,
+                    0.5760373137791499,
+                    0.4569738393948479
+                ],
+                "background_prompt": "Create an image of background with a dusty roadside setting, surrounded by arid terrain, scattered tufts of dried grass, a winding highway disappearing into the horizon, and clear azure skies with wisps of clouds.",
+                "local_prompt": "Create an image of a gas pump with a vintage, rustic design featuring faded red paint and a weathered metal finish. The pump has an analog dial display, retro branding, and a classic nozzle handle. Its structure includes vertical ridges and a slightly angled fuel hose. Ensure details like vintage retro logos and nostalgic elements on the pump's surface, capturing an authentic bygone era feel.",
+                "global_prompt": "Create an image of: a passenger car parked behind a rustic gas pump, perfectly aligned. The gas pump, positioned centrally in front, extends vertically from relative coordinates [0.258, 0.211] to [0.576, 0.457], showcasing its vintage design. The passenger car, slightly concealed behind, stretches from [0.195, 0.198",
+                "considerable_classes": [
+                    "passenger car"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a passenger car in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a gas pump in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the passenger car parked behind the gas pump?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gas pump positioned in front of the passenger car?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the passenger car and the gas pump perfectly aligned?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "82": {
+        "original_metadata": [
+            {
+                "class": "bustard",
+                "layer": 0,
+                "coordinates": [
+                    0.23595890992872068,
+                    0.26158060139936856,
+                    0.5450025731929375,
+                    0.5976782696699551
+                ],
+                "background_prompt": "Create an image of background with a serene landscape featuring a gentle blend of soft grasses and wildflowers, a distant line of lush trees under a vivid, expansive sky, and the soft, warm hue of a setting sun casting golden light.",
+                "local_prompt": "Create an image of bustard with striking feathers, showcasing intricate patterns and rich hues, standing proudly with its neck gracefully extended and wings slightly unfurled. Its posture is attentive, exuding confidence and elegance.",
+                "global_prompt": "Create an image of: a natural scene featuring a crane with elegant plumage, positioned in the foreground, slightly above center-right; an ostrich with its head held high, slightly to the left behind the crane; a majestic vulture at the top-left corner soaring gracefully; a bustard with striking feathers in the background, centered and partially visible. The layers overlap seamlessly to create a",
+                "background": "Serene Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "ostrich",
+                "layer": 1,
+                "coordinates": [
+                    0.2470728169469832,
+                    0.4882914042210479,
+                    0.4983715920903067,
+                    0.8403217405057773
+                ],
+                "background_prompt": "Create an image of background with a serene landscape featuring a gentle blend of soft grasses and wildflowers, a distant line of lush trees under a vivid, expansive sky, and the soft, warm hue of a setting sun casting golden light.",
+                "local_prompt": "Create an image of ostrich with its long neck stretched gracefully upwards, the plumage finely detailed, showcasing the natural texture and pattern of its feathers. The body appears robust and powerful, with the legs planted firmly, capturing the essence of alertness and poise typical of ostriches.",
+                "global_prompt": "Create an image of: a natural scene featuring a crane with elegant plumage, positioned in the foreground, slightly above center-right; an ostrich with its head held high, slightly to the left behind the crane; a majestic vulture at the top-left corner soaring gracefully; a bustard with striking feathers in the background, centered and partially visible. The layers overlap seamlessly to create a",
+                "considerable_classes": [
+                    "bustard"
+                ]
+            },
+            {
+                "class": "vulture",
+                "layer": 2,
+                "coordinates": [
+                    0.11879478942447537,
+                    0.20617009213613371,
+                    0.32204763948284454,
+                    0.41761023713274625
+                ],
+                "background_prompt": "Create an image of background with a serene landscape featuring a gentle blend of soft grasses and wildflowers, a distant line of lush trees under a vivid, expansive sky, and the soft, warm hue of a setting sun casting golden light.",
+                "local_prompt": "Create an image of a vulture with expansive, outstretched wings soaring through the air. Its feathers display a mix of earthy browns and deep blacks, with sunlight catching and highlighting the intricate pattern. Its sharp eyes gaze forward, capturing an aura of grace and dominance in flight. The wings reflect power with each feather meticulously defined, curving elegantly as it navigates the open skies",
+                "global_prompt": "Create an image of: a natural scene featuring a crane with elegant plumage, positioned in the foreground, slightly above center-right; an ostrich with its head held high, slightly to the left behind the crane; a majestic vulture at the top-left corner soaring gracefully; a bustard with striking feathers in the background, centered and partially visible. The layers overlap seamlessly to create a",
+                "considerable_classes": [
+                    "bustard"
+                ]
+            },
+            {
+                "class": "crane",
+                "layer": 3,
+                "coordinates": [
+                    0.4679133635725501,
+                    0.22141561822007058,
+                    0.6714221992348748,
+                    0.5470664569074675
+                ],
+                "background_prompt": "Create an image of background with a serene landscape featuring a gentle blend of soft grasses and wildflowers, a distant line of lush trees under a vivid, expansive sky, and the soft, warm hue of a setting sun casting golden light.",
+                "local_prompt": "Create an image of crane with elegant plumage, standing gracefully with a poised posture. Its slender neck is gently arched, showcasing a stately presence. The delicate feathers exhibit a soft blend of gray, white, and bluish hues, reflecting a sense of serene beauty.",
+                "global_prompt": "Create an image of: a natural scene featuring a crane with elegant plumage, positioned in the foreground, slightly above center-right; an ostrich with its head held high, slightly to the left behind the crane; a majestic vulture at the top-left corner soaring gracefully; a bustard with striking feathers in the background, centered and partially visible. The layers overlap seamlessly to create a",
+                "considerable_classes": [
+                    "bustard",
+                    "ostrich"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a crane in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an ostrich in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a vulture in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a bustard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the crane positioned in front of the ostrich?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the vulture located behind the crane?",
+                "ground_truth_answer": "No"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bustard partially visible in the background?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "83": {
+        "original_metadata": [
+            {
+                "class": "pug",
+                "layer": 0,
+                "coordinates": [
+                    0.4002149784529525,
+                    0.2012786253067489,
+                    0.6055469077321161,
+                    0.5378800006523836
+                ],
+                "background_prompt": "Create an image of background with warm lighting casting soft shadows, a plush carpet, richly textured draped curtains, a worn leather armchair, and scattered vintage throw pillows, exuding a cozy, inviting, and intimate indoor atmosphere.",
+                "local_prompt": "Create an image of a pug with a curious expression, partially hidden, showing bright, attentive eyes and a slightly tilted head, its short, smooth fur showcasing subtle shading of fawn and black, with adorable, floppy ears framing its face.",
+                "global_prompt": "Create an image of: a pug, partially hidden, in the back center; a lively affenpinscher slightly above and to the left, facing forward; a graceful Persian cat below the affenpinscher, slightly to the right, sitting elegantly; a small hamster peeking from behind, near the bottom left; all set in a cozy indoor environment.",
+                "background": "Cozy indoor atmosphere",
+                "considerable_classes": []
+            },
+            {
+                "class": "hamster",
+                "layer": 1,
+                "coordinates": [
+                    0.10579026498782157,
+                    0.18415592170806808,
+                    0.45441895494347345,
+                    0.5484281238927124
+                ],
+                "background_prompt": "Create an image of background with warm lighting casting soft shadows, a plush carpet, richly textured draped curtains, a worn leather armchair, and scattered vintage throw pillows, exuding a cozy, inviting, and intimate indoor atmosphere.",
+                "local_prompt": "Create an image of hamster with its tiny eyes sparkling, whiskers twitching inquisitively, and tiny paws held close to its round, furry body. It's partially peeking out from a cozy spot, adding a sense of curiosity. Its soft fur exhibits a natural mix of golden-brown hues, with a touch of white around the snout and underbelly. The hamster's",
+                "global_prompt": "Create an image of: a pug, partially hidden, in the back center; a lively affenpinscher slightly above and to the left, facing forward; a graceful Persian cat below the affenpinscher, slightly to the right, sitting elegantly; a small hamster peeking from behind, near the bottom left; all set in a cozy indoor environment.",
+                "considerable_classes": []
+            },
+            {
+                "class": "Persian cat",
+                "layer": 2,
+                "coordinates": [
+                    0.16592126913522046,
+                    0.48648229490201966,
+                    0.5533869212313172,
+                    0.7054325229430598
+                ],
+                "background_prompt": "Create an image of background with warm lighting casting soft shadows, a plush carpet, richly textured draped curtains, a worn leather armchair, and scattered vintage throw pillows, exuding a cozy, inviting, and intimate indoor atmosphere.",
+                "local_prompt": "Create an image of Persian cat with luxurious, long fur, elegantly sitting, its fluffy tail wrapped around its paws. Emphasize its expressive, round eyes, flat face, and serene demeanor, capturing a sense of grace and poise in its posture.",
+                "global_prompt": "Create an image of: a pug, partially hidden, in the back center; a lively affenpinscher slightly above and to the left, facing forward; a graceful Persian cat below the affenpinscher, slightly to the right, sitting elegantly; a small hamster peeking from behind, near the bottom left; all set in a cozy indoor environment.",
+                "considerable_classes": [
+                    "pug",
+                    "hamster"
+                ]
+            },
+            {
+                "class": "affenpinscher",
+                "layer": 3,
+                "coordinates": [
+                    0.17232110842750636,
+                    0.1528590395169098,
+                    0.5293771671005431,
+                    0.45814611244479997
+                ],
+                "background_prompt": "Create an image of background with warm lighting casting soft shadows, a plush carpet, richly textured draped curtains, a worn leather armchair, and scattered vintage throw pillows, exuding a cozy, inviting, and intimate indoor atmosphere.",
+                "local_prompt": "Create an image of affenpinscher with lively expression, facing forward, slightly above center. Capture its wiry, black coat and distinct beard. Emphasize its small, round eyes looking curiously ahead; ears perked up to enhance its playful demeanor.",
+                "global_prompt": "Create an image of: a pug, partially hidden, in the back center; a lively affenpinscher slightly above and to the left, facing forward; a graceful Persian cat below the affenpinscher, slightly to the right, sitting elegantly; a small hamster peeking from behind, near the bottom left; all set in a cozy indoor environment.",
+                "considerable_classes": [
+                    "pug",
+                    "hamster"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a pug in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an affenpinscher in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Persian cat in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hamster in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the affenpinscher positioned above and to the left of the pug?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Persian cat sitting below the affenpinscher?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hamster peeking from behind the Persian cat?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "84": {
+        "original_metadata": [
+            {
+                "class": "CD player",
+                "layer": 0,
+                "coordinates": [
+                    0.18359620138315083,
+                    0.3881568318783549,
+                    0.41259349574659654,
+                    0.5929739214033909
+                ],
+                "background_prompt": "Create an image of background with soft, ambient lighting casting warm hues. A vintage vinyl record collection peeks through a mahogany-hued room, walls adorned with faded music posters, while hardwood floors add rustic charm, subtly enhancing the nostalgic atmosphere.",
+                "local_prompt": "Create an image of CD player with a sleek, modern design, featuring a shiny, metallic casing that reflects light. The disc tray is partially open, revealing the edge of a CD. The control panel displays small, tactile buttons arranged neatly, along with a minimalist digital screen showing a track number.",
+                "global_prompt": "Create an image of: an acoustic guitar positioned prominently in the foreground with a natural wooden finish, strings gleaming, against a subtle backdrop. A cassette player rests directly behind it, slightly visible, showcasing retro buttons and dials. The most concealed, a sleek CD player, is nestled at the far back, only partially visible, maintaining a clear hierarchy among the objects.",
+                "background": "Vintage Nostalgia",
+                "considerable_classes": []
+            },
+            {
+                "class": "cassette player",
+                "layer": 1,
+                "coordinates": [
+                    0.3555429806412601,
+                    0.481216953104617,
+                    0.6372593518239746,
+                    0.8476875301641622
+                ],
+                "background_prompt": "Create an image of background with soft, ambient lighting casting warm hues. A vintage vinyl record collection peeks through a mahogany-hued room, walls adorned with faded music posters, while hardwood floors add rustic charm, subtly enhancing the nostalgic atmosphere.",
+                "local_prompt": "Create an image of cassette player with retro design, featuring prominent buttons and dials. The metallic accents catch ambient light, emphasizing its vintage charm. Its shape is boxy with a front-loading tape slot and visible spools for added nostalgia.",
+                "global_prompt": "Create an image of: an acoustic guitar positioned prominently in the foreground with a natural wooden finish, strings gleaming, against a subtle backdrop. A cassette player rests directly behind it, slightly visible, showcasing retro buttons and dials. The most concealed, a sleek CD player, is nestled at the far back, only partially visible, maintaining a clear hierarchy among the objects.",
+                "considerable_classes": [
+                    "CD player"
+                ]
+            },
+            {
+                "class": "acoustic guitar",
+                "layer": 2,
+                "coordinates": [
+                    0.11073660555305867,
+                    0.23056057969015847,
+                    0.43898607497200204,
+                    0.5826039217684345
+                ],
+                "background_prompt": "Create an image of background with soft, ambient lighting casting warm hues. A vintage vinyl record collection peeks through a mahogany-hued room, walls adorned with faded music posters, while hardwood floors add rustic charm, subtly enhancing the nostalgic atmosphere.",
+                "local_prompt": "Create an image of acoustic guitar with a natural wooden finish and gleaming strings. The instrument exhibits detailed craftsmanship, showcasing intricate curves and a smooth surface, highlighting its polished, rich wood texture. Strings shimmer under light, conveying a sense of warmth and authenticity.",
+                "global_prompt": "Create an image of: an acoustic guitar positioned prominently in the foreground with a natural wooden finish, strings gleaming, against a subtle backdrop. A cassette player rests directly behind it, slightly visible, showcasing retro buttons and dials. The most concealed, a sleek CD player, is nestled at the far back, only partially visible, maintaining a clear hierarchy among the objects.",
+                "considerable_classes": [
+                    "cassette player"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an acoustic guitar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cassette player in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a CD player in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the acoustic guitar in front of the cassette player?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cassette player behind the acoustic guitar?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the CD player behind the cassette player?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cassette player in front of the CD player?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "85": {
+        "original_metadata": [
+            {
+                "class": "cloud",
+                "layer": 0,
+                "coordinates": [
+                    0.3768354531985906,
+                    0.40526505286390235,
+                    0.6273876550079104,
+                    0.665136128605653
+                ],
+                "background_prompt": "Create an image of background with a cloudy skyline, sun rays piercing through clouds, casting dynamic shadows over a vast landscape of water. The lush green meadows stretch far into the horizon beneath fading misty outlines of distant hills, enveloped in atmospheric glory.",
+                "local_prompt": "Create an image of cloud with fluffy, dense clusters softly illuminated by the filtered sunlight, creating a dramatic interplay of light and shadow, conveying a sense of depth and atmosphere. Highlight the variations in shades of gray and white to emphasize their voluminous texture against a bright sky.",
+                "global_prompt": "Create an image of: an intricate scene with a steel arch bridge centrally placed, partially obscuring a viaduct and positioned in front of a suspension bridge. A modern crane with tall structures is slightly visible at the upper left, partly behind the cloud-laden skyline. Let sunlight filter through the gaps, casting dynamic shadows and highlighting engineering marvels against a cloudy backdrop.",
+                "background": "Scenic Sky and Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "crane",
+                "layer": 1,
+                "coordinates": [
+                    0.15447976231144575,
+                    0.11664905688872769,
+                    0.5464933736736577,
+                    0.47769369015766455
+                ],
+                "background_prompt": "Create an image of background with a cloudy skyline, sun rays piercing through clouds, casting dynamic shadows over a vast landscape of water. The lush green meadows stretch far into the horizon beneath fading misty outlines of distant hills, enveloped in atmospheric glory.",
+                "local_prompt": "Create an image of a crane with a modern, sleek design featuring a sturdy metal frame and an extended boom reaching upwards. The crane exhibits intricate detailing in its mechanical components and cables, showcasing its engineering complexity. Its tower rises prominently, suggesting both strength and agility, while highlighting the interplay of structural elements.",
+                "global_prompt": "Create an image of: an intricate scene with a steel arch bridge centrally placed, partially obscuring a viaduct and positioned in front of a suspension bridge. A modern crane with tall structures is slightly visible at the upper left, partly behind the cloud-laden skyline. Let sunlight filter through the gaps, casting dynamic shadows and highlighting engineering marvels against a cloudy backdrop.",
+                "considerable_classes": [
+                    "cloud"
+                ]
+            },
+            {
+                "class": "viaduct",
+                "layer": 2,
+                "coordinates": [
+                    0.4450992996116886,
+                    0.4222428567265255,
+                    0.7586921228927979,
+                    0.7522763946536976
+                ],
+                "background_prompt": "Create an image of background with a cloudy skyline, sun rays piercing through clouds, casting dynamic shadows over a vast landscape of water. The lush green meadows stretch far into the horizon beneath fading misty outlines of distant hills, enveloped in atmospheric glory.",
+                "local_prompt": "Create an image of a viaduct with elegant, sweeping arches that span across the scene, showcasing its classic architectural detail. The structure's robust piers exhibit a blend of stony texture and intricate embellishments, highlighting a seamless transition between strength and design. The viaduct's arches create fluid lines and shadows, exuding a sense of graceful endurance amidst a monumental engineering landscape.",
+                "global_prompt": "Create an image of: an intricate scene with a steel arch bridge centrally placed, partially obscuring a viaduct and positioned in front of a suspension bridge. A modern crane with tall structures is slightly visible at the upper left, partly behind the cloud-laden skyline. Let sunlight filter through the gaps, casting dynamic shadows and highlighting engineering marvels against a cloudy backdrop.",
+                "considerable_classes": [
+                    "cloud",
+                    "crane"
+                ]
+            },
+            {
+                "class": "steel arch bridge",
+                "layer": 3,
+                "coordinates": [
+                    0.48137290888027484,
+                    0.2978005433282769,
+                    0.7298114102900136,
+                    0.6576059208481171
+                ],
+                "background_prompt": "Create an image of background with a cloudy skyline, sun rays piercing through clouds, casting dynamic shadows over a vast landscape of water. The lush green meadows stretch far into the horizon beneath fading misty outlines of distant hills, enveloped in atmospheric glory.",
+                "local_prompt": "Create an image of steel arch bridge with sleek, gleaming steel frameworks showcasing intricate lattice patterns, casting angular shadows on its surface, while sunlight filters through, accentuating its elegant curves and robust design, emphasizing structural beauty against a shifting light.",
+                "global_prompt": "Create an image of: an intricate scene with a steel arch bridge centrally placed, partially obscuring a viaduct and positioned in front of a suspension bridge. A modern crane with tall structures is slightly visible at the upper left, partly behind the cloud-laden skyline. Let sunlight filter through the gaps, casting dynamic shadows and highlighting engineering marvels against a cloudy backdrop.",
+                "considerable_classes": [
+                    "cloud",
+                    "crane",
+                    "viaduct"
+                ]
+            },
+            {
+                "class": "suspension bridge",
+                "layer": 4,
+                "coordinates": [
+                    0.3800355582197611,
+                    0.1938783265006849,
+                    0.6060088676751201,
+                    0.5302414446327466
+                ],
+                "background_prompt": "Create an image of background with a cloudy skyline, sun rays piercing through clouds, casting dynamic shadows over a vast landscape of water. The lush green meadows stretch far into the horizon beneath fading misty outlines of distant hills, enveloped in atmospheric glory.",
+                "local_prompt": "Create an image of suspension bridge with graceful, sweeping cables anchored to tall, elegant towers. The bridge features a sleek, modern design with a distinctive curve. Its metallic cables glisten subtly in the ambient light, showcasing the intricate interplay between tension and support, with a focus on the engineering brilliance of its structure.",
+                "global_prompt": "Create an image of: an intricate scene with a steel arch bridge centrally placed, partially obscuring a viaduct and positioned in front of a suspension bridge. A modern crane with tall structures is slightly visible at the upper left, partly behind the cloud-laden skyline. Let sunlight filter through the gaps, casting dynamic shadows and highlighting engineering marvels against a cloudy backdrop.",
+                "considerable_classes": [
+                    "cloud",
+                    "crane",
+                    "viaduct",
+                    "steel arch bridge"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a steel arch bridge in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a suspension bridge visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a crane in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the steel arch bridge in front of the suspension bridge?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the viaduct partially obscured by the steel arch bridge?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the crane located at the upper left of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the crane partly behind the clouds?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "86": {
+        "original_metadata": [
+            {
+                "class": "candelabrum",
+                "layer": 0,
+                "coordinates": [
+                    0.36374252748607505,
+                    0.40334501304129244,
+                    0.7157271594392853,
+                    0.7521150796874728
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, atmospheric interior adorned with gentle, warm hues. The space is bathed in soft, flickering light that dances gracefully across intricate carvings and aged surfaces, casting elaborate shadows that play mysteriously on richly textured walls, evoking an aura of timeless elegance.",
+                "local_prompt": "Create an image of a candelabrum with intricate, elegant designs and a polished finish. It features multiple arms extending gracefully, each supporting a candle that emits a gentle, warm glow. The craftsmanship showcases delicate motifs and patterns, adding a touch of sophistication and timeless beauty to the scene.",
+                "global_prompt": "Create an image of: an elegant candelabrum placed prominently in the background, featuring intricate designs, casting a gentle glow. In the foreground, positioned slightly to the right, rests a stout, white candle, its wick faintly shimmering. Directly in front, an ornate altar commands attention, its surface adorned with delicate carvings, bathed in the combined candlelight, enhancing",
+                "background": "Atmospheric Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": " candle",
+                "layer": 1,
+                "coordinates": [
+                    0.30005283731074106,
+                    0.4343173291542244,
+                    0.6558491034609925,
+                    0.6769178845072815
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, atmospheric interior adorned with gentle, warm hues. The space is bathed in soft, flickering light that dances gracefully across intricate carvings and aged surfaces, casting elaborate shadows that play mysteriously on richly textured walls, evoking an aura of timeless elegance.",
+                "local_prompt": "Create an image of candle with a stout, white form and a faintly shimmering wick. Its surface appears smooth and waxy, with hints of dripping wax cascading subtly down its sides. It glows warmly, casting delicate shadows, emphasizing the gentle curves and simplicity of its design.",
+                "global_prompt": "Create an image of: an elegant candelabrum placed prominently in the background, featuring intricate designs, casting a gentle glow. In the foreground, positioned slightly to the right, rests a stout, white candle, its wick faintly shimmering. Directly in front, an ornate altar commands attention, its surface adorned with delicate carvings, bathed in the combined candlelight, enhancing",
+                "considerable_classes": [
+                    "candelabrum"
+                ]
+            },
+            {
+                "class": " altar",
+                "layer": 2,
+                "coordinates": [
+                    0.3270562439991861,
+                    0.24911368754410465,
+                    0.6341115984696285,
+                    0.5802628471398136
+                ],
+                "background_prompt": "Create an image of background with a dimly lit, atmospheric interior adorned with gentle, warm hues. The space is bathed in soft, flickering light that dances gracefully across intricate carvings and aged surfaces, casting elaborate shadows that play mysteriously on richly textured walls, evoking an aura of timeless elegance.",
+                "local_prompt": "Create an image of an altar with ornate, intricate carvings that depict mythical creatures and floral patterns. Its surface gleams subtly in soft candlelight, highlighting the elaborate craftsmanship. The altar is stately, with rich wooden tones, exuding a sense of reverence and history.",
+                "global_prompt": "Create an image of: an elegant candelabrum placed prominently in the background, featuring intricate designs, casting a gentle glow. In the foreground, positioned slightly to the right, rests a stout, white candle, its wick faintly shimmering. Directly in front, an ornate altar commands attention, its surface adorned with delicate carvings, bathed in the combined candlelight, enhancing",
+                "considerable_classes": [
+                    "candelabrum",
+                    " candle"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a candelabrum in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a candle in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an altar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the candle in front of the candelabrum?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the altar in front of the candle?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the altar in front of the candelabrum?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the candle positioned relative to the altar?",
+                "ground_truth_answer": "Behind it"
+            }
+        ]
+    },
+    "87": {
+        "original_metadata": [
+            {
+                "class": "pool table",
+                "layer": 0,
+                "coordinates": [
+                    0.2791838533325439,
+                    0.15301367185506762,
+                    0.6545309731880736,
+                    0.47417095970789
+                ],
+                "background_prompt": "Create an image of background with a serene underwater scene featuring sunbeams filtering through the water, casting shimmering patterns on the soft sandy ocean floor, surrounded by gentle waves and floating seagrass.",
+                "local_prompt": "Create an image of pool table with its green felt top partially visible, adorned with polished wooden side rails. Display the table with neatly arranged billiard balls and a cue stick resting along the edge, casting subtle shadows under ambient lighting.",
+                "global_prompt": "Create an image of: a scuba diver in front of a pool table and swimming trunks, positioned to the right and below a suspended bathing cap. The pool table at the bottom is partially visible, while the trunks are in front, overlapping the pool table at the lower right. The bathing cap appears above the diver's shoulder.",
+                "background": "Underwater Scene",
+                "considerable_classes": []
+            },
+            {
+                "class": "bathing cap",
+                "layer": 1,
+                "coordinates": [
+                    0.14949443649337227,
+                    0.3881538736933958,
+                    0.43933145870140156,
+                    0.6622665986967824
+                ],
+                "background_prompt": "Create an image of background with a serene underwater scene featuring sunbeams filtering through the water, casting shimmering patterns on the soft sandy ocean floor, surrounded by gentle waves and floating seagrass.",
+                "local_prompt": "Create an image of bathing cap with intricate patterns, showcasing a glossy texture and vibrant colors. The cap features delicate floral designs, blending shades of turquoise and coral, with a smooth, snug fit that highlights its elasticity, reflecting subtle light.",
+                "global_prompt": "Create an image of: a scuba diver in front of a pool table and swimming trunks, positioned to the right and below a suspended bathing cap. The pool table at the bottom is partially visible, while the trunks are in front, overlapping the pool table at the lower right. The bathing cap appears above the diver's shoulder.",
+                "considerable_classes": [
+                    "pool table"
+                ]
+            },
+            {
+                "class": "swimming trunks",
+                "layer": 2,
+                "coordinates": [
+                    0.42325759232267846,
+                    0.4894617941779533,
+                    0.7949232193292082,
+                    0.8269261544368993
+                ],
+                "background_prompt": "Create an image of background with a serene underwater scene featuring sunbeams filtering through the water, casting shimmering patterns on the soft sandy ocean floor, surrounded by gentle waves and floating seagrass.",
+                "local_prompt": "Create an image of swimming trunks with vibrant tropical patterns, featuring a blend of bright blues, greens, and yellows. The fabric ripples slightly, hinting at a breezy feel, while the waistband is elastic and fitted with a drawstring. The material appears quick-dry and slightly shiny.",
+                "global_prompt": "Create an image of: a scuba diver in front of a pool table and swimming trunks, positioned to the right and below a suspended bathing cap. The pool table at the bottom is partially visible, while the trunks are in front, overlapping the pool table at the lower right. The bathing cap appears above the diver's shoulder.",
+                "considerable_classes": [
+                    "bathing cap"
+                ]
+            },
+            {
+                "class": "scuba diver",
+                "layer": 3,
+                "coordinates": [
+                    0.44771917795068106,
+                    0.4522534668306507,
+                    0.6965689187905189,
+                    0.7113538094610036
+                ],
+                "background_prompt": "Create an image of background with a serene underwater scene featuring sunbeams filtering through the water, casting shimmering patterns on the soft sandy ocean floor, surrounded by gentle waves and floating seagrass.",
+                "local_prompt": "Create an image of scuba diver with streamlined gear, poised in mid-water. The diver's wetsuit is sleek, with a matte finish, featuring subtle patterns. Their mask is clear with a high-tech design, and the snorkel is integrated seamlessly. Flippers are elongated and dynamic, evoking precision and agility.",
+                "global_prompt": "Create an image of: a scuba diver in front of a pool table and swimming trunks, positioned to the right and below a suspended bathing cap. The pool table at the bottom is partially visible, while the trunks are in front, overlapping the pool table at the lower right. The bathing cap appears above the diver's shoulder.",
+                "considerable_classes": [
+                    "pool table",
+                    "swimming trunks"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a scuba diver in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a pool table in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a bathing cap in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are swimming trunks present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the scuba diver in front of the pool table?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the swimming trunks in front of the pool table?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bathing cap positioned above the scuba diver's shoulder?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the scuba diver to the right and below the bathing cap?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "88": {
+        "original_metadata": [
+            {
+                "class": "ladle",
+                "layer": 0,
+                "coordinates": [
+                    0.2795322316429669,
+                    0.49337948789209374,
+                    0.6524160531027627,
+                    0.8715548771151349
+                ],
+                "background_prompt": "Create an image of background with warm wooden cabinetry, soft light streaming through a window, and rustic kitchen tiles. The ambience should feel cozy and homely, with soft shadows caressing the surfaces.",
+                "local_prompt": "Create an image of ladle with a sleek, stainless steel finish, featuring a long, ergonomically designed handle that gracefully curves downward. The slightly deep, circular bowl at the base of the handle is polished to a high shine, capturing subtle reflections. The ladle's silhouette exudes elegance and functionality, showcasing a blend of modern design with practicality.",
+                "global_prompt": "Create an image of: a kitchen scene showing a pot prominently in the foreground to the right, partially overlapping a crock pot behind it, both in front of a ladle in the background. The spatula, positioned to the left and slightly above the pot, forms the topmost layer, casting subtle shadows on the ladle and crock pot below.",
+                "background": "Rustic Kitchen",
+                "considerable_classes": []
+            },
+            {
+                "class": "crock pot",
+                "layer": 1,
+                "coordinates": [
+                    0.298677080438345,
+                    0.41439048166490655,
+                    0.5951384848137702,
+                    0.7613440453615149
+                ],
+                "background_prompt": "Create an image of background with warm wooden cabinetry, soft light streaming through a window, and rustic kitchen tiles. The ambience should feel cozy and homely, with soft shadows caressing the surfaces.",
+                "local_prompt": "Create an image of a crock pot with a sleek, modern design, featuring a polished stainless steel body. Display soft reflections along its curved surface, a black matte control panel with intuitive buttons on the front, and a glass lid showing hints of steam escaping. The handles should be ergonomic and black, blending seamlessly with the overall aesthetic.",
+                "global_prompt": "Create an image of: a kitchen scene showing a pot prominently in the foreground to the right, partially overlapping a crock pot behind it, both in front of a ladle in the background. The spatula, positioned to the left and slightly above the pot, forms the topmost layer, casting subtle shadows on the ladle and crock pot below.",
+                "considerable_classes": [
+                    "ladle"
+                ]
+            },
+            {
+                "class": "pot",
+                "layer": 2,
+                "coordinates": [
+                    0.4998534501045283,
+                    0.4698528463473759,
+                    0.773384711055151,
+                    0.8308943778374533
+                ],
+                "background_prompt": "Create an image of background with warm wooden cabinetry, soft light streaming through a window, and rustic kitchen tiles. The ambience should feel cozy and homely, with soft shadows caressing the surfaces.",
+                "local_prompt": "Create an image of pot with a gleaming stainless steel surface, reflecting light across its polished exterior. It features sturdy side handles and a pronounced lid handle, hinting at its utility and elegance. The pot's smooth curves and subtle highlights emphasize its functionality and design, capturing a sense of modern kitchen sophistication. The focus is on the pot's craftsmanship, showcasing its essential role.",
+                "global_prompt": "Create an image of: a kitchen scene showing a pot prominently in the foreground to the right, partially overlapping a crock pot behind it, both in front of a ladle in the background. The spatula, positioned to the left and slightly above the pot, forms the topmost layer, casting subtle shadows on the ladle and crock pot below.",
+                "considerable_classes": [
+                    "ladle",
+                    "crock pot"
+                ]
+            },
+            {
+                "class": "spatula",
+                "layer": 3,
+                "coordinates": [
+                    0.12043208303792668,
+                    0.47098448058804665,
+                    0.3256039849517768,
+                    0.790985766760077
+                ],
+                "background_prompt": "Create an image of background with warm wooden cabinetry, soft light streaming through a window, and rustic kitchen tiles. The ambience should feel cozy and homely, with soft shadows caressing the surfaces.",
+                "local_prompt": "Create an image of spatula with a sleek, ergonomic handle transitioning into a broad, flat blade. The metal surface has a polished sheen, reflecting ambient light subtly. Textured grooves along the handle offer a firm grip. The spatula's gentle curve suggests versatility, perfect for flipping and stirring. The blade casts a delicate shadow underneath, hinting at its presence in a realistic setting.",
+                "global_prompt": "Create an image of: a kitchen scene showing a pot prominently in the foreground to the right, partially overlapping a crock pot behind it, both in front of a ladle in the background. The spatula, positioned to the left and slightly above the pot, forms the topmost layer, casting subtle shadows on the ladle and crock pot below.",
+                "considerable_classes": [
+                    "ladle",
+                    "crock pot"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a pot in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a ladle visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a crock pot present in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a spatula in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pot in front of the crock pot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ladle behind the crock pot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the spatula positioned above the pot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the spatula casting shadows on the ladle?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "89": {
+        "original_metadata": [
+            {
+                "class": "accordion",
+                "layer": 0,
+                "coordinates": [
+                    0.4316569077778708,
+                    0.2684339491388586,
+                    0.6443554321175285,
+                    0.48106034262314623
+                ],
+                "background_prompt": "Create an image of background with a softly lit hardwood floor beneath, surrounded by walls adorned with vintage wallpaper in muted tones. Dim ambient lighting casts gentle shadows, while subtle reflections dance across a glossy surface, suggesting a warm and intimate setting.",
+                "local_prompt": "Create an image of accordion with intricate black and white patterns on its bellows, buttons glistening in ambient light, detailed metal grille with ornate designs, and polished finish. The straps are elegantly folded, reflecting its traditional craftsmanship.",
+                "global_prompt": "Create an image of: a C rocker centered, with ornate wood details, in front of a classic red electric guitar. The C rocker and guitar sit before a traditional black accordion. To the top-right, a shiny drum kit with golden cymbals. The scene uses precise layering, placing each musical instrument strategically according to space relations.",
+                "background": "Cozy Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "electric guitar",
+                "layer": 1,
+                "coordinates": [
+                    0.4338777545642428,
+                    0.23656201751986172,
+                    0.8267848099701767,
+                    0.4692183079072625
+                ],
+                "background_prompt": "Create an image of background with a softly lit hardwood floor beneath, surrounded by walls adorned with vintage wallpaper in muted tones. Dim ambient lighting casts gentle shadows, while subtle reflections dance across a glossy surface, suggesting a warm and intimate setting.",
+                "local_prompt": "Create an image of electric guitar with a classic design, featuring a rich, glossy red finish. Accentuate its sleek, contoured body and sharp, defined edges. Highlight chrome hardware including the bridge, tuning pegs, and pickups. Capture the finely polished rosewood fretboard set against the vibrant red, with contrasting white inlays. Emphasize realistic shadows and reflections on its",
+                "global_prompt": "Create an image of: a C rocker centered, with ornate wood details, in front of a classic red electric guitar. The C rocker and guitar sit before a traditional black accordion. To the top-right, a shiny drum kit with golden cymbals. The scene uses precise layering, placing each musical instrument strategically according to space relations.",
+                "considerable_classes": [
+                    "accordion"
+                ]
+            },
+            {
+                "class": "C rocker",
+                "layer": 2,
+                "coordinates": [
+                    0.4435120775644724,
+                    0.20134918189192305,
+                    0.6929075753472169,
+                    0.42164565403242815
+                ],
+                "background_prompt": "Create an image of background with a softly lit hardwood floor beneath, surrounded by walls adorned with vintage wallpaper in muted tones. Dim ambient lighting casts gentle shadows, while subtle reflections dance across a glossy surface, suggesting a warm and intimate setting.",
+                "local_prompt": "Create an image of C rocker with elegant, ornate wood carvings along its arms and back. The rocker features a rich, dark oak finish, showcasing intricate floral patterns etched into the armrests and the crest rail. The seat and backrest are plush with velvety, maroon upholstery, accentuating the luxurious detailing of the woodwork.",
+                "global_prompt": "Create an image of: a C rocker centered, with ornate wood details, in front of a classic red electric guitar. The C rocker and guitar sit before a traditional black accordion. To the top-right, a shiny drum kit with golden cymbals. The scene uses precise layering, placing each musical instrument strategically according to space relations.",
+                "considerable_classes": [
+                    "accordion",
+                    "electric guitar"
+                ]
+            },
+            {
+                "class": "drum",
+                "layer": 3,
+                "coordinates": [
+                    0.20759771194801618,
+                    0.4548080934832116,
+                    0.4496275661684152,
+                    0.7165788848071384
+                ],
+                "background_prompt": "Create an image of background with a softly lit hardwood floor beneath, surrounded by walls adorned with vintage wallpaper in muted tones. Dim ambient lighting casts gentle shadows, while subtle reflections dance across a glossy surface, suggesting a warm and intimate setting.",
+                "local_prompt": "Create an image of drum with a glossy, sleek black finish, reflecting ambient light. The drum kit includes polished golden cymbals with intricate luster. Deeply tuned drums feature high-quality chrome hardware, emphasizing the contrast with their deep hues. Tension rods glisten, while the taut heads are crisp white, hinting at the precision of sound. The sophisticated setup radiates craftsmanship",
+                "global_prompt": "Create an image of: a C rocker centered, with ornate wood details, in front of a classic red electric guitar. The C rocker and guitar sit before a traditional black accordion. To the top-right, a shiny drum kit with golden cymbals. The scene uses precise layering, placing each musical instrument strategically according to space relations.",
+                "considerable_classes": [
+                    "accordion",
+                    "electric guitar"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a C rocker in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a red electric guitar present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is an accordion visible in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a drum kit with golden cymbals included?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the C rocker in front of the electric guitar?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the electric guitar positioned in front of the accordion?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the drum kit located relative to the accordion?",
+                "ground_truth_answer": "To the top-right"
+            }
+        ]
+    }
+}

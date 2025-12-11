@@ -1,0 +1,1090 @@
+{
+    "70": {
+        "original_metadata": [
+            {
+                "class": " stingray",
+                "layer": 0,
+                "coordinates": [
+                    0.4155715639638816,
+                    0.24360818641621323,
+                    0.6669829822111061,
+                    0.536305570654035
+                ],
+                "background_prompt": "Create an image of background with a vibrant ocean setting, sunlight streams from above, illuminating the clear, turquoise waters. Soft beams pierce through the depths, casting dynamic reflections. Subtle currents gently sway distant kelp, creating a serene underwater ambiance.",
+                "local_prompt": "Create an image of a stingray with smooth, wide wings gliding effortlessly, showcasing its elegant, flattened body and long, slender tail. The stingray should have a pattern of pale spots and subtle color variations, capturing the gracefulness of its natural underwater movement.",
+                "global_prompt": "Create an image of: a diverse marine scene with a hammerhead shark mid-frame behind an electric ray, but in front of a stingray. Place a great white shark foreground, positioned closer to the bottom left, mainly over the stingray, while a tiger shark occupies the lower-left corner, behind the other species, showcasing their graceful, natural movements in a vibrant ocean setting with sunlight",
+                "background": "Ocean Setting",
+                "considerable_classes": []
+            },
+            {
+                "class": " tiger shark",
+                "layer": 1,
+                "coordinates": [
+                    0.19280074275291828,
+                    0.13369186472796987,
+                    0.49146536769990745,
+                    0.35038073771716416
+                ],
+                "background_prompt": "Create an image of background with a vibrant ocean setting, sunlight streams from above, illuminating the clear, turquoise waters. Soft beams pierce through the depths, casting dynamic reflections. Subtle currents gently sway distant kelp, creating a serene underwater ambiance.",
+                "local_prompt": "Create an image of a tiger shark with distinctive stripes and a streamlined body, gliding gracefully through the water. Capture the subtle shimmer of its skin and the powerful sway of its tail, emphasizing its majestic and stealthy presence.",
+                "global_prompt": "Create an image of: a diverse marine scene with a hammerhead shark mid-frame behind an electric ray, but in front of a stingray. Place a great white shark foreground, positioned closer to the bottom left, mainly over the stingray, while a tiger shark occupies the lower-left corner, behind the other species, showcasing their graceful, natural movements in a vibrant ocean setting with sunlight",
+                "considerable_classes": [
+                    " stingray"
+                ]
+            },
+            {
+                "class": " hammerhead",
+                "layer": 2,
+                "coordinates": [
+                    0.4690230837141329,
+                    0.2325630013849044,
+                    0.8461453043525579,
+                    0.44187814808479187
+                ],
+                "background_prompt": "Create an image of background with a vibrant ocean setting, sunlight streams from above, illuminating the clear, turquoise waters. Soft beams pierce through the depths, casting dynamic reflections. Subtle currents gently sway distant kelp, creating a serene underwater ambiance.",
+                "local_prompt": "Create an image of a hammerhead with its distinctive T-shaped head, showcasing its unique silhouette against the backdrop of an ocean's vibrant sunlight. Capture its muscular, sleek body gracefully gliding through water, with its eyes on either side of the broad head, exuding an aura of mystery and strength.",
+                "global_prompt": "Create an image of: a diverse marine scene with a hammerhead shark mid-frame behind an electric ray, but in front of a stingray. Place a great white shark foreground, positioned closer to the bottom left, mainly over the stingray, while a tiger shark occupies the lower-left corner, behind the other species, showcasing their graceful, natural movements in a vibrant ocean setting with sunlight",
+                "considerable_classes": [
+                    " stingray",
+                    " tiger shark"
+                ]
+            },
+            {
+                "class": "great white shark",
+                "layer": 3,
+                "coordinates": [
+                    0.30856932388697966,
+                    0.173135704826322,
+                    0.608961498717251,
+                    0.41567323411617263
+                ],
+                "background_prompt": "Create an image of background with a vibrant ocean setting, sunlight streams from above, illuminating the clear, turquoise waters. Soft beams pierce through the depths, casting dynamic reflections. Subtle currents gently sway distant kelp, creating a serene underwater ambiance.",
+                "local_prompt": "Create an image of a great white shark with its powerful body gliding gracefully through the water, jaws slightly open to reveal sharp teeth. Highlight its strong, streamlined silhouette featuring a prominent dorsal fin and striking gray-to-white gradient skin. Capture the intensity in its small, black eyes and the dynamic motion of its tail as it swims confidently in its ocean domain.",
+                "global_prompt": "Create an image of: a diverse marine scene with a hammerhead shark mid-frame behind an electric ray, but in front of a stingray. Place a great white shark foreground, positioned closer to the bottom left, mainly over the stingray, while a tiger shark occupies the lower-left corner, behind the other species, showcasing their graceful, natural movements in a vibrant ocean setting with sunlight",
+                "considerable_classes": [
+                    " stingray",
+                    " tiger shark",
+                    " hammerhead"
+                ]
+            },
+            {
+                "class": " electric ray",
+                "layer": 4,
+                "coordinates": [
+                    0.42609553647231757,
+                    0.2823207858528033,
+                    0.7474101518658877,
+                    0.49978206972667955
+                ],
+                "background_prompt": "Create an image of background with a vibrant ocean setting, sunlight streams from above, illuminating the clear, turquoise waters. Soft beams pierce through the depths, casting dynamic reflections. Subtle currents gently sway distant kelp, creating a serene underwater ambiance.",
+                "local_prompt": "Create an image of an electric ray with a smooth, slightly flattened oval body and a distinctively rounded, less pronounced snout. Its textured skin displays a mottled pattern of muted browns and soft grays, reflecting a gentle play of sunlight that cascades over its body. The rounded pectoral fins appear as though seamlessly merged into its overall form, gently undulating as if",
+                "global_prompt": "Create an image of: a diverse marine scene with a hammerhead shark mid-frame behind an electric ray, but in front of a stingray. Place a great white shark foreground, positioned closer to the bottom left, mainly over the stingray, while a tiger shark occupies the lower-left corner, behind the other species, showcasing their graceful, natural movements in a vibrant ocean setting with sunlight",
+                "considerable_classes": [
+                    " stingray",
+                    " tiger shark",
+                    " hammerhead",
+                    "great white shark"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a hammerhead shark in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there any stingrays depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a great white shark visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hammerhead shark positioned behind the electric ray?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great white shark in the foreground and closer to the bottom left?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tiger shark located in the lower-left corner and behind the other sharks?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hammerhead shark in front of the stingray?",
+                "ground_truth_answer": "No"
+            }
+        ]
+    },
+    "71": {
+        "original_metadata": [
+            {
+                "class": "limpkin",
+                "layer": 0,
+                "coordinates": [
+                    0.14408956434472625,
+                    0.3092365220385127,
+                    0.4751330675210543,
+                    0.5215413166493866
+                ],
+                "background_prompt": "Create an image of background with lush wetland landscape, featuring verdant marsh grasses swaying gently in the breeze, a serene pond reflecting the soft light of a setting sun, and distant trees casting long, gentle shadows.",
+                "local_prompt": "Create an image of limpkin with a slender neck and long legs, displaying its characteristic streaked brown and white plumage. Capture its unique slightly curved beak, ideal for extracting snails. Position the limpkin as if it is gracefully hunting or exploring, showcasing its distinctive, elegant posture.",
+                "global_prompt": "Create an image of: a layered scene with a heron at the forefront, gracefully poised, occupying coordinates [0.342, 0.309] to [0.615, 0.625]. Behind it, a majestic great egret stands elegantly, spanning from [0.261, 0.393] to [0.632, 0.673]. In",
+                "background": "Wetland Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "great egret",
+                "layer": 1,
+                "coordinates": [
+                    0.26087067601976655,
+                    0.3934598879631175,
+                    0.6315926280816242,
+                    0.6728246547476697
+                ],
+                "background_prompt": "Create an image of background with lush wetland landscape, featuring verdant marsh grasses swaying gently in the breeze, a serene pond reflecting the soft light of a setting sun, and distant trees casting long, gentle shadows.",
+                "local_prompt": "Create an image of great egret with elegantly arched neck, pristine white plumage, and long slender legs. Its dagger-like orange beak contrasts with its graceful body, exuding an air of majesty and poise. Focus on detailed textures and delicate feather arrangement, capturing the essence of its dignified presence.",
+                "global_prompt": "Create an image of: a layered scene with a heron at the forefront, gracefully poised, occupying coordinates [0.342, 0.309] to [0.615, 0.625]. Behind it, a majestic great egret stands elegantly, spanning from [0.261, 0.393] to [0.632, 0.673]. In",
+                "considerable_classes": [
+                    "limpkin"
+                ]
+            },
+            {
+                "class": "heron",
+                "layer": 2,
+                "coordinates": [
+                    0.34167036279085045,
+                    0.3092335740268775,
+                    0.6153107023120239,
+                    0.6249291401092876
+                ],
+                "background_prompt": "Create an image of background with lush wetland landscape, featuring verdant marsh grasses swaying gently in the breeze, a serene pond reflecting the soft light of a setting sun, and distant trees casting long, gentle shadows.",
+                "local_prompt": "Create an image of heron with elegant, elongated neck, poised gracefully as if ready to take flight, exhibiting sleek gray feathers shimmering in the light, long legs submerged beneath a body held in perfect balance, and a sharp beak pointed attentively, embodying a sense of serene alertness.",
+                "global_prompt": "Create an image of: a layered scene with a heron at the forefront, gracefully poised, occupying coordinates [0.342, 0.309] to [0.615, 0.625]. Behind it, a majestic great egret stands elegantly, spanning from [0.261, 0.393] to [0.632, 0.673]. In",
+                "considerable_classes": [
+                    "great egret"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a heron in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a great egret in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a limpkin in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the heron in front of the great egret?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great egret in front of the limpkin?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the limpkin behind the great egret?",
+                "ground_truth_answer": "No"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the heron positioned between the great egret and the background?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "72": {
+        "original_metadata": [
+            {
+                "class": "banded gecko",
+                "layer": 0,
+                "coordinates": [
+                    0.37416241924534555,
+                    0.2925840299443925,
+                    0.7366442010785019,
+                    0.6058483500185271
+                ],
+                "background_prompt": "Create an image of background with a sandy desert landscape at dusk, featuring soft gradients of orange and purple in the sky. Sparse vegetation and scattered pebbles lie on the ground, creating subtle shadows. The horizon shows distant rocky formations.",
+                "local_prompt": "Create an image of a banded gecko with distinct, alternating light and dark stripes across its body. The gecko should display a curious and alert posture, with its eyes wide open and toes splayed slightly as if gripping onto a surface. Its skin should have a smooth, glossy texture, reflecting subtle ambient light.",
+                "global_prompt": "Create an image of: a scene with a banded gecko partially obscured by a coil in the foreground and a boa constrictor, all overlapping slightly. The gecko is located behind the other two, positioned from upper-left [0.374, 0.293] to lower-right [0.737, 0.606]. The coil sits prominently from [0",
+                "background": "Desert Dusk",
+                "considerable_classes": []
+            },
+            {
+                "class": "boa constrictor",
+                "layer": 1,
+                "coordinates": [
+                    0.1100784999545271,
+                    0.316252576098375,
+                    0.44205925333158325,
+                    0.5640891111113286
+                ],
+                "background_prompt": "Create an image of background with a sandy desert landscape at dusk, featuring soft gradients of orange and purple in the sky. Sparse vegetation and scattered pebbles lie on the ground, creating subtle shadows. The horizon shows distant rocky formations.",
+                "local_prompt": "Create an image of a boa constrictor with smooth, glossy scales exhibiting shades of deep green and intricate patterns. Its body is coiled elegantly, with the sinuous curves accentuating musculature. The snake's head is slightly elevated, eyes alert and glinting, as it conveys both power and grace in a natural, fluid pose.",
+                "global_prompt": "Create an image of: a scene with a banded gecko partially obscured by a coil in the foreground and a boa constrictor, all overlapping slightly. The gecko is located behind the other two, positioned from upper-left [0.374, 0.293] to lower-right [0.737, 0.606]. The coil sits prominently from [0",
+                "considerable_classes": [
+                    "banded gecko"
+                ]
+            },
+            {
+                "class": "coil",
+                "layer": 2,
+                "coordinates": [
+                    0.24333607536914503,
+                    0.4665152820882177,
+                    0.6373380881716169,
+                    0.7176481833831501
+                ],
+                "background_prompt": "Create an image of background with a sandy desert landscape at dusk, featuring soft gradients of orange and purple in the sky. Sparse vegetation and scattered pebbles lie on the ground, creating subtle shadows. The horizon shows distant rocky formations.",
+                "local_prompt": "Create an image of coil with intricate scales reflecting light, curling gracefully. The coil's smooth, metallic sheen varies subtly in hue, suggesting tension and fluidity. Focus on the elegant curves and textured surface, conveying its robust yet flexible nature.",
+                "global_prompt": "Create an image of: a scene with a banded gecko partially obscured by a coil in the foreground and a boa constrictor, all overlapping slightly. The gecko is located behind the other two, positioned from upper-left [0.374, 0.293] to lower-right [0.737, 0.606]. The coil sits prominently from [0",
+                "considerable_classes": [
+                    "banded gecko",
+                    "boa constrictor"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a banded gecko in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a boa constrictor in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a coil in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the banded gecko partially obscured by the coil?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the boa constrictor in front of the banded gecko?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the coil in front of the boa constrictor?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the banded gecko located behind the boa constrictor and the coil?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "73": {
+        "original_metadata": [
+            {
+                "class": "CD player",
+                "layer": 0,
+                "coordinates": [
+                    0.1727100177074116,
+                    0.19290224277908274,
+                    0.49110485695176476,
+                    0.4028686927278065
+                ],
+                "background_prompt": "Create an image of background with warm, sepia-toned hues, evoking 1980s nostalgia, soft golden light casting gentle shadows. The walls display subtle vintage wallpaper patterns, while elements of wood grain and muted metallic tones complement the cozy, retro atmosphere. Dust motes dance in the light.",
+                "local_prompt": "Create an image of CD player with a sleek, vintage design featuring a brushed metal finish and an illuminated digital display. Highlight the smooth, dark circular tray, glossy surface, and finely etched buttons. Emphasize authentic textures and a metallic sheen, with light reflecting subtly off the edges.",
+                "global_prompt": "Create an image of: a retro scene with a cassette player in the foreground, positioned lower right, a sleek vintage CD player to its upper left, slightly overlapping a classic vinyl record. A pair of stylish headphones hover above centrally. The arrangement captures a nostalgic atmosphere, with each item meticulously detailed, featuring authentic textures and hues. The layers create depth, with the glint of light on",
+                "background": "Retro Nostalgia",
+                "considerable_classes": []
+            },
+            {
+                "class": "headphones",
+                "layer": 1,
+                "coordinates": [
+                    0.10488010677894391,
+                    0.45789817269918587,
+                    0.3281163966859792,
+                    0.7230879233356231
+                ],
+                "background_prompt": "Create an image of background with warm, sepia-toned hues, evoking 1980s nostalgia, soft golden light casting gentle shadows. The walls display subtle vintage wallpaper patterns, while elements of wood grain and muted metallic tones complement the cozy, retro atmosphere. Dust motes dance in the light.",
+                "local_prompt": "Create an image of headphones with a sleek, vintage design, featuring oval-shaped ear cups cushioned with plush leather. The headband is elegantly curved, showcasing polished metal accents. The cords are neatly coiled, with a soft fabric covering that enhances their retro aesthetic. The headphones exude a classic aura, intensified by subtle reflections on their surface, producing a refined look.",
+                "global_prompt": "Create an image of: a retro scene with a cassette player in the foreground, positioned lower right, a sleek vintage CD player to its upper left, slightly overlapping a classic vinyl record. A pair of stylish headphones hover above centrally. The arrangement captures a nostalgic atmosphere, with each item meticulously detailed, featuring authentic textures and hues. The layers create depth, with the glint of light on",
+                "considerable_classes": []
+            },
+            {
+                "class": "cassette player",
+                "layer": 2,
+                "coordinates": [
+                    0.4355574566108924,
+                    0.4611593175873463,
+                    0.7930617440195905,
+                    0.748077208813603
+                ],
+                "background_prompt": "Create an image of background with warm, sepia-toned hues, evoking 1980s nostalgia, soft golden light casting gentle shadows. The walls display subtle vintage wallpaper patterns, while elements of wood grain and muted metallic tones complement the cozy, retro atmosphere. Dust motes dance in the light.",
+                "local_prompt": "Create an image of cassette player with a retro aesthetic, featuring a well-worn, metallic finish and authentic tactile buttons. Capture the intricate design of the cassette bay, with the door slightly ajar to reveal the internal mechanics. Highlight every knob and dial with precise detailing, showcasing textured surfaces that evoke a vintage feel. Illuminate with soft ambient light to evoke nostalgia.",
+                "global_prompt": "Create an image of: a retro scene with a cassette player in the foreground, positioned lower right, a sleek vintage CD player to its upper left, slightly overlapping a classic vinyl record. A pair of stylish headphones hover above centrally. The arrangement captures a nostalgic atmosphere, with each item meticulously detailed, featuring authentic textures and hues. The layers create depth, with the glint of light on",
+                "considerable_classes": []
+            },
+            {
+                "class": "vinyl record",
+                "layer": 3,
+                "coordinates": [
+                    0.16951200075043676,
+                    0.1836795739909318,
+                    0.4482565204368933,
+                    0.3963997003121684
+                ],
+                "background_prompt": "Create an image of background with warm, sepia-toned hues, evoking 1980s nostalgia, soft golden light casting gentle shadows. The walls display subtle vintage wallpaper patterns, while elements of wood grain and muted metallic tones complement the cozy, retro atmosphere. Dust motes dance in the light.",
+                "local_prompt": "Create an image of vinyl record with a classic, glossy black finish, showcasing its iconic grooved surface. Display vibrant, multicolor reflections across its surface, capturing an authentic vintage look. Label features intricate, eye-catching design, adding a sense of nostalgia and depth to the record.",
+                "global_prompt": "Create an image of: a retro scene with a cassette player in the foreground, positioned lower right, a sleek vintage CD player to its upper left, slightly overlapping a classic vinyl record. A pair of stylish headphones hover above centrally. The arrangement captures a nostalgic atmosphere, with each item meticulously detailed, featuring authentic textures and hues. The layers create depth, with the glint of light on",
+                "considerable_classes": [
+                    "CD player"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a cassette player in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a CD player in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there headphones in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a vinyl record in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the CD player positioned to the upper left of the cassette player?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the vinyl record slightly overlapping the CD player?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the headphones hovering above the other objects?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "74": {
+        "original_metadata": [
+            {
+                "class": " street sign",
+                "layer": 0,
+                "coordinates": [
+                    0.2760564427874057,
+                    0.16745208432086978,
+                    0.4951836531346452,
+                    0.3768935310291409
+                ],
+                "background_prompt": "Create an image of background with urban street vibe, featuring illuminated vending machine and nearby pay-phone. Mellow sunlight casts faint shadows on pavement adorned with scattered street signs partially visible. Subtle city textures and muted hues fill the scene.",
+                "local_prompt": "Create an image of a street sign with a metallic pole and a reflective, rectangular sign face, featuring a vibrant green color with white lettering. The edges are slightly weathered, showing signs of urban wear. The sign is positioned at a slight angle, catching subtle sunlight, which casts delicate shadows on its surface, emphasizing its texture and sheen.",
+                "global_prompt": "Create an image of: an urban scene with a pedestrian in the forefront, casually strolling, obscuring parts of the taxi behind. A taxi, partially visible, is parked with slight front angle. Behind both, a vending machine and pay-phone stand close, vending machine functioning, illuminated. A street sign lies to the left, beneath both, and partially hidden. Subtle sunlight and shadows",
+                "background": "Urban street ambiance",
+                "considerable_classes": []
+            },
+            {
+                "class": "pay-phone",
+                "layer": 1,
+                "coordinates": [
+                    0.2217303404047792,
+                    0.4499976023927609,
+                    0.4818433767011724,
+                    0.8067277704424849
+                ],
+                "background_prompt": "Create an image of background with urban street vibe, featuring illuminated vending machine and nearby pay-phone. Mellow sunlight casts faint shadows on pavement adorned with scattered street signs partially visible. Subtle city textures and muted hues fill the scene.",
+                "local_prompt": "Create an image of pay-phone with a classic design, featuring a sturdy metal casing. The handset hangs from a coiled cord, adjacent to a keypad with visible raised buttons. The coin slot sits prominently above, accompanied by instruction decals and a small digital screen.",
+                "global_prompt": "Create an image of: an urban scene with a pedestrian in the forefront, casually strolling, obscuring parts of the taxi behind. A taxi, partially visible, is parked with slight front angle. Behind both, a vending machine and pay-phone stand close, vending machine functioning, illuminated. A street sign lies to the left, beneath both, and partially hidden. Subtle sunlight and shadows",
+                "considerable_classes": []
+            },
+            {
+                "class": " vending machine",
+                "layer": 2,
+                "coordinates": [
+                    0.22375170922497772,
+                    0.40436131140667797,
+                    0.48687749720967644,
+                    0.7602169622442159
+                ],
+                "background_prompt": "Create an image of background with urban street vibe, featuring illuminated vending machine and nearby pay-phone. Mellow sunlight casts faint shadows on pavement adorned with scattered street signs partially visible. Subtle city textures and muted hues fill the scene.",
+                "local_prompt": "Create an image of a vending machine with a modern design, featuring a sleek metallic finish and a digital display panel. The machine is stocked with various colorful snacks and beverages visible through a clear, illuminated glass front, offering an inviting, vibrant appearance.",
+                "global_prompt": "Create an image of: an urban scene with a pedestrian in the forefront, casually strolling, obscuring parts of the taxi behind. A taxi, partially visible, is parked with slight front angle. Behind both, a vending machine and pay-phone stand close, vending machine functioning, illuminated. A street sign lies to the left, beneath both, and partially hidden. Subtle sunlight and shadows",
+                "considerable_classes": [
+                    "pay-phone"
+                ]
+            },
+            {
+                "class": " taxi",
+                "layer": 3,
+                "coordinates": [
+                    0.1542245793969344,
+                    0.35633857822351167,
+                    0.4629754556230274,
+                    0.6585611345303996
+                ],
+                "background_prompt": "Create an image of background with urban street vibe, featuring illuminated vending machine and nearby pay-phone. Mellow sunlight casts faint shadows on pavement adorned with scattered street signs partially visible. Subtle city textures and muted hues fill the scene.",
+                "local_prompt": "Create an image of a taxi with a parked position, showcasing its slight front angle and distinctive yellow color. Its exterior reflects urban wear, featuring gleaming chrome details. The taxi's windows hint at a bustling cityscape reflection, while subtle sunlight highlights its roof, casting gentle shadows on its iconic checkerboard stripe, emphasizing its classic urban appearance.",
+                "global_prompt": "Create an image of: an urban scene with a pedestrian in the forefront, casually strolling, obscuring parts of the taxi behind. A taxi, partially visible, is parked with slight front angle. Behind both, a vending machine and pay-phone stand close, vending machine functioning, illuminated. A street sign lies to the left, beneath both, and partially hidden. Subtle sunlight and shadows",
+                "considerable_classes": [
+                    " street sign",
+                    "pay-phone",
+                    " vending machine"
+                ]
+            },
+            {
+                "class": " pedestrian",
+                "layer": 4,
+                "coordinates": [
+                    0.10606169647924224,
+                    0.3329178640406223,
+                    0.3512997256112935,
+                    0.6023206825131422
+                ],
+                "background_prompt": "Create an image of background with urban street vibe, featuring illuminated vending machine and nearby pay-phone. Mellow sunlight casts faint shadows on pavement adorned with scattered street signs partially visible. Subtle city textures and muted hues fill the scene.",
+                "local_prompt": "Create an image of a pedestrian with casual attire, strolling leisurely. Emphasize their relaxed posture and natural movement, capturing a moment of urban nonchalance. Avoid any indications of other objects, such as background elements or additional figures. Focus solely on the pedestrian's demeanor and attire details.",
+                "global_prompt": "Create an image of: an urban scene with a pedestrian in the forefront, casually strolling, obscuring parts of the taxi behind. A taxi, partially visible, is parked with slight front angle. Behind both, a vending machine and pay-phone stand close, vending machine functioning, illuminated. A street sign lies to the left, beneath both, and partially hidden. Subtle sunlight and shadows",
+                "considerable_classes": [
+                    " street sign",
+                    "pay-phone",
+                    " vending machine",
+                    " taxi"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a pedestrian in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a taxi in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a vending machine in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a pay-phone in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a street sign in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pedestrian in front of the taxi?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the taxi parked behind the pedestrian?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the vending machine behind the taxi?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pay-phone next to the vending machine?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the street sign located beneath the taxi?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "75": {
+        "original_metadata": [
+            {
+                "class": "notebook",
+                "layer": 0,
+                "coordinates": [
+                    0.48346452646061466,
+                    0.31165127200354015,
+                    0.8771414573687901,
+                    0.5261249662234209
+                ],
+                "background_prompt": "Create an image of background with a soft, ambient glow filtering through a wide window, illuminating smooth hardwood floors. A warm-toned wall with subtle texture, and gentle, natural light casts soft shadows across the scene, creating a serene, inviting atmosphere enhancing the sense of tranquility.",
+                "local_prompt": "Create an image of a notebook with a textured leather cover, subtly worn at the edges. Its pages, slightly yellowed, are neatly aligned and securely bound. The notebook is open, revealing crisp, lined paper ready for writing. Soft shadows are cast over it, highlighting the texture.",
+                "global_prompt": "Create an image of: a desk in the foreground, top left, with an ink bottle slightly lower and to the right. A ballpoint pen, in front of the ink bottle, is centrally positioned, partially obscuring it. A notebook lies behind the pen, rightward and lower. Render with precision, ensuring realistic textures and proportions, light coming from above, casting soft shadows for",
+                "background": "Tranquil Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "ink bottle",
+                "layer": 1,
+                "coordinates": [
+                    0.14009380453697495,
+                    0.3157099223554868,
+                    0.4612175988498126,
+                    0.6715599217220041
+                ],
+                "background_prompt": "Create an image of background with a soft, ambient glow filtering through a wide window, illuminating smooth hardwood floors. A warm-toned wall with subtle texture, and gentle, natural light casts soft shadows across the scene, creating a serene, inviting atmosphere enhancing the sense of tranquility.",
+                "local_prompt": "Create an image of ink bottle with a glossy, glass finish, vividly reflecting light from above. The bottle is half-filled with deep, rich blue ink. A classic design featuring a wide base tapering to a narrow neck capped with a smooth, black lid. Strokes of light highlight subtle curves, while soft shadows gently outline its shape. The bottle exudes a sense of sophistication and",
+                "global_prompt": "Create an image of: a desk in the foreground, top left, with an ink bottle slightly lower and to the right. A ballpoint pen, in front of the ink bottle, is centrally positioned, partially obscuring it. A notebook lies behind the pen, rightward and lower. Render with precision, ensuring realistic textures and proportions, light coming from above, casting soft shadows for",
+                "considerable_classes": []
+            },
+            {
+                "class": "ballpoint",
+                "layer": 2,
+                "coordinates": [
+                    0.27829894785358833,
+                    0.45771180020126934,
+                    0.5967495057060861,
+                    0.7465854923630404
+                ],
+                "background_prompt": "Create an image of background with a soft, ambient glow filtering through a wide window, illuminating smooth hardwood floors. A warm-toned wall with subtle texture, and gentle, natural light casts soft shadows across the scene, creating a serene, inviting atmosphere enhancing the sense of tranquility.",
+                "local_prompt": "Create an image of ballpoint with a sleek metallic finish, lying horizontally with the pen cap on. Its shiny surface reflects soft overhead lighting, emphasizing detailed engravings on the clip. The tip points slightly downwards, creating a subtle shadow underneath, exhibiting realistic proportions and elegant design.",
+                "global_prompt": "Create an image of: a desk in the foreground, top left, with an ink bottle slightly lower and to the right. A ballpoint pen, in front of the ink bottle, is centrally positioned, partially obscuring it. A notebook lies behind the pen, rightward and lower. Render with precision, ensuring realistic textures and proportions, light coming from above, casting soft shadows for",
+                "considerable_classes": [
+                    "notebook",
+                    "ink bottle"
+                ]
+            },
+            {
+                "class": "desk",
+                "layer": 3,
+                "coordinates": [
+                    0.1378899775030732,
+                    0.2068842460880574,
+                    0.40776731150311496,
+                    0.510217212003905
+                ],
+                "background_prompt": "Create an image of background with a soft, ambient glow filtering through a wide window, illuminating smooth hardwood floors. A warm-toned wall with subtle texture, and gentle, natural light casts soft shadows across the scene, creating a serene, inviting atmosphere enhancing the sense of tranquility.",
+                "local_prompt": "Create an image of a desk with smooth, polished oak surface reflecting light softly. The desk\u2019s edges are well-defined, showcasing a classic rectangular shape. Highlight fine wood grain details, its texture both rich and natural. Render sturdy, tapered legs ensuring proportionate balance. Capture the desk in a realistic setting, its craftsmanship evident.",
+                "global_prompt": "Create an image of: a desk in the foreground, top left, with an ink bottle slightly lower and to the right. A ballpoint pen, in front of the ink bottle, is centrally positioned, partially obscuring it. A notebook lies behind the pen, rightward and lower. Render with precision, ensuring realistic textures and proportions, light coming from above, casting soft shadows for",
+                "considerable_classes": [
+                    "ink bottle",
+                    "ballpoint"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a desk in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an ink bottle present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a ballpoint pen visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a notebook in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ink bottle on the desk?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ballpoint pen in front of the ink bottle?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the notebook behind the ballpoint pen?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the desk in the foreground?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "76": {
+        "original_metadata": [
+            {
+                "class": "dumbbell",
+                "layer": 0,
+                "coordinates": [
+                    0.13613744364851957,
+                    0.12217773132841124,
+                    0.48524674398789003,
+                    0.39107418173543895
+                ],
+                "background_prompt": "Create an image of background with smooth, neutral-toned gym walls and a simple, evenly textured floor, casting minimal shadows and exuding a clean, modern gym atmosphere, subtly illuminated by overhead lighting.",
+                "local_prompt": "Create an image of dumbbell with metallic texture, compact size, and hexagonal ends. It is partially visible, lying on a gym floor, with some scratched and worn areas, indicating regular use and adding realism.",
+                "global_prompt": "Create an image of: a gym scene featuring a gym bag at the front and lower left, with a small dumbbell partially visible behind it. To the right, a treadmill overlaps the ground space, while a large barbell is faintly visible in the back. A second dumbbell, positioned to the farthest right, extends onto the upper portion, against a neutral gym wall background",
+                "background": "Modern Gym",
+                "considerable_classes": []
+            },
+            {
+                "class": "barbell",
+                "layer": 1,
+                "coordinates": [
+                    0.21802029395636385,
+                    0.4457384874040301,
+                    0.45878884153720606,
+                    0.6830889328840093
+                ],
+                "background_prompt": "Create an image of background with smooth, neutral-toned gym walls and a simple, evenly textured floor, casting minimal shadows and exuding a clean, modern gym atmosphere, subtly illuminated by overhead lighting.",
+                "local_prompt": "Create an image of barbell with a robust, polished metal finish, featuring substantial, evenly weighted plates on each end. The central bar is slightly textured for grip, showing subtle reflections from overhead lighting. The plates exhibit engraved weight markings.",
+                "global_prompt": "Create an image of: a gym scene featuring a gym bag at the front and lower left, with a small dumbbell partially visible behind it. To the right, a treadmill overlaps the ground space, while a large barbell is faintly visible in the back. A second dumbbell, positioned to the farthest right, extends onto the upper portion, against a neutral gym wall background",
+                "considerable_classes": []
+            },
+            {
+                "class": "treadmill",
+                "layer": 2,
+                "coordinates": [
+                    0.2890142466748103,
+                    0.44073626194016435,
+                    0.5668480834143146,
+                    0.6781306040136141
+                ],
+                "background_prompt": "Create an image of background with smooth, neutral-toned gym walls and a simple, evenly textured floor, casting minimal shadows and exuding a clean, modern gym atmosphere, subtly illuminated by overhead lighting.",
+                "local_prompt": "Create an image of treadmill with a sleek, modern design featuring a solid black running belt, illuminated digital console, and sturdy metal frame. The treadmill's side handrails are ergonomically curved, enhancing both style and user comfort.",
+                "global_prompt": "Create an image of: a gym scene featuring a gym bag at the front and lower left, with a small dumbbell partially visible behind it. To the right, a treadmill overlaps the ground space, while a large barbell is faintly visible in the back. A second dumbbell, positioned to the farthest right, extends onto the upper portion, against a neutral gym wall background",
+                "considerable_classes": [
+                    "barbell"
+                ]
+            },
+            {
+                "class": "dumbbell",
+                "layer": 3,
+                "coordinates": [
+                    0.3188726611848979,
+                    0.37890810691034305,
+                    0.6878941656321966,
+                    0.6296578264272844
+                ],
+                "background_prompt": "Create an image of background with smooth, neutral-toned gym walls and a simple, evenly textured floor, casting minimal shadows and exuding a clean, modern gym atmosphere, subtly illuminated by overhead lighting.",
+                "local_prompt": "Create an image of a dumbbell with polished chrome cylindrical weights, attached symmetrically at each end of a textured, matte black handle. The weights display engraved numerical labels indicating their mass. The handle includes subtle knurling patterns for better grip. Place this dumbbell angled slightly to the right, capturing light reflections on the metallic surfaces, highlighting its robustness and utility in gym settings.",
+                "global_prompt": "Create an image of: a gym scene featuring a gym bag at the front and lower left, with a small dumbbell partially visible behind it. To the right, a treadmill overlaps the ground space, while a large barbell is faintly visible in the back. A second dumbbell, positioned to the farthest right, extends onto the upper portion, against a neutral gym wall background",
+                "considerable_classes": [
+                    "dumbbell",
+                    "barbell",
+                    "treadmill"
+                ]
+            },
+            {
+                "class": "gym bag",
+                "layer": 4,
+                "coordinates": [
+                    0.379684974053927,
+                    0.15156297639156457,
+                    0.7188181648301042,
+                    0.4122345764228586
+                ],
+                "background_prompt": "Create an image of background with smooth, neutral-toned gym walls and a simple, evenly textured floor, casting minimal shadows and exuding a clean, modern gym atmosphere, subtly illuminated by overhead lighting.",
+                "local_prompt": "Create an image of gym bag with rugged, durable fabric, featuring a subtle sheen, accented by sturdy zippers and reinforced handles. The bag has a sleek silhouette, emphasizing its practicality and style, embellished with small mesh pockets on the sides.",
+                "global_prompt": "Create an image of: a gym scene featuring a gym bag at the front and lower left, with a small dumbbell partially visible behind it. To the right, a treadmill overlaps the ground space, while a large barbell is faintly visible in the back. A second dumbbell, positioned to the farthest right, extends onto the upper portion, against a neutral gym wall background",
+                "considerable_classes": [
+                    "dumbbell",
+                    "dumbbell"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a gym bag in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there any dumbbells visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a treadmill present in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a barbell in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gym bag in the front and lower left of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is a small dumbbell partially visible behind the gym bag?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the treadmill to the right of the gym bag?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the barbell faintly visible in the back of the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the second dumbbell positioned to the farthest right and extending onto the upper portion of the image?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "77": {
+        "original_metadata": [
+            {
+                "class": "dock",
+                "layer": 0,
+                "coordinates": [
+                    0.3373244575750419,
+                    0.1366179452903098,
+                    0.735483903377429,
+                    0.40867522709833304
+                ],
+                "background_prompt": "Create an image of background with a vast ocean view under a clear blue sky, gentle waves reflecting sunlight, distant coastal horizon, sparse clouds, and subtle variation in water color transitioning from deep blue to lighter shades nearer the shore.",
+                "local_prompt": "Create an image of dock with weathered wooden planks and sturdy pylons extending slightly above the water's surface, casting soft rippling reflections. Emphasize the texture of the wood, showing signs of age with grain details, occasional barnacles, and seaweed clinging to the lower parts.",
+                "global_prompt": "Create an image of: a scene by the sea, with a sturdy wooden dock slightly above, a majestic grey whale surfacing prominently, a playful sea lion basking in front, and a curious pelican perching lower right. The backgrounds and relativity should maintain spatial harmony and layering: dock bottommost, pelican next, sea lion appearing above, grey whale highest, ensuring perspective",
+                "background": "Ocean Horizon",
+                "considerable_classes": []
+            },
+            {
+                "class": "pelican",
+                "layer": 1,
+                "coordinates": [
+                    0.4147892194852426,
+                    0.4734135459039338,
+                    0.6593795063616407,
+                    0.7354414050765091
+                ],
+                "background_prompt": "Create an image of background with a vast ocean view under a clear blue sky, gentle waves reflecting sunlight, distant coastal horizon, sparse clouds, and subtle variation in water color transitioning from deep blue to lighter shades nearer the shore.",
+                "local_prompt": "Create an image of pelican with sleek, glossy feathers appearing vibrant and iridescent under the light. It should be perched confidently, showcasing its distinct long beak and large, pouch-like throat. The pelican\u2019s eyes are inquisitive, reflecting intelligence and curiosity, with its wings slightly tucked against its body.",
+                "global_prompt": "Create an image of: a scene by the sea, with a sturdy wooden dock slightly above, a majestic grey whale surfacing prominently, a playful sea lion basking in front, and a curious pelican perching lower right. The backgrounds and relativity should maintain spatial harmony and layering: dock bottommost, pelican next, sea lion appearing above, grey whale highest, ensuring perspective",
+                "considerable_classes": []
+            },
+            {
+                "class": "sea lion",
+                "layer": 2,
+                "coordinates": [
+                    0.29758407354459193,
+                    0.21350444480825576,
+                    0.6452406758724305,
+                    0.5989912049178097
+                ],
+                "background_prompt": "Create an image of background with a vast ocean view under a clear blue sky, gentle waves reflecting sunlight, distant coastal horizon, sparse clouds, and subtle variation in water color transitioning from deep blue to lighter shades nearer the shore.",
+                "local_prompt": "Create an image of a sea lion with sleek, glossy fur basking on a sunlit surface. Its posture is relaxed, head tilted slightly upwards as if soaking in warmth. The sea lion's whiskers are clearly defined, and its flippers are casually splayed to its sides. Its expressive eyes convey a sense of contentment.",
+                "global_prompt": "Create an image of: a scene by the sea, with a sturdy wooden dock slightly above, a majestic grey whale surfacing prominently, a playful sea lion basking in front, and a curious pelican perching lower right. The backgrounds and relativity should maintain spatial harmony and layering: dock bottommost, pelican next, sea lion appearing above, grey whale highest, ensuring perspective",
+                "considerable_classes": [
+                    "dock",
+                    "pelican"
+                ]
+            },
+            {
+                "class": "grey whale",
+                "layer": 3,
+                "coordinates": [
+                    0.1644151919666851,
+                    0.43439371335072297,
+                    0.40885218106589866,
+                    0.7096906856708559
+                ],
+                "background_prompt": "Create an image of background with a vast ocean view under a clear blue sky, gentle waves reflecting sunlight, distant coastal horizon, sparse clouds, and subtle variation in water color transitioning from deep blue to lighter shades nearer the shore.",
+                "local_prompt": "Create an image of a grey whale with its massive body gracefully breaching the water, showcasing its textured skin with mottled gray patterns, water droplets glistening on its surface, and barnacles clustering around its dorsal hump, highlighted by gleaming sunlight.",
+                "global_prompt": "Create an image of: a scene by the sea, with a sturdy wooden dock slightly above, a majestic grey whale surfacing prominently, a playful sea lion basking in front, and a curious pelican perching lower right. The backgrounds and relativity should maintain spatial harmony and layering: dock bottommost, pelican next, sea lion appearing above, grey whale highest, ensuring perspective",
+                "considerable_classes": [
+                    "sea lion"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a wooden dock in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a grey whale visible in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a pelican in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a sea lion present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the grey whale positioned above the sea lion?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sea lion in front of the dock?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pelican positioned below the sea lion?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "78": {
+        "original_metadata": [
+            {
+                "class": "coffee mug",
+                "layer": 0,
+                "coordinates": [
+                    0.3215774295719338,
+                    0.36893816451474015,
+                    0.6208673061196769,
+                    0.6878404170366013
+                ],
+                "background_prompt": "Create an image of background with warm, sunlit kitchen textures, capturing soft, mosaic tile patterns against matte painted walls; illuminated by ambient light filtering through sheer curtains, casting gentle shadows across a well-worn, smooth wooden countertop.",
+                "local_prompt": "Create an image of a coffee mug with a smooth ceramic texture and a glossy finish. The mug features a rich, deep brown color suggestive of freshly brewed coffee. Its handle is ergonomically curved for an easy grip. The mug is half-filled, and a gentle steam wafts from the top, indicating the warmth of the beverage inside. The lighting captures the mug\u2019s sheen, adding",
+                "global_prompt": "Create an image of: a layered kitchen scene with a coffee mug subtly tucked behind a waffle iron, toaster, and plate, positioned below and to the right of a fork. The waffle iron, central and leftward, nestled in front of the toaster but below the plate, complements the design. The plate is prominent on the right, while the fork hovers above, adding a metallic",
+                "background": "Sunlit Kitchen",
+                "considerable_classes": []
+            },
+            {
+                "class": "toaster",
+                "layer": 1,
+                "coordinates": [
+                    0.1537171045256569,
+                    0.29293455393426504,
+                    0.4738778540429466,
+                    0.5804328323927781
+                ],
+                "background_prompt": "Create an image of background with warm, sunlit kitchen textures, capturing soft, mosaic tile patterns against matte painted walls; illuminated by ambient light filtering through sheer curtains, casting gentle shadows across a well-worn, smooth wooden countertop.",
+                "local_prompt": "Create an image of toaster with a reflective chrome surface, showcasing vintage-style rotary dials and sleek, elongated slots. The toaster is designed with a lustrous, brushed metal finish and subtle, chrome accents. Its sturdy, retro-styled levers can be seen on the side, enhancing the nostalgic aesthetic. Include muted, retro shades for a timeless appeal.",
+                "global_prompt": "Create an image of: a layered kitchen scene with a coffee mug subtly tucked behind a waffle iron, toaster, and plate, positioned below and to the right of a fork. The waffle iron, central and leftward, nestled in front of the toaster but below the plate, complements the design. The plate is prominent on the right, while the fork hovers above, adding a metallic",
+                "considerable_classes": [
+                    "coffee mug"
+                ]
+            },
+            {
+                "class": "waffle iron",
+                "layer": 2,
+                "coordinates": [
+                    0.2958009725406463,
+                    0.17434022601876403,
+                    0.573550116519997,
+                    0.39391318724487717
+                ],
+                "background_prompt": "Create an image of background with warm, sunlit kitchen textures, capturing soft, mosaic tile patterns against matte painted walls; illuminated by ambient light filtering through sheer curtains, casting gentle shadows across a well-worn, smooth wooden countertop.",
+                "local_prompt": "Create an image of waffle iron with a sleek, stainless steel finish, showing intricate gridded patterns on the surface plates. Capture its lid slightly open to reveal the textured interior, emphasizing its modern design and smooth edges. The controls should be intuitively placed on the front, with a subtle gloss that catches the light.",
+                "global_prompt": "Create an image of: a layered kitchen scene with a coffee mug subtly tucked behind a waffle iron, toaster, and plate, positioned below and to the right of a fork. The waffle iron, central and leftward, nestled in front of the toaster but below the plate, complements the design. The plate is prominent on the right, while the fork hovers above, adding a metallic",
+                "considerable_classes": [
+                    "coffee mug",
+                    "toaster"
+                ]
+            },
+            {
+                "class": "fork",
+                "layer": 3,
+                "coordinates": [
+                    0.1272702138546622,
+                    0.12035004685521998,
+                    0.3529738992691248,
+                    0.34830307832985463
+                ],
+                "background_prompt": "Create an image of background with warm, sunlit kitchen textures, capturing soft, mosaic tile patterns against matte painted walls; illuminated by ambient light filtering through sheer curtains, casting gentle shadows across a well-worn, smooth wooden countertop.",
+                "local_prompt": "Create an image of fork with a sleek, polished stainless steel surface, elegantly balanced in mid-air, casting a subtle reflection. Its tines are perfectly aligned, exuding a minimalist aesthetic. The fork's handle is elongated, tapering gently towards the end, emphasizing its modern and ergonomic design, shimmering gently under ambient lighting.",
+                "global_prompt": "Create an image of: a layered kitchen scene with a coffee mug subtly tucked behind a waffle iron, toaster, and plate, positioned below and to the right of a fork. The waffle iron, central and leftward, nestled in front of the toaster but below the plate, complements the design. The plate is prominent on the right, while the fork hovers above, adding a metallic",
+                "considerable_classes": [
+                    "toaster",
+                    "waffle iron"
+                ]
+            },
+            {
+                "class": "plate",
+                "layer": 4,
+                "coordinates": [
+                    0.1561288620064005,
+                    0.49777416488441495,
+                    0.42284855051894976,
+                    0.7639842458151027
+                ],
+                "background_prompt": "Create an image of background with warm, sunlit kitchen textures, capturing soft, mosaic tile patterns against matte painted walls; illuminated by ambient light filtering through sheer curtains, casting gentle shadows across a well-worn, smooth wooden countertop.",
+                "local_prompt": "Create an image of plate with a pristine white ceramic surface, subtly reflecting light, adorned with a delicate blue floral pattern along the rim. Its elegant round shape rests slightly elevated, showcasing its gloss and smooth texture, with a subtle shadow casting beneath it, enhancing its three-dimensional presence. The design is classic, exuding a timeless charm and sophistication.",
+                "global_prompt": "Create an image of: a layered kitchen scene with a coffee mug subtly tucked behind a waffle iron, toaster, and plate, positioned below and to the right of a fork. The waffle iron, central and leftward, nestled in front of the toaster but below the plate, complements the design. The plate is prominent on the right, while the fork hovers above, adding a metallic",
+                "considerable_classes": [
+                    "coffee mug",
+                    "toaster"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a coffee mug in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a waffle iron present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a plate visible in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the coffee mug behind the waffle iron?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the fork positioned above the toaster?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the plate located to the right of the waffle iron?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the waffle iron in front of the toaster?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "79": {
+        "original_metadata": [
+            {
+                "class": "menu",
+                "layer": 0,
+                "coordinates": [
+                    0.24744894580207277,
+                    0.3647121973146582,
+                    0.4880996217924479,
+                    0.695438541081022
+                ],
+                "background_prompt": "Create an image of background with a cozy restaurant ambiance featuring a warmly lit, rustic bistro with wooden doors and vibrant flower pots lining the entrance, exuding an inviting and warm atmosphere.",
+                "local_prompt": "Create an image of menu with a sleek, partially opened design, featuring elegant and clear typography. The menu appears sophisticated, emphasizing a rustic charm with hints of classic culinary style, suggesting a diverse but carefully curated selection. The partially visible interior hints at exquisite themed sections, inviting diners to explore more.",
+                "global_prompt": "Create an image of: A cozy restaurant setting, featuring a prominent menu on the right, partially opened, with neat typography. To the left and slightly lower, a polished white plate gleams under soft lighting, positioned in front of the restaurant's entrance. The restaurant is a rustic bistro, showcasing wooden doors and vibrant flower pots, offering a warm and inviting ambience. The plate's",
+                "background": "Cozy restaurant ambiance",
+                "considerable_classes": []
+            },
+            {
+                "class": "restaurant",
+                "layer": 1,
+                "coordinates": [
+                    0.30906696738794404,
+                    0.360233602524488,
+                    0.6567207807193762,
+                    0.6994869342103478
+                ],
+                "background_prompt": "Create an image of background with a cozy restaurant ambiance featuring a warmly lit, rustic bistro with wooden doors and vibrant flower pots lining the entrance, exuding an inviting and warm atmosphere.",
+                "local_prompt": "Create an image of restaurant with rustic charm, featuring inviting wooden doors adorned with vibrant flower pots. The ambience is warm, evoking a cozy bistro feel, enticing patrons with its welcoming aesthetics and atmosphere.",
+                "global_prompt": "Create an image of: A cozy restaurant setting, featuring a prominent menu on the right, partially opened, with neat typography. To the left and slightly lower, a polished white plate gleams under soft lighting, positioned in front of the restaurant's entrance. The restaurant is a rustic bistro, showcasing wooden doors and vibrant flower pots, offering a warm and inviting ambience. The plate's",
+                "considerable_classes": []
+            },
+            {
+                "class": "plate",
+                "layer": 2,
+                "coordinates": [
+                    0.49726188475330657,
+                    0.16099830956857583,
+                    0.8681020880613499,
+                    0.4579848786657498
+                ],
+                "background_prompt": "Create an image of background with a cozy restaurant ambiance featuring a warmly lit, rustic bistro with wooden doors and vibrant flower pots lining the entrance, exuding an inviting and warm atmosphere.",
+                "local_prompt": "Create an image of plate with a polished white surface gleaming under soft, ambient lighting. Its round shape reflects the warmth and coziness of a rustic setting, and it is impeccably clean, hinting at an inviting dining experience.",
+                "global_prompt": "Create an image of: A cozy restaurant setting, featuring a prominent menu on the right, partially opened, with neat typography. To the left and slightly lower, a polished white plate gleams under soft lighting, positioned in front of the restaurant's entrance. The restaurant is a rustic bistro, showcasing wooden doors and vibrant flower pots, offering a warm and inviting ambience. The plate's",
+                "considerable_classes": [
+                    "restaurant"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a restaurant in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a plate visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a menu in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the plate positioned in front of the restaurant entrance?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the menu on the right side of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the plate located to the left and slightly lower than the menu?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

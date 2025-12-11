@@ -1,0 +1,1170 @@
+{
+    "50": {
+        "original_metadata": [
+            {
+                "class": "axolotl",
+                "layer": 0,
+                "coordinates": [
+                    0.455581306740499,
+                    0.4405790104970633,
+                    0.7658194064233173,
+                    0.6747251213149554
+                ],
+                "background_prompt": "Create an image of background with underwater greenery featuring dense aquatic plants and soft, sunlit water reflections. Streams of light filter through, casting gentle ripples on sandy substrate below, evoking a tranquil, thriving ecosystem full of color and vibrancy.",
+                "local_prompt": "Create an image of axolotl with smooth, pinkish skin and delicate, feathery gills, appearing partially obscured, hinting at charming innocence and gentle curiosity. Its limbs are subtle yet expressive, giving it a poised appearance.",
+                "global_prompt": "Create an image of: an axolotl partially obscured behind a common newt, both in a lush aquatic setting. The axolotl, in the lower portion, displays smooth, pinkish skin and delicate gills, located in a central position. Above, the common newt is vibrant orange with black spots, appearing dynamic in a mid-crawl posture. The scene features",
+                "background": "Underwater Ecosystem",
+                "considerable_classes": []
+            },
+            {
+                "class": "common newt",
+                "layer": 1,
+                "coordinates": [
+                    0.4075865623660503,
+                    0.17743328292749225,
+                    0.7477785740323241,
+                    0.4559589122879508
+                ],
+                "background_prompt": "Create an image of background with underwater greenery featuring dense aquatic plants and soft, sunlit water reflections. Streams of light filter through, casting gentle ripples on sandy substrate below, evoking a tranquil, thriving ecosystem full of color and vibrancy.",
+                "local_prompt": "Create an image of common newt with vibrant orange skin and contrasting black spots, appearing dynamic in a mid-crawl posture. Its body exhibits a sleek, glossy texture, with a gently curving tail and alert, expressive eyes, embodying both agility and curiosity.",
+                "global_prompt": "Create an image of: an axolotl partially obscured behind a common newt, both in a lush aquatic setting. The axolotl, in the lower portion, displays smooth, pinkish skin and delicate gills, located in a central position. Above, the common newt is vibrant orange with black spots, appearing dynamic in a mid-crawl posture. The scene features",
+                "considerable_classes": [
+                    "axolotl"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an axolotl in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a common newt in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the common newt in front of the axolotl?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the axolotl partially obscured by the common newt?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the axolotl positioned in the image?",
+                "ground_truth_answer": "In the lower portion"
+            },
+            {
+                "category": "Relationship",
+                "question": "What color is the common newt?",
+                "ground_truth_answer": "Vibrant orange with black spots"
+            }
+        ]
+    },
+    "51": {
+        "original_metadata": [
+            {
+                "class": " sneaker",
+                "layer": 0,
+                "coordinates": [
+                    0.2711986925922224,
+                    0.4771059047194329,
+                    0.4873790829870136,
+                    0.7384044682690739
+                ],
+                "background_prompt": "Create an image of background with a bustling urban street scene, featuring a stylish shoe shop storefront. The shop has large glass windows displaying colorful merchandise. The backdrop features tall city buildings under a clear blue sky. Shadows from the structures suggest late afternoon with soft sunlight illuminating the surfaces, adding depth and vibrancy.",
+                "local_prompt": "Create an image of sneaker with vibrant red and black color scheme, featuring intricate mesh patterns and a sleek, modern design. Highlight the detailed texturing on the shoe's upper, sole, and reflective elements, showcasing its dynamic contours and sporty aesthetic.",
+                "global_prompt": "Create an image of: a sneaker largely visible in the mid-background, partially obscured by a large shoelace in the foreground draped across the scene. Set the shoe shop in the deep background, rendering its storefront slightly visible behind the sneaker and shoelace, creating a sense of depth. Ensure the sneaker's and shoelace's detailed textures stand out, capturing the vibrant",
+                "background": "Urban Street Scene",
+                "considerable_classes": []
+            },
+            {
+                "class": "shoe shop",
+                "layer": 1,
+                "coordinates": [
+                    0.12169009743007182,
+                    0.19544603543955705,
+                    0.4249238829388191,
+                    0.5836633836928107
+                ],
+                "background_prompt": "Create an image of background with a bustling urban street scene, featuring a stylish shoe shop storefront. The shop has large glass windows displaying colorful merchandise. The backdrop features tall city buildings under a clear blue sky. Shadows from the structures suggest late afternoon with soft sunlight illuminating the surfaces, adding depth and vibrancy.",
+                "local_prompt": "Create an image of a shoe shop with an elegantly designed storefront, featuring large windows displaying an array of colorful, trendy sneakers. The signage should have a modern font, while intricate details of shoe displays are visible inside. Capture the inviting ambiance with a white door and soft lighting filtering through.",
+                "global_prompt": "Create an image of: a sneaker largely visible in the mid-background, partially obscured by a large shoelace in the foreground draped across the scene. Set the shoe shop in the deep background, rendering its storefront slightly visible behind the sneaker and shoelace, creating a sense of depth. Ensure the sneaker's and shoelace's detailed textures stand out, capturing the vibrant",
+                "considerable_classes": [
+                    " sneaker"
+                ]
+            },
+            {
+                "class": " shoelace",
+                "layer": 2,
+                "coordinates": [
+                    0.22573549985407115,
+                    0.3212962343429467,
+                    0.6082757239455858,
+                    0.6091479523212462
+                ],
+                "background_prompt": "Create an image of background with a bustling urban street scene, featuring a stylish shoe shop storefront. The shop has large glass windows displaying colorful merchandise. The backdrop features tall city buildings under a clear blue sky. Shadows from the structures suggest late afternoon with soft sunlight illuminating the surfaces, adding depth and vibrancy.",
+                "local_prompt": "Create an image of shoelace with strikingly detailed, interwoven fibers, exuding a vibrant color and texture, elegantly draped in the foreground, displaying subtle shadows and highlights that accentuate its intricate craftsmanship and form.",
+                "global_prompt": "Create an image of: a sneaker largely visible in the mid-background, partially obscured by a large shoelace in the foreground draped across the scene. Set the shoe shop in the deep background, rendering its storefront slightly visible behind the sneaker and shoelace, creating a sense of depth. Ensure the sneaker's and shoelace's detailed textures stand out, capturing the vibrant",
+                "considerable_classes": [
+                    "shoe shop"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a sneaker in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a shoelace in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a shoe shop visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shoelace in front of the sneaker?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sneaker partially obscured by the shoelace?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shoe shop located behind the sneaker?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shoe shop visible behind the shoelace?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "52": {
+        "original_metadata": [
+            {
+                "class": "curtain",
+                "layer": 0,
+                "coordinates": [
+                    0.1543849105468616,
+                    0.13244669998355385,
+                    0.388901032147619,
+                    0.335867775724333
+                ],
+                "background_prompt": "Create an image of background with soft golden light streaming through varying shades, casting a warm glow on textured surfaces. Soft shadows form intricate patterns, blending with muted tones for a serene ambiance.",
+                "local_prompt": "Create an image of curtain with rich velvet fabric, draped gracefully with soft folds and gathers, exhibiting a deep red hue. The material exudes a luxurious sheen, catching light elegantly. The curtain hangs suspended, partially open with ornate golden tassels at the edges, casting subtle shadows.",
+                "global_prompt": "Create an image of: a layered scene starting with a curtain at the bottom left, covering coordinates [0.154, 0.132] to [0.389, 0.336]. Above it, a window shade spans [0.236, 0.238] to [0.566, 0.446]. A sliding door overlays from [0.337",
+                "background": "Golden Light Ambiance",
+                "considerable_classes": []
+            },
+            {
+                "class": "window shade",
+                "layer": 1,
+                "coordinates": [
+                    0.23577205391502623,
+                    0.23799454607083065,
+                    0.5655883299991198,
+                    0.44600599910067884
+                ],
+                "background_prompt": "Create an image of background with soft golden light streaming through varying shades, casting a warm glow on textured surfaces. Soft shadows form intricate patterns, blending with muted tones for a serene ambiance.",
+                "local_prompt": "Create an image of window shade with gentle, pleated folds, crafted from a soft fabric in a neutral hue that diffuses light softly. It hangs gracefully, with subtle shadows in its textured surface, evoking a sense of calm and elegance, suitable for any modern minimalist interior.",
+                "global_prompt": "Create an image of: a layered scene starting with a curtain at the bottom left, covering coordinates [0.154, 0.132] to [0.389, 0.336]. Above it, a window shade spans [0.236, 0.238] to [0.566, 0.446]. A sliding door overlays from [0.337",
+                "considerable_classes": [
+                    "curtain"
+                ]
+            },
+            {
+                "class": "sliding door",
+                "layer": 2,
+                "coordinates": [
+                    0.4770975767360697,
+                    0.4236578838165427,
+                    0.8592660884222314,
+                    0.7073694167729674
+                ],
+                "background_prompt": "Create an image of background with soft golden light streaming through varying shades, casting a warm glow on textured surfaces. Soft shadows form intricate patterns, blending with muted tones for a serene ambiance.",
+                "local_prompt": "Create an image of a sliding door with sleek, contemporary design featuring large glass panels framed by smooth metallic edges, partially open to suggest movement, allowing light to filter through the transparent sections, with subtle reflections highlighting the polished surfaces.",
+                "global_prompt": "Create an image of: a layered scene starting with a curtain at the bottom left, covering coordinates [0.154, 0.132] to [0.389, 0.336]. Above it, a window shade spans [0.236, 0.238] to [0.566, 0.446]. A sliding door overlays from [0.337",
+                "considerable_classes": [
+                    "window shade"
+                ]
+            },
+            {
+                "class": "sliding door",
+                "layer": 3,
+                "coordinates": [
+                    0.3374501843440146,
+                    0.33365641526207057,
+                    0.7096211756672449,
+                    0.7012808297303065
+                ],
+                "background_prompt": "Create an image of background with soft golden light streaming through varying shades, casting a warm glow on textured surfaces. Soft shadows form intricate patterns, blending with muted tones for a serene ambiance.",
+                "local_prompt": "Create an image of a sliding door with beautifully textured wood panels, featuring a smooth, polished surface with a subtle grain pattern. The frame is sleek metal, exuding a modern design. Glass panels integrate seamlessly within the structure, allowing light to pass through.",
+                "global_prompt": "Create an image of: a layered scene starting with a curtain at the bottom left, covering coordinates [0.154, 0.132] to [0.389, 0.336]. Above it, a window shade spans [0.236, 0.238] to [0.566, 0.446]. A sliding door overlays from [0.337",
+                "considerable_classes": [
+                    "curtain",
+                    "window shade",
+                    "sliding door"
+                ]
+            },
+            {
+                "class": "window screen",
+                "layer": 4,
+                "coordinates": [
+                    0.4317198233801569,
+                    0.35221939120870716,
+                    0.6605134861305418,
+                    0.628832096195075
+                ],
+                "background_prompt": "Create an image of background with soft golden light streaming through varying shades, casting a warm glow on textured surfaces. Soft shadows form intricate patterns, blending with muted tones for a serene ambiance.",
+                "local_prompt": "Create an image of a window screen with a sleek, modern design featuring a fine mesh material that subtly filters light. The screen has a slightly matte finish, providing gentle diffusion of sunlight. Its frame is minimalist, perhaps a brushed aluminum or soft black, accentuating the screen's understated elegance.",
+                "global_prompt": "Create an image of: a layered scene starting with a curtain at the bottom left, covering coordinates [0.154, 0.132] to [0.389, 0.336]. Above it, a window shade spans [0.236, 0.238] to [0.566, 0.446]. A sliding door overlays from [0.337",
+                "considerable_classes": [
+                    "window shade",
+                    "sliding door",
+                    "sliding door"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a curtain in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a window shade present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there any sliding doors visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a window screen depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the window shade in front of the curtain?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sliding door positioned in front of the window shade?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the window screen in front of the sliding door?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "53": {
+        "original_metadata": [
+            {
+                "class": "night snake",
+                "layer": 0,
+                "coordinates": [
+                    0.13171919590686923,
+                    0.15831944615803809,
+                    0.38319027614690804,
+                    0.5276069285910984
+                ],
+                "background_prompt": "Create an image of background with a dark, starry sky and a crescent moon casting a gentle glow. Dense forest silhouettes surround the scene, with swaying tall grass and scattered stones on the ground, providing a rustic and natural ambiance.",
+                "local_prompt": "Create an image of night snake with smooth, glossy scales that reflect the gentle flicker of nearby light sources. It lies gracefully curled, showcasing its supple, elongated body and distinctive patterns. The snake's eyes gleam with a subtle sheen, meticulously observing its surroundings. Its slender tongue occasionally flicks out, tasting the air, while its tail tapers elegantly, complementing its poised and",
+                "global_prompt": "Create an image of: a nighttime scene featuring a warm, flickering campfire at its heart. A vintage lantern glows nearby on the left, slightly behind the campfire's light. A modern flashlight lies behind both, casting subtle shadows on the ground. A bright torch illuminates from the right, dominating the foreground. Curled subtly, a night snake lies towards the bottom,",
+                "background": "Night Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "flashlight",
+                "layer": 1,
+                "coordinates": [
+                    0.1605877297798458,
+                    0.3111281764768763,
+                    0.5511020131286188,
+                    0.563057042770516
+                ],
+                "background_prompt": "Create an image of background with a dark, starry sky and a crescent moon casting a gentle glow. Dense forest silhouettes surround the scene, with swaying tall grass and scattered stones on the ground, providing a rustic and natural ambiance.",
+                "local_prompt": "Create an image of flashlight with a sleek, modern design lying on the ground. It\u2019s positioned to cast soft, subtle shadows, its light beam hinting at a powerful, focused glow. The flashlight appears slightly worn, suggesting frequent use, with a sturdy grip and metallic finish, showcasing a mix of practicality and style.",
+                "global_prompt": "Create an image of: a nighttime scene featuring a warm, flickering campfire at its heart. A vintage lantern glows nearby on the left, slightly behind the campfire's light. A modern flashlight lies behind both, casting subtle shadows on the ground. A bright torch illuminates from the right, dominating the foreground. Curled subtly, a night snake lies towards the bottom,",
+                "considerable_classes": [
+                    "night snake"
+                ]
+            },
+            {
+                "class": "lantern",
+                "layer": 2,
+                "coordinates": [
+                    0.18992888764911908,
+                    0.32104153406368996,
+                    0.4824473847609815,
+                    0.5401819769399925
+                ],
+                "background_prompt": "Create an image of background with a dark, starry sky and a crescent moon casting a gentle glow. Dense forest silhouettes surround the scene, with swaying tall grass and scattered stones on the ground, providing a rustic and natural ambiance.",
+                "local_prompt": "Create an image of lantern with an antique, brass finish, etched with intricate patterns. Its glass panels, slightly fogged from age, house a softly glowing light. The metal handle curves gracefully at the top. The lantern casts gentle, warm shadows, subtly revealing the delicate craftsmanship.",
+                "global_prompt": "Create an image of: a nighttime scene featuring a warm, flickering campfire at its heart. A vintage lantern glows nearby on the left, slightly behind the campfire's light. A modern flashlight lies behind both, casting subtle shadows on the ground. A bright torch illuminates from the right, dominating the foreground. Curled subtly, a night snake lies towards the bottom,",
+                "considerable_classes": [
+                    "night snake",
+                    "flashlight"
+                ]
+            },
+            {
+                "class": "campfire",
+                "layer": 3,
+                "coordinates": [
+                    0.3732422077014663,
+                    0.20415973629487438,
+                    0.6544122374097868,
+                    0.5434912846023112
+                ],
+                "background_prompt": "Create an image of background with a dark, starry sky and a crescent moon casting a gentle glow. Dense forest silhouettes surround the scene, with swaying tall grass and scattered stones on the ground, providing a rustic and natural ambiance.",
+                "local_prompt": "Create an image of campfire with flames dancing vividly, sending sparks upward in a rhythmic flicker. The wood crackles, emitting a soft orange and red glow that paints dynamic patterns of warmth. Smoke swirls gently, adding a translucent, mystical aura.",
+                "global_prompt": "Create an image of: a nighttime scene featuring a warm, flickering campfire at its heart. A vintage lantern glows nearby on the left, slightly behind the campfire's light. A modern flashlight lies behind both, casting subtle shadows on the ground. A bright torch illuminates from the right, dominating the foreground. Curled subtly, a night snake lies towards the bottom,",
+                "considerable_classes": [
+                    "night snake",
+                    "flashlight"
+                ]
+            },
+            {
+                "class": "torch",
+                "layer": 4,
+                "coordinates": [
+                    0.13567891376187455,
+                    0.18016763116129916,
+                    0.4273445974753928,
+                    0.40361911193673605
+                ],
+                "background_prompt": "Create an image of background with a dark, starry sky and a crescent moon casting a gentle glow. Dense forest silhouettes surround the scene, with swaying tall grass and scattered stones on the ground, providing a rustic and natural ambiance.",
+                "local_prompt": "Create an image of torch with an intense, flickering flame casting dynamic, elongated shadows. The torch boasts a sleek, modern design with metallic accents, its smooth handle leading to a wide, circular head where the fierce, bright flame sits. The flame appears almost alive, its vibrant yellows and oranges licking dramatically upward, illuminating nearby areas with warmth and light. This torch should convey energy",
+                "global_prompt": "Create an image of: a nighttime scene featuring a warm, flickering campfire at its heart. A vintage lantern glows nearby on the left, slightly behind the campfire's light. A modern flashlight lies behind both, casting subtle shadows on the ground. A bright torch illuminates from the right, dominating the foreground. Curled subtly, a night snake lies towards the bottom,",
+                "considerable_classes": [
+                    "night snake",
+                    "flashlight",
+                    "lantern",
+                    "campfire"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a campfire in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a night snake present in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Can you see a vintage lantern?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the vintage lantern located to the left of the campfire?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the modern flashlight behind the campfire?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the torch in the foreground and to the right?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the night snake curled towards the bottom of the image?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "54": {
+        "original_metadata": [
+            {
+                "class": "vizsla",
+                "layer": 0,
+                "coordinates": [
+                    0.40962543214297964,
+                    0.37621881732058926,
+                    0.6821548407769336,
+                    0.6151347656594707
+                ],
+                "background_prompt": "Create an image of background with a lush, verdant meadow under a clear blue sky. Sunlight filters softly through scattered, fluffy clouds. Rolling hills stretch into the distance, dotted with wildflowers and patches of tall grass swaying gently in the breeze.",
+                "local_prompt": "Create an image of a Vizsla with a sleek, rust-colored coat, sitting obediently. Its ears are floppy, and it has a focused gaze. The Vizsla's athletic build, gentle face, and alert posture showcase its attentive nature, highlighting the distinct muscularity of the breed.",
+                "global_prompt": "Create an image of: A Weimaraner positioned front-center, partially covering a Vizsla, Golden Retriever, Rhodesian Ridgeback, and Labrador Retriever arranged in layers. The Weimaraner is slightly right and below the Labrador, arranged with precise overlaps. The scene reflects natural postures and vibrant coat colors, capturing each breed\u2019s distinct features.",
+                "background": "Meadowscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "golden retriever",
+                "layer": 1,
+                "coordinates": [
+                    0.1854514541648673,
+                    0.35455418183058174,
+                    0.4512653791507018,
+                    0.5974527555451635
+                ],
+                "background_prompt": "Create an image of background with a lush, verdant meadow under a clear blue sky. Sunlight filters softly through scattered, fluffy clouds. Rolling hills stretch into the distance, dotted with wildflowers and patches of tall grass swaying gently in the breeze.",
+                "local_prompt": "Create an image of golden retriever with a lush, wavy golden coat, standing with a friendly demeanor. Its expressive, dark eyes convey warmth and intelligence. The well-feathered tail is gently wagging, and the ears are perked, showcasing its cheerful and gentle nature. Its muscular build is evident, highlighting the breed's athletic grace.",
+                "global_prompt": "Create an image of: A Weimaraner positioned front-center, partially covering a Vizsla, Golden Retriever, Rhodesian Ridgeback, and Labrador Retriever arranged in layers. The Weimaraner is slightly right and below the Labrador, arranged with precise overlaps. The scene reflects natural postures and vibrant coat colors, capturing each breed\u2019s distinct features.",
+                "considerable_classes": [
+                    "vizsla"
+                ]
+            },
+            {
+                "class": "Rhodesian ridgeback",
+                "layer": 2,
+                "coordinates": [
+                    0.1371407828416393,
+                    0.3873545933922281,
+                    0.4889009609051773,
+                    0.6493498132448597
+                ],
+                "background_prompt": "Create an image of background with a lush, verdant meadow under a clear blue sky. Sunlight filters softly through scattered, fluffy clouds. Rolling hills stretch into the distance, dotted with wildflowers and patches of tall grass swaying gently in the breeze.",
+                "local_prompt": "Create an image of Rhodesian Ridgeback with a sleek, reddish-brown coat, showcasing its muscular build and signature ridge along the back. The dog stands elegantly, head held high, exuding confidence and alertness.",
+                "global_prompt": "Create an image of: A Weimaraner positioned front-center, partially covering a Vizsla, Golden Retriever, Rhodesian Ridgeback, and Labrador Retriever arranged in layers. The Weimaraner is slightly right and below the Labrador, arranged with precise overlaps. The scene reflects natural postures and vibrant coat colors, capturing each breed\u2019s distinct features.",
+                "considerable_classes": [
+                    "vizsla"
+                ]
+            },
+            {
+                "class": "Labrador retriever",
+                "layer": 3,
+                "coordinates": [
+                    0.12575211985064993,
+                    0.15546066772260986,
+                    0.44461673495275933,
+                    0.49555209999767
+                ],
+                "background_prompt": "Create an image of background with a lush, verdant meadow under a clear blue sky. Sunlight filters softly through scattered, fluffy clouds. Rolling hills stretch into the distance, dotted with wildflowers and patches of tall grass swaying gently in the breeze.",
+                "local_prompt": "Create an image of Labrador retriever with a glossy, golden coat sitting gracefully, displaying its friendly and welcoming demeanor. The dog has expressive eyes and a broad smile, capturing its cheerful personality. Its muscular, sturdy build is gently poised, showcasing the breed's strength and agility.",
+                "global_prompt": "Create an image of: A Weimaraner positioned front-center, partially covering a Vizsla, Golden Retriever, Rhodesian Ridgeback, and Labrador Retriever arranged in layers. The Weimaraner is slightly right and below the Labrador, arranged with precise overlaps. The scene reflects natural postures and vibrant coat colors, capturing each breed\u2019s distinct features.",
+                "considerable_classes": [
+                    "vizsla",
+                    "golden retriever",
+                    "Rhodesian ridgeback"
+                ]
+            },
+            {
+                "class": "Weimaraner",
+                "layer": 4,
+                "coordinates": [
+                    0.4262565062254329,
+                    0.4964475456891666,
+                    0.7867202415799701,
+                    0.7725953936841733
+                ],
+                "background_prompt": "Create an image of background with a lush, verdant meadow under a clear blue sky. Sunlight filters softly through scattered, fluffy clouds. Rolling hills stretch into the distance, dotted with wildflowers and patches of tall grass swaying gently in the breeze.",
+                "local_prompt": "Create an image of Weimaraner with a sleek, athletic build standing front-center. Its coat displays a silver-gray color, with expressive, soulful eyes. Its ears are long and gently folded, and its posture is attentive yet relaxed, showcasing its agile and graceful demeanor.",
+                "global_prompt": "Create an image of: A Weimaraner positioned front-center, partially covering a Vizsla, Golden Retriever, Rhodesian Ridgeback, and Labrador Retriever arranged in layers. The Weimaraner is slightly right and below the Labrador, arranged with precise overlaps. The scene reflects natural postures and vibrant coat colors, capturing each breed\u2019s distinct features.",
+                "considerable_classes": [
+                    "vizsla",
+                    "golden retriever",
+                    "Rhodesian ridgeback"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a Weimaraner in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there five dog breeds visible in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Weimaraner partially covering the Vizsla?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Vizsla in the background, behind the other dogs?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Labrador Retriever positioned to the left of the Weimaraner?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Weimaraner slightly to the right and below the Labrador Retriever?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Golden Retriever in front of the Vizsla?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "55": {
+        "original_metadata": [
+            {
+                "class": "drake",
+                "layer": 0,
+                "coordinates": [
+                    0.1319638630484799,
+                    0.21762778847440176,
+                    0.5253570584088612,
+                    0.5140429448788745
+                ],
+                "background_prompt": "Create an image of background with serene lake reflections, surrounded by towering pine forests, under a vibrant sky at sunrise. Hints of mist float delicately, amidst rugged mountain silhouettes in the distance.",
+                "local_prompt": "Create an image of drake with iridescent green head and bright yellow bill, gracefully gliding across shimmering blue water. Its neck sparkles in the sunlight, matching the soft, curled black tail feathers.",
+                "global_prompt": "Create an image of: a natural scene featuring a bald eagle, American coot, goose, red-breasted merganser, and drake. The bald eagle, centrally posed with spread wings, is in front of the American coot and drake, slightly below the goose and merganser. The American coot, slightly to the left, is obscured behind the merganser",
+                "background": "Serene Lakeside",
+                "considerable_classes": []
+            },
+            {
+                "class": "American coot",
+                "layer": 1,
+                "coordinates": [
+                    0.2945506949491431,
+                    0.14732349380195162,
+                    0.6111379907787166,
+                    0.43030707995730366
+                ],
+                "background_prompt": "Create an image of background with serene lake reflections, surrounded by towering pine forests, under a vibrant sky at sunrise. Hints of mist float delicately, amidst rugged mountain silhouettes in the distance.",
+                "local_prompt": "Create an image of American coot with dark, rounded body and a distinctive white beak. Its glossy black feathers catch subtle light, and its red eyes stand out with a striking contrast. The coot's lobed feet rest firmly, suggesting a moment of alertness or gentle motion.",
+                "global_prompt": "Create an image of: a natural scene featuring a bald eagle, American coot, goose, red-breasted merganser, and drake. The bald eagle, centrally posed with spread wings, is in front of the American coot and drake, slightly below the goose and merganser. The American coot, slightly to the left, is obscured behind the merganser",
+                "considerable_classes": [
+                    "drake"
+                ]
+            },
+            {
+                "class": "red-breasted merganser",
+                "layer": 2,
+                "coordinates": [
+                    0.13627196128003904,
+                    0.34809075606775913,
+                    0.3429672013234743,
+                    0.6822219937679979
+                ],
+                "background_prompt": "Create an image of background with serene lake reflections, surrounded by towering pine forests, under a vibrant sky at sunrise. Hints of mist float delicately, amidst rugged mountain silhouettes in the distance.",
+                "local_prompt": "Create an image of red-breasted merganser with its distinctive elongated, serrated orange bill, elegant crest of spiky, slicked-back black feathers atop its head, vibrant chestnut-red breast, and slender streamlined body poised in the water, feathers glistening with a subtle sheen.",
+                "global_prompt": "Create an image of: a natural scene featuring a bald eagle, American coot, goose, red-breasted merganser, and drake. The bald eagle, centrally posed with spread wings, is in front of the American coot and drake, slightly below the goose and merganser. The American coot, slightly to the left, is obscured behind the merganser",
+                "considerable_classes": [
+                    "drake",
+                    "American coot"
+                ]
+            },
+            {
+                "class": "bald eagle",
+                "layer": 3,
+                "coordinates": [
+                    0.4607955179051041,
+                    0.19668504216116012,
+                    0.771424782332284,
+                    0.4129281500912806
+                ],
+                "background_prompt": "Create an image of background with serene lake reflections, surrounded by towering pine forests, under a vibrant sky at sunrise. Hints of mist float delicately, amidst rugged mountain silhouettes in the distance.",
+                "local_prompt": "Create an image of bald eagle with majestic wings fully spread wide, showcasing its powerful and commanding presence. Its sharp eyes are keenly observing, feathers intricately detailed, displaying a mix of dark browns, contrasting with its iconic white head and tail.",
+                "global_prompt": "Create an image of: a natural scene featuring a bald eagle, American coot, goose, red-breasted merganser, and drake. The bald eagle, centrally posed with spread wings, is in front of the American coot and drake, slightly below the goose and merganser. The American coot, slightly to the left, is obscured behind the merganser",
+                "considerable_classes": [
+                    "drake",
+                    "American coot"
+                ]
+            },
+            {
+                "class": "goose",
+                "layer": 4,
+                "coordinates": [
+                    0.13884598188713004,
+                    0.4337399907908682,
+                    0.35682893914711455,
+                    0.8072584212767632
+                ],
+                "background_prompt": "Create an image of background with serene lake reflections, surrounded by towering pine forests, under a vibrant sky at sunrise. Hints of mist float delicately, amidst rugged mountain silhouettes in the distance.",
+                "local_prompt": "Create an image of a goose with a graceful stance, showcasing elongated neck gently curved, smooth feathers in varying shades of white and subtle gray, glossy beak, and alert eyes. The wings slightly extend as if preparing for a leisurely stroll, highlighting the sleek and compact body.",
+                "global_prompt": "Create an image of: a natural scene featuring a bald eagle, American coot, goose, red-breasted merganser, and drake. The bald eagle, centrally posed with spread wings, is in front of the American coot and drake, slightly below the goose and merganser. The American coot, slightly to the left, is obscured behind the merganser",
+                "considerable_classes": [
+                    "drake",
+                    "red-breasted merganser"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a bald eagle in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an American coot in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a goose in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a drake in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a red-breasted merganser in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bald eagle in front of the American coot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bald eagle slightly below the goose?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the American coot obscured behind the red-breasted merganser?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the drake in front of the American coot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bald eagle slightly below the red-breasted merganser?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "56": {
+        "original_metadata": [
+            {
+                "class": "strawberry",
+                "layer": 0,
+                "coordinates": [
+                    0.16783271577790138,
+                    0.20629196465952349,
+                    0.48292356207512577,
+                    0.4969889567695318
+                ],
+                "background_prompt": "Create an image of background with a dramatic majestic cliff enveloped in misty atmospherics, casting deep shadows. Trees cling to the rock face, adding texture. In the distance, a lush meadow, verdant with grass, stretches under a golden-hued sky, offering serene contrast.",
+                "local_prompt": "Create an image of strawberry with vibrant, rich red hues, glistening seeds, and an alluring sheen of freshness. This strawberry is plump and perfectly ripe, exuding a juicy appearance. Its leaves are lush and green, curling delicately atop, contrasting beautifully with the fruit's intense color. The strawberry exudes a sense of delicious ripeness ready to be savored.",
+                "global_prompt": "Create an image of: a vibrant scene featuring a wooden bucket in the foreground, partially obscuring a traditional clog, positioned prominently. Behind these, a majestic cliff rises dramatically. To the left, a classic jinrikisha stands directly in front of the cliff. Nestled in the background, a ripe strawberry adds a splash of color. The arrangement forms a layered composition with the strawberry at",
+                "background": "Majestic Cliff",
+                "considerable_classes": []
+            },
+            {
+                "class": "cliff",
+                "layer": 1,
+                "coordinates": [
+                    0.3198571241622865,
+                    0.49503503190875575,
+                    0.5285945030532084,
+                    0.8830289778419731
+                ],
+                "background_prompt": "Create an image of background with a dramatic majestic cliff enveloped in misty atmospherics, casting deep shadows. Trees cling to the rock face, adding texture. In the distance, a lush meadow, verdant with grass, stretches under a golden-hued sky, offering serene contrast.",
+                "local_prompt": "Create an image of cliff with towering height and rugged texture, featuring jagged edges and a variety of earth tones, showcasing layers of sediment and patches of greenery. The cliff exudes a sense of timeless solidity, with shadowed crevices hinting at its natural majesty and resilience.",
+                "global_prompt": "Create an image of: a vibrant scene featuring a wooden bucket in the foreground, partially obscuring a traditional clog, positioned prominently. Behind these, a majestic cliff rises dramatically. To the left, a classic jinrikisha stands directly in front of the cliff. Nestled in the background, a ripe strawberry adds a splash of color. The arrangement forms a layered composition with the strawberry at",
+                "considerable_classes": [
+                    "strawberry"
+                ]
+            },
+            {
+                "class": "jinrikisha",
+                "layer": 2,
+                "coordinates": [
+                    0.30042243373371913,
+                    0.36628696638854086,
+                    0.509596165943154,
+                    0.6056564733706912
+                ],
+                "background_prompt": "Create an image of background with a dramatic majestic cliff enveloped in misty atmospherics, casting deep shadows. Trees cling to the rock face, adding texture. In the distance, a lush meadow, verdant with grass, stretches under a golden-hued sky, offering serene contrast.",
+                "local_prompt": "Create an image of a jinrikisha with traditional structure, featuring curved wooden shafts and large spoked wheels. The seat is upholstered in rich, vintage fabric with ornate patterns, and the canopy is gracefully arched. The detailed craftsmanship highlights its elegant, historical charm.",
+                "global_prompt": "Create an image of: a vibrant scene featuring a wooden bucket in the foreground, partially obscuring a traditional clog, positioned prominently. Behind these, a majestic cliff rises dramatically. To the left, a classic jinrikisha stands directly in front of the cliff. Nestled in the background, a ripe strawberry adds a splash of color. The arrangement forms a layered composition with the strawberry at",
+                "considerable_classes": [
+                    "strawberry",
+                    "cliff"
+                ]
+            },
+            {
+                "class": "bucket",
+                "layer": 3,
+                "coordinates": [
+                    0.3436691382638773,
+                    0.2288922671330449,
+                    0.7110511046305708,
+                    0.4445884119559187
+                ],
+                "background_prompt": "Create an image of background with a dramatic majestic cliff enveloped in misty atmospherics, casting deep shadows. Trees cling to the rock face, adding texture. In the distance, a lush meadow, verdant with grass, stretches under a golden-hued sky, offering serene contrast.",
+                "local_prompt": "Create an image of a bucket with rustic wooden texture, showcasing aged, weathered planks bound by metal bands. The bucket has a sturdy handle arching gracefully over the top, suggesting its readiness for use. Subtle grains and imperfections give it a handcrafted feel, exuding natural warmth and authenticity.",
+                "global_prompt": "Create an image of: a vibrant scene featuring a wooden bucket in the foreground, partially obscuring a traditional clog, positioned prominently. Behind these, a majestic cliff rises dramatically. To the left, a classic jinrikisha stands directly in front of the cliff. Nestled in the background, a ripe strawberry adds a splash of color. The arrangement forms a layered composition with the strawberry at",
+                "considerable_classes": [
+                    "strawberry",
+                    "jinrikisha"
+                ]
+            },
+            {
+                "class": "clog",
+                "layer": 4,
+                "coordinates": [
+                    0.21146902612432217,
+                    0.43773013332230737,
+                    0.46084969691943156,
+                    0.8316019778377819
+                ],
+                "background_prompt": "Create an image of background with a dramatic majestic cliff enveloped in misty atmospherics, casting deep shadows. Trees cling to the rock face, adding texture. In the distance, a lush meadow, verdant with grass, stretches under a golden-hued sky, offering serene contrast.",
+                "local_prompt": "Create an image of clog with intricate carvings and worn textures, showcasing its handmade authenticity. The clog has a slightly worn patina, highlighting its aged charm. Its traditional design features ornate patterns along the sides, with a rounded toe and a sturdy heel, reflecting its practical yet artistic craftsmanship.",
+                "global_prompt": "Create an image of: a vibrant scene featuring a wooden bucket in the foreground, partially obscuring a traditional clog, positioned prominently. Behind these, a majestic cliff rises dramatically. To the left, a classic jinrikisha stands directly in front of the cliff. Nestled in the background, a ripe strawberry adds a splash of color. The arrangement forms a layered composition with the strawberry at",
+                "considerable_classes": [
+                    "strawberry",
+                    "cliff",
+                    "jinrikisha",
+                    "bucket"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a wooden bucket in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a traditional clog visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a majestic cliff depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a jinrikisha present in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a ripe strawberry in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wooden bucket in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the clog positioned behind the wooden bucket?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cliff located behind the clog?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the jinrikisha positioned in front of the cliff?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the strawberry located behind the jinrikisha?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "57": {
+        "original_metadata": [
+            {
+                "class": "monitor",
+                "layer": 0,
+                "coordinates": [
+                    0.2817607623256684,
+                    0.4581280209962487,
+                    0.5488528264561374,
+                    0.8138239452205251
+                ],
+                "background_prompt": "Create an image of background with a minimalist office setting, featuring light grey walls, a large window casting natural light, a polished wooden desk, and a soft ambient glow from ceiling lights, creating a calm and focused atmosphere.",
+                "local_prompt": "Create an image of monitor with a sleek and modern design, featuring a thin bezel and a high-resolution display, showcasing crisp and vivid colors. The monitor is upright and slightly tilted forward, emphasizing its elegant stand and minimalistic base.",
+                "global_prompt": "Create an image of: a well-organized workspace featuring layered electronic devices. The bottom layer shows a desktop computer partially behind an upright monitor, while a sleek laptop lies to the left of this setup. In front of the monitor, a compact, stylish computer mouse rests, aligned beneath the monitor and laptop, yet partially hidden behind a modern keyboard. All objects are positioned accurately based on specified",
+                "background": "Minimalist Office",
+                "considerable_classes": []
+            },
+            {
+                "class": "desktop computer",
+                "layer": 1,
+                "coordinates": [
+                    0.19921254296545082,
+                    0.249139770885414,
+                    0.5100209208187243,
+                    0.6031642613557339
+                ],
+                "background_prompt": "Create an image of background with a minimalist office setting, featuring light grey walls, a large window casting natural light, a polished wooden desk, and a soft ambient glow from ceiling lights, creating a calm and focused atmosphere.",
+                "local_prompt": "Create an image of desktop computer with a slim, modern profile partially obscured behind an upright monitor. Its metallic casing reflects ambient light, showcasing a sleek design with minimal visible features. Ports are efficiently arrayed on the sides, emphasizing a streamlined and functional appearance without additional clutter.",
+                "global_prompt": "Create an image of: a well-organized workspace featuring layered electronic devices. The bottom layer shows a desktop computer partially behind an upright monitor, while a sleek laptop lies to the left of this setup. In front of the monitor, a compact, stylish computer mouse rests, aligned beneath the monitor and laptop, yet partially hidden behind a modern keyboard. All objects are positioned accurately based on specified",
+                "considerable_classes": [
+                    "monitor"
+                ]
+            },
+            {
+                "class": "computer mouse",
+                "layer": 2,
+                "coordinates": [
+                    0.3226990642767388,
+                    0.4590298119780182,
+                    0.7152216412456576,
+                    0.696419849261455
+                ],
+                "background_prompt": "Create an image of background with a minimalist office setting, featuring light grey walls, a large window casting natural light, a polished wooden desk, and a soft ambient glow from ceiling lights, creating a calm and focused atmosphere.",
+                "local_prompt": "Create an image of computer mouse with a sleek, ergonomic design that fits comfortably in the hand. It features a smooth, matte black finish with subtle contours for grip and tactile buttons. Its profile is compact, giving a modern, minimalist look.",
+                "global_prompt": "Create an image of: a well-organized workspace featuring layered electronic devices. The bottom layer shows a desktop computer partially behind an upright monitor, while a sleek laptop lies to the left of this setup. In front of the monitor, a compact, stylish computer mouse rests, aligned beneath the monitor and laptop, yet partially hidden behind a modern keyboard. All objects are positioned accurately based on specified",
+                "considerable_classes": [
+                    "monitor",
+                    "desktop computer"
+                ]
+            },
+            {
+                "class": "laptop",
+                "layer": 3,
+                "coordinates": [
+                    0.169333143070163,
+                    0.11369540738845503,
+                    0.4571707621335398,
+                    0.41037057415339473
+                ],
+                "background_prompt": "Create an image of background with a minimalist office setting, featuring light grey walls, a large window casting natural light, a polished wooden desk, and a soft ambient glow from ceiling lights, creating a calm and focused atmosphere.",
+                "local_prompt": "Create an image of laptop with a sleek, ultra-thin profile, featuring a reflective silver surface. The screen is open at a precise angle, revealing a vibrant display with minimal bezels. The keyboard is full-sized, with a backlit feature and low-profile keys. Its chassis shows a smooth, brushed metal finish, emphasizing modern aesthetics. The device exudes sophistication with its slim design",
+                "global_prompt": "Create an image of: a well-organized workspace featuring layered electronic devices. The bottom layer shows a desktop computer partially behind an upright monitor, while a sleek laptop lies to the left of this setup. In front of the monitor, a compact, stylish computer mouse rests, aligned beneath the monitor and laptop, yet partially hidden behind a modern keyboard. All objects are positioned accurately based on specified",
+                "considerable_classes": [
+                    "desktop computer"
+                ]
+            },
+            {
+                "class": "computer keyboard",
+                "layer": 4,
+                "coordinates": [
+                    0.16826725892226824,
+                    0.4366895017774808,
+                    0.4001099077396868,
+                    0.7421453474921835
+                ],
+                "background_prompt": "Create an image of background with a minimalist office setting, featuring light grey walls, a large window casting natural light, a polished wooden desk, and a soft ambient glow from ceiling lights, creating a calm and focused atmosphere.",
+                "local_prompt": "Create an image of computer keyboard with a modern, sleek design featuring low-profile keys. The keys are illuminated with a subtle backlight, and the frame is made of brushed aluminum, giving a premium feel. The keyboard includes a compact numeric keypad, with each key possessing a minimalistic font and ergonomic spacing for comfortable typing.",
+                "global_prompt": "Create an image of: a well-organized workspace featuring layered electronic devices. The bottom layer shows a desktop computer partially behind an upright monitor, while a sleek laptop lies to the left of this setup. In front of the monitor, a compact, stylish computer mouse rests, aligned beneath the monitor and laptop, yet partially hidden behind a modern keyboard. All objects are positioned accurately based on specified",
+                "considerable_classes": [
+                    "monitor",
+                    "desktop computer"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a monitor in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a laptop present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a computer mouse visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the desktop computer behind the monitor?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the laptop to the left of the monitor setup?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the computer mouse in front of the monitor?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the computer keyboard in front of the computer mouse?",
+                "ground_truth_answer": "No"
+            }
+        ]
+    },
+    "58": {
+        "original_metadata": [
+            {
+                "class": "house finch",
+                "layer": 0,
+                "coordinates": [
+                    0.1580815473175342,
+                    0.49269859076688294,
+                    0.44527618688042264,
+                    0.7914078156692104
+                ],
+                "background_prompt": "Create an image of background with a soft, blurred focus showcasing rich leafy greens with dappled sunlight filtering through. Subtle hints of distant flora add depth, while gentle shadows create a serene, natural ambiance. Atmospheric light enhances tranquility, embodying the essence of undisturbed woodland.",
+                "local_prompt": "Create an image of house finch with muted, rosy brown plumage perched elegantly, showcasing streaked underparts and a patterned face. Its subtle coloration contrasts with the colorful backdrop, highlighting the gentle, curved shape of its beak and delicate texture of its feathers.",
+                "global_prompt": "Create an image of: An indigo bunting prominently in the foreground, with vibrant blue feathers, situated centrally. Behind it is a goldfinch, bright yellow with black wings, partially visible. Further behind is a brambling with brown and white plumage. The house finch, adorned in muted tones, sits in the distant background. They are all resting on varied branches,",
+                "background": "Woodland Serenity",
+                "considerable_classes": []
+            },
+            {
+                "class": "brambling",
+                "layer": 1,
+                "coordinates": [
+                    0.25895995332004396,
+                    0.3436494158836123,
+                    0.5119792725523109,
+                    0.7329744586102136
+                ],
+                "background_prompt": "Create an image of background with a soft, blurred focus showcasing rich leafy greens with dappled sunlight filtering through. Subtle hints of distant flora add depth, while gentle shadows create a serene, natural ambiance. Atmospheric light enhances tranquility, embodying the essence of undisturbed woodland.",
+                "local_prompt": "Create an image of a brambling with delicate brown and white plumage, perched comfortably on a branch. Its intricate feather patterns display a subtle contrast between earthy brown tones and crisp white, giving it a distinct appearance. Its eyes are small and bright, exuding a sense of quiet alertness. Tail feathers are slightly fanned, adding balance to its compact form.",
+                "global_prompt": "Create an image of: An indigo bunting prominently in the foreground, with vibrant blue feathers, situated centrally. Behind it is a goldfinch, bright yellow with black wings, partially visible. Further behind is a brambling with brown and white plumage. The house finch, adorned in muted tones, sits in the distant background. They are all resting on varied branches,",
+                "considerable_classes": [
+                    "house finch"
+                ]
+            },
+            {
+                "class": "goldfinch",
+                "layer": 2,
+                "coordinates": [
+                    0.4157289712333746,
+                    0.333818517926476,
+                    0.7064986987466954,
+                    0.583367338775038
+                ],
+                "background_prompt": "Create an image of background with a soft, blurred focus showcasing rich leafy greens with dappled sunlight filtering through. Subtle hints of distant flora add depth, while gentle shadows create a serene, natural ambiance. Atmospheric light enhances tranquility, embodying the essence of undisturbed woodland.",
+                "local_prompt": "Create an image of goldfinch with bright yellow plumage, contrasting sharply against its jet-black wings and tail feathers. Capture the goldfinch perched gracefully, showcasing its delicate features and vibrant coloring, highlighting its natural allure and poise as it engages in an active pose.",
+                "global_prompt": "Create an image of: An indigo bunting prominently in the foreground, with vibrant blue feathers, situated centrally. Behind it is a goldfinch, bright yellow with black wings, partially visible. Further behind is a brambling with brown and white plumage. The house finch, adorned in muted tones, sits in the distant background. They are all resting on varied branches,",
+                "considerable_classes": [
+                    "house finch",
+                    "brambling"
+                ]
+            },
+            {
+                "class": "indigo bunting",
+                "layer": 3,
+                "coordinates": [
+                    0.38384709462072053,
+                    0.48915248297922154,
+                    0.7292049800055267,
+                    0.7408296965461656
+                ],
+                "background_prompt": "Create an image of background with a soft, blurred focus showcasing rich leafy greens with dappled sunlight filtering through. Subtle hints of distant flora add depth, while gentle shadows create a serene, natural ambiance. Atmospheric light enhances tranquility, embodying the essence of undisturbed woodland.",
+                "local_prompt": "Create an image of indigo bunting with vibrant blue feathers glistening under soft light, perched gracefully, showcasing detailed feather patterns and a curious tilt of its head, capturing its lively and inquisitive nature.",
+                "global_prompt": "Create an image of: An indigo bunting prominently in the foreground, with vibrant blue feathers, situated centrally. Behind it is a goldfinch, bright yellow with black wings, partially visible. Further behind is a brambling with brown and white plumage. The house finch, adorned in muted tones, sits in the distant background. They are all resting on varied branches,",
+                "considerable_classes": [
+                    "house finch",
+                    "brambling"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an indigo bunting in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a goldfinch in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a brambling in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a house finch in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the indigo bunting in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the goldfinch behind the indigo bunting?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the brambling behind the goldfinch?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the house finch in the distant background?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "59": {
+        "original_metadata": [
+            {
+                "class": " syringe",
+                "layer": 0,
+                "coordinates": [
+                    0.22745024252111712,
+                    0.3618519941691236,
+                    0.5377604424026667,
+                    0.7022148968598582
+                ],
+                "background_prompt": "Create an image of background with towering hospital architecture reaching into the sky, framed by soft morning light casting gentle shadows across the scene. The atmosphere is serene, with subtle hues of early daybreak illuminating the hospital facade.",
+                "local_prompt": "Create an image of a syringe with a metallic needle, translucent barrel showing some liquid inside, and a plunger featuring ridged grips. The syringe is positioned at an angle, casting a subtle shadow, emphasizing its clinical precision and functionality.",
+                "global_prompt": "Create an image of: a layered scene featuring a Band Aid prominently in the foreground at the center-right, in front of a partially visible medicine chest to the left. Behind them, a syringe peeks from behind the medicine chest, with a grand hospital standing tall in the backdrop. Another Band Aid is tucked in the lower-left corner, slightly overlapping with the base of the hospital, adding",
+                "background": "Hospital architecture",
+                "considerable_classes": []
+            },
+            {
+                "class": " Band Aid",
+                "layer": 1,
+                "coordinates": [
+                    0.12583191797765456,
+                    0.23394140857078854,
+                    0.3442701666058916,
+                    0.4891678089407508
+                ],
+                "background_prompt": "Create an image of background with towering hospital architecture reaching into the sky, framed by soft morning light casting gentle shadows across the scene. The atmosphere is serene, with subtle hues of early daybreak illuminating the hospital facade.",
+                "local_prompt": "Create an image of Band Aid with a soft beige hue, featuring perforated edges and a subtle, textured surface. Its adhesive parts slightly curl, casting gentle shadows, suggesting the flexibility of the material.",
+                "global_prompt": "Create an image of: a layered scene featuring a Band Aid prominently in the foreground at the center-right, in front of a partially visible medicine chest to the left. Behind them, a syringe peeks from behind the medicine chest, with a grand hospital standing tall in the backdrop. Another Band Aid is tucked in the lower-left corner, slightly overlapping with the base of the hospital, adding",
+                "considerable_classes": [
+                    " syringe"
+                ]
+            },
+            {
+                "class": " medicine chest",
+                "layer": 2,
+                "coordinates": [
+                    0.23946729539138054,
+                    0.3184388936066623,
+                    0.508952980541341,
+                    0.7156843441211542
+                ],
+                "background_prompt": "Create an image of background with towering hospital architecture reaching into the sky, framed by soft morning light casting gentle shadows across the scene. The atmosphere is serene, with subtle hues of early daybreak illuminating the hospital facade.",
+                "local_prompt": "Create an image of a medicine chest with a slightly open door, revealing organized shelves filled with medicinal supplies and various labeled bottles. The exterior is polished wood with steel hinges, reflecting minimal light.",
+                "global_prompt": "Create an image of: a layered scene featuring a Band Aid prominently in the foreground at the center-right, in front of a partially visible medicine chest to the left. Behind them, a syringe peeks from behind the medicine chest, with a grand hospital standing tall in the backdrop. Another Band Aid is tucked in the lower-left corner, slightly overlapping with the base of the hospital, adding",
+                "considerable_classes": [
+                    " Band Aid"
+                ]
+            },
+            {
+                "class": " hospital",
+                "layer": 3,
+                "coordinates": [
+                    0.19285704566898101,
+                    0.2724101729142765,
+                    0.445810463414797,
+                    0.5992481194285515
+                ],
+                "background_prompt": "Create an image of background with towering hospital architecture reaching into the sky, framed by soft morning light casting gentle shadows across the scene. The atmosphere is serene, with subtle hues of early daybreak illuminating the hospital facade.",
+                "local_prompt": "Create an image of a hospital with towering structure featuring sleek glass panels, a wide entrance adorned with revolving doors, and a series of windows neatly aligned. The fa\u00e7ade includes a prominent horizontal line where the building name is displayed. The overall design conveys modern architecture with minimalist touches, signifying a cutting-edge medical facility.",
+                "global_prompt": "Create an image of: a layered scene featuring a Band Aid prominently in the foreground at the center-right, in front of a partially visible medicine chest to the left. Behind them, a syringe peeks from behind the medicine chest, with a grand hospital standing tall in the backdrop. Another Band Aid is tucked in the lower-left corner, slightly overlapping with the base of the hospital, adding",
+                "considerable_classes": [
+                    " syringe",
+                    " Band Aid",
+                    " medicine chest"
+                ]
+            },
+            {
+                "class": "Band Aid",
+                "layer": 4,
+                "coordinates": [
+                    0.4240118241044173,
+                    0.24150595441228698,
+                    0.743556254914514,
+                    0.4924568000083014
+                ],
+                "background_prompt": "Create an image of background with towering hospital architecture reaching into the sky, framed by soft morning light casting gentle shadows across the scene. The atmosphere is serene, with subtle hues of early daybreak illuminating the hospital facade.",
+                "local_prompt": "Create an image of Band Aid with a soft, flesh-toned adhesive strip, partially unwrapped, revealing a slightly cushioned, sterile white pad at its center. It appears slightly curved, casting a subtle shadow. The adhesive sections exhibit a delicate texture, indicating a flexible and breathable material designed for comfort and protection.",
+                "global_prompt": "Create an image of: a layered scene featuring a Band Aid prominently in the foreground at the center-right, in front of a partially visible medicine chest to the left. Behind them, a syringe peeks from behind the medicine chest, with a grand hospital standing tall in the backdrop. Another Band Aid is tucked in the lower-left corner, slightly overlapping with the base of the hospital, adding",
+                "considerable_classes": [
+                    " syringe",
+                    " medicine chest",
+                    " hospital"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a Band Aid in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a medicine chest in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hospital in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a syringe in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Band Aid in the foreground in front of the medicine chest?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the syringe behind the medicine chest?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hospital in the backdrop behind the medicine chest?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the second Band Aid in the lower-left corner overlapping with the base of the hospital?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

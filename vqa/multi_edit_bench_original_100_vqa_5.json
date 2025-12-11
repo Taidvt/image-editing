@@ -1,0 +1,921 @@
+{
+    "40": {
+        "original_metadata": [
+            {
+                "class": "European fire salamander",
+                "layer": 0,
+                "coordinates": [
+                    0.2929213862275385,
+                    0.31507829349920524,
+                    0.6484740468407753,
+                    0.652891282905993
+                ],
+                "background_prompt": "Create an image of background with a lush forest featuring dense, vibrant green foliage, sun-dappled ground, gentle mist weaving through towering, ancient trees, soft morning light filtering through leafy canopies, and a tranquil, serene ambiance.",
+                "local_prompt": "Create an image of European fire salamander with vibrant black and yellow patterns, its glossy skin slightly damp, positioned in a curious stance. Its small, bright eyes observe the surroundings, with a delicate posture as if cautiously exploring. The salamander exhibits a subtle shine reflecting light on its smooth surface, exuding an aura of quiet intrigue.",
+                "global_prompt": "Create an image of: a serene nature scene featuring a European fire salamander, a great grey owl, a hedge, and a Gordon setter. The salamander peeks behind the owl, setter, and hedge, placed from [0.293, 0.315] to [0.648, 0.653]. The owl, perched calmly, is behind the setter and",
+                "background": "Lush Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "great grey owl",
+                "layer": 1,
+                "coordinates": [
+                    0.19921280599815228,
+                    0.3212869002944251,
+                    0.5345071917263342,
+                    0.6867485830299096
+                ],
+                "background_prompt": "Create an image of background with a lush forest featuring dense, vibrant green foliage, sun-dappled ground, gentle mist weaving through towering, ancient trees, soft morning light filtering through leafy canopies, and a tranquil, serene ambiance.",
+                "local_prompt": "Create an image of a great grey owl with its large round face and striking yellow eyes, perched gracefully and gazing forward. The owl's impressive feather tufts and intricate plumage patterns are prominent, showcasing shades of grey with delicate white and brown markings.",
+                "global_prompt": "Create an image of: a serene nature scene featuring a European fire salamander, a great grey owl, a hedge, and a Gordon setter. The salamander peeks behind the owl, setter, and hedge, placed from [0.293, 0.315] to [0.648, 0.653]. The owl, perched calmly, is behind the setter and",
+                "considerable_classes": [
+                    "European fire salamander"
+                ]
+            },
+            {
+                "class": "hedge",
+                "layer": 2,
+                "coordinates": [
+                    0.10755165963288418,
+                    0.3546805679033709,
+                    0.4209847598164641,
+                    0.6623508561407095
+                ],
+                "background_prompt": "Create an image of background with a lush forest featuring dense, vibrant green foliage, sun-dappled ground, gentle mist weaving through towering, ancient trees, soft morning light filtering through leafy canopies, and a tranquil, serene ambiance.",
+                "local_prompt": "Create an image of hedge with dense, lush green foliage, meticulously trimmed to showcase a well-maintained, manicured appearance. The leaves are vibrant and healthy, reflecting sunlight subtly, revealing varying shades from deep emerald to lighter greens. The texture is rich, displaying intricate details of the leaf surfaces and the occasional small shadow cast by overlapping leaves.",
+                "global_prompt": "Create an image of: a serene nature scene featuring a European fire salamander, a great grey owl, a hedge, and a Gordon setter. The salamander peeks behind the owl, setter, and hedge, placed from [0.293, 0.315] to [0.648, 0.653]. The owl, perched calmly, is behind the setter and",
+                "considerable_classes": [
+                    "European fire salamander",
+                    "great grey owl"
+                ]
+            },
+            {
+                "class": "Gordon setter",
+                "layer": 3,
+                "coordinates": [
+                    0.19050256577955682,
+                    0.2698076990756826,
+                    0.5195536144819755,
+                    0.580934171298527
+                ],
+                "background_prompt": "Create an image of background with a lush forest featuring dense, vibrant green foliage, sun-dappled ground, gentle mist weaving through towering, ancient trees, soft morning light filtering through leafy canopies, and a tranquil, serene ambiance.",
+                "local_prompt": "Create an image of a Gordon setter with a sleek, shiny black and tan coat, standing alertly with a regal stance. Its long ears drape elegantly around its face, framing intelligent, expressive brown eyes. The setter's muscular build is evident, showcasing its elegance and athleticism. Tail held gracefully, hinting at the breed's energetic and spirited nature.",
+                "global_prompt": "Create an image of: a serene nature scene featuring a European fire salamander, a great grey owl, a hedge, and a Gordon setter. The salamander peeks behind the owl, setter, and hedge, placed from [0.293, 0.315] to [0.648, 0.653]. The owl, perched calmly, is behind the setter and",
+                "considerable_classes": [
+                    "European fire salamander",
+                    "great grey owl",
+                    "hedge"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a European fire salamander in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a great grey owl in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hedge in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Gordon setter in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the European fire salamander peeking from behind the Gordon setter?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great grey owl behind the hedge?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Gordon setter in front of the great grey owl?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "41": {
+        "original_metadata": [
+            {
+                "class": "hare",
+                "layer": 0,
+                "coordinates": [
+                    0.47028564655730565,
+                    0.20151454158289323,
+                    0.6783758860277341,
+                    0.5676505798073077
+                ],
+                "background_prompt": "Create an image of background with rolling savannah plains under a vibrant, clear blue sky, dotted with sparse acacia trees casting delicate shadows, and distant golden grasses waving gently in a soft breeze, evoking a sense of serene openness and wild beauty.",
+                "local_prompt": "Create an image of hare with ears upright and eyes wide open, partially visible as if peeking from behind an unseen object, crouched low with soft fur blending hues of brown and grey, exuding a gentle curiosity.",
+                "global_prompt": "Create an image of: A hare positioned behind a cheetah, partially visible with its ears and eyes peeking from its crouched position. The cheetah gracefully stands in the foreground, showcasing its sleek, muscular form and intricate spotted fur pattern. The scene vividly contrasts the gentle curiosity of the hare with the powerful elegance of the cheetah.",
+                "background": "Savannah Plains",
+                "considerable_classes": []
+            },
+            {
+                "class": "cheetah",
+                "layer": 1,
+                "coordinates": [
+                    0.30754410045752356,
+                    0.4644804099577343,
+                    0.6738228538236153,
+                    0.694734073133597
+                ],
+                "background_prompt": "Create an image of background with rolling savannah plains under a vibrant, clear blue sky, dotted with sparse acacia trees casting delicate shadows, and distant golden grasses waving gently in a soft breeze, evoking a sense of serene openness and wild beauty.",
+                "local_prompt": "Create an image of cheetah with a graceful, poised stance, highlighting its sleek, muscular form. Depict the texture of its intricate spotted fur with clarity, capturing the cheetah's poised and elegant demeanor. Emphasize its powerful, slender limbs and the intensity in its focused gaze.",
+                "global_prompt": "Create an image of: A hare positioned behind a cheetah, partially visible with its ears and eyes peeking from its crouched position. The cheetah gracefully stands in the foreground, showcasing its sleek, muscular form and intricate spotted fur pattern. The scene vividly contrasts the gentle curiosity of the hare with the powerful elegance of the cheetah.",
+                "considerable_classes": [
+                    "hare"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a cheetah in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hare in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hare in front of the cheetah?",
+                "ground_truth_answer": "No"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cheetah in front of the hare?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hare partially visible behind the cheetah?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the ears and eyes of the hare peeking out from behind the cheetah?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "42": {
+        "original_metadata": [
+            {
+                "class": "bookcase",
+                "layer": 0,
+                "coordinates": [
+                    0.3786719188037454,
+                    0.3972444771774405,
+                    0.6806173125636035,
+                    0.6388604593301248
+                ],
+                "background_prompt": "Create an image of background with a warm-toned room featuring a prominent bookcase with assorted books and charming decor, positioned from the upper-left to the mid-right, creating a cozy, intellectual ambiance.",
+                "local_prompt": "Create an image of bookcase with intricate wood carvings, a rich mahogany finish, and numerous shelves filled with an array of books. Each shelf supports neatly aligned books of varying heights and colors, offering a visually balanced and organized appearance. Sturdy side panels frame the shelves, adding a touch of elegance to its classic, timeless design.",
+                "global_prompt": "Create an image of: a room featuring a bookcase in the background, positioned centrally and occupying a rectangular region. In front and slightly to the side, a book jacket is visible, showcasing an intricate design. The bookcase starts at the upper-left position [0.379, 0.397] and extends to [0.681, 0.639], while the book",
+                "background": "Warm Room",
+                "considerable_classes": []
+            },
+            {
+                "class": "book jacket",
+                "layer": 1,
+                "coordinates": [
+                    0.31795971899211395,
+                    0.3663235750146724,
+                    0.6723680397684365,
+                    0.6275372806755397
+                ],
+                "background_prompt": "Create an image of background with a warm-toned room featuring a prominent bookcase with assorted books and charming decor, positioned from the upper-left to the mid-right, creating a cozy, intellectual ambiance.",
+                "local_prompt": "Create an image of book jacket with an intricate, artistic design featuring swirling patterns and vibrant colors. The cover is adorned with delicate gold leaf accents, exuding a sense of mystery and adventure.",
+                "global_prompt": "Create an image of: a room featuring a bookcase in the background, positioned centrally and occupying a rectangular region. In front and slightly to the side, a book jacket is visible, showcasing an intricate design. The bookcase starts at the upper-left position [0.379, 0.397] and extends to [0.681, 0.639], while the book",
+                "considerable_classes": [
+                    "bookcase"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a bookcase in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a book jacket in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the book jacket in front of the bookcase?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bookcase positioned behind the book jacket?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Does the book jacket overlap with the bookcase?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "43": {
+        "original_metadata": [
+            {
+                "class": "cheetah",
+                "layer": 0,
+                "coordinates": [
+                    0.3809165892032975,
+                    0.4646815022805252,
+                    0.7492506581119732,
+                    0.6919191133584324
+                ],
+                "background_prompt": "Create an image of background with a dense, forested area featuring a vibrant gradient of autumn colors, rich green foliage seamlessly transitioning to yellow, orange, and red hues, diffused sunlight filtering through the canopy, casting dappled shadows on the forest floor.",
+                "local_prompt": "Create an image of cheetah with a sleek, agile build and distinctive black spots on its golden coat. It has a lean, muscular form optimized for speed, with a small head and long legs. Its eyes are sharp, with characteristic tear marks running down to the mouth, accentuating its keen gaze.",
+                "global_prompt": "Create an image of: a dense, forested area with a gradient of colors in the background. Centered is a prominent tiger, facing forward with its body distinctly visible occupying coordinates [0.389, 0.477] to [0.761, 0.717]. Behind the tiger stands a cheetah with a sleek build, spotted fur, within [0.",
+                "background": "Autumn Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "lion",
+                "layer": 1,
+                "coordinates": [
+                    0.37531140307291455,
+                    0.25769238208960765,
+                    0.597247331626925,
+                    0.5161418208615695
+                ],
+                "background_prompt": "Create an image of background with a dense, forested area featuring a vibrant gradient of autumn colors, rich green foliage seamlessly transitioning to yellow, orange, and red hues, diffused sunlight filtering through the canopy, casting dappled shadows on the forest floor.",
+                "local_prompt": "Create an image of a lion with a majestic mane cascading down its neck, displaying a poised posture. Its eyes, intense and focused, convey strength and confidence. The lion's sleek body radiates power, with its fur exhibiting a golden hue tinged with subtle earthy undertones.",
+                "global_prompt": "Create an image of: a dense, forested area with a gradient of colors in the background. Centered is a prominent tiger, facing forward with its body distinctly visible occupying coordinates [0.389, 0.477] to [0.761, 0.717]. Behind the tiger stands a cheetah with a sleek build, spotted fur, within [0.",
+                "considerable_classes": [
+                    "cheetah"
+                ]
+            },
+            {
+                "class": "jaguar",
+                "layer": 2,
+                "coordinates": [
+                    0.3130060388029341,
+                    0.22548589878983571,
+                    0.5388357185320423,
+                    0.6195869437121915
+                ],
+                "background_prompt": "Create an image of background with a dense, forested area featuring a vibrant gradient of autumn colors, rich green foliage seamlessly transitioning to yellow, orange, and red hues, diffused sunlight filtering through the canopy, casting dappled shadows on the forest floor.",
+                "local_prompt": "Create an image of jaguar with a muscular, compact build, covered in a distinctive coat of orange-tan fur adorned with bold, dark rosettes. The jaguar's intense gaze exudes confidence, while its powerful limbs and sleek tail suggest agility and strength.",
+                "global_prompt": "Create an image of: a dense, forested area with a gradient of colors in the background. Centered is a prominent tiger, facing forward with its body distinctly visible occupying coordinates [0.389, 0.477] to [0.761, 0.717]. Behind the tiger stands a cheetah with a sleek build, spotted fur, within [0.",
+                "considerable_classes": [
+                    "cheetah"
+                ]
+            },
+            {
+                "class": "leopard",
+                "layer": 3,
+                "coordinates": [
+                    0.1616819180722474,
+                    0.4228648545582544,
+                    0.4250099485080611,
+                    0.7954874298079886
+                ],
+                "background_prompt": "Create an image of background with a dense, forested area featuring a vibrant gradient of autumn colors, rich green foliage seamlessly transitioning to yellow, orange, and red hues, diffused sunlight filtering through the canopy, casting dappled shadows on the forest floor.",
+                "local_prompt": "Create an image of a leopard with a muscular build, capturing its poised, graceful stance. Its coat is adorned with a classic rosette pattern, sharply defined against a warm, tawny background. The leopard is alert, portraying intense, focused eyes set above a prominent snout. Its whiskers large, and tail is long, adding to its balanced appearance. Light shimmers on its",
+                "global_prompt": "Create an image of: a dense, forested area with a gradient of colors in the background. Centered is a prominent tiger, facing forward with its body distinctly visible occupying coordinates [0.389, 0.477] to [0.761, 0.717]. Behind the tiger stands a cheetah with a sleek build, spotted fur, within [0.",
+                "considerable_classes": [
+                    "lion",
+                    "jaguar"
+                ]
+            },
+            {
+                "class": "tiger",
+                "layer": 4,
+                "coordinates": [
+                    0.3885168366138734,
+                    0.47694699224095494,
+                    0.7608048816553993,
+                    0.7171947136905988
+                ],
+                "background_prompt": "Create an image of background with a dense, forested area featuring a vibrant gradient of autumn colors, rich green foliage seamlessly transitioning to yellow, orange, and red hues, diffused sunlight filtering through the canopy, casting dappled shadows on the forest floor.",
+                "local_prompt": "Create an image of tiger with piercing, amber eyes, its fur a vibrant orange adorned with dark, bold stripes. The tiger stands majestically, muscles taut and poised, imparting a sense of alertness and power. Each whisker is meticulously detailed, and its tail swishes with subtle grace.",
+                "global_prompt": "Create an image of: a dense, forested area with a gradient of colors in the background. Centered is a prominent tiger, facing forward with its body distinctly visible occupying coordinates [0.389, 0.477] to [0.761, 0.717]. Behind the tiger stands a cheetah with a sleek build, spotted fur, within [0.",
+                "considerable_classes": [
+                    "cheetah",
+                    "lion",
+                    "jaguar",
+                    "leopard"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a tiger in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cheetah in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a lion in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a jaguar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a leopard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tiger in front of the cheetah?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the lion behind the cheetah?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the jaguar behind the lion?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the leopard behind the jaguar?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the tiger in front of the leopard?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "44": {
+        "original_metadata": [
+            {
+                "class": "laundry detergent",
+                "layer": 0,
+                "coordinates": [
+                    0.11315331349733833,
+                    0.12551145162759952,
+                    0.42035655446988557,
+                    0.42791198471429653
+                ],
+                "background_prompt": "Create an image of background with a minimalist laundry room featuring soft lighting. The walls are painted in a muted pastel shade, while the floor is a polished light wood. There's a slight hint of shadows forming from natural light streaming in through a large window, creating a serene and airy atmosphere.",
+                "local_prompt": "Create an image of laundry detergent with a bold, eye-catching label prominently facing forward. The bottle should have a glossy finish, showcasing vibrant colors and clear, legible typography. The ergonomic handle should be subtly highlighted for easy grip, and the cap should be a contrasting color to stand out. Add realistic reflections and subtle shadows to enhance depth and dimension.",
+                "global_prompt": "Create an image of: a scene where a laundry detergent bottle is in the foreground, positioned in the bottom left, a basketball sits slightly above and in front of it on the right, and a hamper is visible behind the basketball and to the right of the detergent. The detergent's bold label faces forward, the orange basketball has a smooth, dimpled texture, and the wicker hamper",
+                "background": "Minimalist Laundry Room",
+                "considerable_classes": []
+            },
+            {
+                "class": "hamper",
+                "layer": 1,
+                "coordinates": [
+                    0.4854517981888343,
+                    0.2762586112438588,
+                    0.8065269103205057,
+                    0.5551723346308756
+                ],
+                "background_prompt": "Create an image of background with a minimalist laundry room featuring soft lighting. The walls are painted in a muted pastel shade, while the floor is a polished light wood. There's a slight hint of shadows forming from natural light streaming in through a large window, creating a serene and airy atmosphere.",
+                "local_prompt": "Create an image of a hamper with a natural wicker texture, showcasing an intricate weave pattern, rich in earthy tones. The hamper is slightly tapered at the top, giving it a traditional and functional aesthetic. It stands as a sturdy storage container, exuding a rustic charm.",
+                "global_prompt": "Create an image of: a scene where a laundry detergent bottle is in the foreground, positioned in the bottom left, a basketball sits slightly above and in front of it on the right, and a hamper is visible behind the basketball and to the right of the detergent. The detergent's bold label faces forward, the orange basketball has a smooth, dimpled texture, and the wicker hamper",
+                "considerable_classes": []
+            },
+            {
+                "class": "basketball",
+                "layer": 2,
+                "coordinates": [
+                    0.252027553086015,
+                    0.14429120038943735,
+                    0.650750848447208,
+                    0.43869687958134895
+                ],
+                "background_prompt": "Create an image of background with a minimalist laundry room featuring soft lighting. The walls are painted in a muted pastel shade, while the floor is a polished light wood. There's a slight hint of shadows forming from natural light streaming in through a large window, creating a serene and airy atmosphere.",
+                "local_prompt": "Create an image of basketball with a vibrant orange hue, featuring a smooth, dimpled texture. This basketball is positioned slightly above another object. Its glossy surface reflects light subtly, emphasizing the classic black lines that divide the segments.",
+                "global_prompt": "Create an image of: a scene where a laundry detergent bottle is in the foreground, positioned in the bottom left, a basketball sits slightly above and in front of it on the right, and a hamper is visible behind the basketball and to the right of the detergent. The detergent's bold label faces forward, the orange basketball has a smooth, dimpled texture, and the wicker hamper",
+                "considerable_classes": [
+                    "laundry detergent",
+                    "hamper"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a laundry detergent bottle in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a basketball in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a hamper in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the laundry detergent bottle in the bottom left of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the basketball positioned in front of the hamper?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hamper located behind the basketball?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the basketball to the right of the laundry detergent bottle?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "45": {
+        "original_metadata": [
+            {
+                "class": "rock python",
+                "layer": 0,
+                "coordinates": [
+                    0.23566399052031045,
+                    0.16972285551402924,
+                    0.5642206710002704,
+                    0.4657813381912026
+                ],
+                "background_prompt": "Create an image of background with an ancient sandstone cliff dwelling, weathered yet majestic. The earthen hues of the rock contrast with sporadic patches of moss, while narrow ledges provide natural balconies. Sunlight graces the textured cliff face, accentuating its cracks and crevices amidst surrounding rugged terrain.",
+                "local_prompt": "Create an image of rock python with intricate patterns on its scales, showcasing a mix of earthy browns and greys. The python is partially coiled, giving an impression of relaxed alertness. Its body is thick and muscular, indicating strength, with faint sunlight casting subtle highlights along its length, creating a sense of depth and texture.",
+                "global_prompt": "Create an image of: a dynamic wildlife scene featuring a great grey owl perched in front of a green lizard and an African grey parrot, set against a backdrop of a cliff dwelling. The owl, positioned lower right in the scene, is in front of both reptiles. Above, a rock python rests, partially coiled, overseeing the lively tableau, positioned above to the left,",
+                "background": "Cliff Dwelling",
+                "considerable_classes": []
+            },
+            {
+                "class": "green lizard",
+                "layer": 1,
+                "coordinates": [
+                    0.43055547929947824,
+                    0.38056768801551377,
+                    0.6752425110045608,
+                    0.6223028725321903
+                ],
+                "background_prompt": "Create an image of background with an ancient sandstone cliff dwelling, weathered yet majestic. The earthen hues of the rock contrast with sporadic patches of moss, while narrow ledges provide natural balconies. Sunlight graces the textured cliff face, accentuating its cracks and crevices amidst surrounding rugged terrain.",
+                "local_prompt": "Create an image of green lizard with vibrant emerald skin, showcasing intricate scale patterns that glisten under soft lighting. Its slender body is elongated and agile, tail slightly curled. The lizard's alert posture, with keen eyes and slightly open mouth, suggests readiness, capturing a moment of tension and curiosity. The creature's delicate limbs are poised, exuding both grace and latent movement.",
+                "global_prompt": "Create an image of: a dynamic wildlife scene featuring a great grey owl perched in front of a green lizard and an African grey parrot, set against a backdrop of a cliff dwelling. The owl, positioned lower right in the scene, is in front of both reptiles. Above, a rock python rests, partially coiled, overseeing the lively tableau, positioned above to the left,",
+                "considerable_classes": [
+                    "rock python"
+                ]
+            },
+            {
+                "class": "African grey",
+                "layer": 2,
+                "coordinates": [
+                    0.41047068498495165,
+                    0.1378245687449601,
+                    0.6478712910154432,
+                    0.5309526323828507
+                ],
+                "background_prompt": "Create an image of background with an ancient sandstone cliff dwelling, weathered yet majestic. The earthen hues of the rock contrast with sporadic patches of moss, while narrow ledges provide natural balconies. Sunlight graces the textured cliff face, accentuating its cracks and crevices amidst surrounding rugged terrain.",
+                "local_prompt": "Create an image of African grey with intricate feather patterns showcasing shades of grey and subtle red tail feathers. Its intelligent gaze and slightly open beak reveal curiosity, while its claws gently grip an unseen branch. Feather detailing emphasizes texture and natural gloss, casting soft shadows.",
+                "global_prompt": "Create an image of: a dynamic wildlife scene featuring a great grey owl perched in front of a green lizard and an African grey parrot, set against a backdrop of a cliff dwelling. The owl, positioned lower right in the scene, is in front of both reptiles. Above, a rock python rests, partially coiled, overseeing the lively tableau, positioned above to the left,",
+                "considerable_classes": [
+                    "green lizard"
+                ]
+            },
+            {
+                "class": "great grey owl",
+                "layer": 3,
+                "coordinates": [
+                    0.48458227595956205,
+                    0.4866106539924522,
+                    0.701060141563217,
+                    0.7913464541080364
+                ],
+                "background_prompt": "Create an image of background with an ancient sandstone cliff dwelling, weathered yet majestic. The earthen hues of the rock contrast with sporadic patches of moss, while narrow ledges provide natural balconies. Sunlight graces the textured cliff face, accentuating its cracks and crevices amidst surrounding rugged terrain.",
+                "local_prompt": "Create an image of great grey owl with intense, alert eyes and luxuriant plumage, perched with an elegantly straight posture. Its imposing wing span accents its poised symmetry. It exudes wisdom and solitary majesty, feathers ruffled by an unseen breeze.",
+                "global_prompt": "Create an image of: a dynamic wildlife scene featuring a great grey owl perched in front of a green lizard and an African grey parrot, set against a backdrop of a cliff dwelling. The owl, positioned lower right in the scene, is in front of both reptiles. Above, a rock python rests, partially coiled, overseeing the lively tableau, positioned above to the left,",
+                "considerable_classes": [
+                    "green lizard",
+                    "African grey"
+                ]
+            },
+            {
+                "class": "cliff dwelling",
+                "layer": 4,
+                "coordinates": [
+                    0.3486649667286706,
+                    0.48898456663784384,
+                    0.5785711851272786,
+                    0.7509961758829047
+                ],
+                "background_prompt": "Create an image of background with an ancient sandstone cliff dwelling, weathered yet majestic. The earthen hues of the rock contrast with sporadic patches of moss, while narrow ledges provide natural balconies. Sunlight graces the textured cliff face, accentuating its cracks and crevices amidst surrounding rugged terrain.",
+                "local_prompt": "Create an image of cliff dwelling with intricate stone structures carved into steep rock faces. The dwelling features a series of interconnected rooms, ledges, and stairways, showcasing ancient craftsmanship. Sunlight casts sharp shadows across the weathered stone, highlighting the detailed carvings. The facade blends harmoniously with the rugged cliff, evoking a sense of mystery and historical significance. Dust and vegetation subtly",
+                "global_prompt": "Create an image of: a dynamic wildlife scene featuring a great grey owl perched in front of a green lizard and an African grey parrot, set against a backdrop of a cliff dwelling. The owl, positioned lower right in the scene, is in front of both reptiles. Above, a rock python rests, partially coiled, overseeing the lively tableau, positioned above to the left,",
+                "considerable_classes": [
+                    "green lizard",
+                    "African grey",
+                    "great grey owl"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a great grey owl in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a green lizard present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an African grey parrot visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a rock python depicted in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cliff dwelling in the background?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great grey owl in front of the green lizard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the African grey parrot in front of the green lizard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great grey owl in front of the African grey parrot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the rock python positioned above the green lizard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cliff dwelling behind the great grey owl?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "46": {
+        "original_metadata": [
+            {
+                "class": " church",
+                "layer": 0,
+                "coordinates": [
+                    0.4861145291972879,
+                    0.10982186116274595,
+                    0.8723777541484632,
+                    0.36356310607215686
+                ],
+                "background_prompt": "Create an image of background with soft, diffused lighting casting warm tones, illuminating ornate patterns and intricate designs. The backdrop exhibits tall, arching structures enhancing vertical grandeur, while subtle shades of gold and rich wood tones complement the ambiance. A sense of tranquility pervades the atmosphere.",
+                "local_prompt": "Create an image of a church with ornate gothic architecture, featuring towering spires and an expansive fa\u00e7ade. The building is embellished with detailed stone carvings, arched stained glass windows, and a grand entrance. It exudes an aura of reverence and historical grandeur.",
+                "global_prompt": "Create an image of: a serene scene with a grand church slightly below and to the left of an ornate altar. The church stands prominently, occupying the upper-left to the lower-right region, while a beautifully detailed altar is positioned above, commanding attention with intricate carvings and religious iconography. The contrasting positions reflect a harmonious blend of architecture and sacred art.",
+                "background": "Ornate Architecture",
+                "considerable_classes": []
+            },
+            {
+                "class": "altar",
+                "layer": 1,
+                "coordinates": [
+                    0.12906248872542392,
+                    0.483895360012606,
+                    0.3310226533897288,
+                    0.7757705092551437
+                ],
+                "background_prompt": "Create an image of background with soft, diffused lighting casting warm tones, illuminating ornate patterns and intricate designs. The backdrop exhibits tall, arching structures enhancing vertical grandeur, while subtle shades of gold and rich wood tones complement the ambiance. A sense of tranquility pervades the atmosphere.",
+                "local_prompt": "Create an image of altar with intricate carvings featuring religious iconography, detailing figures of saints and biblical scenes. The altar is adorned with gold leaf accents, intertwining vines, and ornate scrollwork, combining rich wood textures with a polished marble surface, exuding a sense of reverence and craftsmanship.",
+                "global_prompt": "Create an image of: a serene scene with a grand church slightly below and to the left of an ornate altar. The church stands prominently, occupying the upper-left to the lower-right region, while a beautifully detailed altar is positioned above, commanding attention with intricate carvings and religious iconography. The contrasting positions reflect a harmonious blend of architecture and sacred art.",
+                "considerable_classes": []
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a church in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an altar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the church located to the left of the altar?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the altar positioned above the church?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the church occupying the upper-left to lower-right region of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the altar commanding attention with intricate carvings and religious iconography?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "47": {
+        "original_metadata": [
+            {
+                "class": "common newt",
+                "layer": 0,
+                "coordinates": [
+                    0.41312889054705404,
+                    0.4515063786376049,
+                    0.7087593152431786,
+                    0.8407560692621265
+                ],
+                "background_prompt": "Create an image of background with a lush forest undergrowth, vibrant with deep green foliage and delicate ferns. Dappled sunlight filters through thick canopy leaves, casting playful light patterns on the moist, earthy floor. Whispering breezes rustle through subtly colored greenery, lending an ethereal atmosphere to the serene forest.",
+                "local_prompt": "Create an image of a common newt with its moist, textured skin a blend of earth-toned oranges and browns. It rests serenely on a damp leaf, its small, slender body showcasing delicate limbs with fine fingers. The newt's eyes are bead-like and alert, displaying curiosity. The leaf's subtle sheen and the newt's speckled coloration create a harmonious",
+                "global_prompt": "Create an image of: a vibrant scene in a lush forest undergrowth. A common newt sits quietly on a damp leaf in the lower-right corner, colors blending with the subtle greens and browns. Above it, a striking European fire salamander crawls leftward, its black and yellow skin glistening in the dappled sunlight. To the left, a spotted salam",
+                "background": "Lush Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "European fire salamander",
+                "layer": 1,
+                "coordinates": [
+                    0.382746567120849,
+                    0.25498994143651715,
+                    0.6866188641581614,
+                    0.49097057012526313
+                ],
+                "background_prompt": "Create an image of background with a lush forest undergrowth, vibrant with deep green foliage and delicate ferns. Dappled sunlight filters through thick canopy leaves, casting playful light patterns on the moist, earthy floor. Whispering breezes rustle through subtly colored greenery, lending an ethereal atmosphere to the serene forest.",
+                "local_prompt": "Create an image of a European fire salamander with its glossy black skin featuring vibrant yellow patches. Its body is sleek and moist, reflecting dappled sunlight. The salamander's posture is elegant, moving leftward with a slow, deliberate crawl, exuding a sense of calm ambition.",
+                "global_prompt": "Create an image of: a vibrant scene in a lush forest undergrowth. A common newt sits quietly on a damp leaf in the lower-right corner, colors blending with the subtle greens and browns. Above it, a striking European fire salamander crawls leftward, its black and yellow skin glistening in the dappled sunlight. To the left, a spotted salam",
+                "considerable_classes": [
+                    "common newt"
+                ]
+            },
+            {
+                "class": "spotted salamander",
+                "layer": 2,
+                "coordinates": [
+                    0.10841794389715363,
+                    0.3370536941392435,
+                    0.31015296805243525,
+                    0.6231787291668363
+                ],
+                "background_prompt": "Create an image of background with a lush forest undergrowth, vibrant with deep green foliage and delicate ferns. Dappled sunlight filters through thick canopy leaves, casting playful light patterns on the moist, earthy floor. Whispering breezes rustle through subtly colored greenery, lending an ethereal atmosphere to the serene forest.",
+                "local_prompt": "Create an image of a spotted salamander with lustrous black skin adorned with vivid yellow spots, its body slightly curved as if mid-crawl. Capture its moist, glossy texture reflecting slight hints of light, emphasizing its smooth, rounded shapes and detailed feet with tiny digits gripping a surface.",
+                "global_prompt": "Create an image of: a vibrant scene in a lush forest undergrowth. A common newt sits quietly on a damp leaf in the lower-right corner, colors blending with the subtle greens and browns. Above it, a striking European fire salamander crawls leftward, its black and yellow skin glistening in the dappled sunlight. To the left, a spotted salam",
+                "considerable_classes": []
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a common newt in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a European fire salamander in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a spotted salamander in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the European fire salamander above the common newt?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the common newt to the right of the European fire salamander?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the spotted salamander to the left of the European fire salamander?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "48": {
+        "original_metadata": [
+            {
+                "class": "black grouse",
+                "layer": 0,
+                "coordinates": [
+                    0.3879517095976791,
+                    0.4328378181658006,
+                    0.648757951688485,
+                    0.670587180122421
+                ],
+                "background_prompt": "Create an image of background with dappled sunlight filtering through lush, towering trees. The forest floor is a rich tapestry of fallen leaves, mossy patches, and scattered wildflowers. Shadows dance gently across the ground, adding depth and warmth to the tranquil scene.",
+                "local_prompt": "Create an image of black grouse with glossy dark plumage, its feathers reflecting subtle hints of iridescent blue and purple. The delicate white markings on its wings and tail contrast with its rich body color. Its head is adorned with vibrant red wattles above the eyes, and the bird stands in an alert posture, showcasing its robust and graceful build.",
+                "global_prompt": "Create an image of: A serene forest clearing featuring a ruffed grouse in the foreground, with intricate feather detailing, positioned at [0.228, 0.345] to [0.474, 0.660]. Behind and slightly to the side, a ptarmigan with its soft white plumage occupies [0.393, 0.339] to [",
+                "background": "Sunlit Forest",
+                "considerable_classes": []
+            },
+            {
+                "class": "ptarmigan",
+                "layer": 1,
+                "coordinates": [
+                    0.39323375206438893,
+                    0.33924896266438964,
+                    0.6382820312541273,
+                    0.6076345963319816
+                ],
+                "background_prompt": "Create an image of background with dappled sunlight filtering through lush, towering trees. The forest floor is a rich tapestry of fallen leaves, mossy patches, and scattered wildflowers. Shadows dance gently across the ground, adding depth and warmth to the tranquil scene.",
+                "local_prompt": "Create an image of ptarmigan with soft white plumage and nuanced feather detail, showcasing its gentle, docile expression. The ptarmigan's feathers should blend subtly into slight winter hues, emphasizing its adaptation to cold environments. Its body posture is calm and restful, capturing its peaceful nature.",
+                "global_prompt": "Create an image of: A serene forest clearing featuring a ruffed grouse in the foreground, with intricate feather detailing, positioned at [0.228, 0.345] to [0.474, 0.660]. Behind and slightly to the side, a ptarmigan with its soft white plumage occupies [0.393, 0.339] to [",
+                "considerable_classes": [
+                    "black grouse"
+                ]
+            },
+            {
+                "class": "ruffed grouse",
+                "layer": 2,
+                "coordinates": [
+                    0.22764157109987224,
+                    0.3450375246374612,
+                    0.47398105533616963,
+                    0.6598126362706962
+                ],
+                "background_prompt": "Create an image of background with dappled sunlight filtering through lush, towering trees. The forest floor is a rich tapestry of fallen leaves, mossy patches, and scattered wildflowers. Shadows dance gently across the ground, adding depth and warmth to the tranquil scene.",
+                "local_prompt": "Create an image of ruffed grouse with intricate feather detailing, showcasing a mix of mottled browns, blacks, and whites. The bird stands alert, head slightly cocked, as its body is framed by vivid, fan-like tail feathers. Highlight the contrast of feather textures, from the delicate, downy underbelly to the robust wing plumage. Capture the essence of",
+                "global_prompt": "Create an image of: A serene forest clearing featuring a ruffed grouse in the foreground, with intricate feather detailing, positioned at [0.228, 0.345] to [0.474, 0.660]. Behind and slightly to the side, a ptarmigan with its soft white plumage occupies [0.393, 0.339] to [",
+                "considerable_classes": [
+                    "black grouse",
+                    "ptarmigan"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a ruffed grouse in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a ptarmigan in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a black grouse in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ruffed grouse in front of the ptarmigan?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ptarmigan in front of the black grouse?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ruffed grouse to the left of the ptarmigan?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "49": {
+        "original_metadata": [
+            {
+                "class": "golfcart",
+                "layer": 0,
+                "coordinates": [
+                    0.43709806285160824,
+                    0.1548250016802058,
+                    0.7867885350154061,
+                    0.4391838171972402
+                ],
+                "background_prompt": "Create an image of background with a lush green grass field under a clear blue sky, sunlit with scattered light clouds. The horizon gently slopes, with distant tree lines bordering the scene, casting subtle shadows on the ground.",
+                "local_prompt": "Create an image of golfcart with sleek design, painted in a smooth metallic silver finish, featuring four black tires with shiny rims. The golf cart has an open roof, with two side mirrors and a compact windshield. It is equipped with two comfortable embroidered seats and a small rear carrier.",
+                "global_prompt": "Create an image of: a golf cart in the background with a white golf ball slightly in front, positioned lower to the left; a baseball placed at the forefront overlapping both, enhanced with shadows and accurate perspective, on a grass field under a clear sky.",
+                "background": "Scenic Grass Field",
+                "considerable_classes": []
+            },
+            {
+                "class": "golf ball",
+                "layer": 1,
+                "coordinates": [
+                    0.12097975967451009,
+                    0.2595635449185457,
+                    0.4725344511611278,
+                    0.49986099270775797
+                ],
+                "background_prompt": "Create an image of background with a lush green grass field under a clear blue sky, sunlit with scattered light clouds. The horizon gently slopes, with distant tree lines bordering the scene, casting subtle shadows on the ground.",
+                "local_prompt": "Create an image of golf ball with a smooth, shiny white surface and standard dimples, subtly textured for realism. The ball should exhibit realistic shading and highlights, capturing reflections from natural light to emphasize its roundness.",
+                "global_prompt": "Create an image of: a golf cart in the background with a white golf ball slightly in front, positioned lower to the left; a baseball placed at the forefront overlapping both, enhanced with shadows and accurate perspective, on a grass field under a clear sky.",
+                "considerable_classes": [
+                    "golfcart"
+                ]
+            },
+            {
+                "class": "baseball",
+                "layer": 2,
+                "coordinates": [
+                    0.28928104798264487,
+                    0.34027979000574493,
+                    0.5544414339322153,
+                    0.62787437030393
+                ],
+                "background_prompt": "Create an image of background with a lush green grass field under a clear blue sky, sunlit with scattered light clouds. The horizon gently slopes, with distant tree lines bordering the scene, casting subtle shadows on the ground.",
+                "local_prompt": "Create an image of baseball with a classic white leather exterior and prominent red stitching. Position it at the forefront with a realistic texture that highlights its seams, casting soft shadows for depth. Ensure accurate perspective, emphasizing the spherical shape and natural shine of the baseball.",
+                "global_prompt": "Create an image of: a golf cart in the background with a white golf ball slightly in front, positioned lower to the left; a baseball placed at the forefront overlapping both, enhanced with shadows and accurate perspective, on a grass field under a clear sky.",
+                "considerable_classes": [
+                    "golfcart",
+                    "golf ball"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a golf cart in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a golf ball in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a baseball in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the golf ball in front of the golf cart?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the baseball in front of the golf ball?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the baseball in front of the golf cart?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the golf ball positioned relative to the golf cart?",
+                "ground_truth_answer": "Slightly in front and lower to the left"
+            }
+        ]
+    }
+}

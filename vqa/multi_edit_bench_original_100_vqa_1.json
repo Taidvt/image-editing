@@ -1,0 +1,1072 @@
+{
+    "0": {
+        "original_metadata": [
+            {
+                "class": "weightlifter",
+                "layer": 0,
+                "coordinates": [
+                    0.3100749050982784,
+                    0.37052236684654183,
+                    0.6971874592236315,
+                    0.6842731890704067
+                ],
+                "background_prompt": "Create an image of background with a vibrant and energetic gym atmosphere, featuring bright, dynamic colors and abstract patterns that convey movement and vigor. Incorporate elements like textured walls with motivational designs or bold logos, gym flooring, and indirect lighting to set an upbeat environment.",
+                "local_prompt": "Create an image of weightlifter with intense focus, muscles tensed, holding a heavy barbell overhead in a perfect snatch position. The weightlifter is mid-action, showcasing peak physical condition, veins popping, eyes determined, showcasing strength and precision in stance, with light highlighting every muscle contour.",
+                "global_prompt": "Create an image of: A dynamic gym scene. Centered is a weightlifter in a determined pose, holding a barbell above the head. To the left, a dumbbell rests at eye level, positioned nearby an exercise mat laid diagonally. A vibrant gym backdrop sets the energetic tone, occupying much of the background. The barbell extends prominently from the lower-left, enhancing",
+                "background": "Gym Atmosphere",
+                "considerable_classes": []
+            },
+            {
+                "class": "barbell",
+                "layer": 1,
+                "coordinates": [
+                    0.15955752123912978,
+                    0.3877537185993666,
+                    0.46093744459167485,
+                    0.6317323319289871
+                ],
+                "background_prompt": "Create an image of background with a vibrant and energetic gym atmosphere, featuring bright, dynamic colors and abstract patterns that convey movement and vigor. Incorporate elements like textured walls with motivational designs or bold logos, gym flooring, and indirect lighting to set an upbeat environment.",
+                "local_prompt": "Create an image of barbell with a metallic sheen and textured grip, held high above a weightlifter's head, demonstrating a perfect overhead press. Barbell features solid black weights, contrasting against its gleaming silver shaft, capturing the spirit of strength and precision.",
+                "global_prompt": "Create an image of: A dynamic gym scene. Centered is a weightlifter in a determined pose, holding a barbell above the head. To the left, a dumbbell rests at eye level, positioned nearby an exercise mat laid diagonally. A vibrant gym backdrop sets the energetic tone, occupying much of the background. The barbell extends prominently from the lower-left, enhancing",
+                "considerable_classes": [
+                    "weightlifter"
+                ]
+            },
+            {
+                "class": "dumbbell",
+                "layer": 2,
+                "coordinates": [
+                    0.3128761293424711,
+                    0.14430968511769585,
+                    0.5598201269478251,
+                    0.36850480852170364
+                ],
+                "background_prompt": "Create an image of background with a vibrant and energetic gym atmosphere, featuring bright, dynamic colors and abstract patterns that convey movement and vigor. Incorporate elements like textured walls with motivational designs or bold logos, gym flooring, and indirect lighting to set an upbeat environment.",
+                "local_prompt": "Create an image of dumbbell with a sleek chrome finish, capturing light reflections. Positioned horizontally, the dumbbell features engraved weight indicators on either side. Design grips with a textured pattern for an authentic look, showcasing the dumbbell in a highly realistic, close-up view.",
+                "global_prompt": "Create an image of: A dynamic gym scene. Centered is a weightlifter in a determined pose, holding a barbell above the head. To the left, a dumbbell rests at eye level, positioned nearby an exercise mat laid diagonally. A vibrant gym backdrop sets the energetic tone, occupying much of the background. The barbell extends prominently from the lower-left, enhancing",
+                "considerable_classes": []
+            },
+            {
+                "class": "gym",
+                "layer": 3,
+                "coordinates": [
+                    0.46875508943760635,
+                    0.1394298768340062,
+                    0.8422065826630675,
+                    0.37830530902323417
+                ],
+                "background_prompt": "Create an image of background with a vibrant and energetic gym atmosphere, featuring bright, dynamic colors and abstract patterns that convey movement and vigor. Incorporate elements like textured walls with motivational designs or bold logos, gym flooring, and indirect lighting to set an upbeat environment.",
+                "local_prompt": "Create an image of gym with vibrant atmosphere, featuring various fitness equipment scattered around. The space exudes energy and motivation, with sleek, modern machines gleaming under powerful lighting. Mats and weights are strategically placed, enhancing the functional layout. The interior echoes with determined expressions of exertion and focus, capturing the essence of dedication and strength training.",
+                "global_prompt": "Create an image of: A dynamic gym scene. Centered is a weightlifter in a determined pose, holding a barbell above the head. To the left, a dumbbell rests at eye level, positioned nearby an exercise mat laid diagonally. A vibrant gym backdrop sets the energetic tone, occupying much of the background. The barbell extends prominently from the lower-left, enhancing",
+                "considerable_classes": [
+                    "weightlifter"
+                ]
+            },
+            {
+                "class": "exercise mat",
+                "layer": 4,
+                "coordinates": [
+                    0.3031823182753599,
+                    0.10178203120834249,
+                    0.6494130619306564,
+                    0.35572245317521894
+                ],
+                "background_prompt": "Create an image of background with a vibrant and energetic gym atmosphere, featuring bright, dynamic colors and abstract patterns that convey movement and vigor. Incorporate elements like textured walls with motivational designs or bold logos, gym flooring, and indirect lighting to set an upbeat environment.",
+                "local_prompt": "Create an image of exercise mat with a textured surface in a bright blue hue, laid diagonally. It features rounded corners and precise stitching along the edges, emphasizing durability. The mat appears thick, providing ample cushioning, and exudes a sense of readiness for a workout session.",
+                "global_prompt": "Create an image of: A dynamic gym scene. Centered is a weightlifter in a determined pose, holding a barbell above the head. To the left, a dumbbell rests at eye level, positioned nearby an exercise mat laid diagonally. A vibrant gym backdrop sets the energetic tone, occupying much of the background. The barbell extends prominently from the lower-left, enhancing",
+                "considerable_classes": [
+                    "gym"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a weightlifter in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a barbell present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Can you see a dumbbell?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a gym backdrop?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is an exercise mat visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the weightlifter holding the barbell?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Where is the dumbbell located in relation to the weightlifter?",
+                "ground_truth_answer": "To the left and at eye level"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the exercise mat positioned diagonally?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gym backdrop behind the weightlifter?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "1": {
+        "original_metadata": [
+            {
+                "class": "cheetah",
+                "layer": 0,
+                "coordinates": [
+                    0.21868987744716784,
+                    0.11633567662303822,
+                    0.4756481547851784,
+                    0.4911883246027097
+                ],
+                "background_prompt": "Create an image of background with vast rolling savannahs, varied tall grasses swaying in the breeze, distant acacia trees scattered across the horizon, soft sunlight filtering through the serene sky, casting delicate shadows and rich warm hues.",
+                "local_prompt": "Create an image of cheetah with a sleek, slender body sprawled comfortably on vibrant green grass, its deep amber eyes alert and focused, distinctive black \"tear marks\" accentuating its elegant face, its spotted coat shining in the sunlight with intricate patterns, exuding grace and a sense of latent power, complementing its tranquil yet vigilant posture.",
+                "global_prompt": "Create an image of: a majestic lion standing firmly in the foreground, positioned front and center, with precisely groomed mane and regal posture. Behind the lion, a sleek leopard, its spots distinct against a dense bush, cautiously peers over. In the background, a diligent cheetah, sprawled on the grass, clearly visible yet slightly obscured, subtly enhancing the depth of the",
+                "background": "Savannah Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "leopard",
+                "layer": 1,
+                "coordinates": [
+                    0.3739241505186154,
+                    0.4515441078226743,
+                    0.617012753109487,
+                    0.7634068460734071
+                ],
+                "background_prompt": "Create an image of background with vast rolling savannahs, varied tall grasses swaying in the breeze, distant acacia trees scattered across the horizon, soft sunlight filtering through the serene sky, casting delicate shadows and rich warm hues.",
+                "local_prompt": "Create an image of a leopard with sleek, defined muscle structure, its vibrant, rosette-patterned coat gleaming in the light, eyes sharp and focused, hidden partly by a bush, embodying a sense of stealth and caution.",
+                "global_prompt": "Create an image of: a majestic lion standing firmly in the foreground, positioned front and center, with precisely groomed mane and regal posture. Behind the lion, a sleek leopard, its spots distinct against a dense bush, cautiously peers over. In the background, a diligent cheetah, sprawled on the grass, clearly visible yet slightly obscured, subtly enhancing the depth of the",
+                "considerable_classes": [
+                    "cheetah"
+                ]
+            },
+            {
+                "class": "lion",
+                "layer": 2,
+                "coordinates": [
+                    0.3734809844484098,
+                    0.18330152401880448,
+                    0.7680104051890374,
+                    0.45955130509993847
+                ],
+                "background_prompt": "Create an image of background with vast rolling savannahs, varied tall grasses swaying in the breeze, distant acacia trees scattered across the horizon, soft sunlight filtering through the serene sky, casting delicate shadows and rich warm hues.",
+                "local_prompt": "Create an image of lion with a majestic, regal posture, standing firmly with a powerful presence, its thick mane meticulously groomed, each hair defined against its robust neck. The lion's piercing eyes exude dominance and wisdom, exhibiting strength and grace.",
+                "global_prompt": "Create an image of: a majestic lion standing firmly in the foreground, positioned front and center, with precisely groomed mane and regal posture. Behind the lion, a sleek leopard, its spots distinct against a dense bush, cautiously peers over. In the background, a diligent cheetah, sprawled on the grass, clearly visible yet slightly obscured, subtly enhancing the depth of the",
+                "considerable_classes": [
+                    "cheetah"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a lion in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a leopard in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cheetah in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the lion in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the leopard behind the lion?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cheetah behind the leopard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cheetah in front of the lion?",
+                "ground_truth_answer": "No"
+            }
+        ]
+    },
+    "2": {
+        "original_metadata": [
+            {
+                "class": "frying pan",
+                "layer": 0,
+                "coordinates": [
+                    0.18458538866112348,
+                    0.1762851364256559,
+                    0.507367296652041,
+                    0.4883428389312032
+                ],
+                "background_prompt": "Create an image of background with smooth, glossy tiles, cool neutral tones blending seamlessly. Light softly reflects, adding warmth and depth. Delicate shadows hint at a cozy atmosphere, embracing subtle sophistication within a compact setting.",
+                "local_prompt": "Create an image of frying pan with a sleek, matte black finish, ergonomically designed handle curving gently for a comfortable grip. The frying pan features a non-stick surface, ideal for even heat distribution, and hints of wear you can see in the slight sheen that speaks of frequent use.",
+                "global_prompt": "Create an image of: a compact kitchen setup. A sleek dishwasher is front and center, occupying the largest space. Behind it, partially visible, is a modern stove with a shiny appearance. Above the stove, a sturdy pot takes up a spot, with the oven discreetly showing behind them, exuding a warm glow. A frying pan is subtly hidden, just a hint behind the",
+                "background": "Glossy Tiles",
+                "considerable_classes": []
+            },
+            {
+                "class": "oven",
+                "layer": 1,
+                "coordinates": [
+                    0.4283960959434703,
+                    0.3526256063114972,
+                    0.6668847679427271,
+                    0.7007479602722064
+                ],
+                "background_prompt": "Create an image of background with smooth, glossy tiles, cool neutral tones blending seamlessly. Light softly reflects, adding warmth and depth. Delicate shadows hint at a cozy atmosphere, embracing subtle sophistication within a compact setting.",
+                "local_prompt": "Create an image of oven with a sleek, stainless steel design that exudes a warm, ambient glow. The oven door features a glass panel for visibility, enhancing its modern appearance. Its controls are streamlined and intuitive, adding to the oven's sophisticated and functional look.",
+                "global_prompt": "Create an image of: a compact kitchen setup. A sleek dishwasher is front and center, occupying the largest space. Behind it, partially visible, is a modern stove with a shiny appearance. Above the stove, a sturdy pot takes up a spot, with the oven discreetly showing behind them, exuding a warm glow. A frying pan is subtly hidden, just a hint behind the",
+                "considerable_classes": [
+                    "frying pan"
+                ]
+            },
+            {
+                "class": "pot",
+                "layer": 2,
+                "coordinates": [
+                    0.21308385304989277,
+                    0.2828753247865875,
+                    0.5914225802963652,
+                    0.5394181789982753
+                ],
+                "background_prompt": "Create an image of background with smooth, glossy tiles, cool neutral tones blending seamlessly. Light softly reflects, adding warmth and depth. Delicate shadows hint at a cozy atmosphere, embracing subtle sophistication within a compact setting.",
+                "local_prompt": "Create an image of pot with a shiny, polished surface, reflecting ambient light. It features a smooth, sleek design with a slightly domed lid and an elegantly curved handle. The pot stands upright, emphasizing its robust and sturdy build, suggesting a sense of durability and high-quality craftsmanship. The metallic finish gleams with a hint of satin hue, indicating a modern aesthetic. Its shape is",
+                "global_prompt": "Create an image of: a compact kitchen setup. A sleek dishwasher is front and center, occupying the largest space. Behind it, partially visible, is a modern stove with a shiny appearance. Above the stove, a sturdy pot takes up a spot, with the oven discreetly showing behind them, exuding a warm glow. A frying pan is subtly hidden, just a hint behind the",
+                "considerable_classes": [
+                    "frying pan",
+                    "oven"
+                ]
+            },
+            {
+                "class": "stove",
+                "layer": 3,
+                "coordinates": [
+                    0.3192076550494603,
+                    0.39449813044456306,
+                    0.5645823787362357,
+                    0.6152268881410344
+                ],
+                "background_prompt": "Create an image of background with smooth, glossy tiles, cool neutral tones blending seamlessly. Light softly reflects, adding warmth and depth. Delicate shadows hint at a cozy atmosphere, embracing subtle sophistication within a compact setting.",
+                "local_prompt": "Create an image of stove with a sleek, modern design featuring a smooth, reflective finish. The stainless steel surface gleams under ambient light, accentuating the minimalist knobs and controls. Its elegant, streamlined edges enhance the contemporary aesthetic, while discrete burner outlines suggest high functionality.",
+                "global_prompt": "Create an image of: a compact kitchen setup. A sleek dishwasher is front and center, occupying the largest space. Behind it, partially visible, is a modern stove with a shiny appearance. Above the stove, a sturdy pot takes up a spot, with the oven discreetly showing behind them, exuding a warm glow. A frying pan is subtly hidden, just a hint behind the",
+                "considerable_classes": [
+                    "frying pan",
+                    "oven",
+                    "pot"
+                ]
+            },
+            {
+                "class": "dishwasher",
+                "layer": 4,
+                "coordinates": [
+                    0.1597032780198879,
+                    0.15410863623926863,
+                    0.5198406623918524,
+                    0.51972074064777
+                ],
+                "background_prompt": "Create an image of background with smooth, glossy tiles, cool neutral tones blending seamlessly. Light softly reflects, adding warmth and depth. Delicate shadows hint at a cozy atmosphere, embracing subtle sophistication within a compact setting.",
+                "local_prompt": "Create an image of a dishwasher with a sleek stainless steel finish, clean lines, and a modern control panel on the front. The dishwasher\u2019s door is slightly ajar, revealing neatly arranged racks inside. Its handle is minimalist in design, blending seamlessly with the matte surface.",
+                "global_prompt": "Create an image of: a compact kitchen setup. A sleek dishwasher is front and center, occupying the largest space. Behind it, partially visible, is a modern stove with a shiny appearance. Above the stove, a sturdy pot takes up a spot, with the oven discreetly showing behind them, exuding a warm glow. A frying pan is subtly hidden, just a hint behind the",
+                "considerable_classes": [
+                    "oven",
+                    "pot",
+                    "stove"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a dishwasher in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a stove in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a pot in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an oven in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a frying pan in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the dishwasher in front of the stove?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pot located above the stove?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the oven behind the pot?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the frying pan behind the oven?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "3": {
+        "original_metadata": [
+            {
+                "class": "giant panda",
+                "layer": 0,
+                "coordinates": [
+                    0.3926796806256637,
+                    0.28610723711908626,
+                    0.6157436462511554,
+                    0.6083691239602897
+                ],
+                "background_prompt": "Create an image of background with dense, vibrant forest, featuring layers of tall, leafy trees creating a serene canopy. Rich, green foliage covers the forest floor, scattered with patches of sunlight filtering through. Hints of distant mountain peaks are visible in a soft, misty haze, adding depth and serenity to the lush, verdant scene.",
+                "local_prompt": "Create an image of a giant panda with a relaxed posture, sitting comfortably. Its glossy fur shines with distinct patches of black and white, the soft contours giving it a calm and serene demeanor.",
+                "global_prompt": "Create an image of: a scene featuring a giant panda and a koala in a lush forest setting. The giant panda is behind the koala, occupying the central area between coordinates [0.393, 0.286] and [0.616, 0.608]. The panda is sitting with a relaxed posture, displaying its glossy black and white fur. In front of",
+                "background": "Forest Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "koala",
+                "layer": 1,
+                "coordinates": [
+                    0.3737216588813874,
+                    0.19452205526690905,
+                    0.5889810453798451,
+                    0.45752630368362934
+                ],
+                "background_prompt": "Create an image of background with dense, vibrant forest, featuring layers of tall, leafy trees creating a serene canopy. Rich, green foliage covers the forest floor, scattered with patches of sunlight filtering through. Hints of distant mountain peaks are visible in a soft, misty haze, adding depth and serenity to the lush, verdant scene.",
+                "local_prompt": "Create an image of a koala with soft, fluffy ears and a gentle gray coat, clinging effortlessly to a tree branch. Its large, glossy eyes gaze curiously ahead while its compact, round body contrasts beautifully with its delicate, almost human-like hands gripping the bark.",
+                "global_prompt": "Create an image of: a scene featuring a giant panda and a koala in a lush forest setting. The giant panda is behind the koala, occupying the central area between coordinates [0.393, 0.286] and [0.616, 0.608]. The panda is sitting with a relaxed posture, displaying its glossy black and white fur. In front of",
+                "considerable_classes": [
+                    "giant panda"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a giant panda in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a koala in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the giant panda behind the koala?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the koala in front of the giant panda?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "What is the relative position of the giant panda to the koala?",
+                "ground_truth_answer": "The giant panda is behind the koala."
+            }
+        ]
+    },
+    "4": {
+        "original_metadata": [
+            {
+                "class": "Cocker spaniel",
+                "layer": 0,
+                "coordinates": [
+                    0.44478868788327464,
+                    0.4207306192243878,
+                    0.702669881558677,
+                    0.7218019800298671
+                ],
+                "background_prompt": "Create an image of background with a lush park, vibrant autumn foliage. A pond reflecting the sky's soft hues sits beneath towering oak trees. The gentle slope of a grassy hill completes the serene setting.",
+                "local_prompt": "Create an image of a Cocker spaniel with curly, voluminous ears and a shiny, silky coat. Its soulful eyes gaze forward, showcasing a gentle, friendly expression. The spaniel stands with alert, upright posture, displaying its regal chest and poised tail.",
+                "global_prompt": "Create an image of: a layered dog scene with a Brittany spaniel in front of a Cocker spaniel, behind a Gordon setter, English setter, and to the left of an Irish setter. The Cocker spaniel is furthest back, while the Gordon setter leads the group. The English setter is in front of the Irish setter. Arrange dogs per relative coordinates, showcasing diverse",
+                "background": "Autumn Park",
+                "considerable_classes": []
+            },
+            {
+                "class": "Brittany spaniel",
+                "layer": 1,
+                "coordinates": [
+                    0.48723041489944197,
+                    0.4541292449283768,
+                    0.771732204525152,
+                    0.7101994412281363
+                ],
+                "background_prompt": "Create an image of background with a lush park, vibrant autumn foliage. A pond reflecting the sky's soft hues sits beneath towering oak trees. The gentle slope of a grassy hill completes the serene setting.",
+                "local_prompt": "Create an image of Brittany spaniel with a sleek, smooth coat, its fur a vibrant blend of orange and white. Capture its athletic build and graceful stance, ears perked attentively, eyes expressive and bright, showcasing its lively and intelligent nature.",
+                "global_prompt": "Create an image of: a layered dog scene with a Brittany spaniel in front of a Cocker spaniel, behind a Gordon setter, English setter, and to the left of an Irish setter. The Cocker spaniel is furthest back, while the Gordon setter leads the group. The English setter is in front of the Irish setter. Arrange dogs per relative coordinates, showcasing diverse",
+                "considerable_classes": [
+                    "Cocker spaniel"
+                ]
+            },
+            {
+                "class": "Irish setter",
+                "layer": 2,
+                "coordinates": [
+                    0.19311813167623973,
+                    0.41707927612093654,
+                    0.48026741224822744,
+                    0.7935207230445424
+                ],
+                "background_prompt": "Create an image of background with a lush park, vibrant autumn foliage. A pond reflecting the sky's soft hues sits beneath towering oak trees. The gentle slope of a grassy hill completes the serene setting.",
+                "local_prompt": "Create an image of Irish setter with a flowing, silky coat in vibrant mahogany colors. The dog stands confidently, displaying a poised stance with its head held high and ears slightly perked. Its expressive eyes gaze forward, showcasing intelligence. Ensure the well-groomed fur highlights the wavy texture and exemplifies the breed's grace, capturing the essence of an elegant hunting dog in mid",
+                "global_prompt": "Create an image of: a layered dog scene with a Brittany spaniel in front of a Cocker spaniel, behind a Gordon setter, English setter, and to the left of an Irish setter. The Cocker spaniel is furthest back, while the Gordon setter leads the group. The English setter is in front of the Irish setter. Arrange dogs per relative coordinates, showcasing diverse",
+                "considerable_classes": []
+            },
+            {
+                "class": "English setter",
+                "layer": 3,
+                "coordinates": [
+                    0.32826801687927565,
+                    0.33455102124824193,
+                    0.5861480826918242,
+                    0.6988964766224779
+                ],
+                "background_prompt": "Create an image of background with a lush park, vibrant autumn foliage. A pond reflecting the sky's soft hues sits beneath towering oak trees. The gentle slope of a grassy hill completes the serene setting.",
+                "local_prompt": "Create an image of English setter with a graceful stance, displaying its sleek body beneath a dense coat of feathered fur. Its intelligent eyes, fringed with hair, exhibit focus and alertness. A subtly curved tail and long ears trailing gracefully back hint at its noble breeding and athletic elegance.",
+                "global_prompt": "Create an image of: a layered dog scene with a Brittany spaniel in front of a Cocker spaniel, behind a Gordon setter, English setter, and to the left of an Irish setter. The Cocker spaniel is furthest back, while the Gordon setter leads the group. The English setter is in front of the Irish setter. Arrange dogs per relative coordinates, showcasing diverse",
+                "considerable_classes": [
+                    "Cocker spaniel",
+                    "Brittany spaniel",
+                    "Irish setter"
+                ]
+            },
+            {
+                "class": "Gordon setter",
+                "layer": 4,
+                "coordinates": [
+                    0.36557412558462254,
+                    0.32998517487909407,
+                    0.7403341660529139,
+                    0.6069314697795497
+                ],
+                "background_prompt": "Create an image of background with a lush park, vibrant autumn foliage. A pond reflecting the sky's soft hues sits beneath towering oak trees. The gentle slope of a grassy hill completes the serene setting.",
+                "local_prompt": "Create an image of Gordon setter with a glossy black and tan coat, rich and wavy fur, and an elegant, strong posture. Display a noble expression, with eyes gazing forward, ears hanging gracefully, and a sleek, balanced frame.",
+                "global_prompt": "Create an image of: a layered dog scene with a Brittany spaniel in front of a Cocker spaniel, behind a Gordon setter, English setter, and to the left of an Irish setter. The Cocker spaniel is furthest back, while the Gordon setter leads the group. The English setter is in front of the Irish setter. Arrange dogs per relative coordinates, showcasing diverse",
+                "considerable_classes": [
+                    "Brittany spaniel",
+                    "Irish setter",
+                    "English setter"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a Gordon setter in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Brittany spaniel in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a Cocker spaniel in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Gordon setter in front of the English setter?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Brittany spaniel in front of the Cocker spaniel?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the English setter behind the Gordon setter?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Brittany spaniel to the left of the Irish setter?",
+                "ground_truth_answer": "No"
+            }
+        ]
+    },
+    "5": {
+        "original_metadata": [
+            {
+                "class": "sword",
+                "layer": 0,
+                "coordinates": [
+                    0.37915882906038034,
+                    0.20772124313864976,
+                    0.7518483958849334,
+                    0.44577720878342464
+                ],
+                "background_prompt": "Create an image of background with dimly lit ancient stone walls and scattered remnants of ancient ruins. Moss and ivy creep over time-worn surfaces, casting intricate shadows. A flickering torch casts a warm, golden glow, illuminating dust particles suspended in the air, suggesting an aura of mystery and history.",
+                "local_prompt": "Create an image of sword with a gleaming, polished blade reflecting ambient light, featuring an intricately carved cross-guard, and a leather-wrapped hilt adorned with brass embellishments, exuding an aura of aged elegance and warrior tradition.",
+                "global_prompt": "Create an image of: A sword set in the background, partially visible behind a gasmask, breastplate, cuirass, and shield. The gasmask rests prominently at the upper-left corner, slightly lower and to the left of the cuirass, covering parts of the breastplate and shield. The breastplate and cuirass are layered beneath the shield, with detailed metallic textures, overlapping",
+                "background": "Ancient Ruins",
+                "considerable_classes": []
+            },
+            {
+                "class": "breastplate",
+                "layer": 1,
+                "coordinates": [
+                    0.3321917932817524,
+                    0.1792348428494822,
+                    0.5460398373042479,
+                    0.4273483546762471
+                ],
+                "background_prompt": "Create an image of background with dimly lit ancient stone walls and scattered remnants of ancient ruins. Moss and ivy creep over time-worn surfaces, casting intricate shadows. A flickering torch casts a warm, golden glow, illuminating dust particles suspended in the air, suggesting an aura of mystery and history.",
+                "local_prompt": "Create an image of a breastplate with intricate metallic textures and polished surfaces, featuring ornate engravings and elegant scrollwork. The design reflects light subtly, emphasizing its embossed patterns. The surface is slightly aged, showcasing a mix of shiny and matte areas, with rivet details. Its contours suggest robustness, tailored to fit the torso securely.",
+                "global_prompt": "Create an image of: A sword set in the background, partially visible behind a gasmask, breastplate, cuirass, and shield. The gasmask rests prominently at the upper-left corner, slightly lower and to the left of the cuirass, covering parts of the breastplate and shield. The breastplate and cuirass are layered beneath the shield, with detailed metallic textures, overlapping",
+                "considerable_classes": [
+                    "sword"
+                ]
+            },
+            {
+                "class": "cuirass",
+                "layer": 2,
+                "coordinates": [
+                    0.2510463560190424,
+                    0.4104591208660512,
+                    0.48396446940965965,
+                    0.7244777859514437
+                ],
+                "background_prompt": "Create an image of background with dimly lit ancient stone walls and scattered remnants of ancient ruins. Moss and ivy creep over time-worn surfaces, casting intricate shadows. A flickering torch casts a warm, golden glow, illuminating dust particles suspended in the air, suggesting an aura of mystery and history.",
+                "local_prompt": "Create an image of cuirass with ornate metallic detailing, showcasing elegant filigree patterns across its polished surface. The cuirass features a robust, reflective finish with intricate engravings along the borders, emphasizing its historic craftsmanship. Its curves are defined, suggesting a snug fit, with rivets adding to its authenticity.",
+                "global_prompt": "Create an image of: A sword set in the background, partially visible behind a gasmask, breastplate, cuirass, and shield. The gasmask rests prominently at the upper-left corner, slightly lower and to the left of the cuirass, covering parts of the breastplate and shield. The breastplate and cuirass are layered beneath the shield, with detailed metallic textures, overlapping",
+                "considerable_classes": [
+                    "sword",
+                    "breastplate"
+                ]
+            },
+            {
+                "class": "shield",
+                "layer": 3,
+                "coordinates": [
+                    0.16048870100234458,
+                    0.3029785563795653,
+                    0.4671051936171344,
+                    0.6865720397878619
+                ],
+                "background_prompt": "Create an image of background with dimly lit ancient stone walls and scattered remnants of ancient ruins. Moss and ivy creep over time-worn surfaces, casting intricate shadows. A flickering torch casts a warm, golden glow, illuminating dust particles suspended in the air, suggesting an aura of mystery and history.",
+                "local_prompt": "Create an image of shield with intricately embossed heraldic symbols, a polished metallic surface reflecting ambient light, and ornate edges. Include visible battle scars and a central, gleaming crest. The shield should have a curved shape and show realistic textures with believable patina and signs of use.",
+                "global_prompt": "Create an image of: A sword set in the background, partially visible behind a gasmask, breastplate, cuirass, and shield. The gasmask rests prominently at the upper-left corner, slightly lower and to the left of the cuirass, covering parts of the breastplate and shield. The breastplate and cuirass are layered beneath the shield, with detailed metallic textures, overlapping",
+                "considerable_classes": [
+                    "sword",
+                    "breastplate",
+                    "cuirass"
+                ]
+            },
+            {
+                "class": "gasmask",
+                "layer": 4,
+                "coordinates": [
+                    0.3439989793267044,
+                    0.10967084757682453,
+                    0.7001105045750818,
+                    0.3105264876895203
+                ],
+                "background_prompt": "Create an image of background with dimly lit ancient stone walls and scattered remnants of ancient ruins. Moss and ivy creep over time-worn surfaces, casting intricate shadows. A flickering torch casts a warm, golden glow, illuminating dust particles suspended in the air, suggesting an aura of mystery and history.",
+                "local_prompt": "Create an image of gasmask with intricate detailing, featuring dark, weathered leather straps and a matte-black rubber facepiece. The glass eye lenses should be slightly fogged, giving a sense of aged use. Metal components are tarnished silver, adding a steampunk vibe, while the air filter exhibits rust patterns, hinting at past exposure. The overall look is robust yet functional,",
+                "global_prompt": "Create an image of: A sword set in the background, partially visible behind a gasmask, breastplate, cuirass, and shield. The gasmask rests prominently at the upper-left corner, slightly lower and to the left of the cuirass, covering parts of the breastplate and shield. The breastplate and cuirass are layered beneath the shield, with detailed metallic textures, overlapping",
+                "considerable_classes": [
+                    "sword",
+                    "breastplate",
+                    "shield"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a sword in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a gasmask in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a breastplate in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cuirass in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a shield in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sword partially visible behind the gasmask?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gasmask positioned in the upper-left corner of the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gasmask in front of the breastplate?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the shield in front of the cuirass?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the breastplate layered beneath the shield?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "6": {
+        "original_metadata": [
+            {
+                "class": "European fire salamander",
+                "layer": 0,
+                "coordinates": [
+                    0.27163154384167276,
+                    0.17334045490656858,
+                    0.5940485399617652,
+                    0.548453979272133
+                ],
+                "background_prompt": "Create an image of background with a textured forest floor, covered in damp earth and scattered leaves. The earth is mixed with small patches of moss and tiny twigs, casting subtle shadows. Ambient light filters through the dense overhead canopy, creating dappled sunlight patterns on the ground.",
+                "local_prompt": "Create an image of European fire salamander with bright yellow patches against a glossy black body, its smooth skin glistening. The salamander is depicted mid-crawl, showcasing its agile limbs and rounded head. Its eyes are alert and the overall posture exudes vibrant energy.",
+                "global_prompt": "Create an image of: a vivid European fire salamander with bright yellow patches, positioned behind a sleek common newt, on a textured forest floor. The salamander should be located from upper-left [0.272, 0.173] to lower-right [0.594, 0.548], showcasing its vibrant colors and smooth skin. In front, the common newt",
+                "background": "Forest Floor",
+                "considerable_classes": []
+            },
+            {
+                "class": "common newt",
+                "layer": 1,
+                "coordinates": [
+                    0.20250224360470687,
+                    0.3347276988144626,
+                    0.41934031209489514,
+                    0.6322061481138366
+                ],
+                "background_prompt": "Create an image of background with a textured forest floor, covered in damp earth and scattered leaves. The earth is mixed with small patches of moss and tiny twigs, casting subtle shadows. Ambient light filters through the dense overhead canopy, creating dappled sunlight patterns on the ground.",
+                "local_prompt": "Create an image of a common newt with a slender, smooth body displaying a subtle blend of earthy tones and intricate fine markings. Its skin should appear slightly moist, while the tail is long and tapering gracefully. Focus on capturing the newt's particular stance, suggestive of a poised moment, exhibiting its keen eyes and delicate limbs, enhancing its natural elegance and adaptability.",
+                "global_prompt": "Create an image of: a vivid European fire salamander with bright yellow patches, positioned behind a sleek common newt, on a textured forest floor. The salamander should be located from upper-left [0.272, 0.173] to lower-right [0.594, 0.548], showcasing its vibrant colors and smooth skin. In front, the common newt",
+                "considerable_classes": [
+                    "European fire salamander"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a European fire salamander in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a common newt in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the common newt in front of the European fire salamander?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the European fire salamander behind the common newt?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "What is positioned in front of the European fire salamander?",
+                "ground_truth_answer": "A common newt"
+            },
+            {
+                "category": "Relationship",
+                "question": "What is located behind the common newt?",
+                "ground_truth_answer": "A European fire salamander"
+            }
+        ]
+    },
+    "7": {
+        "original_metadata": [
+            {
+                "class": "kangaroo",
+                "layer": 0,
+                "coordinates": [
+                    0.46546803548307325,
+                    0.17345742390271945,
+                    0.7576207430733708,
+                    0.4629343076817792
+                ],
+                "background_prompt": "Create an image of background with a serene Australian bushland at dusk, featuring a blend of eucalyptus, acacia, and grass trees. Soft purples and oranges paint the sky as the sun sets. Shadows stretch across rugged terrain, dappled with sparse shrubs and patches of wildflowers. The air seems thick, a gentle breeze rustles the leaves.",
+                "local_prompt": "Create an image of a kangaroo with a muscular build, crouched down on its hind legs. Emphasize the powerful haunches and large feet. The fur is a rich, earthy brown with subtle variations in tone, capturing the texture and depth. The kangaroo's ears are perked, adding a sense of alertness, and its long, thick tail is poised elegantly",
+                "global_prompt": "Create an image of: A layered scene featuring five Australian animals; a kangaroo crouched in the background, positioned left, with a platypus to its right and below. To the left of the platypus and slightly forward, an echidna sits, behind which a koala clutches a tree. Positioned in the foreground, a wombat stands, partially concealing",
+                "background": "Australian bushland at dusk",
+                "considerable_classes": []
+            },
+            {
+                "class": "platypus",
+                "layer": 1,
+                "coordinates": [
+                    0.4913968075375825,
+                    0.4807155304010452,
+                    0.7658962621353909,
+                    0.8452615729373602
+                ],
+                "background_prompt": "Create an image of background with a serene Australian bushland at dusk, featuring a blend of eucalyptus, acacia, and grass trees. Soft purples and oranges paint the sky as the sun sets. Shadows stretch across rugged terrain, dappled with sparse shrubs and patches of wildflowers. The air seems thick, a gentle breeze rustles the leaves.",
+                "local_prompt": "Create an image of platypus with a streamlined body and smooth, dense fur, lying low with its paddle-like tail visible. It has a distinct beak resembling a duck's bill and webbed feet splayed out to the sides. The eyes are small and alert, adding curiosity to its demeanor.",
+                "global_prompt": "Create an image of: A layered scene featuring five Australian animals; a kangaroo crouched in the background, positioned left, with a platypus to its right and below. To the left of the platypus and slightly forward, an echidna sits, behind which a koala clutches a tree. Positioned in the foreground, a wombat stands, partially concealing",
+                "considerable_classes": []
+            },
+            {
+                "class": "koala",
+                "layer": 2,
+                "coordinates": [
+                    0.2763919440201131,
+                    0.2572125666639498,
+                    0.5365314327996116,
+                    0.5184728966935174
+                ],
+                "background_prompt": "Create an image of background with a serene Australian bushland at dusk, featuring a blend of eucalyptus, acacia, and grass trees. Soft purples and oranges paint the sky as the sun sets. Shadows stretch across rugged terrain, dappled with sparse shrubs and patches of wildflowers. The air seems thick, a gentle breeze rustles the leaves.",
+                "local_prompt": "Create an image of a koala with its arms wrapped around a eucalyptus tree trunk, displaying soft, gray fur contrasting white patches around its chest and ears. Its eyes gaze intently forward, emanating an air of calm curiosity.",
+                "global_prompt": "Create an image of: A layered scene featuring five Australian animals; a kangaroo crouched in the background, positioned left, with a platypus to its right and below. To the left of the platypus and slightly forward, an echidna sits, behind which a koala clutches a tree. Positioned in the foreground, a wombat stands, partially concealing",
+                "considerable_classes": [
+                    "kangaroo",
+                    "platypus"
+                ]
+            },
+            {
+                "class": "echidna",
+                "layer": 3,
+                "coordinates": [
+                    0.3602093802507068,
+                    0.2212838037185935,
+                    0.5638762327749471,
+                    0.4488503639712117
+                ],
+                "background_prompt": "Create an image of background with a serene Australian bushland at dusk, featuring a blend of eucalyptus, acacia, and grass trees. Soft purples and oranges paint the sky as the sun sets. Shadows stretch across rugged terrain, dappled with sparse shrubs and patches of wildflowers. The air seems thick, a gentle breeze rustles the leaves.",
+                "local_prompt": "Create an image of echidna with a spiky, rounded body covered in short, sharp quills. It has a small snout and beady eyes, its paws equipped with strong claws, adept for digging. The texture of its body shows a dense mix of brown and black colors. Its posture is slightly hunched as it sniffs curiously, capturing its natural inquisitive",
+                "global_prompt": "Create an image of: A layered scene featuring five Australian animals; a kangaroo crouched in the background, positioned left, with a platypus to its right and below. To the left of the platypus and slightly forward, an echidna sits, behind which a koala clutches a tree. Positioned in the foreground, a wombat stands, partially concealing",
+                "considerable_classes": [
+                    "kangaroo",
+                    "koala"
+                ]
+            },
+            {
+                "class": "wombat",
+                "layer": 4,
+                "coordinates": [
+                    0.1459013196702629,
+                    0.25183359695049046,
+                    0.37165115434090124,
+                    0.5500712258086772
+                ],
+                "background_prompt": "Create an image of background with a serene Australian bushland at dusk, featuring a blend of eucalyptus, acacia, and grass trees. Soft purples and oranges paint the sky as the sun sets. Shadows stretch across rugged terrain, dappled with sparse shrubs and patches of wildflowers. The air seems thick, a gentle breeze rustles the leaves.",
+                "local_prompt": "Create an image of a wombat with a stocky, robust build, thick fur in a dusty brown shade, and a slightly flattened face. Its small, round ears and large, strong paws are equipped for digging. The wombat is in a relaxed stance, showcasing its broad back and short legs. Its nose is prominent and moist, offering a textured contrast to the smoothness of",
+                "global_prompt": "Create an image of: A layered scene featuring five Australian animals; a kangaroo crouched in the background, positioned left, with a platypus to its right and below. To the left of the platypus and slightly forward, an echidna sits, behind which a koala clutches a tree. Positioned in the foreground, a wombat stands, partially concealing",
+                "considerable_classes": [
+                    "echidna"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a kangaroo in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a platypus in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a koala in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an echidna in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a wombat in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the platypus to the right and below the kangaroo?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the echidna to the left of the platypus and slightly forward?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the koala behind the echidna?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wombat in the foreground and partially concealing the echidna?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the koala clutching a tree?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "8": {
+        "original_metadata": [
+            {
+                "class": "computer keyboard",
+                "layer": 0,
+                "coordinates": [
+                    0.2510243324650089,
+                    0.42479864514365273,
+                    0.5743101167536315,
+                    0.7506784181207398
+                ],
+                "background_prompt": "Create an image of background with soft natural lighting streaming through slightly open blinds, casting striped shadows across a minimalistic room with a light grey wall. The surface of a polished wooden desk glows warmly beneath the light, reflecting subtle ambient hues.",
+                "local_prompt": "Create an image of computer keyboard with textured, matte black keys featuring illuminated, white symbols. The keyboard is full-sized with a sleek, low-profile design, showcasing a prominent spacebar and ergonomic wrist rest for comfort.",
+                "global_prompt": "Create an image of: a desktop setup with a monitor prominently placed at the center, its frame sleek and modern. In front, slightly to the left, is a classic wired mouse with a matte finish. Below, a full-sized QWERTY keyboard with textured keys lies against a wooden desk. A contemporary desktop computer tower, partially obscured, stands robustly behind these elements,",
+                "background": "Minimalistic Room",
+                "considerable_classes": []
+            },
+            {
+                "class": "mouse",
+                "layer": 1,
+                "coordinates": [
+                    0.31866782100024926,
+                    0.2179061635495413,
+                    0.6554384715429912,
+                    0.5326610515151835
+                ],
+                "background_prompt": "Create an image of background with soft natural lighting streaming through slightly open blinds, casting striped shadows across a minimalistic room with a light grey wall. The surface of a polished wooden desk glows warmly beneath the light, reflecting subtle ambient hues.",
+                "local_prompt": "Create an image of mouse with a classic wired design, sporting a matte finish. The buttons and scroll wheel subtly blend into the body, offering a streamlined appearance. It rests slightly to the left on the desktop, showcasing a traditional yet timeless look, with a non-slip texture on its sides for a comfortable grip.",
+                "global_prompt": "Create an image of: a desktop setup with a monitor prominently placed at the center, its frame sleek and modern. In front, slightly to the left, is a classic wired mouse with a matte finish. Below, a full-sized QWERTY keyboard with textured keys lies against a wooden desk. A contemporary desktop computer tower, partially obscured, stands robustly behind these elements,",
+                "considerable_classes": [
+                    "computer keyboard"
+                ]
+            },
+            {
+                "class": "monitor",
+                "layer": 2,
+                "coordinates": [
+                    0.44163408904153556,
+                    0.3504029990966746,
+                    0.8076508433464151,
+                    0.5970485074535419
+                ],
+                "background_prompt": "Create an image of background with soft natural lighting streaming through slightly open blinds, casting striped shadows across a minimalistic room with a light grey wall. The surface of a polished wooden desk glows warmly beneath the light, reflecting subtle ambient hues.",
+                "local_prompt": "Create an image of monitor with a sleek, modern frame, featuring a borderless design and sharp, defined angles. Its screen should display vivid colors, creating a lifelike visual experience. The stand is minimalistic yet sturdy, elevating the monitor slightly above the surface.",
+                "global_prompt": "Create an image of: a desktop setup with a monitor prominently placed at the center, its frame sleek and modern. In front, slightly to the left, is a classic wired mouse with a matte finish. Below, a full-sized QWERTY keyboard with textured keys lies against a wooden desk. A contemporary desktop computer tower, partially obscured, stands robustly behind these elements,",
+                "considerable_classes": [
+                    "computer keyboard",
+                    "mouse"
+                ]
+            },
+            {
+                "class": "desktop computer",
+                "layer": 3,
+                "coordinates": [
+                    0.1840017628790799,
+                    0.413676611357809,
+                    0.5088603531064698,
+                    0.7119105629263767
+                ],
+                "background_prompt": "Create an image of background with soft natural lighting streaming through slightly open blinds, casting striped shadows across a minimalistic room with a light grey wall. The surface of a polished wooden desk glows warmly beneath the light, reflecting subtle ambient hues.",
+                "local_prompt": "Create an image of desktop computer with a sleek, minimalist design featuring a brushed metal finish. The tower has a tempered glass panel on one side, revealing organized inner components with softly glowing LED lights. It exudes a modern, robust presence ideal for a contemporary setup.",
+                "global_prompt": "Create an image of: a desktop setup with a monitor prominently placed at the center, its frame sleek and modern. In front, slightly to the left, is a classic wired mouse with a matte finish. Below, a full-sized QWERTY keyboard with textured keys lies against a wooden desk. A contemporary desktop computer tower, partially obscured, stands robustly behind these elements,",
+                "considerable_classes": [
+                    "computer keyboard",
+                    "mouse",
+                    "monitor"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a monitor in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a computer keyboard present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a mouse visible in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a desktop computer tower in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the mouse in front of the computer keyboard?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the monitor positioned behind the mouse?",
+                "ground_truth_answer": "No"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the desktop computer tower behind the monitor?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "9": {
+        "original_metadata": [
+            {
+                "class": "greyhound",
+                "layer": 0,
+                "coordinates": [
+                    0.4451813648221733,
+                    0.41479503440917653,
+                    0.7255077927926283,
+                    0.7722003899580812
+                ],
+                "background_prompt": "Create an image of background with a lush green park setting, tall swaying trees lining the edges, soft patches of wildflowers scattered across, and a narrow dirt path winding gently through the scene under a clear blue sky.",
+                "local_prompt": "Create an image of greyhound with a sleek and muscular build, its coat short and smooth, showcasing a graceful posture with an elegant elongated neck. The greyhound's eyes are alert and expressive, highlighting its lean, athletic frame and poised stance.",
+                "global_prompt": "Create an image of: A layered canine scene featuring a greyhound in the back, an Italian greyhound slightly to its front, and a whippet leading the foreground. The greyhound, at the back, spans from [0.445, 0.415] to [0.726, 0.772]. The whippet, centrally positioned, extends from [0.",
+                "background": "Park",
+                "considerable_classes": []
+            },
+            {
+                "class": "Italian greyhound",
+                "layer": 1,
+                "coordinates": [
+                    0.39996441502805824,
+                    0.3723032921750188,
+                    0.7531042762680388,
+                    0.726545583833275
+                ],
+                "background_prompt": "Create an image of background with a lush green park setting, tall swaying trees lining the edges, soft patches of wildflowers scattered across, and a narrow dirt path winding gently through the scene under a clear blue sky.",
+                "local_prompt": "Create an image of Italian greyhound with a slender, graceful frame, smooth fawn coat, and an alert stance. Its large, expressive eyes and a slightly tucked tail add elegance to its gentle demeanor.",
+                "global_prompt": "Create an image of: A layered canine scene featuring a greyhound in the back, an Italian greyhound slightly to its front, and a whippet leading the foreground. The greyhound, at the back, spans from [0.445, 0.415] to [0.726, 0.772]. The whippet, centrally positioned, extends from [0.",
+                "considerable_classes": []
+            },
+            {
+                "class": "whippet",
+                "layer": 2,
+                "coordinates": [
+                    0.4419853661337778,
+                    0.36466832527839843,
+                    0.7446232388017995,
+                    0.7174960774477093
+                ],
+                "background_prompt": "Create an image of background with a lush green park setting, tall swaying trees lining the edges, soft patches of wildflowers scattered across, and a narrow dirt path winding gently through the scene under a clear blue sky.",
+                "local_prompt": "Create an image of whippet with a sleek and agile build, standing gracefully with a slightly arched neck. Its smooth, short fur showcases a blend of fawn and white colors, and its alert, intelligent eyes exude curiosity. Emphasize its poised and elegant stance.",
+                "global_prompt": "Create an image of: A layered canine scene featuring a greyhound in the back, an Italian greyhound slightly to its front, and a whippet leading the foreground. The greyhound, at the back, spans from [0.445, 0.415] to [0.726, 0.772]. The whippet, centrally positioned, extends from [0.",
+                "considerable_classes": [
+                    "Italian greyhound"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a greyhound in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an Italian greyhound in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a whippet in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the greyhound behind the Italian greyhound?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the Italian greyhound in front of the whippet?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the whippet in the foreground?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the greyhound in the background?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}

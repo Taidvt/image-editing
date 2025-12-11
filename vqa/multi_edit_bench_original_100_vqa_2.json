@@ -1,0 +1,1021 @@
+{
+    "10": {
+        "original_metadata": [
+            {
+                "class": "starfish",
+                "layer": 0,
+                "coordinates": [
+                    0.455262707975591,
+                    0.1492011622747218,
+                    0.7824451355843013,
+                    0.35361626786478007
+                ],
+                "background_prompt": "Create an image of background with a sweeping ocean vista meeting rugged cliffs under a clear azure sky. In the foreground, soft dunes lead to a vibrant meadow dotted with wildflowers, accented by distant towering pines against a gradually brightening horizon.",
+                "local_prompt": "Create an image of starfish with a vibrant orange hue and intricate texture, laying flat with spread arms showcasing a bumpy surface. Its skin features tiny, raised speckles with subtle variations, blending from deeper oranges to lighter yellows. The detailing on each arm highlights its radial symmetry, and shadows enhance the organic texture of its skin.",
+                "global_prompt": "Create an image of: A scenic vista featuring five distinct elements layered in depth. Foremost, a pair of binoculars lies prominently on a middle plane. Behind them, a sea lion rests, positioned to the left and forefront of a mountain tent nestled further back. Behind the sea lion, a great grey owl perches slightly obscured by the tent. The backdrop shifts lower and left",
+                "background": "Ocean Cliffs",
+                "considerable_classes": []
+            },
+            {
+                "class": "great grey owl",
+                "layer": 1,
+                "coordinates": [
+                    0.43154539397311187,
+                    0.20656370219987547,
+                    0.7369440282746527,
+                    0.5392574157624683
+                ],
+                "background_prompt": "Create an image of background with a sweeping ocean vista meeting rugged cliffs under a clear azure sky. In the foreground, soft dunes lead to a vibrant meadow dotted with wildflowers, accented by distant towering pines against a gradually brightening horizon.",
+                "local_prompt": "Create an image of great grey owl with large, round face, striking yellow eyes, and intricate mottled grey feathers. Perched alertly, its broad wings slightly tucked and silent presence exuding mystery and wisdom.",
+                "global_prompt": "Create an image of: A scenic vista featuring five distinct elements layered in depth. Foremost, a pair of binoculars lies prominently on a middle plane. Behind them, a sea lion rests, positioned to the left and forefront of a mountain tent nestled further back. Behind the sea lion, a great grey owl perches slightly obscured by the tent. The backdrop shifts lower and left",
+                "considerable_classes": [
+                    "starfish"
+                ]
+            },
+            {
+                "class": "mountain tent",
+                "layer": 2,
+                "coordinates": [
+                    0.444131264415202,
+                    0.384018899689763,
+                    0.7391133775975807,
+                    0.7493216259510859
+                ],
+                "background_prompt": "Create an image of background with a sweeping ocean vista meeting rugged cliffs under a clear azure sky. In the foreground, soft dunes lead to a vibrant meadow dotted with wildflowers, accented by distant towering pines against a gradually brightening horizon.",
+                "local_prompt": "Create an image of mountain tent with a vibrant fabric and sturdy poles, designed for all-weather resilience. The tent showcases a classic dome shape with a protruding flap at the entrance, pitched impeccably on uneven terrain. Light filters subtly through the fabric, revealing its texture.",
+                "global_prompt": "Create an image of: A scenic vista featuring five distinct elements layered in depth. Foremost, a pair of binoculars lies prominently on a middle plane. Behind them, a sea lion rests, positioned to the left and forefront of a mountain tent nestled further back. Behind the sea lion, a great grey owl perches slightly obscured by the tent. The backdrop shifts lower and left",
+                "considerable_classes": [
+                    "great grey owl"
+                ]
+            },
+            {
+                "class": "sea lion",
+                "layer": 3,
+                "coordinates": [
+                    0.19806882937687248,
+                    0.14038753701259843,
+                    0.5680831359678218,
+                    0.5115728799856696
+                ],
+                "background_prompt": "Create an image of background with a sweeping ocean vista meeting rugged cliffs under a clear azure sky. In the foreground, soft dunes lead to a vibrant meadow dotted with wildflowers, accented by distant towering pines against a gradually brightening horizon.",
+                "local_prompt": "Create an image of sea lion with sleek, silvery-gray fur, lounging comfortably on a rocky surface. The creature has a relaxed posture, its flippers resting by its sides, and its head gently tilted upward with an expression of curiosity. Its whiskers are prominent and its eyes watchful.",
+                "global_prompt": "Create an image of: A scenic vista featuring five distinct elements layered in depth. Foremost, a pair of binoculars lies prominently on a middle plane. Behind them, a sea lion rests, positioned to the left and forefront of a mountain tent nestled further back. Behind the sea lion, a great grey owl perches slightly obscured by the tent. The backdrop shifts lower and left",
+                "considerable_classes": [
+                    "great grey owl",
+                    "mountain tent"
+                ]
+            },
+            {
+                "class": "binoculars",
+                "layer": 4,
+                "coordinates": [
+                    0.34814973789897286,
+                    0.4077038233287247,
+                    0.7144163833504158,
+                    0.644072051044395
+                ],
+                "background_prompt": "Create an image of background with a sweeping ocean vista meeting rugged cliffs under a clear azure sky. In the foreground, soft dunes lead to a vibrant meadow dotted with wildflowers, accented by distant towering pines against a gradually brightening horizon.",
+                "local_prompt": "Create an image of binoculars with a polished metallic body, showcasing a sleek, modern design. The lenses are wide and slightly tinted with an anti-glare coating, reflecting subtle colors. The central focus knob is textured for grip, positioned between the barrels that converge towards the viewer.",
+                "global_prompt": "Create an image of: A scenic vista featuring five distinct elements layered in depth. Foremost, a pair of binoculars lies prominently on a middle plane. Behind them, a sea lion rests, positioned to the left and forefront of a mountain tent nestled further back. Behind the sea lion, a great grey owl perches slightly obscured by the tent. The backdrop shifts lower and left",
+                "considerable_classes": [
+                    "great grey owl",
+                    "mountain tent",
+                    "sea lion"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a pair of binoculars in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a sea lion present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a mountain tent visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a great grey owl in the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a starfish depicted?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the sea lion in front of the mountain tent?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great grey owl behind the mountain tent?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Are the binoculars in front of the sea lion?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the great grey owl positioned to the left of the mountain tent?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the starfish in the foreground, in front of all other objects?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "11": {
+        "original_metadata": [
+            {
+                "class": "quail",
+                "layer": 0,
+                "coordinates": [
+                    0.3413617102476193,
+                    0.47092321509519086,
+                    0.5677570962295244,
+                    0.869898722273373
+                ],
+                "background_prompt": "Create an image of background with lush greenery and dense underbrush, rolling hills fading into mist, vibrant autumn foliage interspersed with coniferous trees, a serene pond reflecting the sky, and a soft golden light filtering through scattered clouds.",
+                "local_prompt": "Create an image of quail with intricate feather patterning, showcasing its mottled plumage and speckled crown. Emphasize the distinct plume rising from its head, with a posture that suggests attentiveness. Capture the subtle gradations of brown, gray, and cream tones, highlighting the bird's compact, rounded body and sturdy legs, adding a lifelike essence.",
+                "global_prompt": "Create an image of: A red-breasted merganser prominently in front, with a brambling slightly in the background. Behind, a ptarmigan and then a ruffed grouse appear layered, with a quail subtly in the background. Align these birds within a complex, natural scene, each occupying distinct yet overlapping regions, adding depth and realism.",
+                "background": "Autumnal Landscape",
+                "considerable_classes": []
+            },
+            {
+                "class": "ruffed grouse",
+                "layer": 1,
+                "coordinates": [
+                    0.22241375327362423,
+                    0.41196314345247675,
+                    0.5542708584746378,
+                    0.6462567059064039
+                ],
+                "background_prompt": "Create an image of background with lush greenery and dense underbrush, rolling hills fading into mist, vibrant autumn foliage interspersed with coniferous trees, a serene pond reflecting the sky, and a soft golden light filtering through scattered clouds.",
+                "local_prompt": "Create an image of ruffed grouse with its distinctive fan-shaped tail feathers spread wide, showcasing intricate barring and mottled brown patterns. Its body is robust and rounded, with a subtle crested head, flanked by small, alert eyes. The bird's textured plumage varies from rich browns to soft grays, blending artfully. Elegant yet sturdy legs support its poised",
+                "global_prompt": "Create an image of: A red-breasted merganser prominently in front, with a brambling slightly in the background. Behind, a ptarmigan and then a ruffed grouse appear layered, with a quail subtly in the background. Align these birds within a complex, natural scene, each occupying distinct yet overlapping regions, adding depth and realism.",
+                "considerable_classes": [
+                    "quail"
+                ]
+            },
+            {
+                "class": "ptarmigan",
+                "layer": 2,
+                "coordinates": [
+                    0.2682559184624439,
+                    0.2608627743609327,
+                    0.6052864595153563,
+                    0.6227331275632425
+                ],
+                "background_prompt": "Create an image of background with lush greenery and dense underbrush, rolling hills fading into mist, vibrant autumn foliage interspersed with coniferous trees, a serene pond reflecting the sky, and a soft golden light filtering through scattered clouds.",
+                "local_prompt": "Create an image of ptarmigan with striking winter plumage, its feathers brilliantly white to blend with snow, showcasing its compact, round body and small head. The ptarmigan stands with slightly bent legs, evoking readiness to tread through the snowy terrain. Its dark eyes contrast with the snowy feathers, capturing an alert and serene essence.",
+                "global_prompt": "Create an image of: A red-breasted merganser prominently in front, with a brambling slightly in the background. Behind, a ptarmigan and then a ruffed grouse appear layered, with a quail subtly in the background. Align these birds within a complex, natural scene, each occupying distinct yet overlapping regions, adding depth and realism.",
+                "considerable_classes": [
+                    "ruffed grouse"
+                ]
+            },
+            {
+                "class": "brambling",
+                "layer": 3,
+                "coordinates": [
+                    0.2670272230571187,
+                    0.2835333746975198,
+                    0.5835215681908688,
+                    0.5030821169934885
+                ],
+                "background_prompt": "Create an image of background with lush greenery and dense underbrush, rolling hills fading into mist, vibrant autumn foliage interspersed with coniferous trees, a serene pond reflecting the sky, and a soft golden light filtering through scattered clouds.",
+                "local_prompt": "Create an image of brambling with soft brown and orange plumage, perched on a slender branch. Its black-and-white patterned wings are slightly spread as if it\u2019s about to take flight. Its keen, dark eyes survey the surroundings with vibrant energy.",
+                "global_prompt": "Create an image of: A red-breasted merganser prominently in front, with a brambling slightly in the background. Behind, a ptarmigan and then a ruffed grouse appear layered, with a quail subtly in the background. Align these birds within a complex, natural scene, each occupying distinct yet overlapping regions, adding depth and realism.",
+                "considerable_classes": [
+                    "ruffed grouse",
+                    "ptarmigan"
+                ]
+            },
+            {
+                "class": "red-breasted merganser",
+                "layer": 4,
+                "coordinates": [
+                    0.14515476650157166,
+                    0.47543383600150746,
+                    0.5218051000515465,
+                    0.8329139905848957
+                ],
+                "background_prompt": "Create an image of background with lush greenery and dense underbrush, rolling hills fading into mist, vibrant autumn foliage interspersed with coniferous trees, a serene pond reflecting the sky, and a soft golden light filtering through scattered clouds.",
+                "local_prompt": "Create an image of red-breasted merganser with vibrant red breast and dark, sleek head feathers. The bird's slender, serrated bill is slightly open, displaying its sharp features. Striking white neck patches contrast with its darker upperparts, while its body exhibits an elegant posture with wings slightly angled, suggesting readiness for flight or diving. Water droplets can be seen trailing off its",
+                "global_prompt": "Create an image of: A red-breasted merganser prominently in front, with a brambling slightly in the background. Behind, a ptarmigan and then a ruffed grouse appear layered, with a quail subtly in the background. Align these birds within a complex, natural scene, each occupying distinct yet overlapping regions, adding depth and realism.",
+                "considerable_classes": [
+                    "quail",
+                    "ruffed grouse",
+                    "ptarmigan",
+                    "brambling"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a red-breasted merganser in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a quail present in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the red-breasted merganser in front of the brambling?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the brambling behind the ptarmigan?",
+                "ground_truth_answer": "No"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the ruffed grouse behind the ptarmigan?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the quail positioned behind the ruffed grouse?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the red-breasted merganser in front of the quail?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "12": {
+        "original_metadata": [
+            {
+                "class": "gown",
+                "layer": 0,
+                "coordinates": [
+                    0.24709627677206433,
+                    0.23701846662005238,
+                    0.5960569060668941,
+                    0.47419247175663326
+                ],
+                "background_prompt": "Create an image of background with soft, muted tones, blending gentle gradients of sky at dusk. Sparse, delicate clouds drift calmly. A serene aura envelops, invoking tranquility and an ethereal atmosphere, providing a peaceful canvas.",
+                "local_prompt": "Create an image of gown with flowing, cascading fabric, embodying elegance and grace. The gown features a rich velvet texture, adorned with intricate lace details and subtle embellishments. Its silhouette creates an ethereal aura, with a gentle train that whispers sophistication.",
+                "global_prompt": "Create an image of: a scene featuring a layered arrangement. A flowing, elegant gown occupies the front, layered behind it is a chime delicately hanging, and an ornate altar stands in front of the chime. The altar appears central with detailed carvings, while the chime, slightly obscured, resonates subtly behind. The backdrop is minimalist, ensuring a serene focus on the",
+                "background": "Serene Dusk Sky",
+                "considerable_classes": []
+            },
+            {
+                "class": "chime",
+                "layer": 1,
+                "coordinates": [
+                    0.3920301652539052,
+                    0.41142838693936035,
+                    0.671353048270889,
+                    0.6865536496139738
+                ],
+                "background_prompt": "Create an image of background with soft, muted tones, blending gentle gradients of sky at dusk. Sparse, delicate clouds drift calmly. A serene aura envelops, invoking tranquility and an ethereal atmosphere, providing a peaceful canvas.",
+                "local_prompt": "Create an image of chime with intricate metalwork, featuring delicate, intertwined patterns. It hangs gracefully, catching the light on its polished surface. Subtle hues of bronze and silver blend together, reflecting an understated elegance. Gently swaying, it hints at soft melodious tones, suspended by an almost invisible thread.",
+                "global_prompt": "Create an image of: a scene featuring a layered arrangement. A flowing, elegant gown occupies the front, layered behind it is a chime delicately hanging, and an ornate altar stands in front of the chime. The altar appears central with detailed carvings, while the chime, slightly obscured, resonates subtly behind. The backdrop is minimalist, ensuring a serene focus on the",
+                "considerable_classes": [
+                    "gown"
+                ]
+            },
+            {
+                "class": "altar",
+                "layer": 2,
+                "coordinates": [
+                    0.38701130681785534,
+                    0.3717245445848344,
+                    0.6714022794839518,
+                    0.6630049580674626
+                ],
+                "background_prompt": "Create an image of background with soft, muted tones, blending gentle gradients of sky at dusk. Sparse, delicate clouds drift calmly. A serene aura envelops, invoking tranquility and an ethereal atmosphere, providing a peaceful canvas.",
+                "local_prompt": "Create an image of an altar with intricate carvings and elaborate designs. The altar should exhibit detailed craftsmanship, embodying a sense of sacredness and tradition. It features richly engraved patterns and ornate detailing along its structure, reflecting a blend of cultural artistry.",
+                "global_prompt": "Create an image of: a scene featuring a layered arrangement. A flowing, elegant gown occupies the front, layered behind it is a chime delicately hanging, and an ornate altar stands in front of the chime. The altar appears central with detailed carvings, while the chime, slightly obscured, resonates subtly behind. The backdrop is minimalist, ensuring a serene focus on the",
+                "considerable_classes": [
+                    "gown"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a gown in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a chime in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there an altar in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chime in front of the gown?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the altar in front of the chime?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the gown behind the altar?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "13": {
+        "original_metadata": [
+            {
+                "class": "hatchet",
+                "layer": 0,
+                "coordinates": [
+                    0.16485901852472806,
+                    0.14050597496752798,
+                    0.5505666326809889,
+                    0.5280059087242246
+                ],
+                "background_prompt": "Create an image of background with weathered wood walls and rustic brick, dimly lit by warm amber lights. Hefty, aged beams intersect overhead, casting subtle shadows. Walls adorned with worn, vintage butchery signs evoke an old-world charm.",
+                "local_prompt": "Create an image of hatchet with a robust wooden handle and a gleaming, sharp metal blade. The head is solid and angular, suggesting both utility and weight. The handle boasts a natural wood grain finish, while the blade shows slight signs of wear, indicative of frequent use.",
+                "global_prompt": "Create an image of: A rustic butcher shop as the central backdrop. In the foreground, there's a wooden chopping board at the bottom layer, positioned slightly left, with a well-used cleaver above it. Next to the chopping board, on the right, a sharp knife partially overlaps, while a sturdy hatchet rests behind these tools. Layered against this backdrop, the butcher shop blends",
+                "background": "Rustic interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "knife",
+                "layer": 1,
+                "coordinates": [
+                    0.1096155539505686,
+                    0.3377384179985503,
+                    0.5073897267428029,
+                    0.7281572064804298
+                ],
+                "background_prompt": "Create an image of background with weathered wood walls and rustic brick, dimly lit by warm amber lights. Hefty, aged beams intersect overhead, casting subtle shadows. Walls adorned with worn, vintage butchery signs evoke an old-world charm.",
+                "local_prompt": "Create an image of knife with a sharp, gleaming stainless steel blade reflecting ambient light. It features an elegantly curved, ergonomic wooden handle, polished to a smooth finish, hinting at firm grip and confident handling. Lightly used, it exhibits precision craftsmanship, ready for precise slicing tasks.",
+                "global_prompt": "Create an image of: A rustic butcher shop as the central backdrop. In the foreground, there's a wooden chopping board at the bottom layer, positioned slightly left, with a well-used cleaver above it. Next to the chopping board, on the right, a sharp knife partially overlaps, while a sturdy hatchet rests behind these tools. Layered against this backdrop, the butcher shop blends",
+                "considerable_classes": [
+                    "hatchet"
+                ]
+            },
+            {
+                "class": "cleaver",
+                "layer": 2,
+                "coordinates": [
+                    0.30008611428373977,
+                    0.4207177919025198,
+                    0.5668356447856975,
+                    0.757902636311764
+                ],
+                "background_prompt": "Create an image of background with weathered wood walls and rustic brick, dimly lit by warm amber lights. Hefty, aged beams intersect overhead, casting subtle shadows. Walls adorned with worn, vintage butchery signs evoke an old-world charm.",
+                "local_prompt": "Create an image of cleaver with a well-worn, wooden handle and a broad, slightly tarnished steel blade showing signs of frequent use. The blade features a distinct, dull shine and subtle scratches, with a robust, square shape, ideal for heavy-duty chopping.",
+                "global_prompt": "Create an image of: A rustic butcher shop as the central backdrop. In the foreground, there's a wooden chopping board at the bottom layer, positioned slightly left, with a well-used cleaver above it. Next to the chopping board, on the right, a sharp knife partially overlaps, while a sturdy hatchet rests behind these tools. Layered against this backdrop, the butcher shop blends",
+                "considerable_classes": [
+                    "hatchet",
+                    "knife"
+                ]
+            },
+            {
+                "class": "butcher shop",
+                "layer": 3,
+                "coordinates": [
+                    0.17484292964294823,
+                    0.4940307084655179,
+                    0.45574388521369513,
+                    0.7458089327886172
+                ],
+                "background_prompt": "Create an image of background with weathered wood walls and rustic brick, dimly lit by warm amber lights. Hefty, aged beams intersect overhead, casting subtle shadows. Walls adorned with worn, vintage butchery signs evoke an old-world charm.",
+                "local_prompt": "Create an image of butcher shop with rustic wooden walls adorned with hanging cured meats. Weathered wooden countertops showcase various tools of the trade. Shelves are lined with jars of spices and aromatic herbs. A large, antique meat scale sits prominently. Various meats are artistically displayed, reflecting artisanal expertise, evoking an old-world charm.",
+                "global_prompt": "Create an image of: A rustic butcher shop as the central backdrop. In the foreground, there's a wooden chopping board at the bottom layer, positioned slightly left, with a well-used cleaver above it. Next to the chopping board, on the right, a sharp knife partially overlaps, while a sturdy hatchet rests behind these tools. Layered against this backdrop, the butcher shop blends",
+                "considerable_classes": [
+                    "hatchet",
+                    "knife",
+                    "cleaver"
+                ]
+            },
+            {
+                "class": "chopping board",
+                "layer": 4,
+                "coordinates": [
+                    0.3337801859422032,
+                    0.12352602865657203,
+                    0.6591319814499208,
+                    0.38521604115566743
+                ],
+                "background_prompt": "Create an image of background with weathered wood walls and rustic brick, dimly lit by warm amber lights. Hefty, aged beams intersect overhead, casting subtle shadows. Walls adorned with worn, vintage butchery signs evoke an old-world charm.",
+                "local_prompt": "Create an image of chopping board with a rustic, well-worn finish, showcasing deep knife marks and a rich, aged patina. It's rectangular, featuring grooved edges for catching juices, and slightly elevated for stability. The board's grain is visible, highlighting its quality and history.",
+                "global_prompt": "Create an image of: A rustic butcher shop as the central backdrop. In the foreground, there's a wooden chopping board at the bottom layer, positioned slightly left, with a well-used cleaver above it. Next to the chopping board, on the right, a sharp knife partially overlaps, while a sturdy hatchet rests behind these tools. Layered against this backdrop, the butcher shop blends",
+                "considerable_classes": [
+                    "hatchet",
+                    "knife"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a butcher shop in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a chopping board present?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is a cleaver visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cleaver in front of the butcher shop?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the knife positioned next to the chopping board?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the hatchet behind the knife?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the chopping board in the foreground?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "14": {
+        "original_metadata": [
+            {
+                "class": "target",
+                "layer": 0,
+                "coordinates": [
+                    0.3957248524540473,
+                    0.44397486766081984,
+                    0.6807702915020276,
+                    0.7633904666456842
+                ],
+                "background_prompt": "Create an image of background with a shooting range atmosphere, featuring distant targets on a slightly cloudy day. The backdrop showcases a vast open field, fading into soft, rolling hills under an expansive sky.",
+                "local_prompt": "Create an image of target with a classic circular design featuring concentric black and white rings, each distinctly separated. In the center, there is a solid black bullseye. The surface is worn slightly, suggesting frequent use, with a few small holes indicating previous shots.",
+                "global_prompt": "Create an image of: a layered scene with a target in the background, partially obscured by a bulletproof vest in front of it. In the foreground, a revolver is prominently displayed, situated to the right of the holster, which is positioned lower and leftward. The arrangement showcases layered positioning with the target and holster low and vest or revolver higher, displaying depth",
+                "background": "Shooting Range",
+                "considerable_classes": []
+            },
+            {
+                "class": "bulletproof vest",
+                "layer": 1,
+                "coordinates": [
+                    0.31091407690607675,
+                    0.14433037100495458,
+                    0.5143032555939615,
+                    0.48155512988372795
+                ],
+                "background_prompt": "Create an image of background with a shooting range atmosphere, featuring distant targets on a slightly cloudy day. The backdrop showcases a vast open field, fading into soft, rolling hills under an expansive sky.",
+                "local_prompt": "Create an image of bulletproof vest with a robust and tactical design, featuring multiple layers of ballistic protection and utility. Emphasize its rugged texture and straps, suggesting adjustability and comfort for the wearer. The fabric should appear durable, with a matte finish that minimizes shine, accompanied by visible stitching to indicate reinforced seams. Include frontal pockets and attachment points, giving an impression of readiness and",
+                "global_prompt": "Create an image of: a layered scene with a target in the background, partially obscured by a bulletproof vest in front of it. In the foreground, a revolver is prominently displayed, situated to the right of the holster, which is positioned lower and leftward. The arrangement showcases layered positioning with the target and holster low and vest or revolver higher, displaying depth",
+                "considerable_classes": [
+                    "target"
+                ]
+            },
+            {
+                "class": "revolver",
+                "layer": 2,
+                "coordinates": [
+                    0.17283648091064788,
+                    0.27788738885049313,
+                    0.3839596292022286,
+                    0.6103113142826078
+                ],
+                "background_prompt": "Create an image of background with a shooting range atmosphere, featuring distant targets on a slightly cloudy day. The backdrop showcases a vast open field, fading into soft, rolling hills under an expansive sky.",
+                "local_prompt": "Create an image of revolver with a sleek, polished steel frame and a classic wooden grip, catching reflections with a realistic sheen. Its barrel is prominently displayed, giving an impression of both power and precision. Edges are meticulously defined, showcasing meticulous craftsmanship and intricate detailing in the trigger mechanism.",
+                "global_prompt": "Create an image of: a layered scene with a target in the background, partially obscured by a bulletproof vest in front of it. In the foreground, a revolver is prominently displayed, situated to the right of the holster, which is positioned lower and leftward. The arrangement showcases layered positioning with the target and holster low and vest or revolver higher, displaying depth",
+                "considerable_classes": [
+                    "bulletproof vest"
+                ]
+            },
+            {
+                "class": "holster",
+                "layer": 3,
+                "coordinates": [
+                    0.4696772381939952,
+                    0.2148731865445894,
+                    0.6981318770657856,
+                    0.43713052020261145
+                ],
+                "background_prompt": "Create an image of background with a shooting range atmosphere, featuring distant targets on a slightly cloudy day. The backdrop showcases a vast open field, fading into soft, rolling hills under an expansive sky.",
+                "local_prompt": "Create an image of holster with rich leather texture, featuring intricate stitching along its edges. The surface is smooth and polished, showcasing a deep brown hue. It has a contoured shape designed for ergonomic placement, with visible belt loops at the back. The top of the holster is open, suggesting easy access, while a subtle flap with snap closure is positioned near the top edge.",
+                "global_prompt": "Create an image of: a layered scene with a target in the background, partially obscured by a bulletproof vest in front of it. In the foreground, a revolver is prominently displayed, situated to the right of the holster, which is positioned lower and leftward. The arrangement showcases layered positioning with the target and holster low and vest or revolver higher, displaying depth",
+                "considerable_classes": [
+                    "bulletproof vest"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a target in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a bulletproof vest in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a revolver in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a holster in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the bulletproof vest in front of the target?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the revolver to the right of the holster?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the holster positioned lower than the revolver?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "15": {
+        "original_metadata": [
+            {
+                "class": "whiskey jug",
+                "layer": 0,
+                "coordinates": [
+                    0.3571396319346166,
+                    0.1181651750430921,
+                    0.6399781329795049,
+                    0.3801975851879351
+                ],
+                "background_prompt": "Create an image of background with a neutral, soft texture that complements vintage aesthetics. Use earthy tones transitioning into subtle greys. Introduce gentle lighting that creates a serene and balanced atmosphere, highlighting the contrast between rustic and elegance.",
+                "local_prompt": "Create an image of whiskey jug with a rustic, textured surface, exuding a vintage feel through its earthy tones. The jug should have an aged appearance, showcasing intricate details in its surface texture, reflecting craftsmanship.",
+                "global_prompt": "Create an image of: a rustic whiskey jug with a textured surface, positioned in the lower-left part of the scene, below a sleek, tall wine bottle with a glossy finish, both set against a neutral background. The whiskey jug rests lower and to the left, enhancing a vintage feel with earthy tones, while the wine bottle stands upright, showcasing elegance with deep burgundy hues. The",
+                "background": "Vintage Elegance",
+                "considerable_classes": []
+            },
+            {
+                "class": "wine bottle",
+                "layer": 1,
+                "coordinates": [
+                    0.22007167602281716,
+                    0.4359219753731133,
+                    0.5735284080417428,
+                    0.661594702383841
+                ],
+                "background_prompt": "Create an image of background with a neutral, soft texture that complements vintage aesthetics. Use earthy tones transitioning into subtle greys. Introduce gentle lighting that creates a serene and balanced atmosphere, highlighting the contrast between rustic and elegance.",
+                "local_prompt": "Create an image of wine bottle with a sleek, tall silhouette featuring a glossy finish. The bottle exudes elegance through its deep burgundy hues, emphasizing its refined allure. Its smooth, reflective surface highlights a sophisticated design, encapsulating a sense of rich, timeless luxury.",
+                "global_prompt": "Create an image of: a rustic whiskey jug with a textured surface, positioned in the lower-left part of the scene, below a sleek, tall wine bottle with a glossy finish, both set against a neutral background. The whiskey jug rests lower and to the left, enhancing a vintage feel with earthy tones, while the wine bottle stands upright, showcasing elegance with deep burgundy hues. The",
+                "considerable_classes": []
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a whiskey jug in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a wine bottle in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the whiskey jug positioned to the lower-left of the scene?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wine bottle positioned above the whiskey jug?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the wine bottle standing upright?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Does the whiskey jug have a textured surface?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "16": {
+        "original_metadata": [
+            {
+                "class": "projector",
+                "layer": 0,
+                "coordinates": [
+                    0.2453017833245852,
+                    0.47257001934661036,
+                    0.6146514649312242,
+                    0.739999803172274
+                ],
+                "background_prompt": "Create an image of background with a brightly lit room, elegant interplay of light on textured walls, subtle shadows in corners, warm wooden tones on floors, soft ambient glow, sleek modern architecture, delicate balance of light and depth, creating an inviting, sophisticated atmosphere.",
+                "local_prompt": "Create an image of projector with a sleek, modern design, featuring a smooth, matte white finish and rounded edges. The lens is positioned centrally at the front, emphasized by a subtle black trim. Its surface is adorned with discreet ventilation grills and minimalist button controls on top. The projector is resting at a slightly forward angle, sitting on small, rubberized feet for stability.",
+                "global_prompt": "Create an image of: a brightly lit room with a screen prominently displayed, positioned diagonally from the top-right, covering 46.3% to 80.9% width and 23.5% to 62.1% height. In front, a modern projector rests on a wooden table, spanning 24.5% to 61.5% width, casting",
+                "background": "Modern Interior",
+                "considerable_classes": []
+            },
+            {
+                "class": "screen",
+                "layer": 1,
+                "coordinates": [
+                    0.463073843836623,
+                    0.2346642848343143,
+                    0.8089050106031227,
+                    0.6213369377750672
+                ],
+                "background_prompt": "Create an image of background with a brightly lit room, elegant interplay of light on textured walls, subtle shadows in corners, warm wooden tones on floors, soft ambient glow, sleek modern architecture, delicate balance of light and depth, creating an inviting, sophisticated atmosphere.",
+                "local_prompt": "Create an image of a screen with a high-resolution display, showcasing vibrant colors and detailed graphics. The screen features a thin bezel, enhancing its modern aesthetic. It is sleek and slightly angled, hinting at an interactive or futuristic design. Its surface appears glossy, with faint reflections of ambient light, emphasizing its smoothness.",
+                "global_prompt": "Create an image of: a brightly lit room with a screen prominently displayed, positioned diagonally from the top-right, covering 46.3% to 80.9% width and 23.5% to 62.1% height. In front, a modern projector rests on a wooden table, spanning 24.5% to 61.5% width, casting",
+                "considerable_classes": [
+                    "projector"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a projector in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a screen in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the projector in front of the screen?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the screen positioned diagonally from the top-right?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the projector placed on a wooden table?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "17": {
+        "original_metadata": [
+            {
+                "class": "wine bottle",
+                "layer": 0,
+                "coordinates": [
+                    0.13877054790038956,
+                    0.3090000218240251,
+                    0.34942771515516036,
+                    0.6412873430335362
+                ],
+                "background_prompt": "Create an image of background with a sleek marble countertop, hints of urban loft surroundings, exposed brick walls, and ambient evening glow filtering softly through large industrial-style windows, casting subtle shadows and highlights across the surface.",
+                "local_prompt": "Create an image of wine bottle with a sleek, tall silhouette, featuring a dark glass exterior that hints at the rich content inside. The label is elegantly designed with minimalistic gold embossing, reflecting sophistication and age. The bottle is corked and slightly tapered at the neck, inviting a sense of luxury and classic style.",
+                "global_prompt": "Create an image of: a layered scene featuring five beverage containers. Foremost is the pop bottle, partially obscuring the wine bottle behind. Below them, to the right sits the soda can, tucked under and to the right of the pop and wine bottles. The beer bottle stands prominently to the left, in front of the water bottle, which extends wide beneath all layers. Each container",
+                "background": "Urban Loft",
+                "considerable_classes": []
+            },
+            {
+                "class": "water bottle",
+                "layer": 1,
+                "coordinates": [
+                    0.4229224106912104,
+                    0.15884482964870816,
+                    0.8009516698960546,
+                    0.5358833037905808
+                ],
+                "background_prompt": "Create an image of background with a sleek marble countertop, hints of urban loft surroundings, exposed brick walls, and ambient evening glow filtering softly through large industrial-style windows, casting subtle shadows and highlights across the surface.",
+                "local_prompt": "Create an image of a water bottle with a sleek, transparent design, showcasing a gentle curve that tapers towards the neck. Its surface should reflect ambient light subtly, emphasizing its smooth glass surface. The bottle should have a modern cap, tightly secured, suggestive of freshness and purity.",
+                "global_prompt": "Create an image of: a layered scene featuring five beverage containers. Foremost is the pop bottle, partially obscuring the wine bottle behind. Below them, to the right sits the soda can, tucked under and to the right of the pop and wine bottles. The beer bottle stands prominently to the left, in front of the water bottle, which extends wide beneath all layers. Each container",
+                "considerable_classes": []
+            },
+            {
+                "class": "pop bottle",
+                "layer": 2,
+                "coordinates": [
+                    0.14945983174693234,
+                    0.20777024118660914,
+                    0.3589133028215786,
+                    0.5420542718001591
+                ],
+                "background_prompt": "Create an image of background with a sleek marble countertop, hints of urban loft surroundings, exposed brick walls, and ambient evening glow filtering softly through large industrial-style windows, casting subtle shadows and highlights across the surface.",
+                "local_prompt": "Create an image of pop bottle with a sleek, curvy shape and vibrant label featuring bold colors. The bottle should have a subtle shine, highlighting its crisp, cold appearance as condensation beads sparkle on the surface. The cap is tightly sealed, matching the bottle's hues, emphasizing its refreshing and fizzy content within.",
+                "global_prompt": "Create an image of: a layered scene featuring five beverage containers. Foremost is the pop bottle, partially obscuring the wine bottle behind. Below them, to the right sits the soda can, tucked under and to the right of the pop and wine bottles. The beer bottle stands prominently to the left, in front of the water bottle, which extends wide beneath all layers. Each container",
+                "considerable_classes": [
+                    "wine bottle"
+                ]
+            },
+            {
+                "class": "soda can",
+                "layer": 3,
+                "coordinates": [
+                    0.4464298592843209,
+                    0.47142711045500285,
+                    0.6905839508898681,
+                    0.7355216435546387
+                ],
+                "background_prompt": "Create an image of background with a sleek marble countertop, hints of urban loft surroundings, exposed brick walls, and ambient evening glow filtering softly through large industrial-style windows, casting subtle shadows and highlights across the surface.",
+                "local_prompt": "Create an image of soda can with a shiny aluminum surface reflecting light, standing upright with a pull-tab slightly raised. The label displays vibrant colors with bold lettering. Tiny water droplets form on the condensation-covered surface, indicating coldness. The top section reveals a detailed texture with grooves encircling the rim.",
+                "global_prompt": "Create an image of: a layered scene featuring five beverage containers. Foremost is the pop bottle, partially obscuring the wine bottle behind. Below them, to the right sits the soda can, tucked under and to the right of the pop and wine bottles. The beer bottle stands prominently to the left, in front of the water bottle, which extends wide beneath all layers. Each container",
+                "considerable_classes": [
+                    "water bottle"
+                ]
+            },
+            {
+                "class": "beer bottle",
+                "layer": 4,
+                "coordinates": [
+                    0.43732602887411465,
+                    0.24112989105437946,
+                    0.6462356485345884,
+                    0.48366796346860214
+                ],
+                "background_prompt": "Create an image of background with a sleek marble countertop, hints of urban loft surroundings, exposed brick walls, and ambient evening glow filtering softly through large industrial-style windows, casting subtle shadows and highlights across the surface.",
+                "local_prompt": "Create an image of beer bottle with a natural amber hue, adorned with a vintage label boasting intricate typography and ornamental borders. The bottle's slender neck gracefully flares to a wider body, capped with a classic crown cap in a glinting gold tone. Its glass surface subtly reflects ambient light, emphasizing its sleek contours and chilled, dewy exterior.",
+                "global_prompt": "Create an image of: a layered scene featuring five beverage containers. Foremost is the pop bottle, partially obscuring the wine bottle behind. Below them, to the right sits the soda can, tucked under and to the right of the pop and wine bottles. The beer bottle stands prominently to the left, in front of the water bottle, which extends wide beneath all layers. Each container",
+                "considerable_classes": [
+                    "water bottle",
+                    "soda can"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a pop bottle in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Are there five beverage containers visible?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the pop bottle in front of the wine bottle?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the soda can located below and to the right of the wine bottle?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the beer bottle to the left of the water bottle?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the water bottle positioned beneath all other beverage containers?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the beer bottle in front of the soda can?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "18": {
+        "original_metadata": [
+            {
+                "class": "artichoke",
+                "layer": 0,
+                "coordinates": [
+                    0.31274581648613436,
+                    0.24408617185207435,
+                    0.6612684898485142,
+                    0.6056177957101057
+                ],
+                "background_prompt": "Create an image of background with a soft gradient from deep green to light yellow, featuring subtle textures akin to watercolor, evoking a fresh, organic atmosphere.",
+                "local_prompt": "Create an image of artichoke with vibrant green petals that have subtle purple tinges. Its surface is textured and layered, with each leaf meticulously detailed, creating an intricate and lifelike appearance.",
+                "global_prompt": "Create an image of: a vibrant artichoke positioned centrally, its top visible from behind a prominent cardoon in front. The cardoon, lush with detailed leaves, partially obscures the artichoke, which sits slightly higher. The artichoke's upper-left coordinates are [0.313, 0.244] and lower-right [0.661, 0.",
+                "background": "Green-to-Yellow Watercolor Gradient",
+                "considerable_classes": []
+            },
+            {
+                "class": "cardoon",
+                "layer": 1,
+                "coordinates": [
+                    0.23989495539489125,
+                    0.26676477677478727,
+                    0.5693649917305001,
+                    0.49481504064996473
+                ],
+                "background_prompt": "Create an image of background with a soft gradient from deep green to light yellow, featuring subtle textures akin to watercolor, evoking a fresh, organic atmosphere.",
+                "local_prompt": "Create an image of cardoon with lush, intricate leaves displaying a rich, verdant green. The leaves unfurl gracefully, exhibiting a fibrous texture and vibrant veins. Delicate serrated edges define each leaf, showcasing the cardoon's vitality and botanical intricacy.",
+                "global_prompt": "Create an image of: a vibrant artichoke positioned centrally, its top visible from behind a prominent cardoon in front. The cardoon, lush with detailed leaves, partially obscures the artichoke, which sits slightly higher. The artichoke's upper-left coordinates are [0.313, 0.244] and lower-right [0.661, 0.",
+                "considerable_classes": [
+                    "artichoke"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there an artichoke in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cardoon in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cardoon in front of the artichoke?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the artichoke partially obscured by the cardoon?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the artichoke positioned centrally?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    },
+    "19": {
+        "original_metadata": [
+            {
+                "class": "cowboy hat",
+                "layer": 0,
+                "coordinates": [
+                    0.2446974841462919,
+                    0.3517475075914328,
+                    0.5319897757683689,
+                    0.5665188377791558
+                ],
+                "background_prompt": "Create an image of background with vast, open plains stretching towards the horizon, a golden sunset casting warm hues across the sky, sparse vegetation dotting the landscape, and distant rolling hills under a clear, tranquil sky.",
+                "local_prompt": "Create an image of cowboy hat with a rugged, weathered look, featuring a wide brim that casts a shadow over its body, adorned with a classic leather band topped with a small silver buckle.",
+                "global_prompt": "Create an image of: a meerkat standing proudly in front, centered, with a curious gaze; behind, a collie attentively sitting, directly facing forward; a porcupine is nestled to the left, its quills highlighted; a bold cowboy hat lies partially obscured on the ground; a stately goose standing prominently in the background, head held high. The scene should",
+                "background": "Serengeti Plains",
+                "considerable_classes": []
+            },
+            {
+                "class": "collie",
+                "layer": 1,
+                "coordinates": [
+                    0.4503708641020252,
+                    0.2854578056359305,
+                    0.8489409091320912,
+                    0.6441379378812302
+                ],
+                "background_prompt": "Create an image of background with vast, open plains stretching towards the horizon, a golden sunset casting warm hues across the sky, sparse vegetation dotting the landscape, and distant rolling hills under a clear, tranquil sky.",
+                "local_prompt": "Create an image of a collie with a graceful stance, attentively sitting and directly facing forward, displaying its expressive eyes and lush, flowing coat. Its ears are perked up, conveying alertness and intelligence, with a well-groomed appearance that emphasizes its elegant yet robust physique.",
+                "global_prompt": "Create an image of: a meerkat standing proudly in front, centered, with a curious gaze; behind, a collie attentively sitting, directly facing forward; a porcupine is nestled to the left, its quills highlighted; a bold cowboy hat lies partially obscured on the ground; a stately goose standing prominently in the background, head held high. The scene should",
+                "considerable_classes": []
+            },
+            {
+                "class": "porcupine",
+                "layer": 2,
+                "coordinates": [
+                    0.2872876435126741,
+                    0.37730133574857827,
+                    0.6690078067099318,
+                    0.7046153898228933
+                ],
+                "background_prompt": "Create an image of background with vast, open plains stretching towards the horizon, a golden sunset casting warm hues across the sky, sparse vegetation dotting the landscape, and distant rolling hills under a clear, tranquil sky.",
+                "local_prompt": "Create an image of porcupine with its quills prominently displayed, capturing the textural contrast between the sharp, spiky quills and its softer underbelly. The porcupine should be in a relaxed pose, perhaps curled slightly with its head gently resting to the side, showcasing a content demeanor. Highlight the rich gradient of colors in its quills, ranging from deep brow",
+                "global_prompt": "Create an image of: a meerkat standing proudly in front, centered, with a curious gaze; behind, a collie attentively sitting, directly facing forward; a porcupine is nestled to the left, its quills highlighted; a bold cowboy hat lies partially obscured on the ground; a stately goose standing prominently in the background, head held high. The scene should",
+                "considerable_classes": [
+                    "cowboy hat",
+                    "collie"
+                ]
+            },
+            {
+                "class": "goose",
+                "layer": 3,
+                "coordinates": [
+                    0.18592257270014312,
+                    0.45958140923698965,
+                    0.534821565429443,
+                    0.817278292677643
+                ],
+                "background_prompt": "Create an image of background with vast, open plains stretching towards the horizon, a golden sunset casting warm hues across the sky, sparse vegetation dotting the landscape, and distant rolling hills under a clear, tranquil sky.",
+                "local_prompt": "Create an image of goose with its elegant stance and elongated neck stretching gracefully forward. The goose exhibits pristine white feathers contrasted by an orange bill and legs. Its wings are slightly folded back, contributing to a regal posture. The gaze is serene, exuding confidence and poise. It stands with a dignified air, suggesting both alertness and tranquility.",
+                "global_prompt": "Create an image of: a meerkat standing proudly in front, centered, with a curious gaze; behind, a collie attentively sitting, directly facing forward; a porcupine is nestled to the left, its quills highlighted; a bold cowboy hat lies partially obscured on the ground; a stately goose standing prominently in the background, head held high. The scene should",
+                "considerable_classes": [
+                    "collie",
+                    "porcupine"
+                ]
+            },
+            {
+                "class": "meerkat",
+                "layer": 4,
+                "coordinates": [
+                    0.4536774884195155,
+                    0.3829563323832833,
+                    0.700085602140057,
+                    0.7391955860175643
+                ],
+                "background_prompt": "Create an image of background with vast, open plains stretching towards the horizon, a golden sunset casting warm hues across the sky, sparse vegetation dotting the landscape, and distant rolling hills under a clear, tranquil sky.",
+                "local_prompt": "Create an image of a meerkat with upright posture, its small body covered in soft, sandy fur, standing poised on its hind legs. The meerkat's arms, close to its chest, display curiosity while its eyes, wide and sparkling with a hint of inquisitiveness, attentively scan the surroundings. Its tail is balanced and supportive, adding stability.",
+                "global_prompt": "Create an image of: a meerkat standing proudly in front, centered, with a curious gaze; behind, a collie attentively sitting, directly facing forward; a porcupine is nestled to the left, its quills highlighted; a bold cowboy hat lies partially obscured on the ground; a stately goose standing prominently in the background, head held high. The scene should",
+                "considerable_classes": [
+                    "cowboy hat",
+                    "collie",
+                    "porcupine",
+                    "goose"
+                ]
+            }
+        ],
+        "vqa_questions": [
+            {
+                "category": "Presence",
+                "question": "Is there a meerkat in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a collie in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a porcupine in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a goose in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Presence",
+                "question": "Is there a cowboy hat in the image?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the meerkat in front of the collie?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the porcupine to the left of the collie?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the goose behind the collie?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the cowboy hat partially obscured by the meerkat?",
+                "ground_truth_answer": "Yes"
+            },
+            {
+                "category": "Relationship",
+                "question": "Is the porcupine behind the cowboy hat?",
+                "ground_truth_answer": "Yes"
+            }
+        ]
+    }
+}
