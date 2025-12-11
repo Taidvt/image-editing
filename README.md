@@ -1,30 +1,12 @@
-# Improving Editability in Image Generation with Layer-wise Memory  
-
-<p align="center">
-  <img src="assets/teaser.png" alt="Teaser image" />
-  <br/>
-  <em>CVPR 2025</em>
-</p>
-
-## 🔥 Latest News 
-- Sep 12th, 2025 Code released on GitHub!
-- Sep 4th, 2025 Dataset released on GitHub!
-- May 5th, 2025 Paper released on arXiv!
-- Feb. 26th, 2025 Paper accepted to CVPR 2025!
-
-## TODOs
-- [x] Paper release
-- [x] Benchmark dataset release 
-- [x] Code release   
-- [ ] Extended benchmark dataset & result release  
+# Final Project: Image Editing  
 
 ## Overview
-This repository provides the official implementation for the CVPR 2025 paper "Improving Editability in Image Generation with Layer-wise Memory." The method enhances editability in image generation using a layer-wise memory approach integrated with the PixArt-alpha pipeline. The code includes an interactive Gradio demo for inpainting and evaluation scripts using CLIP and LLAVA metrics on a multi-edit benchmark dataset.
+This repository provides the implementation for our final project in the Image Processing and Computer Vision course. The method enhances editability in image generation using a layer-wise memory approach integrated with the PixArt-alpha pipeline. The code includes an interactive Gradio demo for inpainting and evaluation scripts using CLIP and LLAVA metrics on a multi-edit benchmark dataset. Additionally, we utilize **a new VQA metric** to evaluate methods on the multi-edit benchmark dataset.
 
 Key features:
 - Layer-wise inpainting with custom memory for improved object editing.
 - Support for cross-attention masking and multi-query disentanglement.
-- Evaluation on a custom benchmark with metrics like CLIP score, BLEU, METEOR, and ROUGE.
+- Evaluation on a custom benchmark with metrics like CLIP score, BLEU, METEOR, and ROUGE, **Gemini-VQA**.
 
 ## Installation
 
@@ -36,8 +18,8 @@ Key features:
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/carpedkm/improving-editability.git
-   cd improving-editability
+   git clone https://github.com/Taidvt/image-editing.git
+   cd image-editing
    ```
 
 2. Create and activate a virtual environment (recommended):
@@ -86,6 +68,9 @@ python eval/evaluate.py --result_dir ./output/ours --dataset_json multi_edit_ben
 - This script computes CLIP scores (class and prompt with std-dev) and LLAVA-based metrics (BLEU, METEOR with std-dev, ROUGE).
 - Results are printed to the console and saved as text files in the `result_dir` (e.g., `clip_scores.txt`, `bleu_scores.txt`).
 
+### Our Metric (`evaluate_VQA.ipynb`)
+- This notebook computes Gemini-VQA.
+
 ### Generation and Evaluation Pipeline (`evaluate.py` with generation)
 The evaluation script includes image generation using the PixArt pipeline. Customize via arguments:
 ```bash
@@ -112,21 +97,10 @@ python eval/evaluate.py --gpu 0 --dataset multi_edit_bench_original_100.json --r
 ## Dataset
 The benchmark dataset (`multi_edit_bench_original_100.json`) contains 100 samples for multi-object editing evaluation. Each entry includes background prompts, local prompts, bounding boxes, and classes. Place it in the root or specify via `--dataset_json`.
 
-## Citation
-If you find this work useful, please cite our paper:
-```bibtex
-@inproceedings{dkm2025improving,
-  author    = {Kim, Daneul and Lee, Jaeah and Park, Jaesik},
-  title     = {Improving Image Editability in Image Generation with Layer-wise Memory},
-  booktitle = {CVPR},
-  year      = {2025},
-}
-```
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-- Built on PixArt-alpha and Hugging Face Diffusers.
-- Evaluation uses CLIP (OpenAI) and LLAVA (llava-hf).
+- Built on PixArt-alpha and Hugging Face Diffusers, Improving-Editability.
+- Evaluation uses CLIP (OpenAI), LLAVA (llava-hf), and Gemini (Google).
 - Thanks to the open-source community for essential libraries.
